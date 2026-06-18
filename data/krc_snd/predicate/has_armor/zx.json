@@ -1,0 +1,103 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+	  {
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+		  "type_specific": {
+			"type": "minecraft:player",
+			"gamemode": [
+			  "creative"
+			]
+		  }
+		}
+	  },
+	  {
+		"condition": "minecraft:all_of",
+		"terms": [
+		  {
+			"condition": "minecraft:any_of",
+			"terms": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "slots": {
+					"armor.head": {
+					  "items": "kamenridercraft:zxhead"
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "slots": {
+					"container.*": {
+					  "items": "kamenridercraft:zxhead"
+					}
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"condition": "minecraft:any_of",
+			"terms": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "slots": {
+					"armor.chest": {
+					  "items": "kamenridercraft:zxtroso"
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "slots": {
+					"container.*": {
+					  "items": "kamenridercraft:zxtroso"
+					}
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"condition": "minecraft:any_of",
+			"terms": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "slots": {
+					"armor.legs": {
+					  "items": "kamenridercraft:zxlegs"
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "slots": {
+					"container.*": {
+					  "items": "kamenridercraft:zxlegs"
+					}
+				  }
+				}
+			  }
+			]
+		  }
+		]
+	  }
+	]
+  }

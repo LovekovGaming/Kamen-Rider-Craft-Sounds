@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/build/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:build/hawk_gatlinger"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/build/hawk_gatlinger_craft"
+	}
+  }
+  

@@ -1,0 +1,41 @@
+{
+  "parent": "krc_snd:henshin/geats/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+				"type": "minecraft:player",
+				"advancements": {
+				  "krc_snd:henshin/common/reset": true
+				}
+			  },
+			  "equipment": {
+				"feet": {
+				  "items": [
+					"kamenridercraft:laser_raise_driver"
+				  ]
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:inverted",
+			"term": {
+			  "condition": "minecraft:reference",
+			  "name": "krc_core:reiwa/geats_armor"
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/geats/laser_raise_driver_equip"
+  }
+}

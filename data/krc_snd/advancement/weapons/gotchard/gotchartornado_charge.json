@@ -1,0 +1,19 @@
+{
+	"parent": "krc_snd:weapons/gotchard/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:using_item",
+		"conditions": {
+		  "item": {
+			"items": [
+			  "kamenridercraft:gotchar_tornado"
+			]
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/gotchard/gotchartornado_charge"
+	}
+  }
+  

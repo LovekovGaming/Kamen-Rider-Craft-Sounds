@@ -1,0 +1,20 @@
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:taddle_legacy_gashat if data entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] Thrower run scoreboard players add @s krc.henshin-stage 1
+
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:taddle_legacy_gashat run scoreboard players set @s krc.seq1 0
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:taddle_legacy_gashat run playsound kamenridercraft:taddle_legacy_true_brave player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:taddle_legacy_gashat run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ex-aid.taddle_legacy_title","color":"yellow"}
+
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:taddle_legacy_gashat if score @s krc.configs.gd_voice matches 0 run playsound kamenridercraft:gashat player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:taddle_legacy_gashat if score @s krc.configs.gd_voice matches 1 run playsound kamenridercraft:gashat_poppy player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:taddle_legacy_gashat if score @s krc.configs.gd_voice matches 2 run playsound kamenridercraft:gashat_bugvisor_zwei player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:taddle_legacy_gashat if score @s krc.configs.gd_voice matches 3 run playsound kamenridercraft:gashat_build player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:taddle_legacy_gashat run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ex-aid.gashat"}
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:taddle_legacy_gashat run tag @s add no_gashat
+
+execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:taddle_legacy_gashat run advancement revoke @s from krc_snd:henshin/ex-aid/root
+execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:taddle_legacy_gashat run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:ex_aidhead"}
+execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:taddle_legacy_gashat run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:ex_aidtroso"}
+execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:taddle_legacy_gashat run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:ex_aidlegs"}
+execute if score @s krc.henshin-stage matches 3.. run scoreboard players reset @s krc.henshin-stage
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:taddle_legacy_gashat run function krc_snd:drop/common/return_item
+advancement revoke @s from krc_snd:drop/ex-aid/root

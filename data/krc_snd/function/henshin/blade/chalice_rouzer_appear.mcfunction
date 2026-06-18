@@ -1,0 +1,2 @@
+execute if entity @s[advancements={krc_core:player_transformed=false}] run playsound kamenridercraft:chalice_rouzer_appear player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+advancement revoke @s only krc_snd:henshin/common/reset

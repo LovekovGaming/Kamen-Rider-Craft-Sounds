@@ -1,0 +1,70 @@
+{
+  "parent": "krc_snd:drop/ride_kamens/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"feet": {
+				  "items": [
+					"kamenridercraft:chaos_driver_raliof"
+				  ]
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:any_of",
+			"terms": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": [
+						"minecraft:air"
+					  ]
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": [
+						"kamenridercraft:chaos_ring_raliof"
+					  ]
+					}
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"condition": "minecraft:inverted",
+			"term": {
+			  "condition": "minecraft:reference",
+			  "name": "krc_core:reiwa/ride_kamens_armor"
+			}
+		  },
+		  {
+			"condition": "minecraft:reference",
+			"name": "krc_snd:has_armor/ride_kamens"
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:drop/ride_kamens/raliof"
+  }
+}

@@ -1,0 +1,57 @@
+{
+	"parent": "krc_snd:weapons/ghost/root",
+	"criteria": {
+	  "requirement": {
+		"trigger": "minecraft:player_hurt_entity",
+		"conditions": {
+		  "damage": {
+			"type": {
+			  "tags": [
+				{
+				  "id": "minecraft:is_projectile",
+				  "expected": false
+				}
+			  ]
+			}
+		  },
+		  "player": [
+			{
+			  "condition": "minecraft:any_of",
+			  "terms": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "mainhand": {
+						"items": [
+						  "kamenridercraft:gan_gun_hand_rod"
+						]
+					  }
+					}
+				  }
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "mainhand": {
+						"items": [
+						  "kamenridercraft:gan_gun_catcher_rod"
+						]
+					  }
+					}
+				  }
+				}
+			  ]
+			}
+		  ]
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/ghost/gan_gun_hand_strike"
+	}
+  }
+  

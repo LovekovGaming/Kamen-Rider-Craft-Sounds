@@ -1,0 +1,37 @@
+{
+  "parent": "krc_snd:henshin/wizard/standby_root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:impossible"
+	},
+	"2": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+				"type": "minecraft:player",
+				"advancements": {
+				  "krc_snd:henshin/wizard/wizard_standby_magic": {
+					"1": true
+				  }
+				}
+			  },
+			  "equipment": {
+				"feet": {
+				  "items": "#krc_snd:wizardriver"
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/wizard/standby/wizard_magic"
+  }
+}

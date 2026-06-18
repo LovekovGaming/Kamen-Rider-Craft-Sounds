@@ -1,0 +1,21 @@
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:orga_phone run scoreboard players add @s krc.henshin-stage 1
+execute if score @s krc.henshin-stage matches 7.. run scoreboard players reset @s krc.henshin-stage
+
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:orga_phone run playsound kamenridercraft:blaster_start player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:orga_phone run playsound kamenridercraft:orga_key1 player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:orga_phone run title @s[scores={krc.configs.sound_subs=1}] actionbar {"text":"0 - -","color":"dark_red"}
+execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:orga_phone run playsound kamenridercraft:orga_key2 player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:orga_phone run title @s[scores={krc.configs.sound_subs=1}] actionbar {"text":"0 0 -","color":"dark_red"}
+execute if score @s krc.henshin-stage matches 4 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:orga_phone run playsound kamenridercraft:orga_key3 player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 4 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:orga_phone run title @s[scores={krc.configs.sound_subs=1}] actionbar {"text":"0 0 0","color":"dark_red"}
+execute if score @s krc.henshin-stage matches 5 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:orga_phone run playsound kamenridercraft:orga_standing_by player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 5 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:orga_phone run title @s[scores={krc.configs.sound_subs=1}] actionbar "0 0 0"
+execute if score @s krc.henshin-stage matches 5 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:orga_phone run advancement grant @s only krc_snd:henshin/555/orga_standby 1
+
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:orga_phone run function krc_snd:drop/common/return_item
+execute if score @s krc.henshin-stage matches 6 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:orga_phone run advancement revoke @s from krc_snd:henshin/555/root
+execute if score @s krc.henshin-stage matches 6 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:orga_phone run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:faizhead"}
+execute if score @s krc.henshin-stage matches 6 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:orga_phone run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:faiztroso"}
+execute if score @s krc.henshin-stage matches 6 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:orga_phone run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:faizlegs"}
+advancement revoke @s from krc_snd:drop/555/root
+advancement revoke @s only krc_snd:henshin/common/reset

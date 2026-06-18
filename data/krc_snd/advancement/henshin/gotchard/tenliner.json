@@ -1,0 +1,47 @@
+{
+  "parent": "krc_snd:henshin/gotchard/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:location",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"offhand": {
+			  "items": [
+				"kamenridercraft:tenliner_ride_chemy_card"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:location",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"mainhand": {
+			  "items": [
+				"kamenridercraft:tenliner_ride_chemy_card"
+			  ]
+			},
+			"offhand": {
+			  "items": [
+				"kamenridercraft:crosshopper_ride_chemy_card"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/gotchard/tenliner"
+  }
+}

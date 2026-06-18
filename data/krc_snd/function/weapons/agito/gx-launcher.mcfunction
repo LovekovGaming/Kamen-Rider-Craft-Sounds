@@ -1,0 +1,3 @@
+execute as @n[type=fireball,nbt={HasBeenShot:false}] on origin if entity @s[advancements={krc_snd:weapons/agito/gx-launcher=true}] run stopsound @a[scores={krc.configs.weapon_snd=1},distance=..50] player minecraft:entity.blaze.shoot
+execute as @n[type=fireball,nbt={HasBeenShot:false}] on origin if entity @s[advancements={krc_snd:weapons/agito/gx-launcher=true}] run playsound kamenridercraft:gx-launcher player @a[scores={krc.configs.weapon_snd=1}] ~ ~1 ~
+advancement revoke @s only krc_snd:weapons/agito/gx-launcher

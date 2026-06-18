@@ -1,0 +1,116 @@
+{
+  "parent": "krc_snd:henshin/zi-o/standby_root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:impossible"
+	},
+	"zi-o": {
+	  "trigger": "minecraft:impossible"
+	},
+	"zi-o_ii": {
+	  "trigger": "minecraft:impossible"
+	},
+	"build": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ex-aid": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ghost": {
+	  "trigger": "minecraft:impossible"
+	},
+	"gaim": {
+	  "trigger": "minecraft:impossible"
+	},
+	"wizard": {
+	  "trigger": "minecraft:impossible"
+	},
+	"fourze": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ooo": {
+	  "trigger": "minecraft:impossible"
+	},
+	"w": {
+	  "trigger": "minecraft:impossible"
+	},
+	"den-o": {
+	  "trigger": "minecraft:impossible"
+	},
+	"kabuto": {
+	  "trigger": "minecraft:impossible"
+	},
+	"faiz": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ryuki": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ryuga": {
+	  "trigger": "minecraft:impossible"
+	},
+	"agito": {
+	  "trigger": "minecraft:impossible"
+	},
+	"shinobi": {
+	  "trigger": "minecraft:impossible"
+	},
+	"decade": {
+	  "trigger": "minecraft:impossible"
+	},
+	"diend": {
+	  "trigger": "minecraft:impossible"
+	},
+	"2": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+				"type": "minecraft:player",
+				"advancements": {
+				  "krc_snd:henshin/zi-o/anotherwatches": {
+					"1": true
+				  }
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "zi-o",
+	  "zi-o_ii",
+	  "build",
+	  "ex-aid",
+	  "ghost",
+	  "gaim",
+	  "wizard",
+	  "fourze",
+	  "ooo",
+	  "w",
+	  "den-o",
+	  "kabuto",
+	  "faiz",
+	  "ryuki",
+	  "ryuga",
+	  "agito",
+	  "shinobi",
+	  "decade",
+	  "diend"
+	],
+	[
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/zi-o/sounds/anotherwatches"
+  }
+}

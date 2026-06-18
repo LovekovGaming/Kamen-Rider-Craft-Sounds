@@ -1,0 +1,21 @@
+execute if entity @s[tag=sound_off] run return 0
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
+advancement grant @s only krc_snd:henshin/gaim/sengoku_driver_seq 1
+advancement revoke @s from krc_snd:henshin/gaim/standby_root
+scoreboard players reset @s krc.henshin-stage
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ryugen_start
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ryugen_standby
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:oren_start
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:oren_standby
+scoreboard players set @s krc.seq1 0
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ryugen_henshin
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:jimber_arms
+
+execute if score @s krc.form2n matches 0..1 run playsound kamenridercraft:ryugen_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form2n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.hai","color":"dark_purple"}
+execute if score @s krc.form2n matches 1 run playsound kamenridercraft:jimber_arms player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form2n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar [{"translate":"sound.kamenridercraft.gaim.hai","color":"dark_purple"}," ",{"translate":"sound.kamenridercraft.gaim.mix","color":"dark_gray"}]
+
+advancement revoke @s from krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/gaim/sengoku_driver_off 1

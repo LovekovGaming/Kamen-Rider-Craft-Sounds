@@ -1,0 +1,19 @@
+{
+	"parent": "krc_snd:mobs/heisei/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:player_interacted_with_entity",
+		"conditions": {
+		  "item": {
+			"items": "kamenridercraft:greeed_blet_ankh_lost"
+		  },
+		  "entity": {
+			"type": "kamenridercraft:ankh"
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:mobs/heisei/ankh"
+	}
+  }

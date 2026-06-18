@@ -1,0 +1,37 @@
+{
+  "parent": "krc_snd:henshin/den-o/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:den_ohead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:den_otroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:den_olegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:gaoh_belt"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/den-o/gaoh"
+  }
+}

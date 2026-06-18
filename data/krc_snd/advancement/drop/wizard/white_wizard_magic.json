@@ -1,0 +1,36 @@
+{
+	"parent": "krc_snd:drop/wizard/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "head": {
+				"items": [
+				  "kamenridercraft:wizard_head"
+				]
+			  },
+			  "chest": {
+				"items": [
+				  "kamenridercraft:wizard_troso"
+				]
+			  },
+			  "legs": {
+				"items": [
+				  "kamenridercraft:wizard_legs"
+				]
+			  },
+			  "feet": {
+				"items": "#krc_snd:white_wizardriver"
+			  }
+			}
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:drop/wizard/white_wizard_magic"
+	}
+  }
+  

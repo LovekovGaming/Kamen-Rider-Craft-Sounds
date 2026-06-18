@@ -1,0 +1,5 @@
+execute as @n[type=arrow,nbt={HasBeenShot:false}] on origin if entity @s[advancements={krc_snd:weapons/gavv/vrambreaker_shot=true}] run stopsound @a[scores={krc.configs.weapon_snd=1},distance=..50] player minecraft:entity.blaze.shoot
+execute as @n[type=arrow,nbt={HasBeenShot:false}] on origin if entity @s[advancements={krc_snd:weapons/gavv/vrambreaker_shot=true}] run stopsound @a[scores={krc.configs.weapon_snd=1},distance=..50] player kamenridercraft:vrambreaker_charge
+execute as @n[type=arrow,nbt={HasBeenShot:false}] on origin if entity @s[advancements={krc_snd:weapons/gavv/vrambreaker_shot=true}] run playsound kamenridercraft:vrambreaker_shot player @a[scores={krc.configs.weapon_snd=1}] ~ ~1 ~ 0.6
+execute as @n[type=arrow,nbt={HasBeenShot:false}] on origin if entity @s[advancements={krc_snd:weapons/gavv/vrambreaker_shot=true}] run scoreboard players set @s krc.seq4 0
+advancement revoke @s only krc_snd:weapons/gavv/vrambreaker_shot

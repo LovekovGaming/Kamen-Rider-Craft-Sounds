@@ -1,0 +1,37 @@
+{
+  "parent": "krc_snd:henshin/zi-o/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:zi_o_head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:zi_o_troso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:zi_o_legs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:ohma_zi_o_driver"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/zi-o/ohma_zi-o"
+  }
+}

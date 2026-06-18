@@ -1,0 +1,84 @@
+{
+  "parent": "krc_snd:henshin/decade/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+				"type": "minecraft:player",
+				"advancements": {
+				  "krc_snd:henshin/decade/attackride_card_detect": {
+					"1": true
+				  }
+				}
+			  }
+			}
+		  },
+		  {
+				"condition": "minecraft:inverted",
+				"term": {
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "mainhand": {
+						"items": "#kamenridercraft:gear/ability_items/decade"
+					  }
+					}
+				  }
+				}
+		  }
+		]
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+				"type": "minecraft:player",
+				"advancements": {
+				  "krc_snd:henshin/decade/attackride_card_detect": {
+					"2": true
+				  }
+				}
+			  }
+			}
+		  },
+		  {
+				"condition": "minecraft:inverted",
+				"term": {
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "mainhand": {
+						"items": "#kamenridercraft:gear/ability_items/diend"
+					  }
+					}
+				  }
+				}
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/decade/attackride_card_detect_reset"
+  }
+}

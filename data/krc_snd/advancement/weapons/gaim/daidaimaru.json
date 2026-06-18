@@ -1,0 +1,112 @@
+{
+  "parent": "krc_snd:weapons/gaim/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:player_hurt_entity",
+	  "conditions": {
+		"damage": {
+		  "type": {
+			"tags": [
+			  {
+				"id": "minecraft:is_projectile",
+				"expected": false
+			  }
+			]
+		  }
+		},
+		"player": {
+		  "equipment": {
+			"mainhand": {
+			  "items": [
+				"kamenridercraft:daidaimaru"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:player_hurt_entity",
+	  "conditions": {
+		"damage": {
+		  "type": {
+			"tags": [
+			  {
+				"id": "minecraft:is_projectile",
+				"expected": false
+			  }
+			]
+		  }
+		},
+		"player": {
+		  "equipment": {
+			"mainhand": {
+			  "items": [
+				"kamenridercraft:blood_daidaimaru"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"3": {
+	  "trigger": "minecraft:player_hurt_entity",
+	  "conditions": {
+		"damage": {
+		  "type": {
+			"tags": [
+			  {
+				"id": "minecraft:is_projectile",
+				"expected": false
+			  }
+			]
+		  }
+		},
+		"player": {
+		  "equipment": {
+			"mainhand": {
+			  "items": [
+				"kamenridercraft:dark_daidaimaru"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"4": {
+	  "trigger": "minecraft:player_hurt_entity",
+	  "conditions": {
+		"damage": {
+		  "type": {
+			"tags": [
+			  {
+				"id": "minecraft:is_projectile",
+				"expected": false
+			  }
+			]
+		  }
+		},
+		"player": {
+		  "equipment": {
+			"mainhand": {
+			  "items": [
+				"kamenridercraft:kabi_daidaimaru"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2",
+	  "3",
+	  "4"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:weapons/gaim/daidaimaru"
+  }
+}

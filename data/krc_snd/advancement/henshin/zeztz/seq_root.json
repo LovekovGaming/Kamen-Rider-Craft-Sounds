@@ -1,0 +1,8 @@
+{
+  "parent": "krc_snd:henshin/zeztz/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}

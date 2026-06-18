@@ -1,0 +1,23 @@
+{
+  "parent": "krc_snd:mobs/heisei/root",
+  "criteria": {
+	"requirement": {
+	  "trigger": "minecraft:player_hurt_entity",
+	  "conditions": {
+		"player": {
+		  "slots": {
+			"container.*": {
+			  "items": "kamenridercraft:zi_o_ii_ridewatch"
+			}
+		  }
+		},
+		"entity": {
+		  "type": "kamenridercraft:another_zi_o"
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:mobs/heisei/another_zi-o"
+  }
+}

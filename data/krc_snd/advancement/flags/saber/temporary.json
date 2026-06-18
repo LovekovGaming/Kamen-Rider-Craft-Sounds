@@ -1,0 +1,14 @@
+{
+  "parent": "krc_snd:flags/root",
+  "criteria": {
+	"primitive_dragon_active": {
+	  "trigger": "minecraft:impossible"
+	},
+	"elemental_dragon_active": {
+	  "trigger": "minecraft:impossible"
+	},
+	"xross_saber_sheathed": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}

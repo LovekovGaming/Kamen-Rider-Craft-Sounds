@@ -1,0 +1,72 @@
+{
+  "parent": "krc_snd:henshin/555/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:faizhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:faiztroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:faizlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:pyron_driver_sr"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:faizhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:faiztroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:faizlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:seeda_driver_ro"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/555/pyron_seeda_orange"
+  }
+}

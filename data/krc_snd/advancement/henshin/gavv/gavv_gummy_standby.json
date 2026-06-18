@@ -1,0 +1,47 @@
+{
+	"parent": "krc_snd:henshin/gavv/standby_root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "2": {
+		"trigger": "minecraft:tick",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"type_specific": {
+				  "type": "minecraft:player",
+				  "advancements": {
+					"krc_snd:henshin/gavv/gavv_gummy_standby": {
+					  "1": true
+					}
+				  }
+				},
+				"equipment": {
+				  "feet": {
+					"items": [
+					  "kamenridercraft:henshin_belt_gavv"
+					]
+				  }
+				}
+			  }
+			},
+			{
+			  "condition": "minecraft:entity_scores",
+			  "entity": "this",
+			  "scores": {
+				"krc.henshin-stage": 3
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:henshin/gavv/standby/gavv_gummy"
+	}
+  }
+  

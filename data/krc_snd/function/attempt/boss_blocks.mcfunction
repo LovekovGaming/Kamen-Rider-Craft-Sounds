@@ -1,0 +1,1 @@
+scoreboard objectives add krc-blocks.quartzer minecraft.mined:kamenridercraft.quartzer_boss_block

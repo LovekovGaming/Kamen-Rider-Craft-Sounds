@@ -1,0 +1,43 @@
+{
+  "parent": "krc_snd:henshin/gotchard/root",
+  "criteria": {
+	"requirement": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"head": {
+				  "items": [
+					"kamenridercraft:gotchard_head"
+				  ]
+				},
+				"chest": {
+				  "items": [
+					"kamenridercraft:gotchard_torso"
+				  ]
+				},
+				"legs": {
+				  "items": [
+					"kamenridercraft:gotchard_legs"
+				  ]
+				},
+				"feet": {
+				  "items": [
+					"kamenridercraft:dreadriver_meikoku_no_sanshimai"
+				  ]
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/gotchard/meikoku_no_sanshimai"
+  }
+}

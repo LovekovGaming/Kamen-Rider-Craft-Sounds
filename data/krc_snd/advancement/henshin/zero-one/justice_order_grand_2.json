@@ -1,0 +1,62 @@
+{
+  "parent": "krc_snd:henshin/zero-one/justice_order",
+  "criteria": {
+	  "build": {
+	    "trigger": "minecraft:impossible"
+	  },
+	  "ex-aid": {
+	    "trigger": "minecraft:impossible"
+	  },
+	  "ghost": {
+	    "trigger": "minecraft:impossible"
+	  },
+	  "drive": {
+	    "trigger": "minecraft:impossible"
+	  },
+	  "gaim": {
+	    "trigger": "minecraft:impossible"
+	  },
+	  "wizard": {
+	    "trigger": "minecraft:impossible"
+	  },
+	  "fourze": {
+	    "trigger": "minecraft:impossible"
+	  },
+	  "ooo": {
+	    "trigger": "minecraft:impossible"
+	  },
+	  "w": {
+	    "trigger": "minecraft:impossible"
+	  },
+	  "decade": {
+	    "trigger": "minecraft:impossible"
+	  },
+	  "kiva": {
+	    "trigger": "minecraft:impossible"
+	  },
+	  "den-o": {
+	    "trigger": "minecraft:impossible"
+	  },
+	  "kabuto": {
+	    "trigger": "minecraft:impossible"
+	  },
+	  "hibiki": {
+	    "trigger": "minecraft:impossible"
+	  },
+	  "blade": {
+	    "trigger": "minecraft:impossible"
+	  },
+	  "faiz": {
+	    "trigger": "minecraft:impossible"
+	  },
+	  "ryuki": {
+	    "trigger": "minecraft:impossible"
+	  },
+	  "agito": {
+	    "trigger": "minecraft:impossible"
+	  },
+	  "kuuga": {
+	    "trigger": "minecraft:impossible"
+	  }
+  }
+}

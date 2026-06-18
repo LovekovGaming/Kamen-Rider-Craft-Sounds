@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/build/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:build/drill_crusher"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/build/drill_crusher_craft"
+	}
+  }
+  

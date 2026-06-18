@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/zeztz/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:zeztz/breakam_dawn_taiken"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/zeztz/breakam_dawn_craft"
+	}
+  }
+  

@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/drive/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:drive/handle_sword"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/drive/handle-ken_craft"
+	}
+  }
+  

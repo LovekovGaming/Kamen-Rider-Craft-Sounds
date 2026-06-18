@@ -1,0 +1,18 @@
+{
+  "parent": "krc_snd:mobs/heisei/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:effects_changed",
+	  "conditions": {
+		"effects": {
+		  "kamenridercraft:mirror_noises": {
+			"duration": 300
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:mobs/heisei/mirror_rider"
+  }
+}

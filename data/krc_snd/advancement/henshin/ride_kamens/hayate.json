@@ -1,0 +1,37 @@
+{
+  "parent": "krc_snd:henshin/ride_kamens/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:ride_kamens_head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:ride_kamens_troso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:ride_kamens_legs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:chaos_driver_hayate"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/ride_kamens/hayate"
+  }
+}

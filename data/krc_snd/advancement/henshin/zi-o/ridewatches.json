@@ -1,0 +1,304 @@
+{
+  "parent": "krc_snd:henshin/zi-o/standby_root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:impossible"
+	},
+	"finish": {
+	  "trigger": "minecraft:impossible"
+	},
+	"zi-o": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ohma_zi-o": {
+	  "trigger": "minecraft:impossible"
+	},
+	"geiz": {
+	  "trigger": "minecraft:impossible"
+	},
+	"tsukuyomi": {
+	  "trigger": "minecraft:impossible"
+	},
+	"build": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ex-aid": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ghost": {
+	  "trigger": "minecraft:impossible"
+	},
+	"drive": {
+	  "trigger": "minecraft:impossible"
+	},
+	"gaim": {
+	  "trigger": "minecraft:impossible"
+	},
+	"wizard": {
+	  "trigger": "minecraft:impossible"
+	},
+	"fourze": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ooo": {
+	  "trigger": "minecraft:impossible"
+	},
+	"w": {
+	  "trigger": "minecraft:impossible"
+	},
+	"decade": {
+	  "trigger": "minecraft:impossible"
+	},
+	"kiva": {
+	  "trigger": "minecraft:impossible"
+	},
+	"den-o": {
+	  "trigger": "minecraft:impossible"
+	},
+	"kabuto": {
+	  "trigger": "minecraft:impossible"
+	},
+	"hibiki": {
+	  "trigger": "minecraft:impossible"
+	},
+	"blade": {
+	  "trigger": "minecraft:impossible"
+	},
+	"faiz": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ryuki": {
+	  "trigger": "minecraft:impossible"
+	},
+	"agito": {
+	  "trigger": "minecraft:impossible"
+	},
+	"kuuga": {
+	  "trigger": "minecraft:impossible"
+	},
+	"woz": {
+	  "trigger": "minecraft:impossible"
+	},
+	"barlckxs": {
+	  "trigger": "minecraft:impossible"
+	},
+	"zonjis": {
+	  "trigger": "minecraft:impossible"
+	},
+	"zamonas": {
+	  "trigger": "minecraft:impossible"
+	},
+	"bibill": {
+	  "trigger": "minecraft:impossible"
+	},
+	"knight": {
+	  "trigger": "minecraft:impossible"
+	},
+	"chalice": {
+	  "trigger": "minecraft:impossible"
+	},
+	"diend": {
+	  "trigger": "minecraft:impossible"
+	},
+	"beast": {
+	  "trigger": "minecraft:impossible"
+	},
+	"mach": {
+	  "trigger": "minecraft:impossible"
+	},
+	"genm": {
+	  "trigger": "minecraft:impossible"
+	},
+	"cross-z": {
+	  "trigger": "minecraft:impossible"
+	},
+	"amazon_omega": {
+	  "trigger": "minecraft:impossible"
+	},
+	"amazon_alpha": {
+	  "trigger": "minecraft:impossible"
+	},
+	"amazon_neo": {
+	  "trigger": "minecraft:impossible"
+	},
+	"zero-one": {
+	  "trigger": "minecraft:impossible"
+	},
+	"saber": {
+	  "trigger": "minecraft:impossible"
+	},
+	"revi": {
+	  "trigger": "minecraft:impossible"
+	},
+	"vice": {
+	  "trigger": "minecraft:impossible"
+	},
+	"geats": {
+	  "trigger": "minecraft:impossible"
+	},
+	"gotchard": {
+	  "trigger": "minecraft:impossible"
+	},
+	"gavv": {
+	  "trigger": "minecraft:impossible"
+	},
+	"zeztz": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ichigo": {
+	  "trigger": "minecraft:impossible"
+	},
+	"nigo": {
+	  "trigger": "minecraft:impossible"
+	},
+	"v3": {
+	  "trigger": "minecraft:impossible"
+	},
+	"riderman": {
+	  "trigger": "minecraft:impossible"
+	},
+	"x": {
+	  "trigger": "minecraft:impossible"
+	},
+	"amazon": {
+	  "trigger": "minecraft:impossible"
+	},
+	"stronger": {
+	  "trigger": "minecraft:impossible"
+	},
+	"skyrider": {
+	  "trigger": "minecraft:impossible"
+	},
+	"super-1": {
+	  "trigger": "minecraft:impossible"
+	},
+	"zx": {
+	  "trigger": "minecraft:impossible"
+	},
+	"black": {
+	  "trigger": "minecraft:impossible"
+	},
+	"shadow_moon": {
+	  "trigger": "minecraft:impossible"
+	},
+	"black_rx": {
+	  "trigger": "minecraft:impossible"
+	},
+	"roborider": {
+	  "trigger": "minecraft:impossible"
+	},
+	"biorider": {
+	  "trigger": "minecraft:impossible"
+	},
+	"shin": {
+	  "trigger": "minecraft:impossible"
+	},
+	"zo": {
+	  "trigger": "minecraft:impossible"
+	},
+	"j": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ryusoulger": {
+	  "trigger": "minecraft:impossible"
+	},
+	"2": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+				"type": "minecraft:player",
+				"advancements": {
+				  "krc_snd:henshin/zi-o/ridewatches": {
+					"1": true
+				  }
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "finish",
+	  "zi-o",
+	  "ohma_zi-o",
+	  "geiz",
+	  "tsukuyomi",
+	  "build",
+	  "ex-aid",
+	  "ghost",
+	  "drive",
+	  "gaim",
+	  "wizard",
+	  "fourze",
+	  "ooo",
+	  "w",
+	  "decade",
+	  "kiva",
+	  "den-o",
+	  "kabuto",
+	  "hibiki",
+	  "blade",
+	  "faiz",
+	  "ryuki",
+	  "agito",
+	  "kuuga",
+	  "woz",
+	  "barlckxs",
+	  "zonjis",
+	  "zamonas",
+	  "bibill",
+	  "knight",
+	  "chalice",
+	  "diend",
+	  "beast",
+	  "mach",
+	  "genm",
+	  "cross-z",
+	  "amazon_omega",
+	  "amazon_alpha",
+	  "amazon_neo",
+	  "zero-one",
+	  "saber",
+	  "revi",
+	  "vice",
+	  "geats",
+	  "gotchard",
+	  "gavv",
+	  "zeztz",
+	  "ichigo",
+	  "nigo",
+	  "v3",
+	  "riderman",
+	  "x",
+	  "amazon",
+	  "stronger",
+	  "skyrider",
+	  "super-1",
+	  "zx",
+	  "black",
+	  "shadow_moon",
+	  "black_rx",
+	  "roborider",
+	  "biorider",
+	  "shin",
+	  "zo",
+	  "j",
+	  "ryusoulger"
+	],
+	[
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/zi-o/sounds/ridewatches"
+  }
+}

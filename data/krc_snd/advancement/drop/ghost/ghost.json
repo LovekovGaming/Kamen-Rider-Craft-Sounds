@@ -1,0 +1,30 @@
+{
+	"parent": "krc_snd:drop/ghost/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"equipment": {
+			  	  "feet": {
+			  		"items": "kamenridercraft:ghost_driver"
+			  	  }
+				}
+			  }
+			},
+			{
+			  "condition": "minecraft:reference",
+			  "name": "krc_snd:has_armor/ghost"
+			}
+		  ]
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:drop/ghost/ghost"
+	}
+  }

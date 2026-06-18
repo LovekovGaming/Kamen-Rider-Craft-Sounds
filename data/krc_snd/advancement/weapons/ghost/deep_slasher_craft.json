@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/ghost/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:ghost/deep_slasher_sword"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/ghost/deep_slasher_craft"
+	}
+  }
+  

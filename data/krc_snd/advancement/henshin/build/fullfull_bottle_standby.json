@@ -1,0 +1,47 @@
+{
+  "parent": "krc_snd:henshin/build/standby_root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:impossible"
+	},
+	"2": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+				"type": "minecraft:player",
+				"advancements": {
+				  "krc_snd:henshin/build/fullfull_bottle_standby": {
+					"1": true
+				  }
+				}
+			  },
+			  "equipment": {
+				"feet": {
+				  "items": "kamenridercraft:build_driver"
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+			  "krc.henshin-stage": {
+				"min": 4,
+				"max": 5
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/build/standby/fullfull_bottle"
+  }
+}

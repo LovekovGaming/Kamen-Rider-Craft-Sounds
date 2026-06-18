@@ -1,0 +1,52 @@
+{
+  "parent": "krc_snd:drop/build/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:inverted",
+			"term": {
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"equipment": {
+				  "feet": {
+					"items": "#kamenridercraft:belts/build_armor"
+				  }
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"head": {
+				  "items": [
+					"kamenridercraft:buildhead"
+				  ]
+				},
+				"chest": {
+				  "items": [
+					"kamenridercraft:buildtroso"
+				  ]
+				},
+				"legs": {
+				  "items": [
+					"kamenridercraft:buildlegs"
+				  ]
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:drop/build/transteam_gun"
+  }
+}

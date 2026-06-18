@@ -1,0 +1,3 @@
+execute as @n[type=small_fireball,nbt={HasBeenShot:false}] on origin if entity @s[advancements={krc_snd:weapons/fourze/hee-hackgun=true}] run stopsound @a[scores={krc.configs.weapon_snd=1},distance=..50] player minecraft:entity.blaze.shoot
+execute as @n[type=small_fireball,nbt={HasBeenShot:false}] on origin if entity @s[advancements={krc_snd:weapons/fourze/hee-hackgun=true}] run playsound kamenridercraft:hee-hackgun player @a[scores={krc.configs.weapon_snd=1}] ~ ~1 ~ 0.6
+advancement revoke @s only krc_snd:weapons/fourze/hee-hackgun

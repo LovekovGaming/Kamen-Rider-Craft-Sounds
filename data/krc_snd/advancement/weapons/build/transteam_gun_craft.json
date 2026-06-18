@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/build/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:build/transteam_gun"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/build/transteam_gun_craft"
+	}
+  }
+  

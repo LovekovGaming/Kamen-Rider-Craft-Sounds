@@ -1,0 +1,30 @@
+{
+  "parent": "krc_snd:mobs/heisei/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:impossible"
+	},
+	"2": {
+	  "trigger": "minecraft:effects_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:inverted",
+			"term": {
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"effects": {
+				  "kamenridercraft:pause": {}
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:mobs/heisei/cronus_restart"
+  }
+}

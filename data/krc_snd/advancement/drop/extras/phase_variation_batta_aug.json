@@ -1,0 +1,70 @@
+{
+  "parent": "krc_snd:drop/extras/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:any_of",
+			"terms": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": [
+						"minecraft:air"
+					  ]
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": [
+						"kamenridercraft:shin_typhoon_core"
+					  ]
+					}
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"feet": {
+				  "items": [
+					"kamenridercraft:simplified_typhoon"
+				  ]
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:inverted",
+			"term": {
+			  "condition": "minecraft:reference",
+			  "name": "krc_core:reiwa/shin_kamen_rider_armor"
+			}
+		  },
+		  {
+			"condition": "minecraft:reference",
+			"name": "krc_snd:has_armor/shin_kamen_rider"
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:drop/extras/phase_variation_batta_aug"
+  }
+}

@@ -1,0 +1,19 @@
+execute if entity @n[type=item,distance=..5,tag=pick_up] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:entity.item.pickup
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:robot_sclash_jelly if data entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] Thrower run scoreboard players add @s krc.henshin-stage 1
+
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:robot_sclash_jelly run playsound kamenridercraft:fullbottle_turn player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:robot_sclash_jelly run playsound kamenridercraft:robot_jelly player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:robot_sclash_jelly run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.build.robot_jelly","color":"gold"}
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:robot_sclash_jelly run advancement grant @s only krc_snd:henshin/build/sclash_driver_standby 1
+
+execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:robot_sclash_jelly run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:sclash_driver_standby
+execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:robot_sclash_jelly run advancement revoke @s from krc_snd:henshin/build/root
+execute if score @s krc.henshin-stage matches 3 unless predicate krc_core:heisei/build_armor if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:robot_sclash_jelly run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:buildhead"}
+execute if score @s krc.henshin-stage matches 3 unless predicate krc_core:heisei/build_armor if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:robot_sclash_jelly run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:buildtroso"}
+execute if score @s krc.henshin-stage matches 3 unless predicate krc_core:heisei/build_armor if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:robot_sclash_jelly run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:buildlegs"}
+execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:robot_sclash_jelly run scoreboard players set @s krc.seq1 0
+execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:robot_sclash_jelly run scoreboard players set @s krc.seq2 0
+execute if score @s krc.henshin-stage matches 3.. run scoreboard players reset @s krc.henshin-stage
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:robot_sclash_jelly run function krc_snd:drop/common/return_item
+advancement revoke @s from krc_snd:drop/build/root
+advancement revoke @s only krc_snd:henshin/common/reset

@@ -1,0 +1,72 @@
+{
+  "parent": "krc_snd:henshin/showa/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:amazonhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:amazontroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:amazonlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:condorer"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:amazonhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:amazontroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:amazonlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:dark_condorer"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/showa/amazon"
+  }
+}

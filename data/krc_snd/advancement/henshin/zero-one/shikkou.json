@@ -1,0 +1,22 @@
+{
+  "parent": "krc_snd:henshin/zero-one/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+			  "krc-item.player": 1
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/zero-one/shikkou"
+  }
+}

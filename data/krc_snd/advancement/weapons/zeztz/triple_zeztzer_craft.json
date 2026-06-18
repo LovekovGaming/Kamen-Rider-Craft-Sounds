@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/zeztz/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:zeztz/triple_zeztzer"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/zeztz/triple_zeztzer_craft"
+	}
+  }
+  

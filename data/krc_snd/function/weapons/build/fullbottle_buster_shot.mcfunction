@@ -1,0 +1,3 @@
+execute as @n[type=arrow,nbt={HasBeenShot:false}] on origin if entity @s[advancements={krc_snd:weapons/build/fullbottle_buster_shot=true}] run stopsound @a[scores={krc.configs.weapon_snd=1},distance=..50] player minecraft:entity.blaze.shoot
+execute as @n[type=arrow,nbt={HasBeenShot:false}] on origin if entity @s[advancements={krc_snd:weapons/build/fullbottle_buster_shot=true}] run playsound kamenridercraft:fullbottle_buster player @a[scores={krc.configs.weapon_snd=1}] ~ ~1 ~ 0.6
+advancement revoke @s only krc_snd:weapons/build/fullbottle_buster_shot

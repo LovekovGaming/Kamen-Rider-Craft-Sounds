@@ -1,0 +1,14 @@
+{
+  "parent": "krc_snd:flags/root",
+  "criteria": {
+	"punchin_kickin": {
+	  "trigger": "minecraft:impossible"
+	},
+	"gochipod_master": {
+	  "trigger": "minecraft:impossible"
+	},
+	"gochipod_short": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}

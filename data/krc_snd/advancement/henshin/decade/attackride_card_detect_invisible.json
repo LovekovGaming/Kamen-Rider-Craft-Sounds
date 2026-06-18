@@ -1,0 +1,80 @@
+{
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:effects_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:decadehead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:decadetroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:decadelegs"
+			  ]
+			},
+			"feet": {
+			  "items": "#kamenridercraft:belts/decade_armor"
+			}
+		  }
+		},
+		"effects": {
+		  "minecraft:invisibility": {
+			"amplifier": 0,
+			"duration": 300,
+			"visible": false
+		  }
+		}
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:effects_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:decadehead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:decadetroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:decadelegs"
+			  ]
+			},
+			"feet": {
+			  "items": "kamenridercraft:diend_belt"
+			}
+		  }
+		},
+		"effects": {
+		  "minecraft:invisibility": {
+			"amplifier": 0,
+			"duration": 200
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/decade/attackride_card_detect_invisible"
+  }
+}

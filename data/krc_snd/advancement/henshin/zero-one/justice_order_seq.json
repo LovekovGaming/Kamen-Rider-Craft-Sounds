@@ -1,0 +1,148 @@
+{
+  "parent": "krc_snd:henshin/zero-one/standby_root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:impossible"
+	},
+    "super-1": {
+	  "trigger": "minecraft:impossible"
+	},
+    "kuuga_ultimate": {
+	  "trigger": "minecraft:impossible"
+	},
+    "agito_shining": {
+	  "trigger": "minecraft:impossible"
+	},
+    "ryuki_survive": {
+	  "trigger": "minecraft:impossible"
+	},
+    "faiz_blaster": {
+	  "trigger": "minecraft:impossible"
+	},
+    "blade_king": {
+	  "trigger": "minecraft:impossible"
+	},
+    "armed_hibiki": {
+	  "trigger": "minecraft:impossible"
+	},
+    "kabuto_hyper": {
+	  "trigger": "minecraft:impossible"
+	},
+    "den-o_liner": {
+	  "trigger": "minecraft:impossible"
+	},
+    "kiva_emperor": {
+	  "trigger": "minecraft:impossible"
+	},
+    "decade_complete": {
+	  "trigger": "minecraft:impossible"
+	},
+    "w_xtreme": {
+	  "trigger": "minecraft:impossible"
+	},
+    "ooo_putotyra": {
+	  "trigger": "minecraft:impossible"
+	},
+    "fourze_cosmic": {
+	  "trigger": "minecraft:impossible"
+	},
+    "wizard_infinity": {
+	  "trigger": "minecraft:impossible"
+	},
+    "gaim_kiwami": {
+	  "trigger": "minecraft:impossible"
+	},
+    "drive_tridoron": {
+	  "trigger": "minecraft:impossible"
+	},
+    "ghost_mugen": {
+	  "trigger": "minecraft:impossible"
+	},
+    "ex-aid_muteki": {
+	  "trigger": "minecraft:impossible"
+	},
+    "build_genius": {
+	  "trigger": "minecraft:impossible"
+	},
+    "grand_zi-o": {
+	  "trigger": "minecraft:impossible"
+	},
+    "zero-two": {
+	  "trigger": "minecraft:impossible"
+	},
+    "xross_saber": {
+	  "trigger": "minecraft:impossible"
+	},
+    "ultimate_revi": {
+	  "trigger": "minecraft:impossible"
+	},
+    "ultimate_vice": {
+	  "trigger": "minecraft:impossible"
+	},
+    "geatsix": {
+	  "trigger": "minecraft:impossible"
+	},
+    "dimension": {
+	  "trigger": "minecraft:impossible"
+	},
+	"2": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+				"type": "minecraft:player",
+				"advancements": {
+				  "krc_snd:henshin/zero-one/justice_order_seq": {
+					"1": true
+				  }
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+      "super-1",
+      "kuuga_ultimate",
+      "agito_shining",
+      "ryuki_survive",
+      "faiz_blaster",
+      "blade_king",
+      "armed_hibiki",
+      "kabuto_hyper",
+      "den-o_liner",
+      "kiva_emperor",
+      "decade_complete",
+      "w_xtreme",
+      "ooo_putotyra",
+      "fourze_cosmic",
+      "wizard_infinity",
+      "gaim_kiwami",
+      "drive_tridoron",
+      "ghost_mugen",
+      "ex-aid_muteki",
+      "build_genius",
+      "grand_zi-o",
+      "zero-two",
+      "xross_saber",
+      "ultimate_revi",
+      "ultimate_vice",
+      "geatsix",
+      "dimension"
+	],
+	[
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/zero-one/sounds/justice_order"
+  }
+}

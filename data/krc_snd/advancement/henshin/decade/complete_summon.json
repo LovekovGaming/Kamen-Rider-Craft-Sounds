@@ -1,0 +1,78 @@
+{
+	"parent": "krc_snd:henshin/decade/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:summoned_entity",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "head": {
+				"items": [
+				  "kamenridercraft:decadehead"
+				]
+			  },
+			  "chest": {
+				"items": [
+				  "kamenridercraft:decadetroso"
+				]
+			  },
+			  "legs": {
+				"items": [
+				  "kamenridercraft:decadelegs"
+				]
+			  },
+			  "feet": {
+				"items": [
+					"kamenridercraft:decadriver"
+				  ]
+			  }
+			}
+		  },
+		  "entity": {
+			"type": "kamenridercraft:complete_summon"
+		  }
+		}
+	  },
+	  "2": {
+		"trigger": "minecraft:summoned_entity",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "head": {
+				"items": [
+				  "kamenridercraft:decadehead"
+				]
+			  },
+			  "chest": {
+				"items": [
+				  "kamenridercraft:decadetroso"
+				]
+			  },
+			  "legs": {
+				"items": [
+				  "kamenridercraft:decadelegs"
+				]
+			  },
+			  "feet": {
+				"items": [
+				  "kamenridercraft:neo_decadriver"
+				]
+			  }
+			}
+		  },
+		  "entity": {
+			"type": "kamenridercraft:complete_summon"
+		  }
+		}
+	  }
+	},
+	"requirements": [
+		[
+			"1",
+			"2"
+		]
+	],
+	"rewards": {
+	  "function": "krc_snd:henshin/decade/complete_summon"
+	}
+  }

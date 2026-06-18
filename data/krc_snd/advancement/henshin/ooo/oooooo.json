@@ -1,0 +1,37 @@
+{
+  "parent": "krc_snd:henshin/ooo/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:ooohead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:oootroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:ooolegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:oooooodriver"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/ooo/oooooo"
+  }
+}

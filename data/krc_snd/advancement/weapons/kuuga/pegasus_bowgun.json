@@ -1,0 +1,68 @@
+{
+  "parent": "krc_snd:weapons/kuuga/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"mainhand": {
+				  "items": [
+					"kamenridercraft:pegasus_bowgun"
+				  ]
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:inverted",
+			"term": {
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"equipment": {
+				  "mainhand": {
+					"items": "#krc_snd:ranged_weapons"
+				  }
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"offhand": {
+				  "items": [
+					"kamenridercraft:pegasus_bowgun"
+				  ]
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:weapons/kuuga/pegasus_bowgun"
+  }
+}

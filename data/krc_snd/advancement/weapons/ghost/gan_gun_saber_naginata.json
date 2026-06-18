@@ -1,0 +1,32 @@
+{
+  "parent": "krc_snd:weapons/ghost/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:player_hurt_entity",
+	  "conditions": {
+		"damage": {
+		  "type": {
+			"tags": [
+			  {
+				"id": "minecraft:is_projectile",
+				"expected": false
+			  }
+			]
+		  }
+		},
+		"player": {
+		  "equipment": {
+			"mainhand": {
+			  "items": [
+				"kamenridercraft:gan_gun_saber_naginata"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:weapons/ghost/gan_gun_saber_naginata"
+  }
+}

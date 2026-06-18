@@ -1,0 +1,37 @@
+{
+  "parent": "krc_snd:henshin/showa/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:strongerhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:strongertroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:strongerlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:dark_electrer"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/showa/dark_stronger"
+  }
+}

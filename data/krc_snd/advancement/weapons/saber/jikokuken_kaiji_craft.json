@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/saber/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:saber/jikokuken_kaiji"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/saber/jikokuken_kaiji_craft"
+	}
+  }
+  

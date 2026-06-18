@@ -1,0 +1,384 @@
+{
+	"parent": "krc_snd:henshin/decade/standby_root",
+	"criteria": {
+	  "kiva": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "den-o": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "kabuto": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "hibiki": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "blade": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "faiz": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "ryuki": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "agito": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "kuuga": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "ichigo": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "nigo": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "v3": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "riderman": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "x": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "amazon": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "stronger": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "skyrider": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "super-1": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "zx": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "black": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "black_rx": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "zo": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "j": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "shin": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "g4": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "ryuga": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "orga": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "glaive": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "kabuki": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "caucasus": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "arc": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "skull": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "double": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "ooo": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "fourze": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "wizard": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "gaim": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "drive": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "ghost": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "ex-aid": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "build": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "zi-o": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "g3": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "knight": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "scissors": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "raia": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "gai": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "ouja": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "femme": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "kaixa": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "delta": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "psyga": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "riotroopers": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "garren": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "ibuki": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "todoroki": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "zanki": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "gatack": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "drake": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "sasword": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "punchhopper": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "hercus": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "ketaros": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "zeronos": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "ixa": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "saga": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "rey": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "accel": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "birth": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "meteor": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "beast": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "baron": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "mach": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "specter": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "brave": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "cross-z": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "geiz": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "eagle_undead": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "moose_fangire": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "1": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "2": {
+		"trigger": "minecraft:tick",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"type_specific": {
+				  "type": "minecraft:player",
+				  "advancements": {
+					"krc_snd:henshin/decade/diend_cards": {
+					  "1": true
+					}
+				  }
+				},
+				"equipment": {
+				  "head": {
+					"items": [
+					  "kamenridercraft:decadehead"
+					]
+				  },
+				  "chest": {
+					"items": [
+					  "kamenridercraft:decadetroso"
+					]
+				  },
+				  "legs": {
+					"items": [
+					  "kamenridercraft:decadelegs"
+					]
+				  }
+				}
+			  }
+			},
+			{
+			  "condition": "minecraft:inverted",
+			  "term": {
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+				  "krc.henshin-stage": 1
+				}
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"requirements": [
+	  [
+		"kiva",
+		"den-o",
+		"kabuto",
+		"hibiki",
+		"blade",
+		"faiz",
+		"ryuki",
+		"agito",
+		"kuuga",
+		"ichigo",
+		"nigo",
+		"v3",
+		"riderman",
+		"x",
+		"amazon",
+		"stronger",
+		"skyrider",
+		"super-1",
+		"zx",
+		"black",
+		"black_rx",
+		"zo",
+		"j",
+		"shin",
+		"g4",
+		"ryuga",
+		"orga",
+		"glaive",
+		"kabuki",
+		"caucasus",
+		"arc",
+		"skull",
+		"double",
+		"ooo",
+		"fourze",
+		"wizard",
+		"gaim",
+		"drive",
+		"ghost",
+		"ex-aid",
+		"build",
+		"zi-o",
+		"g3",
+		"knight",
+		"scissors",
+		"raia",
+		"gai",
+		"ouja",
+		"femme",
+		"kaixa",
+		"delta",
+		"psyga",
+		"riotroopers",
+		"garren",
+		"ibuki",
+		"todoroki",
+		"zanki",
+		"gatack",
+		"drake",
+		"sasword",
+		"punchhopper",
+		"hercus",
+		"ketaros",
+		"zeronos",
+		"ixa",
+		"saga",
+		"rey",
+		"accel",
+		"birth",
+		"meteor",
+		"beast",
+		"baron",
+		"mach",
+		"specter",
+		"brave",
+		"cross-z",
+		"geiz",
+		"eagle_undead",
+		"moose_fangire",
+	    "1"
+	  ],
+	  [
+	    "2"
+	  ]
+	],
+	"rewards": {
+	  "function": "krc_snd:henshin/decade/sounds/diend_cards"
+	}
+  }
+  

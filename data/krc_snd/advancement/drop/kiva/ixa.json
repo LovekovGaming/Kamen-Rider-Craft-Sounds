@@ -1,0 +1,44 @@
+{
+  "parent": "krc_snd:drop/kiva/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"feet": {
+				  "items": [
+					"kamenridercraft:ixa_belt"
+				  ]
+				},
+				"mainhand": {
+				  "items": [
+					"minecraft:air"
+				  ]
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:inverted",
+			"term": {
+			  "condition": "minecraft:reference",
+			  "name": "krc_core:heisei/kiva_armor"
+			}
+		  },
+		  {
+			"condition": "minecraft:reference",
+			"name": "krc_snd:has_armor/kiva"
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:drop/kiva/ixa"
+  }
+}

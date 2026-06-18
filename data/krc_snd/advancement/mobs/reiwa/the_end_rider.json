@@ -1,0 +1,16 @@
+{
+  "parent": "krc_snd:mobs/reiwa/root",
+  "criteria": {
+	"requirement": {
+	  "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+		  "type": "kamenridercraft:end_rider"
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:mobs/reiwa/the_end_rider"
+  }
+}

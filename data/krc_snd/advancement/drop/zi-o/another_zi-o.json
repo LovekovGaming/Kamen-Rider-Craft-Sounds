@@ -1,0 +1,99 @@
+{
+	"parent": "krc_snd:drop/zi-o/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "player": [
+		  {
+			"condition": "minecraft:any_of",
+			"terms": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"feet": {
+					  "items": [
+						"minecraft:air"
+					  ]
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"feet": {
+					  "items": [
+						"kamenridercraft:another_ziku_driver_zi_o"
+					  ]
+					}
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"condition": "minecraft:any_of",
+			"terms": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": [
+						"minecraft:air"
+					  ]
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": "#kamenridercraft:gear/form_items/another_zi-o"
+					}
+				  }
+				}
+			  }
+			]
+		  },
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"equipment": {
+				  "head": {
+					"items": [
+					  "kamenridercraft:zi_o_head"
+					]
+				  },
+				  "chest": {
+					"items": [
+					  "kamenridercraft:zi_o_troso"
+					]
+				  },
+				  "legs": {
+					"items": [
+					  "kamenridercraft:zi_o_legs"
+					]
+				  }
+				}
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:drop/zi-o/another_zi-o"
+	}
+  }
+  

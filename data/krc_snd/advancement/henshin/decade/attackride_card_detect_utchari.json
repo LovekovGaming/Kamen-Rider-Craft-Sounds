@@ -1,0 +1,46 @@
+{
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:effects_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:decadehead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:decadetroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:decadelegs"
+			  ]
+			},
+			"feet": {
+			  "items": "#kamenridercraft:belts/decade_armor"
+			}
+		  }
+		},
+		"effects": {
+		  "minecraft:jump_boost": {
+			"amplifier": 3,
+			"duration": 300,
+			"visible": false
+		  },
+		  "minecraft:strength": {
+			"amplifier": 2,
+			"duration": 300,
+			"visible": false
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/decade/attackride_card_detect_utchari"
+  }
+}

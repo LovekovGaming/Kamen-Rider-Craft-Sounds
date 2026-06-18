@@ -1,0 +1,45 @@
+{
+  "parent": "krc_snd:henshin/gotchard/root",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "kamenridercraft:gotchard_head"
+              ]
+            },
+            "chest": {
+              "items": [
+                "kamenridercraft:gotchard_torso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "kamenridercraft:gotchard_legs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "kamenridercraft:gotchardriver"
+              ],
+              "predicates": {
+                "minecraft:custom_data": {
+                  "slot_tex1": "kamenridercraft:nijigon_ride_chemy_card_extra"
+                }
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "kamenridercraft:rider_summon"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "krc_snd:henshin/gotchard/gotcharbrothers_summon"
+  }
+}

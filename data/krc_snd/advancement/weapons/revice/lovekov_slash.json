@@ -1,0 +1,43 @@
+{
+	"parent": "krc_snd:weapons/revice/root",
+	"criteria": {
+	  "requirement": {
+		"trigger": "minecraft:player_hurt_entity",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:any_of",
+			  "terms": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "mainhand": {
+						"items": "kamenridercraft:lovekov_kujaku"
+					  }
+					}
+				  }
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "mainhand": {
+						"items": "kamenridercraft:lovekov_hashibiroko"
+					  }
+					}
+				  }
+				}
+			  ]
+			}
+		  ]
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/revice/lovekov_slash"
+	}
+  }
+  

@@ -1,0 +1,77 @@
+{
+  "parent": "krc_snd:drop/blade/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:any_of",
+			"terms": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": [
+						"minecraft:air"
+					  ]
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": "#kamenridercraft:gear/form_items/leangle"
+					}
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"head": {
+				  "items": [
+					"kamenridercraft:bladehead"
+				  ]
+				},
+				"chest": {
+				  "items": [
+					"kamenridercraft:bladetroso"
+				  ]
+				},
+				"legs": {
+				  "items": [
+					"kamenridercraft:bladelegs"
+				  ]
+				},
+				"feet": {
+				  "items": [
+					"kamenridercraft:leangle_buckle"
+				  ]
+				}
+			  },
+			  "slots": {
+				"container.*": {
+				  "items": "kamenridercraft:rouze_absorber"
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:drop/blade/leangle_absorber"
+  }
+}

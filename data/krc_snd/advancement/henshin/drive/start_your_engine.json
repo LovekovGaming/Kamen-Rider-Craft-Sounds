@@ -1,0 +1,50 @@
+{
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:location",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:inverted",
+			  "term": {
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+				  "krc.henshin-stage": {
+					"min": 1
+				  }
+				}
+			  }
+			},
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"equipment": {
+				  "head": {
+					"items": "minecraft:air"
+				  },
+				  "chest": {
+					"items": "minecraft:air"
+				  },
+				  "legs": {
+					"items": "minecraft:air"
+				  },
+				  "feet": {
+					"items": "kamenridercraft:drivedriver"
+				  },
+				  "mainhand": {
+					"items": "#kamenridercraft:gear/form_items/drive"
+				  }
+				}
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:henshin/drive/start_your_engine"
+	}
+  }
+  

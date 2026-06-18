@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/zero-one/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:zero_one/progrise_hopper_blade"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/zero-one/progrise_hopper_blade_craft"
+	}
+  }
+  

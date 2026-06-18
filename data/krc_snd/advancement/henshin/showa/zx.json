@@ -1,0 +1,132 @@
+{
+  "parent": "krc_snd:henshin/showa/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:zxhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:zxtroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:zxlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:zx_belt"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:zxhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:zxtroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:zxlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:susanoo_belt"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"3": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:zxhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:zxtroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:zxlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:tsukuyomi_belt"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"4": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:zxhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:zxtroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:zxlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:amaterasu_belt"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2",
+	  "3",
+	  "4"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/showa/zx"
+  }
+}

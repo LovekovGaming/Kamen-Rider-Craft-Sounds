@@ -1,0 +1,57 @@
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:cobra_vistamp run tag @s add valid
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:king_cobra_vistamp run tag @s add valid
+execute if predicate krc_core:reiwa/revice_armor as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:kujaku_vistamp run tag @s add valid
+execute if predicate krc_core:reiwa/revice_armor as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:turtle_vistamp run tag @s add valid
+execute if predicate krc_core:reiwa/revice_armor as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:hashibiroko_vistamp run tag @s add valid
+execute if predicate krc_core:reiwa/revice_armor as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:tricera_vistamp run tag @s add valid
+execute if score @s krc.henshin-stage matches 3 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:lovekov_kujaku run tag @s add lovekov
+execute if score @s krc.henshin-stage matches 3 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:lovekov_turtle run tag @s add lovekov
+execute if score @s krc.henshin-stage matches 3 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:lovekov_hashibiroko run tag @s add lovekov
+execute if score @s krc.henshin-stage matches 3 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:lovekov_tricera run tag @s add lovekov
+execute if score @s krc.henshin-stage matches 3 as @n[type=item,distance=..5,tag=lovekov] run tag @s add valid
+execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
+
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:cobra_vistamp run playsound kamenridercraft:cobra_vistamp player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:cobra_vistamp run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.cobra","color":"blue"}
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:king_cobra_vistamp run playsound kamenridercraft:king_cobra_vistamp player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:king_cobra_vistamp run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.king_cobra","color":"gold"}
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:kujaku_vistamp run playsound kamenridercraft:kujaku_vistamp player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:kujaku_vistamp run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.kujaku","color":"blue"}
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:turtle_vistamp run playsound kamenridercraft:turtle_vistamp player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:turtle_vistamp run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.turtle","color":"dark_green"}
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:hashibiroko_vistamp run playsound kamenridercraft:hashibiroko_vistamp player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:hashibiroko_vistamp run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.hashibiroko","color":"red"}
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:tricera_vistamp run playsound kamenridercraft:tricera_vistamp player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:tricera_vistamp run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.tricera","color":"yellow"}
+execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:vistamp_set_jeanne player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] unless items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:king_cobra_vistamp run advancement grant @s only krc_snd:henshin/revice/jeanne_standby 1
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:king_cobra_vistamp run advancement grant @s only krc_snd:henshin/revice/king_cobra_standby 1
+execute if score @s krc.henshin-stage matches 3 unless predicate krc_core:reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
+execute if score @s krc.henshin-stage matches 3 if predicate krc_core:reiwa/revice_armor if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:cobra_vistamp run scoreboard players add @s krc.henshin-stage 1
+execute if score @s krc.henshin-stage matches 3 if predicate krc_core:reiwa/revice_armor if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:king_cobra_vistamp run scoreboard players add @s krc.henshin-stage 1
+execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s only krc_snd:henshin/revice/jeanne_standby
+execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s only krc_snd:henshin/revice/king_cobra_standby
+execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:jeanne_standby
+execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:jeanne_standby_invincible
+execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
+execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:restyle player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.restyle","color":"blue"}
+execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/revice/jeanne_standby_restyle 1
+
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/revice/root
+execute if score @s krc.henshin-stage matches 4 unless predicate krc_core:reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:revice_head"}
+execute if score @s krc.henshin-stage matches 4 unless predicate krc_core:reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:revice_troso"}
+execute if score @s krc.henshin-stage matches 4 unless predicate krc_core:reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:revice_legs"}
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:jeanne_standby
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:jeanne_standby_restyle
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:jeanne_standby_invincible
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=lovekov] run playsound kamenridercraft:rebuddy_up player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=lovekov] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.rebuddy_up","color":"blue"}
+execute if score @s krc.henshin-stage matches 4 if items entity @n[type=item,distance=..5,tag=valid,tag=lovekov] contents kamenridercraft:lovekov_kujaku run advancement grant @s only krc_snd:henshin/revice/jeanne_kujaku_seq 1
+execute if score @s krc.henshin-stage matches 4 if items entity @n[type=item,distance=..5,tag=valid,tag=lovekov] contents kamenridercraft:lovekov_turtle run advancement grant @s only krc_snd:henshin/revice/jeanne_turtle_seq 1
+execute if score @s krc.henshin-stage matches 4 if items entity @n[type=item,distance=..5,tag=valid,tag=lovekov] contents kamenridercraft:lovekov_hashibiroko run advancement grant @s only krc_snd:henshin/revice/jeanne_hashibiroko_seq 1
+execute if score @s krc.henshin-stage matches 4 if items entity @n[type=item,distance=..5,tag=valid,tag=lovekov] contents kamenridercraft:lovekov_tricera run advancement grant @s only krc_snd:henshin/revice/jeanne_tricera_seq 1
+execute if score @s krc.henshin-stage matches 4.. run scoreboard players reset @s krc.henshin-stage
+execute as @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/return_item
+advancement revoke @s from krc_snd:drop/revice/root

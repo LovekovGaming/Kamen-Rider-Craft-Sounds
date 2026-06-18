@@ -1,0 +1,37 @@
+{
+  "parent": "krc_snd:henshin/extras/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:ichigohead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:ichigotroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:ichigolegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:cyborg_super_energy_converter"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/extras/eins"
+  }
+}

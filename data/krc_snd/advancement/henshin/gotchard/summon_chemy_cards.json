@@ -1,0 +1,69 @@
+{
+  "parent": "krc_snd:henshin/gotchard/standby_root",
+  "criteria": {
+	"tenliner": {
+	  "trigger": "minecraft:impossible"
+	},
+	"crosshopper": {
+	  "trigger": "minecraft:impossible"
+	},
+	"special": {
+	  "trigger": "minecraft:impossible"
+	},
+	"1": {
+	  "trigger": "minecraft:impossible"
+	},
+	"2": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+				"type": "minecraft:player",
+				"advancements": {
+				  "krc_snd:henshin/gotchard/summon_chemy_cards": {
+					"1": true
+				  }
+				}
+			  },
+			  "equipment": {
+				"feet": {
+				  "items": [
+					"kamenridercraft:gotchardriver"
+				  ]
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+			  "krc.henshin-stage": {
+				"min": 3,
+				"max": 4
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "tenliner",
+	  "crosshopper",
+	  "special"
+	],
+	[
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/gotchard/sounds/summon_chemy_cards"
+  }
+}

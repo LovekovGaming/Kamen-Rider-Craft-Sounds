@@ -1,0 +1,37 @@
+{
+  "parent": "krc_snd:henshin/saber/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:saberhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:sabertroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:saberlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:royal_sword_of_logos_buckle_sabela"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/saber/sabela"
+  }
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "krc_snd:mobs/reiwa/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:player_interacted_with_entity",
+		"conditions": {
+		  "item": {
+			"items": "kamenridercraft:zakuzakuchips_gochizo"
+		  },
+		  "entity": {
+			"type": "kamenridercraft:whipped_soldier"
+		  }
+		}
+	  },
+	  "2": {
+		"trigger": "minecraft:player_interacted_with_entity",
+		"conditions": {
+		  "item": {
+			"items": "kamenridercraft:chocodan_gochizo"
+		  },
+		  "entity": {
+			"type": "kamenridercraft:whipped_soldier"
+		  }
+		}
+	  }
+	},
+	"requirements": [
+	  [
+		"1",
+		"2"
+	  ]
+	],
+	"rewards": {
+	  "function": "krc_snd:mobs/reiwa/whipped_soldier_decoration"
+	}
+  }

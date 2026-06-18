@@ -1,0 +1,1 @@
+advancement revoke @s only krc_snd:henshin/common/driver_draw

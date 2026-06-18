@@ -1,0 +1,7 @@
+{
+  "criteria": {
+	"shocker_leader": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}

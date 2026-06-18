@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/saber/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:saber/eneiken_noroshi"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/saber/eneiken_noroshi_craft"
+	}
+  }
+  

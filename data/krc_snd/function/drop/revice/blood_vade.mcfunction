@@ -1,0 +1,4 @@
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:blood_vade_vistamp run advancement revoke @s from krc_snd:henshin/revice/root
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:blood_vade_vistamp run function krc_snd:drop/common/equip_armor {slot: "armor.feet", item: "kamenridercraft:vade_belt"}
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:blood_vade_vistamp run function krc_snd:drop/common/return_item
+advancement revoke @s from krc_snd:drop/revice/root

@@ -1,0 +1,69 @@
+{
+	"parent": "krc_snd:drop/wizard/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "head": {
+				"items": [
+				  "kamenridercraft:wizard_head"
+				]
+			  },
+			  "chest": {
+				"items": [
+				  "kamenridercraft:wizard_troso"
+				]
+			  },
+			  "legs": {
+				"items": [
+				  "kamenridercraft:wizard_legs"
+				]
+			  },
+			  "feet": {
+				"items": "kamenridercraft:dark_wizardriver"
+			  }
+			}
+		  }
+		}
+	  },
+	  "2": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "head": {
+				"items": [
+				  "kamenridercraft:wizard_head"
+				]
+			  },
+			  "chest": {
+				"items": [
+				  "kamenridercraft:wizard_troso"
+				]
+			  },
+			  "legs": {
+				"items": [
+				  "kamenridercraft:wizard_legs"
+				]
+			  },
+			  "feet": {
+				"items": "kamenridercraft:black_wizardriver"
+			  }
+			}
+		  }
+		}
+	  }
+	},
+	"requirements": [
+	  [
+		"1",
+		"2"
+	  ]
+	],
+	"rewards": {
+	  "function": "krc_snd:drop/wizard/wizard_magic"
+	}
+  }
+		

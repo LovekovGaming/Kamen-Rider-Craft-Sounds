@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/zero-one/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:zero_one/thousand_jacker"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/zero-one/thousand_jacker_craft"
+	}
+  }
+  

@@ -1,0 +1,23 @@
+{
+  "parent": "krc_snd:mobs/reiwa/root",
+  "criteria": {
+	"requirement": {
+	  "trigger": "minecraft:player_hurt_entity",
+	  "conditions": {
+		"player": {
+		  "slots": {
+			"container.*": {
+			  "items": "kamenridercraft:tenliner_ride_chemy_card"
+			}
+		  }
+		},
+		"entity": {
+		  "type": "kamenridercraft:dread"
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:mobs/reiwa/dread"
+  }
+}

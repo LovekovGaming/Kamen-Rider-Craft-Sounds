@@ -1,0 +1,318 @@
+{
+  "parent": "krc_snd:henshin/zero-one/root",
+  "criteria": {
+    "super-1": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:super_1_card"
+        }
+      }
+    },
+    "kuuga_ultimate": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:kuuga_ultimate_card"
+        }
+      }
+    },
+    "agito_shining": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:agito_shining_card"
+        }
+      }
+    },
+    "ryuki_survive": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:ryuki_survive_card"
+        }
+      }
+    },
+    "faiz_blaster": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:faiz_blaster_card"
+        }
+      }
+    },
+    "blade_king": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:blade_king_card"
+        }
+      }
+    },
+    "armed_hibiki": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:armed_hibiki_card"
+        }
+      }
+    },
+    "kabuto_hyper": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:kabuto_hyper_card"
+        }
+      }
+    },
+    "den-o_liner": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:den_o_liner_card"
+        }
+      }
+    },
+    "kiva_emperor": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:kiva_emperor_card"
+        }
+      }
+    },
+    "decade_complete": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:decade_complete_card"
+        }
+      }
+    },
+    "w_xtreme": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:w_xtreme_card"
+        }
+      }
+    },
+    "ooo_putotyra": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:ooo_putotyra_card"
+        }
+      }
+    },
+    "fourze_cosmic": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:fourze_cosmic_card"
+        }
+      }
+    },
+    "wizard_infinity": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:wizard_infinity_card"
+        }
+      }
+    },
+    "gaim_kiwami": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:gaim_kiwami_card"
+        }
+      }
+    },
+    "drive_tridoron": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:drive_tridoron_card"
+        }
+      }
+    },
+    "ghost_mugen": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:ghost_mugen_card"
+        }
+      }
+    },
+    "ex-aid_muteki": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:ex_aid_muteki_card"
+        }
+      }
+    },
+    "build_genius": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:build_genius_card"
+        }
+      }
+    },
+    "grand_zi-o": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:grand_zi_o_card"
+        }
+      }
+    },
+    "zero-two": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:zero_two_card"
+        }
+      }
+    },
+    "xross_saber": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:xross_saber_card"
+        }
+      }
+    },
+    "ultimate_revi": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:ultimate_revi_card"
+        }
+      }
+    },
+    "ultimate_vice": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:ultimate_vice_card"
+        }
+      }
+    },
+    "geatsix": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:geats_ix_card"
+        }
+      }
+    },
+    "dimension": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": "kamenridercraft:dimension_card"
+        }
+      }
+    },
+    "1": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "kamenridercraft:zero_onehead"
+              ]
+            },
+            "chest": {
+              "items": [
+                "kamenridercraft:zero_onetroso"
+              ]
+            },
+            "legs": {
+              "items": [
+                "kamenridercraft:zero_onelegs"
+              ]
+            },
+            "feet": {
+              "items": [
+                "kamenridercraft:zein_driver"
+              ]
+            }
+          }
+        },
+        "durability": 0,
+        "item": {
+          "items": "#kamenridercraft:gear/zein_cards"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "super-1",
+      "kuuga_ultimate",
+      "agito_shining",
+      "ryuki_survive",
+      "faiz_blaster",
+      "blade_king",
+      "armed_hibiki",
+      "kabuto_hyper",
+      "den-o_liner",
+      "kiva_emperor",
+      "decade_complete",
+      "w_xtreme",
+      "ooo_putotyra",
+      "fourze_cosmic",
+      "wizard_infinity",
+      "gaim_kiwami",
+      "drive_tridoron",
+      "ghost_mugen",
+      "ex-aid_muteki",
+      "build_genius",
+      "grand_zi-o",
+      "zero-two",
+      "xross_saber",
+      "ultimate_revi",
+      "ultimate_vice",
+      "geatsix",
+      "dimension"
+    ],
+    [
+      "1"
+    ]
+  ],
+  "rewards": {
+    "function": "krc_snd:henshin/zero-one/justice_order"
+  }
+}

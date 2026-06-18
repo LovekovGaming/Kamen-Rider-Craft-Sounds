@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/zeztz/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:zeztz/breakam_zeztzer_axe"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/zeztz/breakam_zeztzer_axe_craft"
+	}
+  }
+  

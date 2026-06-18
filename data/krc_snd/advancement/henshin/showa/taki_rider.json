@@ -1,0 +1,37 @@
+{
+  "parent": "krc_snd:henshin/showa/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:ichigohead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:ichigotroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:ichigolegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:taki_belt"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/showa/taki_rider"
+  }
+}

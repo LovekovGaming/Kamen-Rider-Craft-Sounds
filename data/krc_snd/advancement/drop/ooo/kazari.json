@@ -1,0 +1,80 @@
+{
+    "parent": "krc_snd:drop/ooo/root",
+    "criteria": {
+      "1": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:player",
+                      "gamemode": [
+                        "creative"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "slots": {
+                      "container.*": {
+                        "items": "kamenridercraft:greeed_blet_kazari"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "head": {
+                    "items": [
+                      "kamenridercraft:ooohead"
+                    ]
+                  },
+                  "chest": {
+                    "items": [
+                      "kamenridercraft:oootroso"
+                    ]
+                  },
+                  "legs": {
+                    "items": [
+                      "kamenridercraft:ooolegs"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "feet": {
+                      "items": "#kamenridercraft:belts/ooo_armor"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "krc_snd:drop/ooo/kazari"
+    }
+  }

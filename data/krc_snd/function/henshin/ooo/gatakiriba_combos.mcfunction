@@ -1,0 +1,10 @@
+advancement revoke @s only krc_snd:henshin/ooo/gatakiriba_combos
+scoreboard players reset @s krc-item.scanner
+
+execute if predicate krc_core:sneaking if items entity @e[type=kamenridercraft:rider_summon,tag=!sounded,distance=..20] armor.feet kamenridercraft:ooodriver[minecraft:custom_data~{slot_tex1:"kamenridercraft:lion_medal"}] run advancement revoke @s from krc_snd:henshin/ooo/standby_root
+execute if predicate krc_core:sneaking if items entity @e[type=kamenridercraft:rider_summon,tag=!sounded,distance=..20] armor.feet kamenridercraft:ooodriver[minecraft:custom_data~{slot_tex1:"kamenridercraft:lion_medal"}] run advancement revoke @s from krc_snd:henshin/ooo/seq_root
+execute if predicate krc_core:sneaking if items entity @e[type=kamenridercraft:rider_summon,tag=!sounded,distance=..20] armor.feet kamenridercraft:ooodriver[minecraft:custom_data~{slot_tex1:"kamenridercraft:lion_medal"}] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:entity.player.levelup
+execute if predicate krc_core:sneaking if items entity @e[type=kamenridercraft:rider_summon,tag=!sounded,distance=..20] armor.feet kamenridercraft:ooodriver[minecraft:custom_data~{slot_tex1:"kamenridercraft:lion_medal"}] run scoreboard players set @s krc.seq1 0
+execute if predicate krc_core:sneaking if items entity @e[type=kamenridercraft:rider_summon,tag=!sounded,distance=..20] armor.feet kamenridercraft:ooodriver[minecraft:custom_data~{slot_tex1:"kamenridercraft:lion_medal"}] run playsound kamenridercraft:medal_scan hostile @a[scores={krc.configs.henshin_snd=1},distance=..20] ~ ~1 ~
+execute if predicate krc_core:sneaking if items entity @e[type=kamenridercraft:rider_summon,tag=!sounded,distance=..20] armor.feet kamenridercraft:ooodriver[minecraft:custom_data~{slot_tex1:"kamenridercraft:lion_medal"}] run advancement grant @s only krc_snd:henshin/ooo/gatakiriba_combos_seq 1
+execute if predicate krc_core:sneaking as @e[type=kamenridercraft:rider_summon,tag=!sounded,distance=..20] if items entity @s armor.feet kamenridercraft:ooodriver[minecraft:custom_data~{slot_tex1:"kamenridercraft:lion_medal"}] run tag @s add sounded

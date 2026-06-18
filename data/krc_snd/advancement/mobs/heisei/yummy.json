@@ -1,0 +1,16 @@
+{
+  "parent": "krc_snd:mobs/heisei/root",
+  "criteria": {
+	"requirement": {
+	  "trigger": "minecraft:player_hurt_entity",
+	  "conditions": {
+		"entity": {
+		  "type": "kamenridercraft:yummy_mob"
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:mobs/heisei/yummy"
+  }
+}

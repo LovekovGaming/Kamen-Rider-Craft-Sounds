@@ -1,0 +1,29 @@
+{
+  "parent": "krc_snd:henshin/ryuki/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+				"type": "minecraft:player",
+				"advancements": {
+				  "krc_snd:henshin/ryuki/advent_card_detect": {
+					"4": true
+				  }
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/ryuki/advent_card_detect_zolda"
+  }
+}

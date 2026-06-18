@@ -1,0 +1,203 @@
+{
+	"parent": "krc_snd:henshin/decade/standby_root",
+	"criteria": {
+	  "ultimate": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "ultimate_21": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "rising_ultimate": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "shining": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "shining_21": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "survive": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "survive_21": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "blaster": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "blaster_21": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "king": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "king_21": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "armed": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "armed_21": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "hyper": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "hyper_21": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "liner": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "liner_21": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "super_climax": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "emperor": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "emperor_21": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "xtreme": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "putotyra": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "cosmic": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "infinity": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "kiwami": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "tridoron": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "mugen": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "muteki": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "genius": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "grandzi-o": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "zero-two": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "1": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "2": {
+		"trigger": "minecraft:tick",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"type_specific": {
+				  "type": "minecraft:player",
+				  "advancements": {
+					"krc_snd:henshin/decade/complete_summon_seq": {
+					  "1": true
+					}
+				  }
+				}
+			  }
+			},
+			{
+				"condition": "minecraft:any_of",
+				"terms": [
+				  {
+				    "condition": "minecraft:entity_properties",
+				    "entity": "this",
+				    "predicate": {
+				      "equipment": {
+				  		"feet": {
+				  		  "items": "kamenridercraft:decadriver"
+				  		}
+				      }
+				    }
+				  },
+				  {
+				    "condition": "minecraft:entity_properties",
+				    "entity": "this",
+				    "predicate": {
+				      "equipment": {
+				  		"feet": {
+				  		  "items": "kamenridercraft:neo_decadriver"
+				  		}
+				      }
+				    }
+				  },
+				  {
+				    "condition": "minecraft:entity_properties",
+				    "entity": "this",
+				    "predicate": {
+				      "equipment": {
+				  		"feet": {
+				  		  "items": "kamenridercraft:legendriver"
+				  		}
+				      }
+				    }
+				  }
+				]
+			}
+		  ]
+		}
+	  }
+	},
+	"requirements": [
+		[
+			"ultimate",
+			"ultimate_21",
+			"rising_ultimate",
+			"shining",
+			"shining_21",
+			"survive",
+			"survive_21",
+			"blaster",
+			"blaster_21",
+			"king",
+			"king_21",
+			"armed",
+			"armed_21",
+			"hyper",
+			"hyper_21",
+			"liner",
+			"liner_21",
+			"super_climax",
+			"emperor",
+			"emperor_21",
+			"xtreme",
+			"putotyra",
+			"cosmic",
+			"infinity",
+			"kiwami",
+			"tridoron",
+			"mugen",
+			"muteki",
+			"genius",
+			"grandzi-o",
+			"zero-two",
+			"1"
+		],
+		[
+			"2"
+		]
+	],
+	"rewards": {
+	  "function": "krc_snd:henshin/decade/sounds/complete_summon"
+	}
+  }
+  

@@ -1,0 +1,37 @@
+{
+  "parent": "krc_snd:henshin/extras/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:blacksunhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:blacksuntroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:blacksunlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:century_king_sun_driver"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/extras/black_sun"
+  }
+}

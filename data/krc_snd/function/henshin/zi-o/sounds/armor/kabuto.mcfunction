@@ -1,0 +1,21 @@
+execute if score @s krc.seq1 matches 192 run playsound kamenridercraft:kabutoarmor player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 192 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"###","color":"black"},{"text":"K","color":"red"},"||"]
+execute if score @s krc.seq1 matches 195 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"##","color":"black"},{"text":"KA","color":"red"},"||"]
+execute if score @s krc.seq1 matches 198 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"#","color":"black"},{"text":"KAB","color":"red"},"||"]
+execute if score @s krc.seq1 matches 201 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"KABU","color":"red"},"||"]
+execute if score @s krc.seq1 matches 204 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"ABUT","color":"red"},"||"]
+execute if score @s krc.seq1 matches 207 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"BUTO","color":"red"},"||"]
+execute if score @s krc.seq1 matches 210 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"UTO","color":"red"},{"text":"#","color":"black"},"||"]
+execute if score @s krc.seq1 matches 213 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"TO","color":"red"},{"text":"##","color":"black"},"||"]
+execute if score @s krc.seq1 matches 216 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"O","color":"red"},{"text":"###","color":"black"},"||"]
+execute if score @s krc.seq1 matches 219 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"","color":"red"},{"text":"####","color":"black"},"||"]
+execute if score @s krc.seq1 matches 222 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"###","color":"black"},{"text":"K","color":"red"},"||"]
+execute if score @s krc.seq1 matches 225 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"##","color":"black"},{"text":"KA","color":"red"},"||"]
+execute if score @s krc.seq1 matches 228 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"#","color":"black"},{"text":"KAB","color":"red"},"||"]
+execute if score @s krc.seq1 matches 231 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"KABU","color":"red"},"||"]
+execute if score @s krc.seq1 matches 234 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"ABUT","color":"red"},"||"]
+execute if score @s krc.seq1 matches 235 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar [{"translate":"sound.kamenridercraft.kabuto.change_beetle","color":"red"}," - ",{"translate":"sound.kamenridercraft.general.kabuto","color":"red"}]
+execute if score @s krc.seq1 matches 275 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar [{"translate":"sound.kamenridercraft.kabuto.change_beetle","color":"red"}," - ",{"translate":"sound.kamenridercraft.general.kabuto","color":"red"}]
+execute if score @s krc.seq1 matches 293 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"2006","color":"red"},"||"]
+execute if score @s krc.seq1 matches 293 run advancement revoke @s from krc_snd:henshin/zi-o/seq_root
+execute if score @s krc.seq1 matches 293 run scoreboard players set @s krc.seq1 0

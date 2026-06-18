@@ -1,0 +1,4 @@
+execute unless items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:rider_ticket"}|minecraft:custom_data~{slot_tex1:"kamenridercraft:rider_ticket_wing"}] run playsound kamenridercraft:den-o_belt_buckle player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:rider_ticket"}] run playsound kamenridercraft:den-o_belt_appear player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:rider_ticket_wing"}] run playsound kamenridercraft:den-o_belt_buckle_wing player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+advancement revoke @s only krc_snd:henshin/common/reset

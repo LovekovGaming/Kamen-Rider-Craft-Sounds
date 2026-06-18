@@ -1,0 +1,49 @@
+{
+  "parent": "krc_snd:henshin/zi-o/seq_root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:impossible"
+	},
+	"2": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+				"type": "minecraft:player",
+				"advancements": {
+				  "krc_snd:henshin/zi-o/beyondriver_name": {
+					"1": true
+				  }
+				}
+			  },
+			  "equipment": {
+				"feet": {
+				  "items": "kamenridercraft:beyondriver"
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:inverted",
+			"term": {
+			  "condition": "minecraft:entity_scores",
+			  "entity": "this",
+			  "scores": {
+				"krc.henshin-stage": {
+				  "min": 1
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/zi-o/driver/beyondriver"
+  }
+}

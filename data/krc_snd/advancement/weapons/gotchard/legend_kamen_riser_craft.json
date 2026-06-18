@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/gotchard/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:gotchard/legend_kamen_riser"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/gotchard/legend_kamen_riser_craft"
+	}
+  }
+  

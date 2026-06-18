@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/wizard/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:wizard/dice_saber"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/wizard/dice_saber_craft"
+	}
+  }
+  

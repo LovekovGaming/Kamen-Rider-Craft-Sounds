@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/zeztz/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:zeztz/breakam_breaker_knuckle"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/zeztz/breakam_breaker_knuckle_craft"
+	}
+  }
+  

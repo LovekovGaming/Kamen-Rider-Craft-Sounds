@@ -1,0 +1,15 @@
+execute if entity @n[type=item,distance=..5,tag=pick_up] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:entity.item.pickup
+
+execute if score @s krc.seq1 matches 0..1 run advancement revoke @s only krc_snd:drop/wizard/drago_timer
+execute if score @s krc.seq1 matches 2.. unless entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] run advancement revoke @s only krc_snd:drop/wizard/drago_timer
+execute if score @s krc.seq1 matches 2.. unless items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:drago_timer run advancement revoke @s only krc_snd:drop/wizard/drago_timer
+execute if score @s krc.seq1 matches 2..21 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:drago_timer run playsound kamenridercraft:drago_timer_flame player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 2..21 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:drago_timer run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.wizard.drago_timer_flame","color":"red"}
+execute if score @s krc.seq1 matches 22..103 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:drago_timer run playsound kamenridercraft:drago_timer_water player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 22..103 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:drago_timer run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.wizard.drago_timer_water","color":"blue"}
+execute if score @s krc.seq1 matches 104..193 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:drago_timer run playsound kamenridercraft:drago_timer_hurricane player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 104..193 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:drago_timer run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.wizard.drago_timer_hurricane","color":"green"}
+execute if score @s krc.seq1 matches 194..280 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:drago_timer run playsound kamenridercraft:drago_timer_land player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 194..280 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:drago_timer run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.wizard.drago_timer_land","color":"yellow"}
+
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:drago_timer run function krc_snd:drop/common/return_item

@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/ex-aid/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:exaid/parabragun"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/ex-aid/gashacon_parabragun_craft"
+	}
+  }
+  

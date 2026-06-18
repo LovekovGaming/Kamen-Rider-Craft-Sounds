@@ -1,0 +1,156 @@
+{
+	"parent": "krc_snd:henshin/gavv/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:consume_item",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "feet": {
+				"items": "kamenridercraft:henshin_belt_gavv"
+			  }
+			}
+		  },
+		  "item": {
+			"items": "#kamenridercraft:food_for/gummy_gochizo"
+		  }
+		}
+	  },
+	  "2": {
+		"trigger": "minecraft:consume_item",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "feet": {
+				"items": "kamenridercraft:henshin_belt_gavv"
+			  }
+			}
+		  },
+		  "item": {
+			"items": "#kamenridercraft:food_for/snack_gochizo"
+		  }
+		}
+	  },
+	  "3": {
+		"trigger": "minecraft:consume_item",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "feet": {
+				"items": "kamenridercraft:henshin_belt_gavv"
+			  }
+			}
+		  },
+		  "item": {
+			"items": "#kamenridercraft:food_for/candy_gochizo"
+		  }
+		}
+	  },
+	  "4": {
+		"trigger": "minecraft:consume_item",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "feet": {
+				"items": "kamenridercraft:henshin_belt_gavv"
+			  }
+			}
+		  },
+		  "item": {
+			"items": "#kamenridercraft:food_for/chocolate_gochizo"
+		  }
+		}
+	  },
+	  "5": {
+		"trigger": "minecraft:consume_item",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "feet": {
+				"items": "kamenridercraft:henshin_belt_gavv"
+			  }
+			}
+		  },
+		  "item": {
+			"items": "#kamenridercraft:food_for/marshmallow_gochizo"
+		  }
+		}
+	  },
+	  "6": {
+		"trigger": "minecraft:consume_item",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "feet": {
+				"items": "kamenridercraft:henshin_belt_gavv"
+			  }
+			}
+		  },
+		  "item": {
+			"items": "#kamenridercraft:food_for/doughnut_gochizo"
+		  }
+		}
+	  },
+	  "7": {
+		"trigger": "minecraft:consume_item",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "feet": {
+				"items": "kamenridercraft:henshin_belt_gavv"
+			  }
+			}
+		  },
+		  "item": {
+			"items": "#kamenridercraft:food_for/tarakomentaiko_gochizo"
+		  }
+		}
+	  },
+	  "8": {
+		"trigger": "minecraft:consume_item",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "feet": {
+				"items": "kamenridercraft:henshin_belt_gavv"
+			  }
+			}
+		  },
+		  "item": {
+			"items": "#kamenridercraft:food_for/cookie_gochizo"
+		  }
+		}
+	  },
+	  "9": {
+		"trigger": "minecraft:consume_item",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "feet": {
+				"items": "kamenridercraft:henshin_belt_gavv"
+			  }
+			}
+		  },
+		  "item": {
+			"items": "#kamenridercraft:food_for/cake_gochizo"
+		  }
+		}
+	  }
+	},
+	"requirements": [
+	  [
+		"1",
+		"2",
+		"3",
+		"4",
+		"5",
+		"6",
+		"7",
+		"8",
+		"9"
+	  ]
+	],
+	"rewards": {
+	  "function": "krc_snd:henshin/gavv/gochizo_create"
+	}
+  }

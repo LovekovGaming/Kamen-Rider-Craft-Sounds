@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/wizard/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:wizard/axcalibur"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/wizard/axcalibur_craft"
+	}
+  }
+  

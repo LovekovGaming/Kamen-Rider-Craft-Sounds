@@ -1,0 +1,62 @@
+{
+  "parent": "krc_snd:weapons/wizard/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:player_hurt_entity",
+	  "conditions": {
+		"damage": {
+		  "type": {
+			"tags": [
+			  {
+				"id": "minecraft:is_projectile",
+				"expected": false
+			  }
+			]
+		  }
+		},
+		"player": {
+		  "equipment": {
+			"mainhand": {
+			  "items": [
+				"kamenridercraft:wizarswordgun"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:player_hurt_entity",
+	  "conditions": {
+		"damage": {
+		  "type": {
+			"tags": [
+			  {
+				"id": "minecraft:is_projectile",
+				"expected": false
+			  }
+			]
+		  }
+		},
+		"player": {
+		  "equipment": {
+			"mainhand": {
+			  "items": [
+				"kamenridercraft:wizarswordgun_mage"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+	[
+		"1",
+		"2"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:weapons/wizard/wizarswordgun_slash"
+  }
+}

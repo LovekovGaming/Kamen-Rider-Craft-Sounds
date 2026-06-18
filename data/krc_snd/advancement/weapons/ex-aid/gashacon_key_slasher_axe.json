@@ -1,0 +1,35 @@
+{
+  "parent": "krc_snd:weapons/ex-aid/root",
+  "criteria": {
+	"requirement": {
+	  "trigger": "minecraft:player_hurt_entity",
+	  "conditions": {
+		"damage": {
+		  "type": {
+			"tags": [
+			  {
+				"id": "minecraft:is_projectile",
+				"expected": false
+			  }
+			]
+		  }
+		},
+		"player": {
+		  "flags": {
+			"is_sneaking": true
+		  },
+		  "equipment": {
+			"mainhand": {
+			  "items": [
+				"kamenridercraft:gashacon_key_slasher"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:weapons/ex-aid/gashacon_key_slasher_axe"
+  }
+}

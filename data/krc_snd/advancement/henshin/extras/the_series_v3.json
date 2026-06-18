@@ -1,0 +1,37 @@
+{
+  "parent": "krc_snd:henshin/extras/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:the_ichigo_head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:the_ichigo_troso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:the_ichigo_legs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:the_double_typhoon"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/extras/the_series_v3"
+  }
+}

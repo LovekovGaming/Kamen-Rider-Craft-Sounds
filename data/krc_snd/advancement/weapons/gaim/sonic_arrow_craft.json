@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/gaim/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:gaim/sonic_arrow"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/gaim/sonic_arrow_craft"
+	}
+  }
+  

@@ -1,0 +1,5 @@
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents #kamenridercraft:gear/form_items/riderman run function krc_snd:drop/common/equip_armor {slot: "armor.feet", item: "kamenridercraft:riderman_belt"}
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:sinister_pachinko_ball run function krc_snd:drop/common/equip_armor {slot: "armor.feet", item: "kamenridercraft:dark_riderman_belt"}
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents #kamenridercraft:gear/form_items/riderman run function krc_snd:drop/common/return_item
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:sinister_pachinko_ball run function krc_snd:drop/common/return_item
+advancement revoke @s from krc_snd:drop/showa/root

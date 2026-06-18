@@ -1,0 +1,35 @@
+{
+	"parent": "krc_snd:weapons/gaim/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:using_item",
+		"conditions": {
+		  "item": {
+			"items": [
+			  "kamenridercraft:sonic_arrow"
+			]
+		  }
+		}
+	  },
+	  "2": {
+		"trigger": "minecraft:using_item",
+		"conditions": {
+		  "item": {
+			"items": [
+			  "kamenridercraft:saver_arrow"
+			]
+		  }
+		}
+	  }
+	},
+	"requirements": [
+	  [
+		"1",
+		"2"
+	  ]
+	],
+	"rewards": {
+	  "function": "krc_snd:weapons/gaim/sonic_arrow_charge"
+	}
+  }
+  

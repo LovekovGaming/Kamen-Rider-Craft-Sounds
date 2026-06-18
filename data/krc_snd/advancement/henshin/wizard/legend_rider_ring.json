@@ -1,0 +1,74 @@
+{
+	"parent": "krc_snd:henshin/wizard/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:summoned_entity",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "head": {
+				"items": [
+				  "kamenridercraft:wizard_head"
+				]
+			  },
+			  "chest": {
+				"items": [
+				  "kamenridercraft:wizard_troso"
+				]
+			  },
+			  "legs": {
+				"items": [
+				  "kamenridercraft:wizard_legs"
+				]
+			  },
+			  "feet": {
+				"items": "#krc_snd:wizardriver"
+			  }
+			}
+		  },
+		  "entity": {
+			"type": "kamenridercraft:rider_summon"
+		  }
+		}
+	  },
+	  "2": {
+		"trigger": "minecraft:summoned_entity",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "head": {
+				"items": [
+				  "kamenridercraft:wizard_head"
+				]
+			  },
+			  "chest": {
+				"items": [
+				  "kamenridercraft:wizard_troso"
+				]
+			  },
+			  "legs": {
+				"items": [
+				  "kamenridercraft:wizard_legs"
+				]
+			  },
+			  "feet": {
+				"items": "#krc_snd:white_wizardriver"
+			  }
+			}
+		  },
+		  "entity": {
+			"type": "kamenridercraft:rider_summon"
+		  }
+		}
+	  }
+	},
+	"requirements": [
+		[
+			"1",
+			"2"
+		]
+	],
+	"rewards": {
+	  "function": "krc_snd:henshin/wizard/legend_rider_ring"
+	}
+  }

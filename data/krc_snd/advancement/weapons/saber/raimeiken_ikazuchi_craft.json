@@ -1,0 +1,27 @@
+{
+	"parent": "krc_snd:weapons/saber/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:saber/raimeiken_ikazuchi"
+		}
+	  },
+	  "2": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:saber/gekkou_raimeiken_ikazuchi"
+		}
+	  }
+	},
+	"requirements": [
+	  [
+		"1",
+		"2"
+	  ]
+	],
+	"rewards": {
+	  "function": "krc_snd:weapons/saber/raimeiken_ikazuchi_craft"
+	}
+  }
+  

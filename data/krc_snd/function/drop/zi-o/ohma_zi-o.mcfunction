@@ -1,0 +1,5 @@
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents #kamenridercraft:gear/ridewatches run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:zi_o_head"}
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents #kamenridercraft:gear/ridewatches run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:zi_o_troso"}
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents #kamenridercraft:gear/ridewatches run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:zi_o_legs"}
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents #kamenridercraft:gear/ridewatches run function krc_snd:drop/common/return_item
+advancement revoke @s from krc_snd:drop/zi-o/root

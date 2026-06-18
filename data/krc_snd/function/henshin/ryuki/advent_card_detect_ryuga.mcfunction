@@ -1,0 +1,15 @@
+advancement revoke @s only krc_snd:henshin/ryuki/advent_card_detect_ryuga
+execute as @n[type=item,predicate=krc_snd:valid_item,distance=..2] if items entity @s contents kamenridercraft:drag_saber_ryuga unless score @s krc.seq1 matches 0.. store success score @s krc.seq1 run data get entity @s Thrower
+execute as @n[type=item,predicate=krc_snd:valid_item,distance=..2] if items entity @s contents kamenridercraft:drag_claw_ryuga unless score @s krc.seq1 matches 0.. store success score @s krc.seq1 run data get entity @s Thrower
+execute as @n[type=item,predicate=krc_snd:valid_item,distance=..2] if items entity @s contents kamenridercraft:drag_shield_ryuga unless score @s krc.seq1 matches 0.. store success score @s krc.seq1 run data get entity @s Thrower
+execute as @n[type=item,predicate=krc_snd:valid_item,distance=..2] if items entity @s contents kamenridercraft:black_drag_visor_zwei unless score @s krc.seq1 matches 0.. store success score @s krc.seq1 run data get entity @s Thrower
+execute unless score @s krc.form1n matches 3 if score @n[type=item,predicate=krc_snd:valid_item,distance=..2] krc.seq1 matches 0 if score @s krc.configs.ryuki_type matches 0 run playsound kamenridercraft:visor_close_ryuga player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 3 if score @n[type=item,predicate=krc_snd:valid_item,distance=..2] krc.seq1 matches 0 if score @s krc.configs.ryuki_type matches 0 run playsound kamenridercraft:visorzwei_close_ryuga player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @n[type=item,predicate=krc_snd:valid_item,distance=..2] krc.seq1 matches 0 if score @s krc.configs.ryuki_type matches 1 run playsound kamenridercraft:visor_close_dragon_knight player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @n[type=item,predicate=krc_snd:valid_item,distance=..2] krc.seq1 matches 0 run scoreboard players reset @s krc.henshin-stage
+execute if score @n[type=item,predicate=krc_snd:valid_item,distance=..2] krc.seq1 matches 0 run tag @s add clock_running
+execute if score @n[type=item,predicate=krc_snd:valid_item,distance=..2] krc.seq1 matches 0 run tag @s add advent
+execute if entity @s[tag=advent] if items entity @n[type=item,predicate=krc_snd:valid_item,distance=..2] contents kamenridercraft:drag_saber_ryuga run tag @s add sword_vent
+execute if entity @s[tag=advent] if items entity @n[type=item,predicate=krc_snd:valid_item,distance=..2] contents kamenridercraft:drag_claw_ryuga run tag @s add strike_vent
+execute if entity @s[tag=advent] if items entity @n[type=item,predicate=krc_snd:valid_item,distance=..2] contents kamenridercraft:drag_shield_ryuga run tag @s add guard_vent
+execute if entity @s[tag=advent] if items entity @n[type=item,predicate=krc_snd:valid_item,distance=..2] contents kamenridercraft:black_drag_visor_zwei run tag @s add shoot_vent

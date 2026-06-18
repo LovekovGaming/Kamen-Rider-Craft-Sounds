@@ -1,0 +1,23 @@
+{
+	"parent": "krc_snd:mobs/heisei/root",
+	"criteria": {
+	  "requirement": {
+		"trigger": "minecraft:player_interacted_with_entity",
+		"conditions": {
+		  "item": {
+			"items": [
+			  "kamenridercraft:rider_pass"
+			]
+		  },
+		  "entity": {
+			"type": "kamenridercraft:momotaros",
+			"nbt": "{attributes:[{id:\"minecraft:generic.max_health\",base:40.0}]}"
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:mobs/heisei/momotaros"
+	}
+  }
+  

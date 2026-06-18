@@ -1,0 +1,72 @@
+{
+  "parent": "krc_snd:henshin/showa/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:super_1head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:super_1troso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:super_1legs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:cyclode"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:super_1head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:super_1troso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:super_1legs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:robot_cyclode"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/showa/super-1"
+  }
+}

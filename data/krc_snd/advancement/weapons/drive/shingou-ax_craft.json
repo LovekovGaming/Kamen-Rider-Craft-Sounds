@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/drive/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:drive/shingouax"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/drive/shingou-ax_craft"
+	}
+  }
+  

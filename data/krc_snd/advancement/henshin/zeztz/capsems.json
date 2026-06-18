@@ -1,0 +1,139 @@
+{
+  "parent": "krc_snd:henshin/zeztz/standby_root",
+  "criteria": {
+	"full": {
+	  "trigger": "minecraft:impossible"
+	},
+	"impact": {
+	  "trigger": "minecraft:impossible"
+	},
+	"transform": {
+	  "trigger": "minecraft:impossible"
+	},
+	"wing": {
+	  "trigger": "minecraft:impossible"
+	},
+	"stream": {
+	  "trigger": "minecraft:impossible"
+	},
+	"machinery": {
+	  "trigger": "minecraft:impossible"
+	},
+	"projection": {
+	  "trigger": "minecraft:impossible"
+	},
+	"recovery": {
+	  "trigger": "minecraft:impossible"
+	},
+	"barrier": {
+	  "trigger": "minecraft:impossible"
+	},
+	"wonder": {
+	  "trigger": "minecraft:impossible"
+	},
+	"gravity": {
+	  "trigger": "minecraft:impossible"
+	},
+	"plasma": {
+	  "trigger": "minecraft:impossible"
+	},
+	"booster": {
+	  "trigger": "minecraft:impossible"
+	},
+	"catastrom": {
+	  "trigger": "minecraft:impossible"
+	},
+	"orderm": {
+	  "trigger": "minecraft:impossible"
+	},
+	"rise": {
+	  "trigger": "minecraft:impossible"
+	},
+	"special": {
+	  "trigger": "minecraft:impossible"
+	},
+	"charge": {
+	  "trigger": "minecraft:impossible"
+	},
+	"erase": {
+	  "trigger": "minecraft:impossible"
+	},
+	"extra": {
+	  "trigger": "minecraft:impossible"
+	},
+	"shock": {
+	  "trigger": "minecraft:impossible"
+	},
+	"panic": {
+	  "trigger": "minecraft:impossible"
+	},
+	"lord_booster": {
+	  "trigger": "minecraft:impossible"
+	},
+	"1": {
+	  "trigger": "minecraft:impossible"
+	},
+	"2": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+				"type": "minecraft:player",
+				"advancements": {
+				  "krc_snd:henshin/zeztz/capsems": {
+					"1": true
+				  }
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+			  "krc.henshin-stage": 2
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "full",
+	  "impact",
+	  "transform",
+	  "wing",
+	  "stream",
+	  "machinery",
+	  "projection",
+	  "recovery",
+	  "barrier",
+	  "wonder",
+	  "gravity",
+	  "plasma",
+	  "booster",
+	  "catastrom",
+	  "orderm",
+	  "rise",
+	  "special",
+	  "charge",
+	  "erase",
+	  "extra",
+	  "shock",
+	  "panic",
+	  "lord_booster"
+	],
+	[
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/zeztz/sounds/capsems"
+  }
+}

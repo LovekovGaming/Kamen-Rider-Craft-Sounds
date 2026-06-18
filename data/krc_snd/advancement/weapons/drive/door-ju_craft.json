@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/drive/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:drive/door_ju"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/drive/door-ju_craft"
+	}
+  }
+  

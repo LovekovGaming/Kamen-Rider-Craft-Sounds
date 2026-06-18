@@ -1,0 +1,9 @@
+advancement revoke @s only krc_snd:mobs/heisei/genm_zombie
+execute as @n[type=kamenridercraft:genm_mob,tag=!sounded_2,nbt={HurtTime:10s}] if items entity @s armor.feet kamenridercraft:gashacon_bugvisor_genmu run playsound kamenridercraft:dangerous_zombie_activate hostile @a[scores={krc.configs.mob_snd=1}] ~ ~1 ~
+execute as @n[type=kamenridercraft:genm_mob,tag=!sounded_2,nbt={HurtTime:10s}] if items entity @s armor.feet kamenridercraft:gashacon_bugvisor_genmu run schedule clear krc_snd:mobs/heisei/genm_seq
+execute as @n[type=kamenridercraft:genm_mob,tag=!sounded_2,nbt={HurtTime:10s}] if items entity @s armor.feet kamenridercraft:gashacon_bugvisor_genmu run scoreboard players set @s krc.seq1 0
+execute as @n[type=kamenridercraft:genm_mob,tag=!sounded_2,nbt={HurtTime:10s}] if items entity @s armor.feet kamenridercraft:gashacon_bugvisor_genmu run tag @s add sound_active
+execute as @n[type=kamenridercraft:genm_mob,tag=!sounded_2,nbt={HurtTime:10s}] if items entity @s armor.feet kamenridercraft:gashacon_bugvisor_genmu run schedule function krc_snd:mobs/heisei/genm_zombie_seq 1t replace
+execute as @n[type=kamenridercraft:genm_mob,tag=!sounded_2,nbt={HurtTime:10s}] if items entity @s armor.feet kamenridercraft:gashacon_bugvisor_genmu run tag @s remove sounded
+execute as @n[type=kamenridercraft:genm_mob,tag=!sounded_2,nbt={HurtTime:10s}] if items entity @s armor.feet kamenridercraft:gashacon_bugvisor_genmu run tag @s add sounded_2
+execute as @n[type=kamenridercraft:genm_mob,tag=sounded_2,nbt={HurtTime:10s}] if items entity @s armor.feet kamenridercraft:gashacon_bugvisor_genmu run scoreboard players reset @s krc.seq2

@@ -1,0 +1,8 @@
+{
+  "parent": "krc_snd:henshin/zi-o/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}

@@ -1,0 +1,5 @@
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:moon_rx_core run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:rxhead"}
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:moon_rx_core run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:rxtroso"}
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:moon_rx_core run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:rxlegs"}
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:moon_rx_core run function krc_snd:drop/common/return_item
+advancement revoke @s from krc_snd:drop/showa/root

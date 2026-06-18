@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/geats/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:geats/raising_sword"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/geats/raising_sword_craft"
+	}
+  }
+  

@@ -1,0 +1,36 @@
+{
+	"parent": "krc_snd:henshin/gavv/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "head": {
+				"items": [
+				  "kamenridercraft:gavv_head"
+				]
+			  },
+			  "chest": {
+				"items": [
+				  "kamenridercraft:gavv_troso"
+				]
+			  },
+			  "legs": {
+				"items": [
+				  "kamenridercraft:gavv_legs"
+				]
+			  },
+			  "feet": {
+				"items": "#krc_snd:mimicdeviser"
+			  }
+			}
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:henshin/gavv/stomach"
+	}
+  }
+  

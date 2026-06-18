@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/build/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:build/beat_crosser"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/build/beat_closer_craft"
+	}
+  }
+  

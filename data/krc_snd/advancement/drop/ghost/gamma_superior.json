@@ -1,0 +1,69 @@
+{
+  "parent": "krc_snd:drop/ghost/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:any_of",
+			"terms": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"feet": {
+					  "items": [
+						"minecraft:air"
+					  ]
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"feet": {
+					  "items": [
+						"kamenridercraft:proto_mega_ulorder_gamma_superior"
+					  ]
+					}
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"head": {
+				  "items": [
+					"kamenridercraft:ghost_head"
+				  ]
+				},
+				"chest": {
+				  "items": [
+					"kamenridercraft:ghost_troso"
+				  ]
+				},
+				"legs": {
+				  "items": [
+					"kamenridercraft:ghost_legs"
+				  ]
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:drop/ghost/gamma_superior"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "krc_snd:mobs/heisei/root",
+  "criteria": {
+	"requirement": {
+	  "trigger": "minecraft:player_hurt_entity",
+	  "conditions": {
+		"player": {
+		  "slots": {
+			"container.*": {
+			  "items": "kamenridercraft:bakusou_bike_gashat"
+			}
+		  }
+		},
+		"entity": {
+		  "type": "kamenridercraft:genm_mob"
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:mobs/heisei/genm_zombie"
+  }
+}

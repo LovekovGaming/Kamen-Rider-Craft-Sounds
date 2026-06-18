@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/gaim/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:gaim/musou_saber"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/gaim/musou_saber_craft"
+	}
+  }
+  

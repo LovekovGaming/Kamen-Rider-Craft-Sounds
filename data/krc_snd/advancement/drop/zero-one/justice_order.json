@@ -1,0 +1,56 @@
+{
+  "parent": "krc_snd:drop/zero-one/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"head": {
+				  "items": [
+					"kamenridercraft:zero_onehead"
+				  ]
+				},
+				"chest": {
+				  "items": [
+					"kamenridercraft:zero_onetroso"
+				  ]
+				},
+				"legs": {
+				  "items": [
+					"kamenridercraft:zero_onelegs"
+				  ]
+				},
+				"feet": {
+				  "items": [
+					"kamenridercraft:zein_driver"
+				  ]
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"mainhand": {
+				  "items": [
+					"minecraft:air"
+				  ]
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:drop/zero-one/justice_order"
+  }
+}

@@ -1,0 +1,33 @@
+{
+	"parent": "krc_snd:weapons/zeztz/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:player_hurt_entity",
+		"conditions": {
+		  "damage": {
+			"type": {
+			  "tags": [
+				{
+				  "id": "minecraft:is_projectile",
+				  "expected": false
+				}
+			  ]
+			}
+		  },
+		  "player": {
+			"equipment": {
+			  "mainhand": {
+				"items": [
+				  "kamenridercraft:breakam_dawn_taiken"
+				]
+			  }
+			}
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/zeztz/breakam_dawn"
+	}
+  }
+  

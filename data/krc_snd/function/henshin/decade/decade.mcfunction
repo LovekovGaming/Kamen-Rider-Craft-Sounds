@@ -1,0 +1,25 @@
+execute if entity @s[tag=sound_off] run return 0
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
+scoreboard players reset @s krc.henshin-stage
+advancement revoke @s from krc_snd:henshin/decade/standby_root
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:decadriver_standby
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:k-touch_standby
+tag @s add clock_running
+scoreboard players set @s krc.seq1 0
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:decadriver
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:decade_revert
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:decade_complete
+
+execute if score @s krc.form1n matches 0 unless score Form_Difference krc.form1n matches 1.. run playsound kamenridercraft:decadriver player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 0 if score Form_Difference krc.form1n matches 1.. run playsound kamenridercraft:decade_revert player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 0 if score Form_Difference krc.form1n matches 1.. run tag @s remove clock_running
+execute if score @s krc.form1n matches 1.. unless score @s krc.form1n matches 2..3 unless score @s krc.form1n matches 30 unless score @s krc.form1n matches 32..34 run playsound kamenridercraft:decadriver player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 2..3 run playsound kamenridercraft:decade_complete player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 30 unless score @s krc-atkride.den-o_s matches 1 run playsound kamenridercraft:decadriver player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 32 unless score @s krc-atkride.den-o_r matches 1 run playsound kamenridercraft:decadriver player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 33 unless score @s krc-atkride.den-o_a matches 1 run playsound kamenridercraft:decadriver player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 34 unless score @s krc-atkride.den-o_g matches 1 run playsound kamenridercraft:decadriver player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+
+advancement revoke @s from krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/decade/decadriver_off 1

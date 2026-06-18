@@ -1,0 +1,102 @@
+{
+  "parent": "krc_snd:henshin/showa/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:xhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:xtroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:xlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:ridol"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:xhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:xtroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:xlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:dark_ridol"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"3": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:xhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:xtroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:xlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:fake_ridol"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2",
+	  "3"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/showa/x"
+  }
+}

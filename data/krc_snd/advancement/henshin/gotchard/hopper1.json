@@ -1,0 +1,22 @@
+{
+  "parent": "krc_snd:henshin/gotchard/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:location",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"offhand": {
+			  "items": [
+				"kamenridercraft:hopper1_ride_chemy_card"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/gotchard/hopper1"
+  }
+}

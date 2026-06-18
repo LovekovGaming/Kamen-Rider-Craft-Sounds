@@ -1,0 +1,19 @@
+{
+	"parent": "krc_snd:weapons/gavv/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:using_item",
+		"conditions": {
+		  "item": {
+			"items": [
+			  "kamenridercraft:vrambreaker"
+			]
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/gavv/vrambreaker_charge"
+	}
+  }
+  

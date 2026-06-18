@@ -1,0 +1,102 @@
+{
+  "parent": "krc_snd:henshin/showa/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:v3head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:v3troso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:v3legs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:double_typhoon"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:v3head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:v3troso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:v3legs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:dark_double_typhoon"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"3": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:v3head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:v3troso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:v3legs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:fake_double_typhoon"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2",
+	  "3"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/showa/v3"
+  }
+}

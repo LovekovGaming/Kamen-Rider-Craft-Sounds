@@ -1,0 +1,33 @@
+execute if entity @n[type=item,distance=..5,tag=pick_up] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:entity.item.pickup
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents #kamenridercraft:gear/form_items/destream run tag @s add valid
+execute if predicate krc_core:reiwa/revice_armor as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:hercules_vistamp run tag @s remove valid
+execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
+
+execute if score @s krc.henshin-stage matches 1 unless predicate krc_core:reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
+execute if score @s krc.henshin-stage matches 1 if predicate krc_core:reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/revice/destream_neo_burst_standby 1
+execute if score @s krc.henshin-stage matches 1 if predicate krc_core:reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:destream_next player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 1 if predicate krc_core:reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.next","color":"aqua"}
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:hercules_vistamp run playsound kamenridercraft:hercules_vistamp player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:hercules_vistamp run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.hercules","color":"yellow"}
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:crocodile_vistamp run playsound kamenridercraft:crocodile_vistamp player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:crocodile_vistamp run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.crocodile","color":"dark_gray"}
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:komodo_dragon_vistamp run playsound kamenridercraft:komodo_dragon_vistamp player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:komodo_dragon_vistamp run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.komodo_dragon"}
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:kong_vistamp run playsound kamenridercraft:kong_vistamp player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:kong_vistamp run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.kong","color":"blue"}
+execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:vistamp_down player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 3 unless predicate krc_core:reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:destream_contract player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 3 unless predicate krc_core:reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.contract","color":"aqua"}
+execute if score @s krc.henshin-stage matches 3 unless predicate krc_core:reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/revice/destream_standby 1
+execute if score @s krc.henshin-stage matches 3 if predicate krc_core:reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:vistamp_down_destream player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/revice/root
+execute if score @s krc.henshin-stage matches 4 unless predicate krc_core:reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:revice_head"}
+execute if score @s krc.henshin-stage matches 4 unless predicate krc_core:reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:revice_troso"}
+execute if score @s krc.henshin-stage matches 4 unless predicate krc_core:reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:revice_legs"}
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:destream_standby
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:neo_burst_standby
+execute if score @s krc.henshin-stage matches 4.. run scoreboard players reset @s krc.henshin-stage
+execute as @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/return_item
+advancement revoke @s from krc_snd:drop/revice/root

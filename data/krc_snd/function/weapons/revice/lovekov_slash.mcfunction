@@ -1,0 +1,4 @@
+execute unless items entity @s armor.feet kamenridercraft:libera_driver run playsound kamenridercraft:lovekov player @a[scores={krc.configs.weapon_snd=1}] ~ ~1 ~
+execute if items entity @s armor.feet kamenridercraft:libera_driver if score @s krc.form1n matches 0 run playsound kamenridercraft:lovekov player @a[scores={krc.configs.weapon_snd=1}] ~ ~1 ~
+execute if items entity @s armor.feet kamenridercraft:libera_driver if score @s krc.form1n matches 1 run playsound kamenridercraft:lovekov_muteki player @a[scores={krc.configs.weapon_snd=1}] ~ ~1 ~
+advancement revoke @s only krc_snd:weapons/revice/lovekov_slash

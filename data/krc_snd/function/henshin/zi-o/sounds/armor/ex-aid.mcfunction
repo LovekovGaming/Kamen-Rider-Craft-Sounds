@@ -1,0 +1,23 @@
+execute if score @s krc.seq1 matches 192 run playsound kamenridercraft:ex-aidarmor player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 192 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"###","color":"black"},{"text":"E","color":"light_purple"},"||"]
+execute if score @s krc.seq1 matches 195 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"##","color":"black"},{"text":"EX","color":"light_purple"},"||"]
+execute if score @s krc.seq1 matches 198 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"#","color":"black"},{"text":"EX-","color":"light_purple"},"||"]
+execute if score @s krc.seq1 matches 201 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"EX-A","color":"light_purple"},"||"]
+execute if score @s krc.seq1 matches 204 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"X-AI","color":"light_purple"},"||"]
+execute if score @s krc.seq1 matches 207 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"-AID","color":"light_purple"},"||"]
+execute if score @s krc.seq1 matches 210 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"AID","color":"light_purple"},{"text":"#","color":"black"},"||"]
+execute if score @s krc.seq1 matches 213 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"ID","color":"light_purple"},{"text":"##","color":"black"},"||"]
+execute if score @s krc.seq1 matches 216 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"D","color":"light_purple"},{"text":"###","color":"black"},"||"]
+execute if score @s krc.seq1 matches 219 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"","color":"light_purple"},{"text":"####","color":"black"},"||"]
+execute if score @s krc.seq1 matches 222 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"###","color":"black"},{"text":"E","color":"light_purple"},"||"]
+execute if score @s krc.seq1 matches 225 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"##","color":"black"},{"text":"EX","color":"light_purple"},"||"]
+execute if score @s krc.seq1 matches 228 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"#","color":"black"},{"text":"EX-","color":"light_purple"},"||"]
+execute if score @s krc.seq1 matches 231 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"EX-A","color":"light_purple"},"||"]
+execute if score @s krc.seq1 matches 234 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"X-AI","color":"light_purple"},"||"]
+execute if score @s krc.seq1 matches 237 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"-AID","color":"light_purple"},"||"]
+execute if score @s krc.seq1 matches 240 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"AID","color":"light_purple"},{"text":"#","color":"black"},"||"]
+execute if score @s krc.seq1 matches 241 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar [{"translate":"sound.kamenridercraft.ex-aid.level_up"}," ",{"translate":"sound.kamenridercraft.general.ex-aid","color":"light_purple"}]
+execute if score @s krc.seq1 matches 281 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar [{"translate":"sound.kamenridercraft.ex-aid.level_up"}," ",{"translate":"sound.kamenridercraft.general.ex-aid","color":"light_purple"}]
+execute if score @s krc.seq1 matches 314 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"2016","color":"light_purple"},"||"]
+execute if score @s krc.seq1 matches 314 run advancement revoke @s from krc_snd:henshin/zi-o/seq_root
+execute if score @s krc.seq1 matches 314 run scoreboard players set @s krc.seq1 0

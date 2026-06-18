@@ -1,0 +1,16 @@
+{
+	"parent": "krc_snd:mobs/reiwa/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:summoned_entity",
+		"conditions": {
+		  "entity": {
+			"type": "kamenridercraft:whipped_soldier"
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:mobs/reiwa/whipped_soldier"
+	}
+  }

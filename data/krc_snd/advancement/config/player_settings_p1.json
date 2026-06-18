@@ -1,0 +1,21 @@
+{
+  "criteria": {
+	"requirement": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+			  "krc.configs.sounds": 3
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:config/menus/player_settings_p1"
+  }
+}

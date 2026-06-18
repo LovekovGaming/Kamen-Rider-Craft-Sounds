@@ -1,0 +1,48 @@
+{
+  "parent": "krc_snd:henshin/kiva/standby_root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:impossible"
+	},
+	"2": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": {
+		  "type_specific": {
+			"type": "minecraft:player",
+			"advancements": {
+			  "krc_snd:henshin/kiva/dark_kiva_standby": {
+				"1": true
+			  }
+			}
+		  },
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:kivahead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:kivatroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:kivalegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"minecraft:air"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/kiva/standby/dark_kiva"
+  }
+}

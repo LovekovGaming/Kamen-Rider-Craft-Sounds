@@ -1,0 +1,84 @@
+{
+	"parent": "krc_snd:drop/agito/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:any_of",
+			  "terms": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "mainhand": {
+						"items": [
+						  "minecraft:air"
+						]
+					  }
+					}
+				  }
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "mainhand": {
+						"items": [
+						  "kamenridercraft:midorider_card"
+						]
+					  }
+					}
+				  }
+				}
+			  ]
+			},
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"equipment": {
+				  "head": {
+					"items": [
+					  "kamenridercraft:agitohead"
+					]
+				  },
+				  "chest": {
+					"items": [
+					  "kamenridercraft:agitotroso"
+					]
+				  },
+				  "legs": {
+					"items": [
+					  "kamenridercraft:agitolegs"
+					]
+				  },
+				  "feet": {
+					"items": [
+					  "kamenridercraft:ank_point"
+					]
+				  }
+				},
+				"slots": {
+				  "container.*": {
+					"items": [
+					  "kamenridercraft:akariderhead",
+					  "kamenridercraft:akaridertroso",
+					  "kamenridercraft:akariderlegs",
+					  "kamenridercraft:typhoon_midorider"
+					]
+				  }
+				}
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:drop/agito/another_agito_midorider"
+	}
+  }

@@ -1,0 +1,19 @@
+execute if entity @n[type=item,distance=..5,tag=pick_up] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:entity.item.pickup
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:final_form_ride_chalice_choco run scoreboard players add @s krc.henshin-stage 1
+
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:final_form_ride_chalice_choco run playsound kamenridercraft:decadriver player @a[scores={krc.configs.henshin_snd=1}] ~2 ~1 ~
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:final_form_ride_chalice_choco run playsound kamenridercraft:decade_card_reveal player @a[scores={krc.configs.henshin_snd=1}] ~2 ~1 ~
+execute if score @s krc.henshin-stage matches 3 unless predicate krc_core:sneaking if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:final_form_ride_chalice_choco run playsound kamenridercraft:decade_card_flip player @a[scores={krc.configs.henshin_snd=1}] ~2 ~1 ~
+execute if score @s krc.henshin-stage matches 3 if predicate krc_core:sneaking if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:final_form_ride_chalice_choco run scoreboard players add @s krc.henshin-stage 1
+execute if score @s krc.henshin-stage matches 4 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:final_form_ride_chalice_choco run playsound kamenridercraft:decade_card_loaded player @a[scores={krc.configs.henshin_snd=1}] ~2 ~1 ~
+execute if score @s krc.henshin-stage matches 4 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:final_form_ride_chalice_choco run advancement grant @s only krc_snd:henshin/decade/decadriver_standby 1
+execute if score @s krc.henshin-stage matches 4 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:final_form_ride_chalice_choco run tag @s add final_form_ride_chalice
+
+execute if score @s krc.henshin-stage matches 5 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:final_form_ride_chalice_choco run advancement revoke @s from krc_snd:henshin/kuuga/root
+execute if score @s krc.henshin-stage matches 5 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:final_form_ride_chalice_choco run advancement revoke @s only krc_snd:henshin/decade/decadriver_standby
+execute if score @s krc.henshin-stage matches 5 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:final_form_ride_chalice_choco run tag @s remove final_form_ride_chalice
+execute if score @s krc.henshin-stage matches 5 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:final_form_ride_chalice_choco run scoreboard players set @s krc.seq1 0
+execute if score @s krc.henshin-stage matches 5 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:final_form_ride_chalice_choco run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:decadriver_standby
+execute if score @s krc.henshin-stage matches 5.. run scoreboard players reset @s krc.henshin-stage
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:final_form_ride_chalice_choco run function krc_snd:drop/common/return_item
+advancement revoke @s only krc_snd:drop/blade/chalice_choco

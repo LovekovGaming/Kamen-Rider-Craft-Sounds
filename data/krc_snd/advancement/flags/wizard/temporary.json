@@ -1,0 +1,8 @@
+{
+  "parent": "krc_snd:flags/root",
+  "criteria": {
+	"infinity_standby": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "krc_snd:henshin/zeztz/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:zeztz_head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:zeztz_troso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:zeztz_legs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:lord_invoker_six"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/zeztz/lord_six"
+  }
+}

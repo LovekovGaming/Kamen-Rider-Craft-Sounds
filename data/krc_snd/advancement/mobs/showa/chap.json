@@ -1,0 +1,30 @@
+{
+  "parent": "krc_snd:mobs/showa/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:player_hurt_entity",
+	  "conditions": {
+		"entity": {
+		  "type": "kamenridercraft:chap"
+		}
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:player_hurt_entity",
+	  "conditions": {
+		"entity": {
+		  "type": "kamenridercraft:chap_grey"
+		}
+	  }
+	}
+  },
+  "requirements": [
+	[
+		"1",
+		"2"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:mobs/showa/chap"
+  }
+}

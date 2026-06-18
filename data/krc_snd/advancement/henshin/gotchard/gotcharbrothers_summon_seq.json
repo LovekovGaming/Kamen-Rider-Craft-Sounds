@@ -1,0 +1,176 @@
+{
+  "parent": "krc_snd:henshin/gotchard/standby_root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ggggotchanko": {
+	  "trigger": "minecraft:impossible"
+	},
+	"here_we_gon": {
+	  "trigger": "minecraft:impossible"
+	},
+    "steamhopper": {
+	  "trigger": "minecraft:impossible"
+	},
+    "appareskebow": {
+	  "trigger": "minecraft:impossible"
+	},
+    "venommariner": {
+	  "trigger": "minecraft:impossible"
+	},
+    "antwrestler": {
+	  "trigger": "minecraft:impossible"
+	},
+    "burninggorilla": {
+	  "trigger": "minecraft:impossible"
+	},
+    "needlehawk": {
+	  "trigger": "minecraft:impossible"
+	},
+    "dokkirishovel": {
+	  "trigger": "minecraft:impossible"
+	},
+    "goldmechanichor": {
+	  "trigger": "minecraft:impossible"
+	},
+    "hiikesurose": {
+	  "trigger": "minecraft:impossible"
+	},
+    "lightningjungle": {
+	  "trigger": "minecraft:impossible"
+	},
+    "smahotaru": {
+	  "trigger": "minecraft:impossible"
+	},
+    "bulletchoucho": {
+	  "trigger": "minecraft:impossible"
+	},
+    "odorimantis": {
+	  "trigger": "minecraft:impossible"
+	},
+    "madpirates": {
+	  "trigger": "minecraft:impossible"
+	},
+    "energymaru": {
+	  "trigger": "minecraft:impossible"
+	},
+    "spiclewhale": {
+	  "trigger": "minecraft:impossible"
+	},
+    "batkingrobo": {
+	  "trigger": "minecraft:impossible"
+	},
+    "stagmirror": {
+	  "trigger": "minecraft:impossible"
+	},
+    "greatsasorry": {
+	  "trigger": "minecraft:impossible"
+	},
+    "bunnyparka": {
+	  "trigger": "minecraft:impossible"
+	},
+    "doctorhebi": {
+	  "trigger": "minecraft:impossible"
+	},
+    "bakuontelevi": {
+	  "trigger": "minecraft:impossible"
+	},
+    "onicopter": {
+	  "trigger": "minecraft:impossible"
+	},
+    "mooncerberus": {
+	  "trigger": "minecraft:impossible"
+	},
+    "marsphoenix": {
+	  "trigger": "minecraft:impossible"
+	},
+    "sununicorn": {
+	  "trigger": "minecraft:impossible"
+	},
+    "exceed_mighty": {
+	  "trigger": "minecraft:impossible"
+	},
+    "cyclone_tatoba": {
+	  "trigger": "minecraft:impossible"
+	},
+    "fullfull_rocket": {
+	  "trigger": "minecraft:impossible"
+	},
+    "cross_ufo_x": {
+	  "trigger": "minecraft:impossible"
+	},
+    "cross_x_rex": {
+	  "trigger": "minecraft:impossible"
+	},
+    "platina": {
+	  "trigger": "minecraft:impossible"
+	},
+	"2": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+				"type": "minecraft:player",
+				"advancements": {
+				  "krc_snd:henshin/gotchard/gotcharbrothers_summon_seq": {
+					"1": true
+				  }
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "ggggotchanko",
+	  "here_we_gon",
+	  "steamhopper",
+	  "appareskebow",
+	  "venommariner",
+	  "antwrestler",
+	  "burninggorilla",
+	  "needlehawk",
+	  "dokkirishovel",
+	  "goldmechanichor",
+	  "hiikesurose",
+	  "lightningjungle",
+	  "smahotaru",
+	  "bulletchoucho",
+	  "odorimantis",
+	  "madpirates",
+	  "energymaru",
+	  "spiclewhale",
+	  "batkingrobo",
+	  "stagmirror",
+	  "greatsasorry",
+	  "bunnyparka",
+	  "doctorhebi",
+	  "bakuontelevi",
+	  "onicopter",
+	  "mooncerberus",
+	  "marsphoenix",
+	  "sununicorn",
+	  "exceed_mighty",
+	  "cyclone_tatoba",
+	  "fullfull_rocket",
+	  "cross_ufo_x",
+	  "cross_x_rex",
+	  "platina"
+	],
+	[
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/gotchard/sounds/gotcharbrothers_summon"
+  }
+}

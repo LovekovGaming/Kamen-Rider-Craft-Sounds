@@ -1,0 +1,130 @@
+{
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+		    "condition": "minecraft:any_of",
+		    "terms": [
+		  	  {
+		  	  "condition": "minecraft:entity_properties",
+		  	  "entity": "this",
+		  	  "predicate": {
+		  	  	  "type_specific": {
+		  	  		"type": "minecraft:player",
+		  	  		"gamemode": [
+		  	  		  "creative"
+		  	  		]
+		  	  	  }
+		  	    }
+		  	  },
+		  	  {
+		  	    "condition": "minecraft:entity_properties",
+		  	    "entity": "this",
+		  	    "predicate": {
+		  	  	  "slots": {
+		  	  	    "container.*": {
+		  	  		  "items": "#kamenridercraft:belts/hibiki_armor"
+		  	  	    }
+		  	  	  }
+		  	    }
+		  	  }
+		    ]
+		  },
+		  {
+			"condition": "minecraft:any_of",
+			"terms": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": [
+						"minecraft:air"
+					  ]
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": "#kamenridercraft:gear/henshin_onsa"
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": "#kamenridercraft:gear/henshin_onibue"
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": "#kamenridercraft:gear/henshin_kigen"
+					}
+				  }
+				}
+			  }
+			]
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"head": {
+				  "items": [
+					"kamenridercraft:hibikihead"
+				  ]
+				},
+				"chest": {
+				  "items": [
+					"kamenridercraft:hibikitroso"
+				  ]
+				},
+				"legs": {
+				  "items": [
+					"kamenridercraft:hibikilegs"
+				  ]
+				}
+              }
+			}
+		  },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+			    "equipment": {
+			      "feet": {
+			        "items": "#kamenridercraft:belts/hibiki_armor"
+			      }
+			    }
+			  }
+            }
+          }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:drop/hibiki/oni"
+  }
+}

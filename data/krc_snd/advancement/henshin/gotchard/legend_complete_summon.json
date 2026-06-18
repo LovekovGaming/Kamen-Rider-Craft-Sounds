@@ -1,0 +1,40 @@
+{
+	"parent": "krc_snd:henshin/gotchard/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:summoned_entity",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "head": {
+				"items": [
+				  "kamenridercraft:gotchard_head"
+				]
+			  },
+			  "chest": {
+				"items": [
+				  "kamenridercraft:gotchard_torso"
+				]
+			  },
+			  "legs": {
+				"items": [
+				  "kamenridercraft:gotchard_legs"
+				]
+			  },
+			  "feet": {
+				"items": [
+					"kamenridercraft:legendriver"
+				  ]
+			  }
+			}
+		  },
+		  "entity": {
+			"type": "kamenridercraft:complete_summon"
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:henshin/gotchard/legend_complete_summon"
+	}
+  }

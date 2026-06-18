@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/zero-one/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:zero_one/shot_riser_gun"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/zero-one/shotriser_craft"
+	}
+  }
+  

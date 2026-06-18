@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/saber/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:saber/ankokuken_kurayami"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/saber/ankokuken_kurayami_craft"
+	}
+  }
+  

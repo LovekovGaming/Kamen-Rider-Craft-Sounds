@@ -1,0 +1,192 @@
+{
+  "parent": "krc_snd:henshin/hibiki/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"head": {
+				  "items": [
+					"kamenridercraft:hibikihead"
+				  ]
+				},
+				"chest": {
+				  "items": [
+					"kamenridercraft:hibikitroso"
+				  ]
+				},
+				"legs": {
+				  "items": [
+					"kamenridercraft:hibikilegs"
+				  ]
+				},
+				"feet": {
+				  "items": [
+					"kamenridercraft:ibukidriver"
+				  ]
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"head": {
+				  "items": [
+					"kamenridercraft:hibikihead"
+				  ]
+				},
+				"chest": {
+				  "items": [
+					"kamenridercraft:hibikitroso"
+				  ]
+				},
+				"legs": {
+				  "items": [
+					"kamenridercraft:hibikilegs"
+				  ]
+				},
+				"feet": {
+				  "items": [
+					"kamenridercraft:tokidriver"
+				  ]
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	},
+	"3": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"head": {
+				  "items": [
+					"kamenridercraft:hibikihead"
+				  ]
+				},
+				"chest": {
+				  "items": [
+					"kamenridercraft:hibikitroso"
+				  ]
+				},
+				"legs": {
+				  "items": [
+					"kamenridercraft:hibikilegs"
+				  ]
+				},
+				"feet": {
+				  "items": [
+					"kamenridercraft:shoukidriver"
+				  ]
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	},
+	"4": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"head": {
+				  "items": [
+					"kamenridercraft:hibikihead"
+				  ]
+				},
+				"chest": {
+				  "items": [
+					"kamenridercraft:hibikitroso"
+				  ]
+				},
+				"legs": {
+				  "items": [
+					"kamenridercraft:hibikilegs"
+				  ]
+				},
+				"feet": {
+				  "items": [
+					"kamenridercraft:amakidriver"
+				  ]
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	},
+	"5": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"head": {
+				  "items": [
+					"kamenridercraft:hibikihead"
+				  ]
+				},
+				"chest": {
+				  "items": [
+					"kamenridercraft:hibikitroso"
+				  ]
+				},
+				"legs": {
+				  "items": [
+					"kamenridercraft:hibikilegs"
+				  ]
+				},
+				"feet": {
+				  "items": [
+					"kamenridercraft:fubukidriver"
+				  ]
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2",
+	  "3",
+	  "4",
+	  "5"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/hibiki/henshin_onibue"
+  }
+}

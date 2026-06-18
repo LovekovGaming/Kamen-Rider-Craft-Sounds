@@ -1,0 +1,22 @@
+{
+  "parent": "krc_snd:henshin/common/detransform_root",
+  "criteria": {
+	"requirement": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"feet": {
+			  "items": [
+				"minecraft:air"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/reset"
+  }
+}

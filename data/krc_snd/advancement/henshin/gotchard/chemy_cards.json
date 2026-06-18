@@ -1,0 +1,465 @@
+{
+  "parent": "krc_snd:henshin/gotchard/standby_root",
+  "criteria": {
+	"hopper1": {
+	  "trigger": "minecraft:impossible"
+	},
+	"pikahotaru": {
+	  "trigger": "minecraft:impossible"
+	},
+	"gengenchoucho": {
+	  "trigger": "minecraft:impossible"
+	},
+	"bakuonzemi": {
+	  "trigger": "minecraft:impossible"
+	},
+	"antrooper": {
+	  "trigger": "minecraft:impossible"
+	},
+	"greatonbo": {
+	  "trigger": "minecraft:impossible"
+	},
+	"stagvine": {
+	  "trigger": "minecraft:impossible"
+	},
+	"kaiserbee": {
+	  "trigger": "minecraft:impossible"
+	},
+	"kamantis": {
+	  "trigger": "minecraft:impossible"
+	},
+	"odorippa": {
+	  "trigger": "minecraft:impossible"
+	},
+	"dokkirimajin": {
+	  "trigger": "minecraft:impossible"
+	},
+	"doctorkozo": {
+	  "trigger": "minecraft:impossible"
+	},
+	"pilets": {
+	  "trigger": "minecraft:impossible"
+	},
+	"wrestler_g": {
+	  "trigger": "minecraft:impossible"
+	},
+	"sasukemaru": {
+	  "trigger": "minecraft:impossible"
+	},
+	"bulletbaang": {
+	  "trigger": "minecraft:impossible"
+	},
+	"apparebushido": {
+	  "trigger": "minecraft:impossible"
+	},
+	"karyudos": {
+	  "trigger": "minecraft:impossible"
+	},
+	"spicle": {
+	  "trigger": "minecraft:impossible"
+	},
+	"skebows": {
+	  "trigger": "minecraft:impossible"
+	},
+	"hiikescue": {
+	  "trigger": "minecraft:impossible"
+	},
+	"gekiocopter": {
+	  "trigger": "minecraft:impossible"
+	},
+	"deepmariner": {
+	  "trigger": "minecraft:impossible"
+	},
+	"madwheel": {
+	  "trigger": "minecraft:impossible"
+	},
+	"golddash": {
+	  "trigger": "minecraft:impossible"
+	},
+	"gutsshovel": {
+	  "trigger": "minecraft:impossible"
+	},
+	"steamliner": {
+	  "trigger": "minecraft:impossible"
+	},
+	"yamibat": {
+	  "trigger": "minecraft:impossible"
+	},
+	"catchula": {
+	  "trigger": "minecraft:impossible"
+	},
+	"mechanichani": {
+	  "trigger": "minecraft:impossible"
+	},
+	"bussasorry": {
+	  "trigger": "minecraft:impossible"
+	},
+	"bountybunny": {
+	  "trigger": "minecraft:impossible"
+	},
+	"hawkstar": {
+	  "trigger": "minecraft:impossible"
+	},
+	"tsupparihebi": {
+	  "trigger": "minecraft:impossible"
+	},
+	"gorillasensei": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ganvhale": {
+	  "trigger": "minecraft:impossible"
+	},
+	"raidenji": {
+	  "trigger": "minecraft:impossible"
+	},
+	"kesuzo": {
+	  "trigger": "minecraft:impossible"
+	},
+	"mitemirror": {
+	  "trigger": "minecraft:impossible"
+	},
+	"energyl": {
+	  "trigger": "minecraft:impossible"
+	},
+	"panpakaparka": {
+	  "trigger": "minecraft:impossible"
+	},
+	"televi": {
+	  "trigger": "minecraft:impossible"
+	},
+	"timelord": {
+	  "trigger": "minecraft:impossible"
+	},
+	"smaphone": {
+	  "trigger": "minecraft:impossible"
+	},
+	"renkingrobo": {
+	  "trigger": "minecraft:impossible"
+	},
+	"happyclover": {
+	  "trigger": "minecraft:impossible"
+	},
+	"burningnero": {
+	  "trigger": "minecraft:impossible"
+	},
+	"bambamboo": {
+	  "trigger": "minecraft:impossible"
+	},
+	"saboneedle": {
+	  "trigger": "minecraft:impossible"
+	},
+	"venomdake": {
+	  "trigger": "minecraft:impossible"
+	},
+	"utsubocchama": {
+	  "trigger": "minecraft:impossible"
+	},
+	"flayrose": {
+	  "trigger": "minecraft:impossible"
+	},
+	"buglesia": {
+	  "trigger": "minecraft:impossible"
+	},
+	"junglejan": {
+	  "trigger": "minecraft:impossible"
+	},
+	"carery": {
+	  "trigger": "minecraft:impossible"
+	},
+	"berosol": {
+	  "trigger": "minecraft:impossible"
+	},
+	"sayzombie": {
+	  "trigger": "minecraft:impossible"
+	},
+	"angelead": {
+	  "trigger": "minecraft:impossible"
+	},
+	"zukyumpire": {
+	  "trigger": "minecraft:impossible"
+	},
+	"daiohni": {
+	  "trigger": "minecraft:impossible"
+	},
+	"mackraken": {
+	  "trigger": "minecraft:impossible"
+	},
+	"jyamatanoorochi": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ninetail": {
+	  "trigger": "minecraft:impossible"
+	},
+	"nammonite": {
+	  "trigger": "minecraft:impossible"
+	},
+	"akumanocaris": {
+	  "trigger": "minecraft:impossible"
+	},
+	"pakuraptor": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ojilacanth": {
+	  "trigger": "minecraft:impossible"
+	},
+	"sabeliger": {
+	  "trigger": "minecraft:impossible"
+	},
+	"warptera": {
+	  "trigger": "minecraft:impossible"
+	},
+	"gigalodon": {
+	  "trigger": "minecraft:impossible"
+	},
+	"tricera": {
+	  "trigger": "minecraft:impossible"
+	},
+	"blizzammoth": {
+	  "trigger": "minecraft:impossible"
+	},
+	"mercurin": {
+	  "trigger": "minecraft:impossible"
+	},
+	"kinkiravina": {
+	  "trigger": "minecraft:impossible"
+	},
+	"gokigenmeteon": {
+	  "trigger": "minecraft:impossible"
+	},
+	"neminemoon": {
+	  "trigger": "minecraft:impossible"
+	},
+	"firemars": {
+	  "trigger": "minecraft:impossible"
+	},
+	"grandsaturn": {
+	  "trigger": "minecraft:impossible"
+	},
+	"the_sun": {
+	  "trigger": "minecraft:impossible"
+	},
+	"jupitta": {
+	  "trigger": "minecraft:impossible"
+	},
+	"kuroana": {
+	  "trigger": "minecraft:impossible"
+	},
+	"gaiard": {
+	  "trigger": "minecraft:impossible"
+	},
+	"gigabaham": {
+	  "trigger": "minecraft:impossible"
+	},
+	"macentaurus": {
+	  "trigger": "minecraft:impossible"
+	},
+	"unicon": {
+	  "trigger": "minecraft:impossible"
+	},
+	"vanfenrir": {
+	  "trigger": "minecraft:impossible"
+	},
+	"inphoenix": {
+	  "trigger": "minecraft:impossible"
+	},
+	"yoacerberus": {
+	  "trigger": "minecraft:impossible"
+	},
+	"haodin": {
+	  "trigger": "minecraft:impossible"
+	},
+	"gingriffon": {
+	  "trigger": "minecraft:impossible"
+	},
+	"donposeidon": {
+	  "trigger": "minecraft:impossible"
+	},
+	"dragonalos": {
+	  "trigger": "minecraft:impossible"
+	},
+	"extra": {
+	  "trigger": "minecraft:impossible"
+	},
+	"hopper101": {
+	  "trigger": "minecraft:impossible"
+	},
+	"gigantliner": {
+	  "trigger": "minecraft:impossible"
+	},
+	"legend": {
+	  "trigger": "minecraft:impossible"
+	},
+	"kuuga": {
+	  "trigger": "minecraft:impossible"
+	},
+	"faiz": {
+	  "trigger": "minecraft:impossible"
+	},
+	"double": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ooo": {
+	  "trigger": "minecraft:impossible"
+	},
+	"fourze": {
+	  "trigger": "minecraft:impossible"
+	},
+	"build": {
+	  "trigger": "minecraft:impossible"
+	},
+	"1": {
+	  "trigger": "minecraft:impossible"
+	},
+	"2": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+				"type": "minecraft:player",
+				"advancements": {
+				  "krc_snd:henshin/gotchard/chemy_cards": {
+					"1": true
+				  }
+				}
+			  },
+			  "equipment": {
+				"feet": {
+				  "items": [
+					"kamenridercraft:gotchardriver"
+				  ]
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+			  "krc.henshin-stage": {
+				"min": 3,
+				"max": 4
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "hopper1",
+	  "pikahotaru",
+	  "gengenchoucho",
+	  "bakuonzemi",
+	  "antrooper",
+	  "greatonbo",
+	  "stagvine",
+	  "kaiserbee",
+	  "kamantis",
+	  "odorippa",
+	  "dokkirimajin",
+	  "doctorkozo",
+	  "pilets",
+	  "wrestler_g",
+	  "sasukemaru",
+	  "bulletbaang",
+	  "apparebushido",
+	  "karyudos",
+	  "spicle",
+	  "skebows",
+	  "hiikescue",
+	  "gekiocopter",
+	  "deepmariner",
+	  "madwheel",
+	  "golddash",
+	  "gutsshovel",
+	  "steamliner",
+	  "yamibat",
+	  "catchula",
+	  "mechanichani",
+	  "bussasorry",
+	  "bountybunny",
+	  "hawkstar",
+	  "tsupparihebi",
+	  "gorillasensei",
+	  "ganvhale",
+	  "raidenji",
+	  "kesuzo",
+	  "mitemirror",
+	  "energyl",
+	  "panpakaparka",
+	  "televi",
+	  "timelord",
+	  "smaphone",
+	  "renkingrobo",
+	  "happyclover",
+	  "burningnero",
+	  "bambamboo",
+	  "saboneedle",
+	  "venomdake",
+	  "utsubocchama",
+	  "flayrose",
+	  "buglesia",
+	  "junglejan",
+	  "carery",
+	  "berosol",
+	  "sayzombie",
+	  "angelead",
+	  "zukyumpire",
+	  "daiohni",
+	  "mackraken",
+	  "jyamatanoorochi",
+	  "ninetail",
+	  "nammonite",
+	  "akumanocaris",
+	  "pakuraptor",
+	  "ojilacanth",
+	  "sabeliger",
+	  "warptera",
+	  "gigalodon",
+	  "tricera",
+	  "blizzammoth",
+	  "mercurin",
+	  "kinkiravina",
+	  "gokigenmeteon",
+	  "neminemoon",
+	  "firemars",
+	  "grandsaturn",
+	  "the_sun",
+	  "jupitta",
+	  "kuroana",
+	  "gaiard",
+	  "gigabaham",
+	  "macentaurus",
+	  "unicon",
+	  "vanfenrir",
+	  "inphoenix",
+	  "yoacerberus",
+	  "haodin",
+	  "gingriffon",
+	  "donposeidon",
+	  "dragonalos",
+	  "extra",
+	  "hopper101",
+	  "gigantliner",
+	  "legend",
+	  "kuuga",
+	  "faiz",
+	  "double",
+	  "ooo",
+	  "fourze",
+	  "build"
+	],
+	[
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/gotchard/sounds/chemy_cards"
+  }
+}

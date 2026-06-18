@@ -1,0 +1,114 @@
+{
+  "parent": "krc_snd:drop/saber/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+			{
+			  "condition": "minecraft:any_of",
+			  "terms": [
+				{
+				  "condition": "minecraft:all_of",
+				  "terms": [
+				    {
+				      "condition": "minecraft:inverted",
+				      "term": {
+				        "condition": "minecraft:entity_properties",
+				        "entity": "this",
+				        "predicate": {
+				      	  "equipment": {
+				      	    "feet": {
+				      	  	  "items": "#kamenridercraft:belts/saber_armor"
+				      	    }
+				      	  }
+				        }
+				      }
+				    },
+					{
+					  "condition": "minecraft:entity_properties",
+					  "entity": "this",
+					  "predicate": {
+						"slots": {
+						  "container.*": {
+							"items": "kamenridercraft:sword_of_logos_buckle_buster"
+						  }
+						}
+					  }
+					}
+				  ]
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "feet": {
+						"items": [
+						  "kamenridercraft:sword_of_logos_buckle_buster"
+						]
+					  }
+					}
+				  }
+				}
+			  ]
+			},
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "kamenridercraft:saberhead"
+                  ]
+                },
+                "chest": {
+                  "items": [
+                    "kamenridercraft:sabertroso"
+                  ]
+                },
+                "legs": {
+                  "items": [
+                    "kamenridercraft:saberlegs"
+                  ]
+                }
+              }
+            }
+          },
+          {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+			  "slots": {
+			    "container.*": {
+			      "items": "kamenridercraft:sword_of_logos_buckle_kenzan"
+			    }
+			  }
+            }
+          }
+          },
+          {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+			  "slots": {
+			    "container.*": {
+			  	  "items": "kamenridercraft:sword_of_logos_buckle_slash"
+			    }
+			  }
+            }
+          }
+          }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:drop/saber/buster"
+  }
+}

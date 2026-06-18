@@ -1,0 +1,130 @@
+{
+  "parent": "krc_snd:henshin/gotchard/standby_root",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    },
+    "2": {
+      "trigger": "minecraft:impossible"
+    },
+    "shining": {
+      "trigger": "minecraft:impossible"
+    },
+    "3": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                      "krc_snd:henshin/gotchard/gotchard_standby": {
+                        "1": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                      "krc_snd:henshin/gotchard/gotchard_standby": {
+                        "2": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "items": "kamenridercraft:gotchardriver"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "4": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                      "krc_snd:henshin/gotchard/gotchard_standby": {
+                        "1": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                      "krc_snd:henshin/gotchard/gotchard_standby": {
+                        "2": true
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "items": "kamenridercraft:gotchardriver_daybreak"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "1",
+      "2",
+      "shining"
+    ],
+    [
+      "3",
+      "4"
+    ]
+  ],
+  "rewards": {
+    "function": "krc_snd:henshin/gotchard/standby/gotchard"
+  }
+}

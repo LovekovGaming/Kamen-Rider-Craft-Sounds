@@ -1,0 +1,11 @@
+{
+  "parent": "krc_snd:flags/root",
+  "criteria": {
+	"hazard_trigger": {
+	  "trigger": "minecraft:impossible"
+	},
+	"tanktank": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}

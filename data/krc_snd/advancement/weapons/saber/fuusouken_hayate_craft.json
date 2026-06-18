@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/saber/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:saber/fuusouken_hayate_ittouryu"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/saber/fuusouken_hayate_craft"
+	}
+  }
+  

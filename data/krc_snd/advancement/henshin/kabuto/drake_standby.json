@@ -1,0 +1,43 @@
+{
+  "parent": "krc_snd:henshin/kabuto/standby_root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:impossible"
+	},
+	"2": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:reference",
+			"name": "krc_core:heisei/kabuto_armor"
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+				"type": "minecraft:player",
+				"advancements": {
+				  "krc_snd:henshin/kabuto/drake_standby": {
+					"1": true
+				  }
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+			  "krc.henshin-stage": 1
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/kabuto/standby/drake_henshin"
+  }
+}

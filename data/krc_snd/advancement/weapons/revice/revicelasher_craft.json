@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/revice/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:revice/revice_lasher"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/revice/revicelasher_craft"
+	}
+  }
+  

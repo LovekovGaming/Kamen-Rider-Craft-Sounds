@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/zi-o/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:zi-o/zikan_despear_kama"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/zi-o/zikan_despear_kama_craft"
+	}
+  }
+  

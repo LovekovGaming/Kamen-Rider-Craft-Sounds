@@ -1,0 +1,252 @@
+{
+  "parent": "krc_snd:henshin/ryuki/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:ryukihead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:ryukitroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:ryukilegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:v_buckle_scissors"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:ryukihead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:ryukitroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:ryukilegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:v_buckle_gai"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"3": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:ryukihead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:ryukitroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:ryukilegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:v_buckle_tiger"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"4": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:ryukihead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:ryukitroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:ryukilegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:v_buckle_imperer"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"5": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:ryukihead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:ryukitroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:ryukilegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:v_buckle_femme"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"6": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:ryukihead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:ryukitroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:ryukilegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:v_buckle_verde"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"7": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:ryukihead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:ryukitroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:ryukilegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:v_buckle_abyss"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"8": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:ryukihead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:ryukitroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:ryukilegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:v_buckle_blade"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2",
+	  "3",
+	  "4",
+	  "5",
+	  "6",
+	  "7",
+	  "8"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/ryuki/v_buckle"
+  }
+}

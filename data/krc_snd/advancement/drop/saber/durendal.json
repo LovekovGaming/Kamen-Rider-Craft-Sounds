@@ -1,0 +1,81 @@
+{
+	"parent": "krc_snd:drop/saber/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:any_of",
+			  "terms": [
+				{
+			      "condition": "minecraft:entity_properties",
+			      "entity": "this",
+			      "predicate": {
+					"type_specific": {
+					  "type": "minecraft:player",
+					  "gamemode": [
+						"creative"
+					  ]
+					}
+			      }
+			    },
+				{
+			      "condition": "minecraft:entity_properties",
+			      "entity": "this",
+			      "predicate": {
+			        "slots": {
+			          "container.*": {
+			        	"items": "kamenridercraft:royal_sword_of_logos_buckle_durendal"
+			          }
+			        }
+			      }
+			    }
+			  ]
+			},
+			{
+			  "condition": "minecraft:inverted",
+			  "term": {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"feet": {
+					  "items": "#kamenridercraft:belts/saber_armor"
+					}
+				  }
+				}
+			  }
+			},
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"equipment": {
+				  "head": {
+					"items": [
+					  "kamenridercraft:saberhead"
+					]
+				  },
+				  "chest": {
+					"items": [
+					  "kamenridercraft:sabertroso"
+					]
+				  },
+				  "legs": {
+					"items": [
+					  "kamenridercraft:saberlegs"
+					]
+				  }
+				}
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:drop/saber/durendal"
+	}
+  }
+  

@@ -1,0 +1,49 @@
+{
+	"parent": "krc_snd:henshin/zero-one/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:tick",
+		"conditions": {
+		  "player": {
+			"slots": {
+      "container.*": {
+        "items": [
+			"kamenridercraft:ark_one_progrisekey",
+			"kamenridercraft:humagear_progrisekey"
+				]
+	  }
+	},
+			"equipment": {
+			  "head": {
+				"items": [
+				  "kamenridercraft:zero_onehead"
+				]
+			  },
+			  "chest": {
+				"items": [
+				  "kamenridercraft:zero_onetroso"
+				]
+			  },
+			  "legs": {
+				"items": [
+				  "kamenridercraft:zero_onelegs"
+				]
+			  },
+			  "feet": {
+				"items": [
+				  "kamenridercraft:zaia_thousandriver"
+				]
+			  }
+			},
+			"effects": {
+			  "kamenridercraft:bug": {}
+			}
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:henshin/zero-one/president_dan_kuroto"
+	}
+  }
+  

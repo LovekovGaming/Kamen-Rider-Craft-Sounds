@@ -1,0 +1,8 @@
+{
+  "parent": "krc_snd:henshin/ex-aid/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}

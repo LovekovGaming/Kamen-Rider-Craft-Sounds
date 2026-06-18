@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/ex-aid/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:exaid/gashacon_magnum_gun"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/ex-aid/gashacon_magnum_craft"
+	}
+  }
+  

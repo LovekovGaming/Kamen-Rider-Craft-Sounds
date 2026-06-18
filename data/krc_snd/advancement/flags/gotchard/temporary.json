@@ -1,0 +1,11 @@
+{
+  "parent": "krc_snd:flags/root",
+  "criteria": {
+	"gotcharigniter_active": {
+	  "trigger": "minecraft:impossible"
+	},
+	"rainbow_breath": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}

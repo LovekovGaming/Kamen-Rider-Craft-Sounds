@@ -1,0 +1,33 @@
+{
+	"parent": "krc_snd:weapons/gavv/root",
+	"criteria": {
+	  "requirement": {
+		"trigger": "minecraft:player_hurt_entity",
+		"conditions": {
+		  "damage": {
+			"type": {
+			  "tags": [
+				{
+				  "id": "minecraft:is_projectile",
+				  "expected": false
+				}
+			  ]
+			}
+		  },
+		  "player": {
+			"equipment": {
+			  "mainhand": {
+				"items": [
+				  "kamenridercraft:zakuzakuchipslasher"
+				]
+			  }
+			}
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/gavv/zakuzakuchipslasher"
+	}
+  }
+  

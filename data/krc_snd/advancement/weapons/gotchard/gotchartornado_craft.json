@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/gotchard/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:gotchard/gotchar_tornado"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/gotchard/gotchartornado_craft"
+	}
+  }
+  

@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/ghost/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:ghost/gan_gun_saber_blade"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/ghost/gan_gun_saber_craft"
+	}
+  }
+  

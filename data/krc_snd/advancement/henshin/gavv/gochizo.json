@@ -1,0 +1,110 @@
+{
+  "parent": "krc_snd:henshin/gavv/standby_root",
+  "criteria": {
+	"gummy": {
+	  "trigger": "minecraft:impossible"
+	},
+	"snack": {
+	  "trigger": "minecraft:impossible"
+	},
+	"marshmallow": {
+	  "trigger": "minecraft:impossible"
+	},
+	"candy": {
+	  "trigger": "minecraft:impossible"
+	},
+	"choco": {
+	  "trigger": "minecraft:impossible"
+	},
+	"cake": {
+	  "trigger": "minecraft:impossible"
+	},
+	"caking": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ice": {
+	  "trigger": "minecraft:impossible"
+	},
+	"over": {
+	  "trigger": "minecraft:impossible"
+	},
+	"master": {
+	  "trigger": "minecraft:impossible"
+	},
+	"sweets": {
+	  "trigger": "minecraft:impossible"
+	},
+	"scone": {
+	  "trigger": "minecraft:impossible"
+	},
+	"special": {
+	  "trigger": "minecraft:impossible"
+	},
+	"hero": {
+	  "trigger": "minecraft:impossible"
+	},
+	"1": {
+	  "trigger": "minecraft:impossible"
+	},
+	"2": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+				"type": "minecraft:player",
+				"advancements": {
+				  "krc_snd:henshin/gavv/gochizo": {
+					"1": true
+				  }
+				}
+			  },
+			  "equipment": {
+				"feet": {
+				  "items": [
+					"kamenridercraft:henshin_belt_gavv"
+				  ]
+				}
+			  }
+			}
+		  },
+		  {
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+			  "krc.henshin-stage": 2
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "gummy",
+	  "snack",
+	  "marshmallow",
+	  "candy",
+	  "choco",
+	  "cake",
+	  "caking",
+	  "ice",
+	  "over",
+	  "master",
+	  "sweets",
+	  "scone",
+	  "special",
+	  "hero"
+	],
+	[
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/gavv/sounds/gochizo"
+  }
+}

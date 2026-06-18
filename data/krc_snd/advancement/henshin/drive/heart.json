@@ -1,0 +1,37 @@
+{
+  "parent": "krc_snd:henshin/drive/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:drive_head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:drive_troso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:drive_legs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:drivedriver_heart"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/drive/heart"
+  }
+}

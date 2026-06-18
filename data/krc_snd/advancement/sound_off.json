@@ -1,0 +1,15 @@
+{
+  "criteria": {
+	"requirement": {
+	  "trigger": "minecraft:tick",
+	  "conditions": {
+		"player": {
+		  "nbt": "{Tags:[\"sound_off\"]}"
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:sound_off"
+  }
+}

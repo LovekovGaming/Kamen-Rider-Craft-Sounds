@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/zero-one/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:zero_one/shot_abaddo_gun"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/zero-one/shotabaddoriser_craft"
+	}
+  }
+  

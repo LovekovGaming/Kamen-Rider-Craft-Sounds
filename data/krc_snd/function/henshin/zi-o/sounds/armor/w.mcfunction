@@ -1,0 +1,17 @@
+execute if score @s krc.seq1 matches 192 run playsound kamenridercraft:warmor player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 192 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"###","color":"black"},{"text":"W","color":"green"},"||"]
+execute if score @s krc.seq1 matches 195 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"##","color":"black"},{"text":"W","color":"green"},{"text":"#","color":"black"},"||"]
+execute if score @s krc.seq1 matches 198 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"#","color":"black"},{"text":"W","color":"green"},{"text":"##","color":"black"},"||"]
+execute if score @s krc.seq1 matches 201 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"W","color":"green"},{"text":"###","color":"black"},"||"]
+execute if score @s krc.seq1 matches 204 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"","color":"dark_purple"},{"text":"####","color":"black"},"||"]
+execute if score @s krc.seq1 matches 207 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"###","color":"black"},{"text":"W","color":"dark_purple"},"||"]
+execute if score @s krc.seq1 matches 210 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"##","color":"black"},{"text":"W","color":"dark_purple"},{"text":"#","color":"black"},"||"]
+execute if score @s krc.seq1 matches 213 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"#","color":"black"},{"text":"W","color":"dark_purple"},{"text":"##","color":"black"},"||"]
+execute if score @s krc.seq1 matches 216 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"W","color":"green"},{"text":"###","color":"black"},"||"]
+execute if score @s krc.seq1 matches 219 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"","color":"green"},{"text":"####","color":"black"},"||"]
+execute if score @s krc.seq1 matches 222 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"###","color":"black"},{"text":"W","color":"green"},"||"]
+execute if score @s krc.seq1 matches 225 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar [{"translate":"sound.kamenridercraft.double.cyclone","color":"green"}," ",{"translate":"sound.kamenridercraft.double.joker","color":"dark_purple"}," ",{"translate":"sound.kamenridercraft.zi-o.w","color":"green"}]
+execute if score @s krc.seq1 matches 265 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar [{"translate":"sound.kamenridercraft.double.cyclone","color":"green"}," ",{"translate":"sound.kamenridercraft.double.joker","color":"dark_purple"}," ",{"translate":"sound.kamenridercraft.zi-o.w","color":"green"}]
+execute if score @s krc.seq1 matches 300 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"2009","color":"green"},"||"]
+execute if score @s krc.seq1 matches 300 run advancement revoke @s from krc_snd:henshin/zi-o/seq_root
+execute if score @s krc.seq1 matches 300 run scoreboard players set @s krc.seq1 0

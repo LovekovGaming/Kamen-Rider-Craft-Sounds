@@ -1,0 +1,220 @@
+{
+	"parent": "krc_snd:henshin/geats/seq_root",
+	"criteria": {
+      "magnum": {
+		"trigger": "minecraft:impossible"
+	  },
+      "boost": {
+		"trigger": "minecraft:impossible"
+	  },
+      "boost_mkiii": {
+		"trigger": "minecraft:impossible"
+	  },
+      "zombie": {
+		"trigger": "minecraft:impossible"
+	  },
+      "ninja": {
+		"trigger": "minecraft:impossible"
+	  },
+      "beat": {
+		"trigger": "minecraft:impossible"
+	  },
+      "great": {
+		"trigger": "minecraft:impossible"
+	  },
+      "arrow": {
+		"trigger": "minecraft:impossible"
+	  },
+      "water": {
+		"trigger": "minecraft:impossible"
+	  },
+      "hammer": {
+		"trigger": "minecraft:impossible"
+	  },
+      "shield": {
+		"trigger": "minecraft:impossible"
+	  },
+      "chain_array": {
+		"trigger": "minecraft:impossible"
+	  },
+      "claw": {
+		"trigger": "minecraft:impossible"
+	  },
+      "propeller": {
+		"trigger": "minecraft:impossible"
+	  },
+      "ultimate_revice": {
+		"trigger": "minecraft:impossible"
+	  },
+      "evilyty": {
+		"trigger": "minecraft:impossible"
+	  },
+      "xross": {
+		"trigger": "minecraft:impossible"
+	  },
+      "zero-two": {
+		"trigger": "minecraft:impossible"
+	  },
+      "grand": {
+		"trigger": "minecraft:impossible"
+	  },
+      "genius": {
+		"trigger": "minecraft:impossible"
+	  },
+      "hyper_muteki": {
+		"trigger": "minecraft:impossible"
+	  },
+      "mugen": {
+		"trigger": "minecraft:impossible"
+	  },
+      "tridoron": {
+		"trigger": "minecraft:impossible"
+	  },
+      "kiwami": {
+		"trigger": "minecraft:impossible"
+	  },
+      "infinity": {
+		"trigger": "minecraft:impossible"
+	  },
+      "cosmic": {
+		"trigger": "minecraft:impossible"
+	  },
+      "putotyra": {
+		"trigger": "minecraft:impossible"
+	  },
+      "xtreme": {
+		"trigger": "minecraft:impossible"
+	  },
+      "complete": {
+		"trigger": "minecraft:impossible"
+	  },
+      "emperor": {
+		"trigger": "minecraft:impossible"
+	  },
+      "liner": {
+		"trigger": "minecraft:impossible"
+	  },
+      "hyper": {
+		"trigger": "minecraft:impossible"
+	  },
+      "armed": {
+		"trigger": "minecraft:impossible"
+	  },
+      "king": {
+		"trigger": "minecraft:impossible"
+	  },
+      "blaster": {
+		"trigger": "minecraft:impossible"
+	  },
+      "survive": {
+		"trigger": "minecraft:impossible"
+	  },
+      "survive_ouja": {
+		"trigger": "minecraft:impossible"
+	  },
+      "shining": {
+		"trigger": "minecraft:impossible"
+	  },
+      "ultimate": {
+		"trigger": "minecraft:impossible"
+	  },
+      "golden_history": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "1": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "2": {
+		"trigger": "minecraft:tick",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"type_specific": {
+				  "type": "minecraft:player",
+				  "advancements": {
+					"krc_snd:henshin/geats/regad_infinity_seq": {
+					  "1": true
+					}
+				  }
+				},
+				"equipment": {
+				  "feet": {
+					"items": [
+					  "kamenridercraft:zillion_driver"
+					]
+				  }
+				}
+			  }
+			},
+			{
+			  "condition": "minecraft:inverted",
+			  "term": {
+				"condition": "minecraft:entity_scores",
+				"entity": "this",
+				"scores": {
+				  "krc.henshin-stage": {
+					"min": 1
+				  }
+				}
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"requirements": [
+      [
+        "magnum",
+        "boost",
+        "boost_mkiii",
+        "zombie",
+        "ninja",
+        "beat",
+        "great",
+        "arrow",
+        "water",
+        "hammer",
+        "shield",
+        "chain_array",
+        "claw",
+        "propeller",
+        "ultimate_revice",
+        "evilyty",
+        "xross",
+        "zero-two",
+        "grand",
+        "genius",
+        "hyper_muteki",
+        "mugen",
+        "tridoron",
+        "kiwami",
+        "infinity",
+        "cosmic",
+        "putotyra",
+        "xtreme",
+        "complete",
+        "emperor",
+        "liner",
+        "hyper",
+        "armed",
+        "king",
+        "blaster",
+        "survive",
+        "survive_ouja",
+        "shining",
+        "ultimate",
+        "golden_history",
+        "1"
+      ],
+      [
+        "2"
+      ]
+	],
+	"rewards": {
+	  "function": "krc_snd:henshin/geats/sounds/regad_infinity"
+	}
+  }
+  

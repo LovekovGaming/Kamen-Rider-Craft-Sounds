@@ -1,0 +1,5 @@
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:agito_miracle run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:agitohead"}
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:agito_miracle run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:agitotroso"}
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:agito_miracle run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:agitolegs"}
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:agito_miracle run function krc_snd:drop/common/return_item
+advancement revoke @s from krc_snd:drop/agito/root

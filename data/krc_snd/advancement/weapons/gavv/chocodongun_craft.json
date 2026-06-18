@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/gavv/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:gavv/chocodongun"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/gavv/chocodongun_craft"
+	}
+  }
+  

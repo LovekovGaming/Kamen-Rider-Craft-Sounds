@@ -1,0 +1,5 @@
+advancement revoke @s only krc_snd:henshin/gotchard/wind_standby_fx 2
+execute if score @s krc.henshin-stage matches 4 if score @s krc.seq1 matches 42 unless score @s krc.seq2 matches 1.. run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.one_thing_all_things_1","color":"gold"}
+execute if score @s krc.henshin-stage matches 4 if score @s krc.seq1 matches 60 unless score @s krc.seq2 matches 1.. run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.one_thing_all_things_2","color":"gold"}
+execute if score @s krc.henshin-stage matches 4 if score @s krc.seq1 matches 78 unless score @s krc.seq2 matches 1.. run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.one_thing_all_things_2","color":"dark_gray"}
+execute if score @s krc.henshin-stage matches 4 if score @s krc.seq1 matches 96 unless score @s krc.seq2 matches 1.. run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.one_thing_all_things_1","color":"dark_gray"}

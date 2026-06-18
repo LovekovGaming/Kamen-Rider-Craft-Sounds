@@ -1,0 +1,62 @@
+{
+  "parent": "krc_snd:weapons/gaim/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:player_hurt_entity",
+	  "conditions": {
+		"damage": {
+		  "type": {
+			"tags": [
+			  {
+				"id": "minecraft:is_projectile",
+				"expected": false
+			  }
+			]
+		  }
+		},
+		"player": {
+		  "equipment": {
+			"mainhand": {
+			  "items": [
+				"kamenridercraft:musou_saber_naginata"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:player_hurt_entity",
+	  "conditions": {
+		"damage": {
+		  "type": {
+			"tags": [
+			  {
+				"id": "minecraft:is_projectile",
+				"expected": false
+			  }
+			]
+		  }
+		},
+		"player": {
+		  "equipment": {
+			"mainhand": {
+			  "items": [
+				"kamenridercraft:blood_musou_saber_naginata"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:weapons/gaim/musou_saber_naginata"
+  }
+}

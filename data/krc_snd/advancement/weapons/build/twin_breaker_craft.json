@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/build/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:build/twin_breaker"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/build/twin_breaker_craft"
+	}
+  }
+  

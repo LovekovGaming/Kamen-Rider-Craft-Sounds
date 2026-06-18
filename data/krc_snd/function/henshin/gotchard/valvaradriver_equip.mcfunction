@@ -1,0 +1,6 @@
+stopsound @a[scores={krc.configs.equip_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
+execute unless items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:metal_machwheel_ride_chemy_card"}] if entity @s[advancements={krc_core:player_transformed=false}] run playsound kamenridercraft:valvaradriver_equip player @a[scores={krc.configs.equip_snd=1}] ~ ~1 ~
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:metal_machwheel_ride_chemy_card"}] if entity @s[advancements={krc_core:player_transformed=false}] run playsound kamenridercraft:valvaradriver_kurogane_equip player @a[scores={krc.configs.equip_snd=1}] ~ ~1 ~
+execute if predicate krc_core:sneaking if entity @s[advancements={krc_core:player_transformed=false}] run advancement grant @s only krc_snd:henshin/gotchard/valvaradriver_equip_seq 1
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:metal_machwheel_ride_chemy_card"}] if predicate krc_core:sneaking if entity @s[advancements={krc_core:player_transformed=false}] run scoreboard players set @s krc.seq1 5
+advancement revoke @s only krc_snd:henshin/common/reset

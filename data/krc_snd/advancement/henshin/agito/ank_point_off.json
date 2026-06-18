@@ -1,0 +1,55 @@
+{
+  "parent": "krc_snd:henshin/common/detransform_root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:impossible"
+	},
+	"2": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+		  {
+			"condition": "minecraft:any_of",
+			"terms": [
+			  {
+				"condition": "minecraft:inverted",
+				"term": {
+				  "condition": "minecraft:reference",
+				  "name": "krc_core:heisei/agito_armor"
+				}
+			  },
+			  {
+			    "condition": "minecraft:entity_properties",
+			    "entity": "this",
+			    "predicate": {
+			      "equipment": {
+			        "feet": {
+			          "items": "minecraft:air"
+			        }
+			      }
+			    }
+			  }
+			]
+		  },
+		  {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type_specific": {
+				"type": "minecraft:player",
+				"advancements": {
+				  "krc_snd:henshin/agito/ank_point_off": {
+					"1": true
+				  }
+				}
+			  }
+			}
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/agito/ank_point_off"
+  }
+}

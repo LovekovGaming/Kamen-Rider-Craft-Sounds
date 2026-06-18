@@ -1,0 +1,109 @@
+{
+	"parent": "krc_snd:drop/555/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:any_of",
+			  "terms": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"type_specific": {
+					  "type": "minecraft:player",
+					  "gamemode": [
+						"creative"
+					  ]
+					}
+				  }
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"slots": {
+					  "container.*": {
+						"items": "kamenridercraft:faiz_driver"
+					  }
+					}
+				  }
+				}
+			  ]
+			},
+			{
+			  "condition": "minecraft:any_of",
+			  "terms": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "mainhand": {
+						"items": [
+						  "minecraft:air"
+						]
+					  }
+					}
+				  }
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"equipment": {
+					  "mainhand": {
+						"items": "kamenridercraft:signal_legend_faiz"
+					  }
+					}
+				  }
+				}
+			  ]
+			},
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"equipment": {
+				  "head": {
+					"items": [
+					  "kamenridercraft:faizhead"
+					]
+				  },
+				  "chest": {
+					"items": [
+					  "kamenridercraft:faiztroso"
+					]
+				  },
+				  "legs": {
+					"items": [
+					  "kamenridercraft:faizlegs"
+					]
+				  }
+				}
+			  }
+			},
+			{
+			  "condition": "minecraft:inverted",
+			  "term": {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"feet": {
+					  "items": "#kamenridercraft:belts/faiz_armor"
+					}
+				  }
+				}
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:drop/555/faiz_shocker_leader"
+	}
+  }

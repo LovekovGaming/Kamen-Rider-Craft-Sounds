@@ -1,0 +1,37 @@
+{
+  "parent": "krc_snd:henshin/kiva/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:kivahead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:kivatroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:kivalegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:newkivadriver"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/kiva/new_kiva"
+  }
+}

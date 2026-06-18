@@ -1,0 +1,32 @@
+execute if score @s krc.seq1 matches 192 run playsound kamenridercraft:kuugaarmor player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 192 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"###","color":"black"},{"text":"K","color":"red"},"||"]
+execute if score @s krc.seq1 matches 195 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"##","color":"black"},{"text":"KU","color":"red"},"||"]
+execute if score @s krc.seq1 matches 198 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"#","color":"black"},{"text":"KUU","color":"red"},"||"]
+execute if score @s krc.seq1 matches 201 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"KUUG","color":"red"},"||"]
+execute if score @s krc.seq1 matches 204 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"UUGA","color":"red"},"||"]
+execute if score @s krc.seq1 matches 207 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"UGA","color":"red"},{"text":"#","color":"black"},"||"]
+execute if score @s krc.seq1 matches 210 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"GA","color":"red"},{"text":"##","color":"black"},"||"]
+execute if score @s krc.seq1 matches 213 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"A","color":"red"},{"text":"###","color":"black"},"||"]
+execute if score @s krc.seq1 matches 216 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"","color":"red"},{"text":"####","color":"black"},"||"]
+execute if score @s krc.seq1 matches 219 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"###","color":"black"},{"text":"K","color":"red"},"||"]
+execute if score @s krc.seq1 matches 222 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"##","color":"black"},{"text":"KU","color":"red"},"||"]
+execute if score @s krc.seq1 matches 225 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"#","color":"black"},{"text":"KUU","color":"red"},"||"]
+execute if score @s krc.seq1 matches 228 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"KUUG","color":"red"},"||"]
+execute if score @s krc.seq1 matches 231 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"UUGA","color":"red"},"||"]
+execute if score @s krc.seq1 matches 234 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"UGA","color":"red"},{"text":"#","color":"black"},"||"]
+execute if score @s krc.seq1 matches 237 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"GA","color":"red"},{"text":"##","color":"black"},"||"]
+execute if score @s krc.seq1 matches 240 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"A","color":"red"},{"text":"###","color":"black"},"||"]
+execute if score @s krc.seq1 matches 243 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"","color":"red"},{"text":"####","color":"black"},"||"]
+execute if score @s krc.seq1 matches 246 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"###","color":"black"},{"text":"K","color":"red"},"||"]
+execute if score @s krc.seq1 matches 249 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"##","color":"black"},{"text":"KU","color":"red"},"||"]
+execute if score @s krc.seq1 matches 252 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"#","color":"black"},{"text":"KUU","color":"red"},"||"]
+execute if score @s krc.seq1 matches 255 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"KUUG","color":"red"},"||"]
+execute if score @s krc.seq1 matches 258 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"UUGA","color":"red"},"||"]
+execute if score @s krc.seq1 matches 261 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"UGA","color":"red"},{"text":"#","color":"black"},"||"]
+execute if score @s krc.seq1 matches 264 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"GA","color":"red"},{"text":"##","color":"black"},"||"]
+execute if score @s krc.seq1 matches 267 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"A","color":"red"},{"text":"###","color":"black"},"||"]
+execute if score @s krc.seq1 matches 269 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.kuuga","color":"red"}
+execute if score @s krc.seq1 matches 309 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.kuuga","color":"red"}
+execute if score @s krc.seq1 matches 318 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"2000","color":"red"},"||"]
+execute if score @s krc.seq1 matches 318 run advancement revoke @s from krc_snd:henshin/zi-o/seq_root
+execute if score @s krc.seq1 matches 318 run scoreboard players set @s krc.seq1 0

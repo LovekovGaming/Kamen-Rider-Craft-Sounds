@@ -1,0 +1,38 @@
+{
+	"parent": "krc_snd:henshin/ooo/standby_root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "2": {
+		"trigger": "minecraft:tick",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"type_specific": {
+				  "type": "minecraft:player",
+				  "advancements": {
+					"krc_snd:henshin/ooo/gatakiriba_combos_seq": {
+					  "1": true
+					}
+				  }
+				},
+				"equipment": {
+				  "feet": {
+					"items": "#krc_snd:ooo_driver"
+				  }
+				}
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:henshin/ooo/sounds/gatakiriba_combos"
+	}
+  }
+  

@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/zero-one/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:zero_one/attache_calibur"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/zero-one/attache_calibur_craft"
+	}
+  }
+  

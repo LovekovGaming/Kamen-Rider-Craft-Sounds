@@ -1,0 +1,73 @@
+{
+	"parent": "krc_snd:henshin/geats/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "head": {
+				"items": [
+				  "kamenridercraft:geatshead"
+				]
+			  },
+			  "chest": {
+				"items": [
+				  "kamenridercraft:geatstroso"
+				]
+			  },
+			  "legs": {
+				"items": [
+				  "kamenridercraft:geatslegs"
+				]
+			  },
+			  "feet": {
+				"items": [
+				  "kamenridercraft:vision_driver_gazer"
+				]
+			  }
+			}
+		  }
+		}
+	  },
+	  "2": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "head": {
+				"items": [
+				  "kamenridercraft:geatshead"
+				]
+			  },
+			  "chest": {
+				"items": [
+				  "kamenridercraft:geatstroso"
+				]
+			  },
+			  "legs": {
+				"items": [
+				  "kamenridercraft:geatslegs"
+				]
+			  },
+			  "feet": {
+				"items": [
+				  "kamenridercraft:vision_driver_gazer_suel"
+				]
+			  }
+			}
+		  }
+		}
+	  }
+	},
+	"requirements": [
+	  [
+		"1",
+		"2"
+	  ]
+	],
+	"rewards": {
+	  "function": "krc_snd:henshin/geats/gazer"
+	}
+  }
+  

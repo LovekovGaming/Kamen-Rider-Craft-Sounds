@@ -1,0 +1,16 @@
+{
+  "parent": "krc_snd:mobs/heisei/root",
+  "criteria": {
+	"requirement": {
+	  "trigger": "minecraft:player_killed_entity",
+	  "conditions": {
+		"entity": {
+		  "type": "kamenridercraft:riotrooper"
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:mobs/heisei/riotrooper_kill"
+  }
+}

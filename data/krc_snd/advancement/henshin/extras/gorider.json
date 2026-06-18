@@ -1,0 +1,162 @@
+{
+  "parent": "krc_snd:henshin/extras/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:akariderhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:akaridertroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:akariderlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:typhoon_akarider"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:akariderhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:akaridertroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:akariderlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:typhoon_aorider"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"3": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:akariderhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:akaridertroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:akariderlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:typhoon_kirider"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"4": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:akariderhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:akaridertroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:akariderlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:typhoon_momorider"
+			  ]
+			}
+		  }
+		}
+	  }
+	},
+	"5": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:akariderhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:akaridertroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:akariderlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:typhoon_midorider"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2",
+	  "3",
+	  "4",
+	  "5"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/extras/gorider"
+  }
+}
