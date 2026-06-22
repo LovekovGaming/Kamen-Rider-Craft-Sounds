@@ -18,7 +18,7 @@ Kamen Rider Craft notably does not include henshin sounds due to concerns regard
 
 - Minecraft 1.21.1, running NeoForge
 - The [Kamen Rider Craft](https://modrinth.com/mod/kamen-rider-craft) mod
-- The [Kamen Rider Craft Core Data Pack](https://github.com/LovekovGaming/Kamen-Rider-Craft-Core/)
+- The [Kamen Rider Craft Data Core](https://github.com/LovekovGaming/Kamen-Rider-Craft-Data-Core/) pack
 
 ## Installing
 
