@@ -1,0 +1,42 @@
+name: New Sound Request
+description: Request a new sound for the data pack.
+title: "[New Sound]: "
+labels: ["enhancement"]
+assignees:
+  - LovekovGaming
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this request form!
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: What type of sound are you requesting?
+      options:
+        - Henshin
+        - Detransform
+        - Belt Equip
+        - Mob
+        - Weapon
+        - Miscellaneous
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: form
+    attributes:
+      label: Form
+      description: If this sound is meant for a specific form, please tell me which form it is for.
+      placeholder: ex. Kamen Rider My-th Turtle Frame
+    validations:
+      required: false
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: You must include at least one link to a sound source from YT, Niconico, Bilibili, etc. The sources must not include any background music or effects, and should prioritize clean sounds over recordings/toy rips if possible.
+      placeholder: ex. https://youtu.be/meLwammfo6c
+    validations:
+      required: true
