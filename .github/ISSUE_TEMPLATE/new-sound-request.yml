@@ -33,6 +33,14 @@ body:
     validations:
       required: false
   - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Should this sound have any specific conditions to play? (e.g. a config setting or an item drop sequence)
+      placeholder: ex. Plays only when enabled in config
+    validations:
+      required: false
+  - type: textarea
     id: sources
     attributes:
       label: Sources
