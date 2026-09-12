@@ -64,5 +64,5 @@ execute if items entity @n[type=kamenridercraft:grand_summon,tag=!sounded,distan
 execute if items entity @n[type=kamenridercraft:grand_summon,tag=!sounded,distance=..2] armor.feet kamenridercraft:mach_driver_honoh run advancement grant @s only krc_snd:henshin/zi-o/ridewatches mach
 execute if items entity @n[type=kamenridercraft:grand_summon,tag=!sounded,distance=..2] armor.feet kamenridercraft:build_driver_cross_z run advancement grant @s only krc_snd:henshin/zi-o/ridewatches cross-z
 execute if items entity @n[type=kamenridercraft:grand_summon,tag=!sounded,distance=..2] armor.feet kamenridercraft:sclash_driver run advancement grant @s only krc_snd:henshin/zi-o/ridewatches cross-z
-execute if entity @n[type=kamenridercraft:grand_summon,nbt={ArmorItems:[{id:"supersentaicraft:red_ryusoul_changer"}]}] run advancement grant @s only krc_snd:henshin/zi-o/ridewatches ryusoulger
+execute if items entity @n[type=kamenridercraft:grand_summon,tag=!sounded,distance=..2] armor.feet #krc_snd:item_alias/red_ryusoul_changer run advancement grant @s only krc_snd:henshin/zi-o/ridewatches ryusoulger
 execute as @n[type=kamenridercraft:grand_summon,tag=!sounded,distance=..2] run tag @s add sounded
