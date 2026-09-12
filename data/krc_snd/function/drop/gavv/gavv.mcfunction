@@ -2,6 +2,7 @@ execute if entity @n[type=item,distance=..5,tag=pick_up] run stopsound @a[scores
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents #kamenridercraft:gear/form_items/gavv run tag @s add valid
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item,tag=valid] if items entity @s contents #kamenridercraft:gear/gochizo/gummy run tag @s add gummy
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item,tag=valid] if items entity @s contents #kamenridercraft:gear/gochizo/snack run tag @s add snack
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item,tag=valid] if items entity @s contents kamenridercraft:umaibo_gochizo run tag @s add snack
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item,tag=valid] if items entity @s contents #kamenridercraft:gear/gochizo/marshmallow run tag @s add marshmallow
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item,tag=valid] if items entity @s contents #kamenridercraft:gear/gochizo/choco run tag @s add choco
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item,tag=valid] if items entity @s contents #kamenridercraft:gear/gochizo/candy run tag @s add candy
