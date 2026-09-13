@@ -286,6 +286,12 @@
 	"gigantliner": {
 	  "trigger": "minecraft:impossible"
 	},
+	"hopper": {
+	  "trigger": "minecraft:impossible"
+	},
+	"sushi": {
+	  "trigger": "minecraft:impossible"
+	},
 	"legend": {
 	  "trigger": "minecraft:impossible"
 	},
@@ -447,6 +453,8 @@
 	  "extra",
 	  "hopper101",
 	  "gigantliner",
+	  "hopper",
+	  "sushi",
 	  "legend",
 	  "kuuga",
 	  "faiz",

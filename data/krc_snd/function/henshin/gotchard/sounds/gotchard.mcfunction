@@ -356,9 +356,13 @@ execute if score @s krc.seq1 matches 135 if score @s krc.form1n matches 62 run t
 execute if score @s krc.seq1 matches 147 if score @s krc.form1n matches 62 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.gotchard.legendliner_1","color":"yellow"}," ",{"translate":"sound.kamenridercraft.gotchard.legendliner_2","color":"yellow"}]
 execute if score @s krc.seq1 matches 180 if score @s krc.form1n matches 62 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.legendliner_3","color":"yellow"}
 execute if score @s krc.seq1 matches 180 if score @s krc.form1n matches 62 run scoreboard players set @s krc.seq1 341
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 63 run playsound kamenridercraft:sushihopper player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 63 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.sushihopper_1","color":"aqua"}
+execute if score @s krc.seq1 matches 145 if score @s krc.form1n matches 63 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.sushihopper_2","color":"gold"}
+execute if score @s krc.seq1 matches 145 if score @s krc.form1n matches 63 run scoreboard players add @s krc.seq1 21
 
-execute unless score @s krc.form1n matches 36..46 unless score @s krc.form1n matches 50.. if score @s krc.seq1 matches 224.. run playsound kamenridercraft:gotchard_basic player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute unless score @s krc.form1n matches 36..46 unless score @s krc.form1n matches 50.. if score @s krc.seq1 matches 224.. run scoreboard players set @s krc.seq1 341
+execute unless score @s krc.form1n matches 36..46 unless score @s krc.form1n matches 50..62 if score @s krc.seq1 matches 224.. run playsound kamenridercraft:gotchard_basic player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute unless score @s krc.form1n matches 36..46 unless score @s krc.form1n matches 50..62 if score @s krc.seq1 matches 224.. run scoreboard players set @s krc.seq1 341
 
 execute if score @s krc.seq1 matches ..340 run return 0
 scoreboard players set @s krc.seq1 0

@@ -192,6 +192,10 @@ execute if entity @s[advancements={krc_snd:henshin/gotchard/chemy_cards={hopper1
 execute if entity @s[advancements={krc_snd:henshin/gotchard/chemy_cards={hopper101=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.hopper101","color":"aqua"}
 execute if entity @s[advancements={krc_snd:henshin/gotchard/chemy_cards={gigantliner=true}}] run playsound kamenridercraft:gigantliner_card player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 execute if entity @s[advancements={krc_snd:henshin/gotchard/chemy_cards={gigantliner=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gigantliner","color":"aqua"}
+execute if entity @s[advancements={krc_snd:henshin/gotchard/chemy_cards={hopper=true}}] run playsound kamenridercraft:hopper_card player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if entity @s[advancements={krc_snd:henshin/gotchard/chemy_cards={hopper=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.hopper","color":"aqua"}
+execute if entity @s[advancements={krc_snd:henshin/gotchard/chemy_cards={sushi=true}}] run playsound kamenridercraft:sushi_card player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if entity @s[advancements={krc_snd:henshin/gotchard/chemy_cards={sushi=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.sushi","color":"gold"}
 execute if entity @s[advancements={krc_snd:henshin/gotchard/chemy_cards={legend=true}}] run playsound kamenridercraft:legend_card player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 execute if entity @s[advancements={krc_snd:henshin/gotchard/chemy_cards={legend=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.legend","color":"yellow"}
 execute if entity @s[advancements={krc_snd:henshin/gotchard/chemy_cards={kuuga=true}}] run playsound kamenridercraft:kuuga_chemy_card player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
