@@ -6,6 +6,7 @@ scoreboard players reset @s krc.henshin-stage
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:lord_standby
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:lord_standby_lord
 scoreboard players set @s krc.seq1 0
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:capsem_spin_lord
 
 playsound kamenridercraft:capsem_spin_lord player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 

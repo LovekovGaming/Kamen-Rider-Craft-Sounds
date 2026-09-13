@@ -6,6 +6,7 @@ scoreboard players reset @s krc.henshin-stage
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:dawn_standby
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:dawn_standby_punish
 scoreboard players set @s krc.seq1 0
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:breakam_dawn_separate
 
 playsound kamenridercraft:breakam_dawn_separate player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 
