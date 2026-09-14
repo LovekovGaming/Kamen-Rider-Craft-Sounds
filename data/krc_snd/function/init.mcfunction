@@ -90,7 +90,6 @@ scoreboard objectives add krc-item.kodama minecraft.used:kamenridercraft.kodama_
 scoreboard objectives add krc-item.ruin minecraft.used:kamenridercraft.book_of_ruin
 scoreboard objectives add krc-item.sorbet minecraft.used:kamenridercraft.blizzardsorbei_gochizo
 scoreboard objectives add krc.deaths deathCount
-scoreboard objectives add krc.credits trigger
 scoreboard objectives add krc.configs.sounds trigger
 scoreboard objectives add krc.configs.sound_subs dummy
 scoreboard objectives add krc.configs.henshin_snd dummy
@@ -133,3 +132,4 @@ function krc_snd:attempt/boss_blocks
 execute unless score Delta_Chat_Message krc.configs matches 0.. run scoreboard players set Delta_Chat_Message krc.configs 1
 execute unless score Armed_Hibiki_Chat_Message krc.configs matches 0.. run scoreboard players set Armed_Hibiki_Chat_Message krc.configs 1
 execute unless score Drago_Knight_Hunter_Voice krc.configs matches 0.. run scoreboard players set Drago_Knight_Hunter_Voice krc.configs 1
+tellraw @a [{"text":"[KRC Sounds]: ","color":"blue","bold":true},{"translate":"ERROR.Please_Load_Resource_Pack","color":"white","bold":false}]
