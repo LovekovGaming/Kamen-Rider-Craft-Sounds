@@ -40,7 +40,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": "kamenridercraft:exdreamrise_capsem"
+					  "items": "#kamenridercraft:gear/form_items/zeztz_exdream"
 					}
 				  }
 				}
