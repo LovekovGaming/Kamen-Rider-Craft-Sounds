@@ -1,0 +1,33 @@
+{
+	"parent": "krc_snd:henshin/my-th/standby_root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:impossible"
+	  },
+	  "2": {
+		"trigger": "minecraft:tick",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"type_specific": {
+				  "type": "minecraft:player",
+				  "advancements": {
+					"krc_snd:henshin/my-th/my-th_driver_off_seq": {
+					  "1": true
+					}
+				  }
+				}
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:henshin/my-th/sounds/my-th_driver_off"
+	}
+  }
+  

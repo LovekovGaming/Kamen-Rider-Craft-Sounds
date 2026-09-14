@@ -1,0 +1,35 @@
+{
+  "parent": "krc_snd:henshin/my-th/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:my_th_head"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:my_th_troso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:my_th_legs"
+			  ]
+			},
+			"feet": {
+			  "items": "#krc_snd:item_alias/my_th_driver_slash_on"
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/my-th/datt"
+  }
+}
