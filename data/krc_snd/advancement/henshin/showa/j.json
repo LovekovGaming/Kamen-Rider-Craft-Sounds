@@ -1,0 +1,37 @@
+{
+  "parent": "krc_snd:henshin/showa/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:jhead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:jtroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:jlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:j_spirit"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/showa/j"
+  }
+}
