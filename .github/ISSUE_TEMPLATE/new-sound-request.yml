@@ -1,7 +1,7 @@
 name: New Sound Request
 description: Request a new sound for the data pack.
 title: "[New Sound]: "
-labels: ["enhancement"]
+labels: ["new sound"]
 assignees:
   - LovekovGaming
 body:
