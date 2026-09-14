@@ -17,9 +17,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:knight_invoker"
-				  ]
+				  "items": "#krc_snd:knight_invoker"
 				}
 			  }
 			}

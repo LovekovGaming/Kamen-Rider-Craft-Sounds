@@ -12,7 +12,7 @@
 			  "equipment": {
 				"feet": {
 				  "items": [
-					"kamenridercraft:lord_invoker_six"
+					"kamenridercraft:lord_invoker_two"
 				  ]
 				}
 			  }
@@ -40,7 +40,9 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": "#kamenridercraft:gear/form_items/lord_six"
+					  "items": [
+						"kamenridercraft:break_code_down_capsem"
+					  ]
 					}
 				  }
 				}
@@ -56,6 +58,6 @@
 	}
   },
   "rewards": {
-	"function": "krc_snd:drop/zeztz/lord_six"
+	"function": "krc_snd:drop/zeztz/lord"
   }
 }

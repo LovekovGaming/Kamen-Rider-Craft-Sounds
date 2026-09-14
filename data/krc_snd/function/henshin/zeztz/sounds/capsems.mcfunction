@@ -43,12 +43,20 @@ execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={charge=true}}]
 execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={charge=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.charge","color":"red"}
 execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={erase=true}}] run playsound kamenridercraft:erase_capsem player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={erase=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.erase","color":"gold"}
+execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={code=true}}] run playsound kamenridercraft:charge_capsem player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={code=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.charge","color":"gold"}
 execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={extra=true}}] run playsound kamenridercraft:extra_capsem player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={extra=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.extra","color":"dark_purple"}
 execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={shock=true}}] run playsound kamenridercraft:shock_capsem player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={shock=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.shock","color":"yellow"}
 execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={panic=true}}] run playsound kamenridercraft:panic_capsem player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={panic=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.panic","color":"red"}
+execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={clear=true}}] run playsound kamenridercraft:clear_capsem player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={clear=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.clear","color":"light_purple"}
 execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={lord_booster=true}}] run playsound kamenridercraft:lord_booster_capsem player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={lord_booster=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.booster","color":"dark_purple"}
+execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={break=true}}] run playsound kamenridercraft:break_code_down_capsem player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={break=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.break"}
+execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={code_lord=true}}] run playsound kamenridercraft:code_capsem player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if entity @s[advancements={krc_snd:henshin/zeztz/capsems={code_lord=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.charge","color":"gold"}
 advancement revoke @s only krc_snd:henshin/zeztz/capsems

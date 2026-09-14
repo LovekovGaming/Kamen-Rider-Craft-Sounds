@@ -7,5 +7,5 @@ execute if score @s krc.seq1 matches 67 run title @a[scores={krc.configs.sound_s
 execute if score @s krc.seq1 matches 119 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.meztzamero","color":"aqua"}
 execute if score @s krc.seq1 matches 139 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.meztzamero","color":"dark_aqua"}
 
-execute if score @s krc.seq1 matches ..179 run return 0
+execute if score @s krc.seq1 matches ..181 run return 0
 scoreboard players set @s krc.seq1 37

@@ -40,22 +40,13 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:shock_capsem"
-					  ]
+					  "items": "#kamenridercraft:gear/form_items/lord_five"
 					}
 				  }
 				}
 			  }
 			]
 		  },
-			{
-			  "condition": "minecraft:inverted",
-			  "term": {
-				"condition": "minecraft:reference",
-				"name": "krc_core:reiwa/zeztz_armor"
-			  }
-			},
 		  {
 			"condition": "minecraft:reference",
 			"name": "krc_snd:has_armor/zeztz"

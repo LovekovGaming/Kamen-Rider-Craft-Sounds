@@ -1,7 +1,11 @@
 {
   "values": [
+	"kamenridercraft:lord_invoker_zero",
+	"kamenridercraft:lord_invoker_two",
 	"kamenridercraft:lord_invoker_three",
 	"kamenridercraft:lord_invoker_five",
-	"kamenridercraft:lord_invoker_six"
+	"kamenridercraft:lord_invoker_six",
+	"kamenridercraft:lord_invoker_thirteen",
+	"kamenridercraft:lord_invoker_seventeen"
   ]
 }

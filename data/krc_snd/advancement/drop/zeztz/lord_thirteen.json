@@ -12,7 +12,7 @@
 			  "equipment": {
 				"feet": {
 				  "items": [
-					"kamenridercraft:lord_invoker_six"
+					"kamenridercraft:lord_invoker_thirteen"
 				  ]
 				}
 			  }
@@ -40,13 +40,22 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": "#kamenridercraft:gear/form_items/lord_six"
+					  "items": [
+						"kamenridercraft:clear_capsem"
+					  ]
 					}
 				  }
 				}
 			  }
 			]
 		  },
+			{
+			  "condition": "minecraft:inverted",
+			  "term": {
+				"condition": "minecraft:reference",
+				"name": "krc_core:reiwa/zeztz_armor"
+			  }
+			},
 		  {
 			"condition": "minecraft:reference",
 			"name": "krc_snd:has_armor/zeztz"
@@ -56,6 +65,6 @@
 	}
   },
   "rewards": {
-	"function": "krc_snd:drop/zeztz/lord_six"
+	"function": "krc_snd:drop/zeztz/lord_thirteen"
   }
 }

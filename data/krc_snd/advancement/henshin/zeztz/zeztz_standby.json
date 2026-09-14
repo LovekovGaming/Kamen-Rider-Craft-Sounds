@@ -23,17 +23,6 @@
 			}
 		  },
 		  {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-			  "equipment": {
-				"feet": {
-				  "items": "#krc_snd:zeztz_driver"
-				}
-			  }
-			}
-		  },
-		  {
 			"condition": "minecraft:entity_scores",
 			"entity": "this",
 			"scores": {

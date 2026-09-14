@@ -49,6 +49,9 @@
 	"rise": {
 	  "trigger": "minecraft:impossible"
 	},
+	"agent": {
+	  "trigger": "minecraft:impossible"
+	},
 	"special": {
 	  "trigger": "minecraft:impossible"
 	},
@@ -56,6 +59,9 @@
 	  "trigger": "minecraft:impossible"
 	},
 	"erase": {
+	  "trigger": "minecraft:impossible"
+	},
+	"code": {
 	  "trigger": "minecraft:impossible"
 	},
 	"extra": {
@@ -67,7 +73,16 @@
 	"panic": {
 	  "trigger": "minecraft:impossible"
 	},
+	"clear": {
+	  "trigger": "minecraft:impossible"
+	},
 	"lord_booster": {
+	  "trigger": "minecraft:impossible"
+	},
+	"break": {
+	  "trigger": "minecraft:impossible"
+	},
+	"code_lord": {
 	  "trigger": "minecraft:impossible"
 	},
 	"1": {
@@ -121,13 +136,18 @@
 	  "catastrom",
 	  "orderm",
 	  "rise",
+	  "agent",
 	  "special",
 	  "charge",
 	  "erase",
+	  "code",
 	  "extra",
 	  "shock",
 	  "panic",
-	  "lord_booster"
+	  "clear",
+	  "lord_booster",
+	  "break",
+	  "code_lord"
 	],
 	[
 	  "2"
