@@ -151,6 +151,5 @@ execute if score @s krc.seq1 matches 196 if score @s krc.form1n matches 25 run t
 execute if score @s krc.seq1 matches 196 if score @s krc.form1n matches 25 run scoreboard players set @s krc.seq1 440
 
 execute if score @s krc.seq1 matches ..439 run return 0 
-# execute if score @s krc.form1n matches 3 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.perfect_wing_6"}
 scoreboard players set @s krc.seq1 0
 advancement revoke @s only krc_snd:henshin/revice/revi_seq
