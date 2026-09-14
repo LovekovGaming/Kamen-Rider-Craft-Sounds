@@ -20,5 +20,6 @@ scoreboard players set @s krc.seq3 0
 tag @s remove hyper_clock_up
 tag @s remove hyper_loop_2
 advancement revoke @s only krc_snd:henshin/kabuto/clock_up
+advancement revoke @s only krc_snd:henshin/kabuto/hyper_clock_up
 advancement revoke @s only krc_snd:henshin/kabuto/clock_up_loop
 advancement revoke @s only krc_snd:henshin/kabuto/clock_over

@@ -1,0 +1,41 @@
+{
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:effects_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:kabutohead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:kabutotroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:kabutolegs"
+			  ]
+			},
+			"feet": {
+			  "items": "#kamenridercraft:belts/kabuto_armor"
+			}
+		  }
+		},
+		"effects": {
+		  "minecraft:speed": {
+			"amplifier": 40,
+			"duration": 250,
+			"visible": false
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/kabuto/hyper_clock_up"
+  }
+}
