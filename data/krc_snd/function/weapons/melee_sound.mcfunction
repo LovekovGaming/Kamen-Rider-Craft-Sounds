@@ -1,1 +1,1 @@
-$playsound kamenridercraft:attack.melee.$(last_used) player @a[scores={krc.configs.weapon_snd=1}] ~ ~1 ~
+$playsound kamenridercraft:item.$(last_used).hit player @a[scores={krc.configs.weapon_snd=1}] ~ ~1 ~
