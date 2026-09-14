@@ -29,6 +29,8 @@ scoreboard objectives add krc-blocks.bikaiser minecraft.mined:kamenridercraft.bi
 scoreboard objectives add krc-blocks.woz minecraft.mined:kamenridercraft.woz_boss_block
 scoreboard objectives add krc-blocks.ginga minecraft.mined:kamenridercraft.ginga_boss_block
 scoreboard objectives add krc-blocks.yaminin minecraft.mined:kamenridercraft.yaminin_boss_block
+scoreboard objectives add krc-blocks.a_den-o minecraft.mined:kamenridercraft.another_den_o_boss_block
+scoreboard objectives add krc-blocks.quartzer minecraft.mined:kamenridercraft.quartzer_boss_block
 scoreboard objectives add krc-blocks.horobi minecraft.mined:kamenridercraft.horobi_boss_block
 scoreboard objectives add krc-blocks.ikazuchi minecraft.mined:kamenridercraft.ikazuchi_boss_block
 scoreboard objectives add krc-blocks.ark-one minecraft.mined:kamenridercraft.ark_one_boss_block
@@ -40,6 +42,7 @@ scoreboard objectives add krc-blocks.storious minecraft.mined:kamenridercraft.st
 scoreboard objectives add krc-blocks.eld minecraft.mined:kamenridercraft.eld_boss_block
 scoreboard objectives add krc-blocks.bocca minecraft.mined:kamenridercraft.bocca_boss_block
 scoreboard objectives add krc-blocks.caries minecraft.mined:kamenridercraft.caries_boss_block
+scoreboard objectives add krc-blocks.lord_three minecraft.mined:kamenridercraft.lord_three_boss_block
 scoreboard objectives add krc-advent.firewall minecraft.used:kamenridercraft.fire_wall_vent
 scoreboard objectives add krc-advent.meteorbullet minecraft.used:kamenridercraft.meteor_bullet_vent
 scoreboard objectives add krc-advent.nasty minecraft.used:kamenridercraft.nasty_vent
