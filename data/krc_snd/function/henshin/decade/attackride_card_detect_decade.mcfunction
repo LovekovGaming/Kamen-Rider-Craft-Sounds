@@ -3,6 +3,7 @@ execute as @n[type=item,predicate=krc_snd:valid_item,distance=..2] if items enti
 execute as @n[type=item,predicate=krc_snd:valid_item,distance=..2] if items entity @s contents kamenridercraft:drag_claw unless score @s krc.seq1 matches 0..1 store success score @s krc.seq1 run data get entity @s Thrower
 execute as @n[type=item,predicate=krc_snd:valid_item,distance=..2] if items entity @s contents kamenridercraft:ongekibo_rekka unless score @s krc.seq1 matches 0..1 store success score @s krc.seq1 run data get entity @s Thrower
 execute as @n[type=item,predicate=krc_snd:valid_item,distance=..2] if items entity @s contents kamenridercraft:gaga_armlet unless score @s krc.seq1 matches 0..1 store success score @s krc.seq1 run data get entity @s Thrower
+execute as @n[type=item,predicate=krc_snd:valid_item,distance=..2] if items entity @s contents #krc_snd:item_alias/rekka_daizantou unless score @s krc.seq1 matches 0..1 store success score @s krc.seq1 run data get entity @s Thrower
 execute if items entity @n[type=kamenridercraft:rider_summon,tag=!sounded,distance=..2] weapon.mainhand kamenridercraft:ride_booker run tag @s add attackride
 execute if items entity @n[type=kamenridercraft:rider_summon,tag=!sounded,distance=..2] weapon.mainhand kamenridercraft:ride_booker run tag @s add illusion
 execute if items entity @n[type=kamenridercraft:rider_summon,tag=!sounded,distance=..2] weapon.mainhand kamenridercraft:ride_booker run scoreboard players reset @s krc.henshin-stage
@@ -22,4 +23,5 @@ execute if entity @s[tag=attackride] if items entity @n[type=item,predicate=krc_
 execute if entity @s[tag=attackride] if items entity @n[type=item,predicate=krc_snd:valid_item,distance=..2] contents kamenridercraft:drag_claw run tag @s add strike_vent
 execute if entity @s[tag=attackride] if items entity @n[type=item,predicate=krc_snd:valid_item,distance=..2] contents kamenridercraft:ongekibo_rekka run tag @s add ongekibou_rekka
 execute if entity @s[tag=attackride] if items entity @n[type=item,predicate=krc_snd:valid_item,distance=..2] contents kamenridercraft:gaga_armlet run tag @s add gaga_no_udewa
+execute if entity @s[tag=attackride] if items entity @n[type=item,predicate=krc_snd:valid_item,distance=..2] contents #krc_snd:item_alias/rekka_daizantou run tag @s add rekka_daizantou
 execute if entity @s[tag=attackride] as @e[type=kamenridercraft:rider_summon,tag=!sounded] if items entity @s weapon.mainhand kamenridercraft:ride_booker run tag @s add sounded

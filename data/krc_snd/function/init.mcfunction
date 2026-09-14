@@ -50,7 +50,6 @@ scoreboard objectives add krc-advent.clear minecraft.used:kamenridercraft.clear_
 scoreboard objectives add krc-advent.accele minecraft.used:kamenridercraft.accele_vent
 scoreboard objectives add krc-atkride.crossattack minecraft.used:kamenridercraft.diend_crossattack_card
 scoreboard objectives add krc-atkride.barrier minecraft.used:kamenridercraft.diend_barrier_card
-scoreboard objectives add krc-atkride.daizantou minecraft.used:kamenridercraft.rekka_daizantou_card
 scoreboard objectives add krc-atkride.metal minecraft.used:kamenridercraft.blade_metal_card
 scoreboard objectives add krc-atkride.onibi minecraft.used:kamenridercraft.hibiki_onibi_card
 scoreboard objectives add krc-atkride.den-o_s minecraft.used:kamenridercraft.den_o_ore_sanjou_card
