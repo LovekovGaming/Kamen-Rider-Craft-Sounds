@@ -15,7 +15,7 @@
 			  "type_specific": {
 				"type": "minecraft:player",
 				"advancements": {
-				  "krc_snd:henshin/zeztz/nox_knight_standby": {
+				  "krc_snd:henshin/zeztz/zeztz_standby_shock": {
 					"1": true
 				  }
 				}
@@ -23,10 +23,16 @@
 			}
 		  },
 		  {
-			"condition": "minecraft:entity_scores",
+			"condition": "minecraft:entity_properties",
 			"entity": "this",
-			"scores": {
-			  "krc.henshin-stage": 1
+			"predicate": {
+			  "equipment": {
+				"feet": {
+				  "items": [
+					"kamenridercraft:zeztz_driver"
+				  ]
+				}
+			  }
 			}
 		  }
 		]
@@ -34,6 +40,6 @@
 	}
   },
   "rewards": {
-	"function": "krc_snd:henshin/zeztz/standby/nox_knight"
+	"function": "krc_snd:henshin/zeztz/standby/zeztz_shock"
   }
 }
