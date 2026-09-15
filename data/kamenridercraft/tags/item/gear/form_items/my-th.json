@@ -2,6 +2,10 @@
   "replace": true,
   "values": [
     "kamenridercraft:ride_x_eggs_1",
-    "kamenridercraft:harinezumi_seed_x_egg"
+    "#krc_snd:item_alias/ride_x_eggs_4",
+    "#krc_snd:item_alias/ride_x_eggs_8",
+    "#krc_snd:item_alias/ride_x_eggs_11",
+    "kamenridercraft:harinezumi_seed_x_egg",
+    "kamenridercraft:zou_seed_x_egg"
   ]
 }

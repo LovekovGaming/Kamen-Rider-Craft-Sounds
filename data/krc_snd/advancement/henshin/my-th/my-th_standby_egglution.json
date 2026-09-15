@@ -7,7 +7,19 @@
 	"gold": {
 	  "trigger": "minecraft:impossible"
 	},
+	"aqua": {
+	  "trigger": "minecraft:impossible"
+	},
+	"blue": {
+	  "trigger": "minecraft:impossible"
+	},
 	"light_purple": {
+	  "trigger": "minecraft:impossible"
+	},
+	"dark_purple": {
+	  "trigger": "minecraft:impossible"
+	},
+	"white": {
 	  "trigger": "minecraft:impossible"
 	},
 	"2": {
@@ -54,7 +66,11 @@
 	[
 		"1",
 		"gold",
-		"light_purple"
+		"aqua",
+		"blue",
+		"light_purple",
+		"dark_purple",
+		"white"
 	],
 	[
 		"2"

@@ -12,7 +12,11 @@ execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:my-th_driver_standby
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/my-th/my-th_standby_egglution 1
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:ride_x_eggs_1 run advancement grant @s only krc_snd:henshin/my-th/my-th_standby_egglution light_purple
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents #krc_snd:item_alias/ride_x_eggs_4 run advancement grant @s only krc_snd:henshin/my-th/my-th_standby_egglution aqua
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents #krc_snd:item_alias/ride_x_eggs_8 run advancement grant @s only krc_snd:henshin/my-th/my-th_standby_egglution white
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents #krc_snd:item_alias/ride_x_eggs_11 run advancement grant @s only krc_snd:henshin/my-th/my-th_standby_egglution dark_purple
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:harinezumi_seed_x_egg run advancement grant @s only krc_snd:henshin/my-th/my-th_standby_egglution gold
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents #krc_snd:item_alias/zou_seed_x_egg run advancement grant @s only krc_snd:henshin/my-th/my-th_standby_egglution blue
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:egglution player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/my-th/root

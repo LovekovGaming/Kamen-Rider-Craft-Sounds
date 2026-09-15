@@ -3,6 +3,10 @@
     {
       "id": "kamenridercraft:ride_x_eggs_4",
       "required": false
+    },
+    {
+      "id": "kamenridercraft:ride_x_eggs_4_datt",
+      "required": false
     }
   ]
 }
