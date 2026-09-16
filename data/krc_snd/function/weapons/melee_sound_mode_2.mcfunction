@@ -1,0 +1,1 @@
+$playsound kamenridercraft:item.$(id).hit_2 player @a[scores={krc.configs.weapon_snd=1}] ~ ~1 ~
