@@ -1,9 +1,12 @@
 advancement revoke @s only krc_snd:henshin/ghost/specter_seq 2
 scoreboard players add @s krc.seq1 1
 
-execute if score @s krc.seq1 matches 22 if score @s krc.form1n matches 1 run playsound kamenridercraft:genkaigan player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 22 if score @s krc.form1n matches 1 if score @s krc.form2n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.ghost.genkaigan","color":"dark_purple"}," ",{"translate":"sound.kamenridercraft.ghost.deep_specter_damashii_1","color":"red"}]
-execute if score @s krc.seq1 matches 29 unless score @s krc.form1n matches 2 run playsound kamenridercraft:kaigan player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 21 if score @s krc.form1n matches 1 if score @s krc.form2n matches 0 run playsound kamenridercraft:genkaigan player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 21 if score @s krc.form1n matches 1 if score @s krc.form2n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.ghost.genkaigan","color":"dark_purple"}," ",{"translate":"sound.kamenridercraft.ghost.deep_specter_damashii_1","color":"red"}]
+execute if score @s krc.seq1 matches 21 if score @s krc.form1n matches 1 if score @s krc.form2n matches 62 run playsound kamenridercraft:genkai_dai_kaigan player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 21 if score @s krc.form1n matches 1 if score @s krc.form2n matches 62 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.ghost.genkai_dai_kaigan","color":"red"}," ",{"translate":"sound.kamenridercraft.ghost.deep_specter_gekikou_1","color":"gray"}]
+execute if score @s krc.seq1 matches 29 unless score @s krc.form1n matches 2 unless score @s krc.form2n matches 62 run playsound kamenridercraft:kaigan player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 35 if score @s krc.form2n matches 62 run playsound kamenridercraft:dai_kaigan player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 execute if score @s krc.seq1 matches 18 if score @s krc.form1n matches 2 if score @s krc.form2n matches 0 run playsound kamenridercraft:sin_kaigan player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 execute if score @s krc.seq1 matches 18 if score @s krc.form1n matches 2 if score @s krc.form2n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.ghost.sin_kaigan","color":"aqua"}," ",{"translate":"sound.kamenridercraft.ghost.sin_specter_damashii_1","color":"blue"}]
 execute if score @s krc.seq1 matches 29 if score @s krc.form1n matches 2 if score @s krc.form2n matches 1.. run playsound kamenridercraft:kaigan player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
@@ -73,6 +76,7 @@ execute if score @s krc.seq1 matches 46 if score @s krc.form1n matches 0 if scor
 execute if score @s krc.seq1 matches 46 if score @s krc.form1n matches 0 if score @s krc.form2n matches 0 run playsound kamenridercraft:specter_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 4 run playsound kamenridercraft:specter_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 execute if score @s krc.seq1 matches 46 if score @s krc.form1n matches 1 if score @s krc.form2n matches 0 run playsound kamenridercraft:deep_specter_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 59 if score @s krc.form1n matches 1 if score @s krc.form2n matches 62 run playsound kamenridercraft:deep_specter_gekikou_mode player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 execute if score @s krc.seq1 matches 50 if score @s krc.form1n matches 2 if score @s krc.form2n matches 0 run playsound kamenridercraft:sin_specter_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 2..10 unless score @s krc.form2n matches 3..6 run playsound kamenridercraft:necrom_ghost player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 3 run playsound kamenridercraft:dark_rider_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
@@ -131,6 +135,9 @@ execute if score @s krc.seq1 matches 92 if score @s krc.form1n matches 0 if scor
 execute if score @s krc.seq1 matches 92 if score @s krc.form1n matches 0 if score @s krc.form2n matches 0 run scoreboard players set @s krc.seq1 336
 execute if score @s krc.seq1 matches 112 if score @s krc.form1n matches 1 if score @s krc.form2n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ghost.deep_specter_damashii_2","color":"dark_purple"}
 execute if score @s krc.seq1 matches 112 if score @s krc.form1n matches 1 if score @s krc.form2n matches 0 run scoreboard players set @s krc.seq1 336
+execute if score @s krc.seq1 matches 131 if score @s krc.form1n matches 1 if score @s krc.form2n matches 62 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ghost.deep_specter_gekikou_2","color":"red"}
+execute if score @s krc.seq1 matches 171 if score @s krc.form1n matches 1 if score @s krc.form2n matches 62 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ghost.deep_specter_gekikou_3","color":"red"}
+execute if score @s krc.seq1 matches 171 if score @s krc.form1n matches 1 if score @s krc.form2n matches 62 run scoreboard players set @s krc.seq1 336
 execute if score @s krc.seq1 matches 112 if score @s krc.form1n matches 2 if score @s krc.form2n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ghost.sin_specter_damashii_2","color":"aqua"}
 execute if score @s krc.seq1 matches 152 if score @s krc.form1n matches 2 if score @s krc.form2n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ghost.sin_specter_damashii_2","color":"aqua"}
 execute if score @s krc.seq1 matches 169 if score @s krc.form1n matches 2 if score @s krc.form2n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ghost.sin_specter_damashii_3","color":"blue"}

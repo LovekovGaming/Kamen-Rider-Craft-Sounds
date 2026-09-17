@@ -8,6 +8,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_standby_ghost
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_standby_specter
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_standby_deep_specter
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_standby_gekikou_specter
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_standby_sin_specter
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_standby_necrom
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_standby_ore_specter

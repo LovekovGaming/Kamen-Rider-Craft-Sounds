@@ -14,6 +14,7 @@ execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items enti
 execute as @n[type=item,distance=..5,tag=necrom_eyecon] run tag @s add special_eyecon
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
+execute if score @s krc.henshin-stage matches 1 if score @s krc.form1n matches 1 if score @s krc.form2n matches 0 if items entity @n[type=item,distance=..5,tag=valid,tag=special_eyecon] contents kamenridercraft:deep_specter_ghost_eyecon run scoreboard players set @s krc.henshin-stage 5
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:ghost_driver_open player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/ghost/ghost_driver_standby 1
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid,tag=!special_eyecon] run playsound kamenridercraft:eyecon_press player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
@@ -41,6 +42,7 @@ execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=necrom_eyecon] run advancement grant @s only krc_snd:henshin/ghost/necrom_ghost_standby 1
 execute if score @s krc.henshin-stage matches 4 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:ore_specter_ghost_eyecon run advancement grant @s only krc_snd:henshin/ghost/ore_specter_standby 1
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:ghost_driver_pull player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 5 if score @s krc.form1n matches 1 if score @s krc.form2n matches 0 if items entity @n[type=item,distance=..5,tag=valid,tag=special_eyecon] contents kamenridercraft:deep_specter_ghost_eyecon run advancement grant @s only krc_snd:henshin/ghost/gekikou_specter_standby 1
 
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/ghost/root
 execute if score @s krc.henshin-stage matches 6 unless predicate krc_core:heisei/ghost_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:ghost_head"}
@@ -49,6 +51,7 @@ execute if score @s krc.henshin-stage matches 6 unless predicate krc_core:heisei
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_standby_specter
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_standby_deep_specter
+execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_standby_gekikou_specter
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_standby_sin_specter
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_standby_ghost
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_standby_necrom
