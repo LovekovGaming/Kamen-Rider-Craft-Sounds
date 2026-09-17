@@ -1,67 +1,49 @@
 {
-	"parent": "krc_snd:henshin/decade/seq_root",
-	"criteria": {
-	  "1": {
-		"trigger": "minecraft:tick",
-		"conditions": {
-		  "player": [
-			{
-			  "condition": "minecraft:entity_properties",
-			  "entity": "this",
-			  "predicate": {
-				"nbt": "{Tags:[\"clock_running\"]}",
-				"equipment": {
-				  "head": {
-					"items": [
-					  "kamenridercraft:decadehead"
-					]
-				  },
-				  "chest": {
-					"items": [
-					  "kamenridercraft:decadetroso"
-					]
-				  },
-				  "legs": {
-					"items": [
-					  "kamenridercraft:decadelegs"
-					]
-				  },
-				  "feet": {
-					"items": [
-					  "kamenridercraft:diend_belt"
-					]
-				  }
-				}
-			  }
-			},
-			{
-			  "condition": "minecraft:inverted",
-			  "term": {
-				"condition": "minecraft:entity_scores",
-				"entity": "this",
-				"scores": {
-				  "krc.henshin-stage": {
-					"min": 1
-				  }
-				}
-			  }
-			},
-			{
-			  "condition": "minecraft:inverted",
-			  "term": {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "nbt": "{Tags:[\"attackride\"]}"
-				}
-			  }
-			}
-		  ]
-		}
-	  }
-	},
-	"rewards": {
-	  "function": "krc_snd:henshin/decade/sounds/diend"
-	}
+  "parent": "krc_snd:henshin/decade/seq_root",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    },
+    "2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+			"type": "minecraft:player",
+			"advancements": {
+			  "krc_snd:henshin/decade/diend_seq": {
+				"1": true
+                  }
+                }
+              },
+              "equipment": {
+                "feet": {
+                  "items": "kamenridercraft:diend_belt"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "krc.henshin-stage": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/decade/sounds/diend"
   }
-  
+}

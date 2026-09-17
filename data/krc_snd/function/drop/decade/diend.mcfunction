@@ -140,7 +140,6 @@ execute if score @s krc.henshin-stage matches 9 if entity @n[type=item,distance=
 
 execute if score @s krc.henshin-stage matches 10 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/decade/root
 execute unless items entity @s armor.feet kamenridercraft:diend_belt if score @s krc.henshin-stage matches 10 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.feet", item: "kamenridercraft:diend_belt"}
-execute if score @s krc.henshin-stage matches 10 if entity @n[type=item,distance=..5,tag=valid] run tag @s remove clock_running
 execute if score @s krc.henshin-stage matches 10 if entity @n[type=item,distance=..5,tag=valid] run tag @s remove kamen_ride
 execute if score @s krc.henshin-stage matches 10 if entity @n[type=item,distance=..5,tag=valid] run tag @s remove attack_ride
 execute if score @s krc.henshin-stage matches 10 if entity @n[type=item,distance=..5,tag=valid] run tag @s remove chinomanako_kamen_ride

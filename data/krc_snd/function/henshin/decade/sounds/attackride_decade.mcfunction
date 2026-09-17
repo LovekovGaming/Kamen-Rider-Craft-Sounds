@@ -1,4 +1,4 @@
-advancement revoke @s only krc_snd:henshin/decade/attackride_decade_seq
+advancement revoke @s only krc_snd:henshin/decade/attackride_decade_seq 2
 scoreboard players add @s krc.seq1 1
 
 execute if entity @s[tag=blast] if score @s krc.seq1 matches 10 run playsound kamenridercraft:decade_blast player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
@@ -42,8 +42,7 @@ execute if entity @s[tag=gaga_no_udewa] if score @s krc.seq1 matches 10 run titl
 
 execute if score @s krc.seq1 matches ..9 run return 0
 scoreboard players set @s krc.seq1 0
-tag @s remove clock_running
-tag @s remove attackride
+advancement revoke @s only krc_snd:henshin/decade/attackride_decade_seq
 tag @s remove blast
 tag @s remove slash
 tag @s remove illusion

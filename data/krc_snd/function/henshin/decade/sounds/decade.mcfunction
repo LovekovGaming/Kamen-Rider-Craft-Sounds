@@ -1,4 +1,5 @@
-advancement revoke @s only krc_snd:henshin/decade/decade_seq
+advancement revoke @s only krc_snd:henshin/decade/decade_seq 2
+advancement revoke @s only krc_snd:henshin/decade/decade_seq 3
 scoreboard players add @s krc.seq1 1
 
 execute if score @s krc.form1n matches 0..1 if score @s krc.seq1 matches 10 run playsound kamenridercraft:callout_decade player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
@@ -149,4 +150,4 @@ execute if score @s krc.form1n matches 59 if score @s krc.seq1 matches 30 run pl
 
 execute if score @s krc.seq1 matches ..43 run return 0
 scoreboard players set @s krc.seq1 0
-tag @s remove clock_running
+advancement revoke @s only krc_snd:henshin/decade/decade_seq

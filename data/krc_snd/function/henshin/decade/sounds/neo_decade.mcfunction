@@ -1,4 +1,4 @@
-advancement revoke @s only krc_snd:henshin/decade/neo_decade_seq
+advancement revoke @s only krc_snd:henshin/decade/neo_decade_seq 2
 scoreboard players add @s krc.seq1 1
 
 execute if score @s krc.form1n matches 0..1 if score @s krc.seq1 matches 10 run playsound kamenridercraft:callout_decade player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
@@ -180,7 +180,13 @@ execute if score @s krc.form1n matches 68 if score @s krc.seq1 matches 10 run pl
 execute if score @s krc.form1n matches 68 if score @s krc.seq1 matches 10 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.decade.zi-o","color":"light_purple"}
 execute if score @s krc.form1n matches 68 if score @s krc.seq1 matches 42 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.zi-o","color":"light_purple"}
 execute if score @s krc.form1n matches 68 if score @s krc.seq1 matches 42 run scoreboard players set @s krc.seq1 143
+execute if score @s krc.form1n matches 69 if score @s krc.seq1 matches 10 run playsound kamenridercraft:callout_ooo_ffr player @a[scores={krc.configs.henshin_snd=1}] ~2 ~1 ~
+execute if score @s krc.form1n matches 69 if score @s krc.seq1 matches 10 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.decade.ooo_o","color":"white"}
+execute if score @s krc.form1n matches 69 if score @s krc.seq1 matches 14 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.decade.ooo","color":"red"}
+execute if score @s krc.form1n matches 69 if score @s krc.seq1 matches 17 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.decade.ooo_o","color":"white"}
+execute if score @s krc.form1n matches 69 if score @s krc.seq1 matches 20 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.decade.ooo","color":"red"}
+execute if score @s krc.form1n matches 69 if score @s krc.seq1 matches 30 run playsound kamenridercraft:decade_ooo_armor player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 
 execute if score @s krc.seq1 matches ..142 run return 0
 scoreboard players set @s krc.seq1 0
-tag @s remove clock_running
+advancement revoke @s only krc_snd:henshin/decade/neo_decade_seq

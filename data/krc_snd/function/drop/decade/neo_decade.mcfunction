@@ -198,7 +198,7 @@ execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=attack_ride] run tag @s add attack_ride
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid,tag=!k-touch] run scoreboard players set @s krc.henshin-stage 13
 
-execute if score @s krc.henshin-stage matches 13 unless predicate krc_core:heisei/decade_armor if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/decade/root
+execute if score @s krc.henshin-stage matches 13 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/decade/root
 execute if score @s krc.henshin-stage matches 13 unless predicate krc_core:heisei/decade_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:decadehead"}
 execute if score @s krc.henshin-stage matches 13 unless predicate krc_core:heisei/decade_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:decadetroso"}
 execute if score @s krc.henshin-stage matches 13 unless predicate krc_core:heisei/decade_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:decadelegs"}

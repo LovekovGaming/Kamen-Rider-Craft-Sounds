@@ -21,21 +21,6 @@
 				  }
 				},
 				"equipment": {
-				  "head": {
-					"items": [
-					  "kamenridercraft:decadehead"
-					]
-				  },
-				  "chest": {
-					"items": [
-					  "kamenridercraft:decadetroso"
-					]
-				  },
-				  "legs": {
-					"items": [
-					  "kamenridercraft:decadelegs"
-					]
-				  },
 				  "feet": {
 					"items": [
 					  "kamenridercraft:diend_belt"

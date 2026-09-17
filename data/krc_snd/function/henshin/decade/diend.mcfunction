@@ -6,7 +6,7 @@ scoreboard players reset @s krc.henshin-stage
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:diend_standby
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:k-touch_standby
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:chinomanako_diend_standby
-tag @s add clock_running
+advancement grant @s only krc_snd:henshin/decade/diend_seq 1
 tag @s remove kamen_ride
 tag @s remove attack_ride
 tag @s remove chinomanako_kamen_ride
