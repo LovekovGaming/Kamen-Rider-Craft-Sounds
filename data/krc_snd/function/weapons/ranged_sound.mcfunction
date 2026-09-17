@@ -1,0 +1,2 @@
+$execute if data entity @n[type=#minecraft:arrows,distance=..2,tag=!sound_invalid] {weapon:{id:"kamenridercraft:$(id)"}} run stopsound @a[scores={krc.configs.weapon_snd=1},distance=..50] player minecraft:entity.blaze.shoot
+$execute if data entity @n[type=#minecraft:arrows,distance=..2,tag=!sound_invalid] {weapon:{id:"kamenridercraft:$(id)"}} run playsound kamenridercraft:item.$(id).shot player @a[scores={krc.configs.weapon_snd=1}] ~ ~1 ~ 0.75

@@ -38,7 +38,7 @@
 			  "predicate": {
 				"equipment": {
 				  "mainhand": {
-					"items": "#krc_snd:ranged_weapons"
+					"items": "#krc_snd:arsenal/all_ranged"
 				  }
 				}
 			  }

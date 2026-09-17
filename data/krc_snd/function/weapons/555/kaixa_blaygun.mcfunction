@@ -1,3 +1,0 @@
-execute as @n[type=arrow,nbt={HasBeenShot:false}] on origin if items entity @s weapon.mainhand kamenridercraft:kaixa_blaygun run stopsound @a[scores={krc.configs.weapon_snd=1},distance=..50] player minecraft:entity.blaze.shoot
-execute as @n[type=arrow,nbt={HasBeenShot:false}] on origin if items entity @s weapon.mainhand kamenridercraft:kaixa_blaygun run playsound kamenridercraft:kaixa_blaygun player @a[scores={krc.configs.weapon_snd=1}] ~ ~1 ~
-advancement revoke @s only krc_snd:weapons/555/kaixa_blaygun

@@ -1,4 +1,0 @@
-execute as @n[type=kamenridercraft:base_projectile,tag=!sounded] on origin if entity @s[advancements={krc_snd:weapons/ooo/medagabryu=true}] run stopsound @a[scores={krc.configs.weapon_snd=1},distance=..50] player minecraft:entity.blaze.shoot
-execute as @n[type=kamenridercraft:base_projectile,tag=!sounded] on origin if entity @s[advancements={krc_snd:weapons/ooo/medagabryu=true}] run playsound kamenridercraft:medagabryu_shot player @a[scores={krc.configs.weapon_snd=1}] ~ ~1 ~ 0.6
-execute as @n[type=kamenridercraft:base_projectile,tag=!sounded] run tag @s add sounded
-advancement revoke @s only krc_snd:weapons/ooo/medagabryu
