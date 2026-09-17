@@ -37,7 +37,10 @@
 			"condition": "minecraft:entity_scores",
 			"entity": "this",
 			"scores": {
-			  "krc.henshin-stage": 8
+			  "krc.henshin-stage": {
+				"min": 8,
+				"max": 10
+			  }
 			}
 		  }
 		]
