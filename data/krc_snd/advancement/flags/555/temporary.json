@@ -2,6 +2,9 @@
   "criteria": {
 	"shocker_leader": {
 	  "trigger": "minecraft:impossible"
+	},
+	"muez_kitazaki": {
+	  "trigger": "minecraft:impossible"
 	}
   }
 }

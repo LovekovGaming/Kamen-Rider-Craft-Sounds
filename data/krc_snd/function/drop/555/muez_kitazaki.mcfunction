@@ -16,8 +16,10 @@ execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:muez_standby
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:faiz_complete player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.faiz.complete","color":"blue"}
+execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:flags/555/temporary muez_kitazaki
 
-execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:muez_mission_memory run function krc_snd:drop/common/return_item
-execute if score @s krc.henshin-stage matches 7 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:muez_mission_memory run advancement revoke @s from krc_snd:henshin/555/root
-execute if score @s krc.henshin-stage matches 7 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:muez_mission_memory run function krc_snd:drop/common/equip_armor {slot: "armor.feet", item: "kamenridercraft:muez_driver"}
+execute if score @s krc.henshin-stage matches 7 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/555/root
+execute if score @s krc.henshin-stage matches 7 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.feet", item: "kamenridercraft:muez_driver"}
+execute if score @s krc.henshin-stage matches 7.. run scoreboard players reset @s krc.henshin-stage
+execute as @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/return_item
 advancement revoke @s from krc_snd:drop/555/root
