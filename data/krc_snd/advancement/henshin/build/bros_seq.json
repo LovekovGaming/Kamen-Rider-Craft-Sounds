@@ -19,6 +19,11 @@
 				"1": true
                   }
                 }
+              },
+              "equipment": {
+                "feet": {
+                  "items": "kamenridercraft:nebula_steam_gun_hell_bros"
+                }
               }
             }
           },

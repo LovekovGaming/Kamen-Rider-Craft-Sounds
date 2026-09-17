@@ -19,7 +19,12 @@
 				"1": true
                   }
                 }
-              }
+              },
+				"equipment": {
+				  "feet": {
+					"items": "kamenridercraft:another_ziku_driver_zi_o"
+				  }
+				}
             }
           },
           {

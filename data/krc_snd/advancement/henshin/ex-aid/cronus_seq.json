@@ -19,7 +19,14 @@
 				"1": true
                   }
                 }
-              }
+              },
+				"equipment": {
+				  "feet": {
+					"items": [
+					  "kamenridercraft:gashacon_bugvisor_ii_chronos"
+					]
+				  }
+				}
             }
           },
           {

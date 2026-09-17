@@ -19,7 +19,14 @@
 				"1": true
                   }
                 }
-              }
+              },
+				"equipment": {
+				  "feet": {
+					"items": [
+					  "kamenridercraft:thebee_rider_belt"
+					]
+				  }
+				}
             }
           },
           {

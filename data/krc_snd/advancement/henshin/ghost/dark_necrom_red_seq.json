@@ -19,7 +19,14 @@
 				"1": true
                   }
                 }
-              }
+              },
+				"equipment": {
+				  "feet": {
+					"items": [
+					  "kamenridercraft:proto_mega_ulorder_red"
+					]
+				  }
+				}
             }
           },
           {

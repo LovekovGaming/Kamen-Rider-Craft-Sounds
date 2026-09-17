@@ -19,7 +19,14 @@
 				"1": true
                   }
                 }
-              }
+              },
+				"equipment": {
+				  "feet": {
+					"items": [
+					  "kamenridercraft:demons_driver_demons_trooper_b"
+					]
+				  }
+				}
             }
           },
           {

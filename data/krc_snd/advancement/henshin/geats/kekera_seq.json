@@ -19,7 +19,14 @@
 				"1": true
                   }
                 }
-              }
+              },
+				"equipment": {
+				  "feet": {
+					"items": [
+					  "kamenridercraft:raise_riser_belt_kekera"
+					]
+				  }
+				}
             }
           },
           {

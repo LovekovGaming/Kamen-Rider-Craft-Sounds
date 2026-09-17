@@ -19,7 +19,14 @@
 				"1": true
                   }
                 }
-              }
+              },
+				"equipment": {
+				  "feet": {
+					"items": [
+					  "kamenridercraft:dooms_driver_buckle_solomon"
+					]
+				  }
+				}
             }
           },
           {

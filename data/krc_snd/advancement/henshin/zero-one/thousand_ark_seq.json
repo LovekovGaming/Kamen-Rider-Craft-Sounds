@@ -19,7 +19,14 @@
 				"1": true
                   }
                 }
-              }
+              },
+				"equipment": {
+				  "feet": {
+					"items": [
+					  "kamenridercraft:ark_driver_zero_thousand_ark"
+					]
+				  }
+				}
             }
           },
           {

@@ -19,7 +19,14 @@
 				"1": true
                   }
                 }
-              }
+              },
+				"equipment": {
+				  "feet": {
+					"items": [
+					  "kamenridercraft:hercus_rider_belt"
+					]
+				  }
+				}
             }
           },
           {

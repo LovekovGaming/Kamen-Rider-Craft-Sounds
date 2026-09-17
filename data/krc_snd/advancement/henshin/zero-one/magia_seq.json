@@ -19,7 +19,12 @@
 				"1": true
                   }
                 }
-              }
+              },
+				"equipment": {
+				  "feet": {
+					"items": "#krc_snd:zetsumeriser"
+				  }
+				}
             }
           },
           {

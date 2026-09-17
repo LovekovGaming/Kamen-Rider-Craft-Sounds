@@ -19,7 +19,14 @@
 				"1": true
                   }
                 }
-              }
+              },
+				"equipment": {
+				  "feet": {
+					"items": [
+					  "kamenridercraft:kanon_specter_driver"
+					]
+				  }
+				}
             }
           },
           {

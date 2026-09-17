@@ -19,6 +19,11 @@
 				"1": true
                   }
                 }
+              },
+              "equipment": {
+                "feet": {
+                  "items": "kamenridercraft:evol_driver_mad_rogue"
+                }
               }
             }
           },

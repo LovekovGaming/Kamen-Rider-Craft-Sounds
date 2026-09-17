@@ -19,6 +19,11 @@
 				"1": true
                   }
                 }
+              },
+              "equipment": {
+                "feet": {
+                  "items": "kamenridercraft:transteam_gun_blood_stalk"
+                }
               }
             }
           },
