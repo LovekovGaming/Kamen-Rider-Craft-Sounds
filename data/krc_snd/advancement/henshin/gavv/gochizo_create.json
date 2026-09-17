@@ -135,6 +135,111 @@
 			"items": "#kamenridercraft:food_for/cake_gochizo"
 		  }
 		}
+	  },
+	  "10": {
+		"trigger": "minecraft:consume_item",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "feet": {
+				"items": "kamenridercraft:henshin_belt_gavv"
+			  }
+			}
+		  },
+		  "item": {
+			"items": "#kamenridercraft:food_for/pudding_gochizo"
+		  }
+		}
+	  },
+	  "11": {
+		"trigger": "minecraft:consume_item",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "feet": {
+				"items": "kamenridercraft:henshin_belt_gavv"
+			  }
+			}
+		  },
+		  "item": {
+			"items": "#kamenridercraft:food_for/frappeis_gochizo"
+		  }
+		}
+	  },
+	  "12": {
+		"trigger": "minecraft:consume_item",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "feet": {
+				"items": "kamenridercraft:henshin_belt_gavv"
+			  }
+			}
+		  },
+		  "item": {
+			"items": "#kamenridercraft:food_for/ala_mode_gochizo"
+		  }
+		}
+	  },
+	  "13": {
+		"trigger": "minecraft:consume_item",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "feet": {
+				"items": "kamenridercraft:henshin_belt_gavv"
+			  }
+			}
+		  },
+		  "item": {
+			"items": "#kamenridercraft:food_for/sorbei_gochizo"
+		  }
+		}
+	  },
+	  "14": {
+		"trigger": "minecraft:consume_item",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "feet": {
+				"items": "kamenridercraft:henshin_belt_gavv"
+			  }
+			}
+		  },
+		  "item": {
+			"items": "#kamenridercraft:food_for/mochi_gochizo"
+		  }
+		}
+	  },
+	  "15": {
+		"trigger": "minecraft:consume_item",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "feet": {
+				"items": "kamenridercraft:henshin_belt_gavv"
+			  }
+			}
+		  },
+		  "item": {
+			"items": "#kamenridercraft:food_for/corn_gochizo"
+		  }
+		}
+	  },
+	  "16": {
+		"trigger": "minecraft:consume_item",
+		"conditions": {
+		  "player": {
+			"equipment": {
+			  "feet": {
+				"items": "kamenridercraft:henshin_belt_gavv"
+			  }
+			}
+		  },
+		  "item": {
+			"items": "#kamenridercraft:food_for/pancake_gochizo"
+		  }
+		}
 	  }
 	},
 	"requirements": [
@@ -147,7 +252,14 @@
 		"6",
 		"7",
 		"8",
-		"9"
+		"9",
+		"10",
+		"11",
+		"12",
+		"13",
+		"14",
+		"15",
+		"16"
 	  ]
 	],
 	"rewards": {
