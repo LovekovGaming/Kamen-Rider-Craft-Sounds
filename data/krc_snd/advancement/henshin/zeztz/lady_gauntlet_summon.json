@@ -1,0 +1,21 @@
+{
+  "parent": "krc_snd:henshin/zeztz/root",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "type": "kamenridercraft:rider_summon",
+          "equipment": {
+            "feet": {
+              "items": "#krc_snd:lady_gauntlet_nightmares"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "krc_snd:henshin/zeztz/lady_gauntlet_summon"
+  }
+}

@@ -1,6 +1,9 @@
 {
   "parent": "krc_snd:flags/root",
   "criteria": {
+	"lady_gauntlet_active": {
+	  "trigger": "minecraft:impossible"
+	},
 	"midnight_shadow_drive": {
 	  "trigger": "minecraft:impossible"
 	}

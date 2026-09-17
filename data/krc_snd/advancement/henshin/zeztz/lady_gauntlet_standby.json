@@ -15,7 +15,7 @@
 			  "type_specific": {
 				"type": "minecraft:player",
 				"advancements": {
-				  "krc_snd:henshin/zeztz/nox_standby": {
+				  "krc_snd:henshin/zeztz/lady_gauntlet_standby": {
 					"1": true
 				  }
 				}
@@ -26,10 +26,7 @@
 			"condition": "minecraft:entity_scores",
 			"entity": "this",
 			"scores": {
-			  "krc.henshin-stage": {
-				"min": 1,
-				"max": 7
-			  }
+			  "krc.henshin-stage": 2
 			}
 		  }
 		]
@@ -37,6 +34,6 @@
 	}
   },
   "rewards": {
-	"function": "krc_snd:henshin/zeztz/standby/nox"
+	"function": "krc_snd:henshin/zeztz/standby/lady_gauntlet"
   }
 }
