@@ -4,6 +4,9 @@
 	"1": {
 	  "trigger": "minecraft:impossible"
 	},
+	"subtitle_fx": {
+	  "trigger": "minecraft:impossible"
+	},
 	"2": {
 	  "trigger": "minecraft:tick",
 	  "conditions": {
@@ -41,6 +44,15 @@
 	  }
 	}
   },
+  "requirements": [
+    [
+      "1",
+      "subtitle_fx"
+    ],
+    [
+      "2"
+    ]
+  ],
   "rewards": {
 	"function": "krc_snd:henshin/gotchard/standby/wind"
   }
