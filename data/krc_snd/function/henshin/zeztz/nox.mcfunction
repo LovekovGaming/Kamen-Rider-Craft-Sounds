@@ -13,6 +13,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:tire_koukan
 
 execute unless score @s krc.form1n matches 3 run playsound kamenridercraft:nox_driver_spin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 3 unless items entity @s weapon.offhand kamenridercraft:drive_capsem run playsound kamenridercraft:nox_driver_spin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 execute if score @s krc.form1n matches 3 unless items entity @s weapon.offhand kamenridercraft:drive_capsem run playsound kamenridercraft:nox_midnight_shadow player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 execute if score @s krc.form1n matches 3 if items entity @s weapon.offhand kamenridercraft:drive_capsem run playsound kamenridercraft:tire_koukan player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
 execute if score @s krc.form1n matches 3 if items entity @s weapon.offhand kamenridercraft:drive_capsem run advancement grant @s only krc_snd:flags/zeztz/temporary midnight_shadow_drive
