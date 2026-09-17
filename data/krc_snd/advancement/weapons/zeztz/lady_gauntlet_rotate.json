@@ -1,0 +1,17 @@
+{
+	"parent": "krc_snd:weapons/zeztz/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:using_item",
+		"conditions": {
+		  "item": {
+			"items": "kamenridercraft:lady_gauntlet"
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/zeztz/lady_gauntlet_rotate"
+	}
+  }
+  

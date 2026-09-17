@@ -23,21 +23,13 @@
 			}
 		  },
 		  {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-			  "equipment": {
-				"feet": {
-				  "items": "kamenridercraft:nox_driver"
-				}
-			  }
-			}
-		  },
-		  {
 			"condition": "minecraft:entity_scores",
 			"entity": "this",
 			"scores": {
-			  "krc.henshin-stage": 7
+			  "krc.henshin-stage": {
+				"min": 1,
+				"max": 7
+			  }
 			}
 		  }
 		]

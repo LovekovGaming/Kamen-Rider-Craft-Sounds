@@ -1,0 +1,1 @@
+playsound kamenridercraft:nox_driver_rotate player @a[scores={krc.configs.weapon_snd=1}] ~ ~1 ~ 0.6

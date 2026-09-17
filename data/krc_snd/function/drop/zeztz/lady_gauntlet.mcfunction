@@ -1,0 +1,4 @@
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:chaos_capsem run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.chaos","color":"dark_gray"}
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:chaos_capsem run playsound kamenridercraft:chaos_capsem player @a[scores={krc.configs.weapon_snd=1}] ~ ~1 ~
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:chaos_capsem run function krc_snd:drop/common/return_item
+advancement revoke @s from krc_snd:drop/zeztz/root
