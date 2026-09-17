@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:gamer_driver_paradx"
-					]
+					"items": "kamenridercraft:gamer_driver_paradx"
 				  }
 				}
             }

@@ -17,9 +17,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:nox_driver"
-				  ]
+				  "items": "kamenridercraft:nox_driver"
 				}
 			  }
 			}

@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:zetsumeriser_arsino"
-				  ]
+				  "items": "kamenridercraft:zetsumeriser_arsino"
 				}
 			  }
 			}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:arsino_zetsumerisekey"
-					  ]
+					  "items": "kamenridercraft:arsino_zetsumerisekey"
 					}
 				  }
 				}

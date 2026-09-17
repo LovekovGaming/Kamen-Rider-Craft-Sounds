@@ -22,9 +22,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:alchemisdriver_wind"
-				  ]
+				  "items": "kamenridercraft:alchemisdriver_wind"
 				}
 			  }
 			}

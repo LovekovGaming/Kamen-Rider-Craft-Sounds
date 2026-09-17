@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:amazonhead"
-			  ]
+			  "items": "kamenridercraft:amazonhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:amazontroso"
-			  ]
+			  "items": "kamenridercraft:amazontroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:amazonlegs"
-			  ]
+			  "items": "kamenridercraft:amazonlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:condorer"
-			  ]
+			  "items": "kamenridercraft:condorer"
 			}
 		  }
 		}
@@ -36,24 +28,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:amazonhead"
-			  ]
+			  "items": "kamenridercraft:amazonhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:amazontroso"
-			  ]
+			  "items": "kamenridercraft:amazontroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:amazonlegs"
-			  ]
+			  "items": "kamenridercraft:amazonlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:dark_condorer"
-			  ]
+			  "items": "kamenridercraft:dark_condorer"
 			}
 		  }
 		}

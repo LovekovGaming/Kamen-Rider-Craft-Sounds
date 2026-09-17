@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:gatack_rider_belt"
-					]
+					"items": "kamenridercraft:gatack_rider_belt"
 				  }
 				}
             }

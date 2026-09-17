@@ -11,9 +11,7 @@
             "predicate": {
               "equipment": {
                 "feet": {
-                  "items": [
-                    "kamenridercraft:libera_driver"
-                  ]
+                  "items": "kamenridercraft:libera_driver"
                 }
               }
             }

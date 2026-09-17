@@ -22,9 +22,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:gotchardriver"
-				  ]
+				  "items": "kamenridercraft:gotchardriver"
 				}
 			  }
 			}
@@ -60,9 +58,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:gotchardriver_brother"
-				  ]
+				  "items": "kamenridercraft:gotchardriver_brother"
 				}
 			  }
 			}

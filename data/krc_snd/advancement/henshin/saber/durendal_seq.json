@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:royal_sword_of_logos_buckle_durendal"
-					]
+					"items": "kamenridercraft:royal_sword_of_logos_buckle_durendal"
 				  }
 				}
             }

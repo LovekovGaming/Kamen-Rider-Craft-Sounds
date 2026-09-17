@@ -15,9 +15,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:v_buckle_ryuki"
-				  ]
+				  "items": "kamenridercraft:v_buckle_ryuki"
 				}
 			  }
 			}
@@ -98,9 +96,7 @@
 	},
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:v_buckle_knight"
-				  ]
+				  "items": "kamenridercraft:v_buckle_knight"
 				}
 			  }
 			}
@@ -154,9 +150,7 @@
 	},
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:v_buckle_scissors"
-				  ]
+				  "items": "kamenridercraft:v_buckle_scissors"
 				}
 			  }
 			}
@@ -210,9 +204,7 @@
 	},
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:v_buckle_zolda"
-				  ]
+				  "items": "kamenridercraft:v_buckle_zolda"
 				}
 			  }
 			}
@@ -266,9 +258,7 @@
 	},
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:v_buckle_raia"
-				  ]
+				  "items": "kamenridercraft:v_buckle_raia"
 				}
 			  }
 			}
@@ -322,9 +312,7 @@
 	},
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:v_buckle_gai"
-				  ]
+				  "items": "kamenridercraft:v_buckle_gai"
 				}
 			  }
 			}
@@ -338,9 +326,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:metal_horn_vent"
-					  ]
+					  "items": "kamenridercraft:metal_horn_vent"
 					}
 				  }
 				}
@@ -351,9 +337,7 @@
 				"predicate": {
 				  "equipment": {
 					"offhand": {
-					  "items": [
-						"kamenridercraft:metal_horn_vent"
-					  ]
+					  "items": "kamenridercraft:metal_horn_vent"
 					}
 				  }
 				}
@@ -382,9 +366,7 @@
 	},
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:v_buckle_ouja"
-				  ]
+				  "items": "kamenridercraft:v_buckle_ouja"
 				}
 			  }
 			}
@@ -438,9 +420,7 @@
 	},
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:v_buckle_odin"
-				  ]
+				  "items": "kamenridercraft:v_buckle_odin"
 				}
 			  }
 			}
@@ -494,9 +474,7 @@
 	},
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:v_buckle_tiger"
-				  ]
+				  "items": "kamenridercraft:v_buckle_tiger"
 				}
 			  }
 			}
@@ -510,9 +488,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:dest_claw_vent"
-					  ]
+					  "items": "kamenridercraft:dest_claw_vent"
 					}
 				  }
 				}
@@ -523,9 +499,7 @@
 				"predicate": {
 				  "equipment": {
 					"offhand": {
-					  "items": [
-						"kamenridercraft:dest_claw_vent"
-					  ]
+					  "items": "kamenridercraft:dest_claw_vent"
 					}
 				  }
 				}
@@ -554,9 +528,7 @@
 	},
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:v_buckle_imperer"
-				  ]
+				  "items": "kamenridercraft:v_buckle_imperer"
 				}
 			  }
 			}
@@ -570,9 +542,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:gazelle_stab_vent"
-					  ]
+					  "items": "kamenridercraft:gazelle_stab_vent"
 					}
 				  }
 				}
@@ -583,9 +553,7 @@
 				"predicate": {
 				  "equipment": {
 					"offhand": {
-					  "items": [
-						"kamenridercraft:gazelle_stab_vent"
-					  ]
+					  "items": "kamenridercraft:gazelle_stab_vent"
 					}
 				  }
 				}
@@ -614,9 +582,7 @@
 	},
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:v_buckle_femme"
-				  ]
+				  "items": "kamenridercraft:v_buckle_femme"
 				}
 			  }
 			}
@@ -670,9 +636,7 @@
 	},
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:v_buckle_ryuga"
-				  ]
+				  "items": "kamenridercraft:v_buckle_ryuga"
 				}
 			  }
 			}
@@ -726,9 +690,7 @@
 	},
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:v_buckle_verde"
-				  ]
+				  "items": "kamenridercraft:v_buckle_verde"
 				}
 			  }
 			}
@@ -742,9 +704,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:bio_winder_vent"
-					  ]
+					  "items": "kamenridercraft:bio_winder_vent"
 					}
 				  }
 				}
@@ -755,9 +715,7 @@
 				"predicate": {
 				  "equipment": {
 					"offhand": {
-					  "items": [
-						"kamenridercraft:bio_winder_vent"
-					  ]
+					  "items": "kamenridercraft:bio_winder_vent"
 					}
 				  }
 				}
@@ -786,9 +744,7 @@
 	},
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:v_buckle_abyss"
-				  ]
+				  "items": "kamenridercraft:v_buckle_abyss"
 				}
 			  }
 			}
@@ -851,9 +807,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:alternative_v_buckle"
-					  ]
+					  "items": "kamenridercraft:alternative_v_buckle"
 					}
 				  }
 				}
@@ -864,9 +818,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:alternative_zero_v_buckle"
-					  ]
+					  "items": "kamenridercraft:alternative_zero_v_buckle"
 					}
 				  }
 				}
@@ -882,9 +834,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:slash_dagger_vent"
-					  ]
+					  "items": "kamenridercraft:slash_dagger_vent"
 					}
 				  }
 				}
@@ -895,9 +845,7 @@
 				"predicate": {
 				  "equipment": {
 					"offhand": {
-					  "items": [
-						"kamenridercraft:slash_dagger_vent"
-					  ]
+					  "items": "kamenridercraft:slash_dagger_vent"
 					}
 				  }
 				}

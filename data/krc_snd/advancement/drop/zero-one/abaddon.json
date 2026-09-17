@@ -25,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -38,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:crowding_hopper_progrisekey"
-					  ]
+					  "items": "kamenridercraft:crowding_hopper_progrisekey"
 					}
 				  }
 				}

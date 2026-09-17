@@ -17,9 +17,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:zeronos_belt"
-				  ]
+				  "items": "kamenridercraft:zeronos_belt"
 				}
 			  }
 			}

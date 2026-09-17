@@ -22,9 +22,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:ikaros_driver"
-				  ]
+				  "items": "kamenridercraft:ikaros_driver"
 				}
 			  }
 			}

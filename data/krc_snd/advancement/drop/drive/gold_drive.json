@@ -41,9 +41,7 @@
 				  "predicate": {
 					"equipment": {
 					  "mainhand": {
-						"items": [
-						  "minecraft:air"
-						]
+						"items": "minecraft:air"
 					  }
 					}
 				  }
@@ -54,9 +52,7 @@
 				  "predicate": {
 					"equipment": {
 					  "mainhand": {
-						"items": [
-						  "kamenridercraft:banno_tablet"
-						]
+						"items": "kamenridercraft:banno_tablet"
 					  }
 					}
 				  }

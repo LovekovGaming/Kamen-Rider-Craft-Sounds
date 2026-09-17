@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:ghead"
-			  ]
+			  "items": "kamenridercraft:ghead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:gtroso"
-			  ]
+			  "items": "kamenridercraft:gtroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:glegs"
-			  ]
+			  "items": "kamenridercraft:glegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:g_belt"
-			  ]
+			  "items": "kamenridercraft:g_belt"
 			}
 		  }
 		}

@@ -17,9 +17,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:leangle_buckle"
-				  ]
+				  "items": "kamenridercraft:leangle_buckle"
 				}
 			  }
 			}

@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:lord_invoker_zero"
-					]
+					"items": "kamenridercraft:lord_invoker_zero"
 				  }
 				}
             }
@@ -62,9 +60,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:lord_invoker_two"
-					]
+					"items": "kamenridercraft:lord_invoker_two"
 				  }
 				}
             }

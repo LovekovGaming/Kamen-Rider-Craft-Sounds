@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:chophopper_rider_belt"
-					]
+					"items": "kamenridercraft:chophopper_rider_belt"
 				  }
 				}
             }

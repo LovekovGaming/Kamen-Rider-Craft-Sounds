@@ -14,24 +14,16 @@
 			  },
 			  "equipment": {
 				"head": {
-				  "items": [
-					"kamenridercraft:zi_o_head"
-				  ]
+				  "items": "kamenridercraft:zi_o_head"
 				},
 				"chest": {
-				  "items": [
-					"kamenridercraft:zi_o_troso"
-				  ]
+				  "items": "kamenridercraft:zi_o_troso"
 				},
 				"legs": {
-				  "items": [
-					"kamenridercraft:zi_o_legs"
-				  ]
+				  "items": "kamenridercraft:zi_o_legs"
 				},
 				"feet": {
-				  "items": [
-					"kamenridercraft:ziku_driver_geiz"
-				  ],
+				  "items": "kamenridercraft:ziku_driver_geiz",
 				  "predicates": {
 					"minecraft:custom_data": {
 					  "slot_tex1": "kamenridercraft:geiz_majesty_ridewatch"

@@ -14,9 +14,7 @@
                 "predicate": {
                   "equipment": {
                     "feet": {
-                      "items": [
-                        "kamenridercraft:vision_driver_gazer"
-                      ]
+                      "items": "kamenridercraft:vision_driver_gazer"
                     }
                   }
                 }
@@ -27,9 +25,7 @@
                 "predicate": {
                   "equipment": {
                     "feet": {
-                      "items": [
-                        "kamenridercraft:vision_driver_gazer_suel"
-                      ]
+                      "items": "kamenridercraft:vision_driver_gazer_suel"
                     }
                   }
                 }
@@ -45,9 +41,7 @@
                 "predicate": {
                   "equipment": {
                     "mainhand": {
-                      "items": [
-                        "minecraft:air"
-                      ]
+                      "items": "minecraft:air"
                     }
                   }
                 }
@@ -58,9 +52,7 @@
                 "predicate": {
                   "equipment": {
                     "mainhand": {
-                      "items": [
-                        "kamenridercraft:providence_card_gazer"
-                      ]
+                      "items": "kamenridercraft:providence_card_gazer"
                     }
                   }
                 }

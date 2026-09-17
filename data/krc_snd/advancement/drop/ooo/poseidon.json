@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:poseidon_driver"
-				  ]
+				  "items": "kamenridercraft:poseidon_driver"
 				}
 			  }
 			}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:same_medal"
-					  ]
+					  "items": "kamenridercraft:same_medal"
 					}
 				  }
 				}
@@ -53,9 +47,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:kujira_medal"
-					  ]
+					  "items": "kamenridercraft:kujira_medal"
 					}
 				  }
 				}
@@ -66,9 +58,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:ookamiuo_medal"
-					  ]
+					  "items": "kamenridercraft:ookamiuo_medal"
 					}
 				  }
 				}

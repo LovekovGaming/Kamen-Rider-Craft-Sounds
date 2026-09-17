@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:metro_pd_driver_honoh"
-				  ]
+				  "items": "kamenridercraft:metro_pd_driver_honoh"
 				}
 			  }
 			}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:tokujoka_key"
-					  ]
+					  "items": "kamenridercraft:tokujoka_key"
 					}
 				  }
 				}

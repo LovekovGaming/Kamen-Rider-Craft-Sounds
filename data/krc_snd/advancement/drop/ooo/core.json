@@ -29,9 +29,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:core_driver"
-					  ]
+					  "items": "kamenridercraft:core_driver"
 					}
 				  }
 				}
@@ -42,9 +40,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:powered_up_core_driver"
-					  ]
+					  "items": "kamenridercraft:powered_up_core_driver"
 					}
 				  }
 				}
@@ -60,9 +56,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -73,9 +67,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:memory_memory"
-					  ]
+					  "items": "kamenridercraft:memory_memory"
 					}
 				  }
 				}

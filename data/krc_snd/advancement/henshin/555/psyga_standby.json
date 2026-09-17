@@ -22,9 +22,7 @@
 				},
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:psyga_driver"
-					]
+					"items": "kamenridercraft:psyga_driver"
 				  }
 				}
 			  }

@@ -17,9 +17,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:manga_arcle"
-				  ]
+				  "items": "kamenridercraft:manga_arcle"
 				}
 			  }
 			}

@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:another_ziku_driver_zi_o"
-					  ]
+					  "items": "kamenridercraft:another_ziku_driver_zi_o"
 					}
 				  }
 				}
@@ -45,9 +41,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -71,19 +65,13 @@
 			  "predicate": {
 				"equipment": {
 				  "head": {
-					"items": [
-					  "kamenridercraft:zi_o_head"
-					]
+					"items": "kamenridercraft:zi_o_head"
 				  },
 				  "chest": {
-					"items": [
-					  "kamenridercraft:zi_o_troso"
-					]
+					"items": "kamenridercraft:zi_o_troso"
 				  },
 				  "legs": {
-					"items": [
-					  "kamenridercraft:zi_o_legs"
-					]
+					"items": "kamenridercraft:zi_o_legs"
 				  }
 				}
 			  }

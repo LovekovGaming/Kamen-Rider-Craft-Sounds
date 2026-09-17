@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:oooooodriver"
-					]
+					"items": "kamenridercraft:oooooodriver"
 				  }
 				}
             }

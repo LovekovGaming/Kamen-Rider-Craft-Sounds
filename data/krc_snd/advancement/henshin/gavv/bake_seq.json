@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:bakebuckle"
-					]
+					"items": "kamenridercraft:bakebuckle"
 				  }
 				}
             }

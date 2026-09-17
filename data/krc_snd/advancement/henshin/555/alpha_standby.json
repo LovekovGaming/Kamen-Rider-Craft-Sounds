@@ -22,9 +22,7 @@
 				},
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:alpha_driver"
-					]
+					"items": "kamenridercraft:alpha_driver"
 				  }
 				}
 			  }

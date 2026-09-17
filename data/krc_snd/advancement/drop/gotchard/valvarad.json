@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:valvaradraw_buckle"
-					  ]
+					  "items": "kamenridercraft:valvaradraw_buckle"
 					}
 				  }
 				}
@@ -42,19 +38,13 @@
 			"predicate": {
 			  "equipment": {
 				"head": {
-				  "items": [
-			  		"kamenridercraft:gotchard_head"
-				  ]
+				  "items": "kamenridercraft:gotchard_head"
 				},
 				"chest": {
-				  "items": [
-			  		"kamenridercraft:gotchard_torso"
-				  ]
+				  "items": "kamenridercraft:gotchard_torso"
 				},
 				"legs": {
-				  "items": [
-			  		"kamenridercraft:gotchard_legs"
-				  ]
+				  "items": "kamenridercraft:gotchard_legs"
 				}
 			  }
 			}

@@ -259,19 +259,13 @@
 				},
 				"equipment": {
 				  "head": {
-					"items": [
-					  "kamenridercraft:decadehead"
-					]
+					"items": "kamenridercraft:decadehead"
 				  },
 				  "chest": {
-					"items": [
-					  "kamenridercraft:decadetroso"
-					]
+					"items": "kamenridercraft:decadetroso"
 				  },
 				  "legs": {
-					"items": [
-					  "kamenridercraft:decadelegs"
-					]
+					"items": "kamenridercraft:decadelegs"
 				  }
 				}
 			  }

@@ -17,9 +17,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:garren_buckle"
-				  ]
+				  "items": "kamenridercraft:garren_buckle"
 				}
 			  }
 			}

@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -46,9 +44,7 @@
 			  "predicate": {
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:apollogeist_belt"
-					]
+					"items": "kamenridercraft:apollogeist_belt"
 				  }
 				}
 			  }

@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:sword_of_logos_buckle_kenzan"
-					]
+					"items": "kamenridercraft:sword_of_logos_buckle_kenzan"
 				  }
 				}
             }

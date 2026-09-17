@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:wizard_head"
-			  ]
+			  "items": "kamenridercraft:wizard_head"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:wizard_troso"
-			  ]
+			  "items": "kamenridercraft:wizard_troso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:wizard_legs"
-			  ]
+			  "items": "kamenridercraft:wizard_legs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:dark_wizardriver"
-			  ]
+			  "items": "kamenridercraft:dark_wizardriver"
 			}
 		  }
 		}

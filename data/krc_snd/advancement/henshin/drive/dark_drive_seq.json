@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:drivedriver_darkdrive"
-					]
+					"items": "kamenridercraft:drivedriver_darkdrive"
 				  }
 				}
             }

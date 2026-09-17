@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:juuga_driver"
-					]
+					"items": "kamenridercraft:juuga_driver"
 				  }
 				}
             }

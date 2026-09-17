@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:zetsumeriser_berotha"
-				  ]
+				  "items": "kamenridercraft:zetsumeriser_berotha"
 				}
 			  }
 			}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:berotha_zetsumerisekey"
-					  ]
+					  "items": "kamenridercraft:berotha_zetsumerisekey"
 					}
 				  }
 				}

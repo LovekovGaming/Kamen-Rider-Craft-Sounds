@@ -22,9 +22,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:yuuki_belt"
-				  ]
+				  "items": "kamenridercraft:yuuki_belt"
 				}
 			  }
 			}

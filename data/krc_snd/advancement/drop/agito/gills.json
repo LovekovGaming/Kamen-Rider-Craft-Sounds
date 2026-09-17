@@ -42,9 +42,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -68,19 +66,13 @@
 			"predicate": {
 			  "equipment": {
 				"head": {
-				  "items": [
-					"kamenridercraft:agitohead"
-				  ]
+				  "items": "kamenridercraft:agitohead"
 				},
 				"chest": {
-				  "items": [
-					"kamenridercraft:agitotroso"
-				  ]
+				  "items": "kamenridercraft:agitotroso"
 				},
 				"legs": {
-				  "items": [
-					"kamenridercraft:agitolegs"
-				  ]
+				  "items": "kamenridercraft:agitolegs"
 				}
 			  }
 			}
@@ -93,9 +85,7 @@
 			  "predicate": {
 				"equipment": {
 			  	  "feet": {
-			  		"items": [
-			  		  "kamenridercraft:meta_factor"
-			  		]
+			  		"items": "kamenridercraft:meta_factor"
 			  	  }
 				}
 			  }

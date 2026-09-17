@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:whead"
-			  ]
+			  "items": "kamenridercraft:whead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:wtroso"
-			  ]
+			  "items": "kamenridercraft:wtroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:wlegs"
-			  ]
+			  "items": "kamenridercraft:wlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:lostdriver_cyclone"
-			  ]
+			  "items": "kamenridercraft:lostdriver_cyclone"
 			}
 		  }
 		}

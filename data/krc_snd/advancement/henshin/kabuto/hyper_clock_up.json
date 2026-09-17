@@ -6,19 +6,13 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:kabutohead"
-			  ]
+			  "items": "kamenridercraft:kabutohead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:kabutotroso"
-			  ]
+			  "items": "kamenridercraft:kabutotroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:kabutolegs"
-			  ]
+			  "items": "kamenridercraft:kabutolegs"
 			},
 			"feet": {
 			  "items": "#kamenridercraft:belts/kabuto_armor"

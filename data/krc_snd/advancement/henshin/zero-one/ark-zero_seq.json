@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:ark_driver_zero"
-					]
+					"items": "kamenridercraft:ark_driver_zero"
 				  }
 				}
             }

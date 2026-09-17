@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:ryukihead"
-			  ]
+			  "items": "kamenridercraft:ryukihead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:ryukitroso"
-			  ]
+			  "items": "kamenridercraft:ryukitroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:ryukilegs"
-			  ]
+			  "items": "kamenridercraft:ryukilegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:alternative_v_buckle"
-			  ]
+			  "items": "kamenridercraft:alternative_v_buckle"
 			}
 		  }
 		}
@@ -36,24 +28,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:ryukihead"
-			  ]
+			  "items": "kamenridercraft:ryukihead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:ryukitroso"
-			  ]
+			  "items": "kamenridercraft:ryukitroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:ryukilegs"
-			  ]
+			  "items": "kamenridercraft:ryukilegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:alternative_zero_v_buckle"
-			  ]
+			  "items": "kamenridercraft:alternative_zero_v_buckle"
 			}
 		  }
 		}

@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:nophoon_kamen_norider"
-					]
+					"items": "kamenridercraft:nophoon_kamen_norider"
 				  }
 				}
             }

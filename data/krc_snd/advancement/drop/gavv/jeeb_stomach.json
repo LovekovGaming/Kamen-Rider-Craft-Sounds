@@ -11,9 +11,7 @@
 			  "predicate": {
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:jeeb_mimicdeviser"
-					]
+					"items": "kamenridercraft:jeeb_mimicdeviser"
 				  }
 				}
 			  }
@@ -27,9 +25,7 @@
 				  "predicate": {
 					"equipment": {
 					  "mainhand": {
-						"items": [
-						  "minecraft:air"
-						]
+						"items": "minecraft:air"
 					  }
 					}
 				  }

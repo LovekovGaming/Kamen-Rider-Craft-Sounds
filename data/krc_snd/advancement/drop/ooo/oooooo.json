@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:oooooodriver"
-					  ]
+					  "items": "kamenridercraft:oooooodriver"
 					}
 				  }
 				}
@@ -32,9 +30,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -45,9 +41,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:shocker_medal"
-					  ]
+					  "items": "kamenridercraft:shocker_medal"
 					}
 				  }
 				}
@@ -58,9 +52,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:gel_shocker_medal"
-					  ]
+					  "items": "kamenridercraft:gel_shocker_medal"
 					}
 				  }
 				}
@@ -71,9 +63,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:destron_medal"
-					  ]
+					  "items": "kamenridercraft:destron_medal"
 					}
 				  }
 				}
@@ -84,9 +74,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:god_medal"
-					  ]
+					  "items": "kamenridercraft:god_medal"
 					}
 				  }
 				}
@@ -97,9 +85,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:garanda_medal"
-					  ]
+					  "items": "kamenridercraft:garanda_medal"
 					}
 				  }
 				}
@@ -110,9 +96,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:delza_medal"
-					  ]
+					  "items": "kamenridercraft:delza_medal"
 					}
 				  }
 				}
@@ -123,9 +107,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:o_scanner"
-					  ]
+					  "items": "kamenridercraft:o_scanner"
 					}
 				  }
 				}

@@ -7,19 +7,13 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:ooohead"
-			  ]
+			  "items": "kamenridercraft:ooohead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:oootroso"
-			  ]
+			  "items": "kamenridercraft:oootroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:ooolegs"
-			  ]
+			  "items": "kamenridercraft:ooolegs"
 			},
 			"feet": {
 			  "items": "#krc_snd:greeed_belt"

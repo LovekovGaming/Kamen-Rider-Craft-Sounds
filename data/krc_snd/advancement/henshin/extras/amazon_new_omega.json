@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:amazonshead"
-			  ]
+			  "items": "kamenridercraft:amazonshead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:amazonstroso"
-			  ]
+			  "items": "kamenridercraft:amazonstroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:amazonslegs"
-			  ]
+			  "items": "kamenridercraft:amazonslegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:neo_amazons_driver_omega"
-			  ]
+			  "items": "kamenridercraft:neo_amazons_driver_omega"
 			}
 		  }
 		}

@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:zaia_thousandriver"
-					]
+					"items": "kamenridercraft:zaia_thousandriver"
 				  }
 				}
             }

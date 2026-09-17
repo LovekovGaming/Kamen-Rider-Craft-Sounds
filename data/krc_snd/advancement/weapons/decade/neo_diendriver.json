@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"mainhand": {
-				  "items": [
-					"kamenridercraft:neo_diendriver"
-				  ]
+				  "items": "kamenridercraft:neo_diendriver"
 				}
 			  }
 			}
@@ -45,9 +43,7 @@
 			"predicate": {
 			  "equipment": {
 				"offhand": {
-				  "items": [
-					"kamenridercraft:neo_diendriver"
-				  ]
+				  "items": "kamenridercraft:neo_diendriver"
 				}
 			  }
 			}

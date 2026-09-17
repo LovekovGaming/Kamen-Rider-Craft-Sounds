@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:drive_head"
-			  ]
+			  "items": "kamenridercraft:drive_head"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:drive_troso"
-			  ]
+			  "items": "kamenridercraft:drive_troso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:drive_legs"
-			  ]
+			  "items": "kamenridercraft:drive_legs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:banno_driver_gord_drive"
-			  ]
+			  "items": "kamenridercraft:banno_driver_gord_drive"
 			}
 		  }
 		}
@@ -36,24 +28,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:drive_head"
-			  ]
+			  "items": "kamenridercraft:drive_head"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:drive_troso"
-			  ]
+			  "items": "kamenridercraft:drive_troso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:drive_legs"
-			  ]
+			  "items": "kamenridercraft:drive_legs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:banno_driver_bronze_drive"
-			  ]
+			  "items": "kamenridercraft:banno_driver_bronze_drive"
 			}
 		  }
 		}

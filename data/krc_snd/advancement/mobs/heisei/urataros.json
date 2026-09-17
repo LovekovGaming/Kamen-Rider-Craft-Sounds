@@ -5,9 +5,7 @@
 		"trigger": "minecraft:player_interacted_with_entity",
 		"conditions": {
 		  "item": {
-			"items": [
-			  "kamenridercraft:rider_pass"
-			]
+			"items": "kamenridercraft:rider_pass"
 		  },
 		  "entity": {
 			"type": "kamenridercraft:urataros",

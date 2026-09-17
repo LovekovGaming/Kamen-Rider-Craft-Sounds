@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:hiden_zero_two_driver"
-					]
+					"items": "kamenridercraft:hiden_zero_two_driver"
 				  }
 				}
             }

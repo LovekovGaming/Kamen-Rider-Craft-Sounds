@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:dark_wizardriver"
-					]
+					"items": "kamenridercraft:dark_wizardriver"
 				  }
 				}
             }

@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:aqua_driver"
-					  ]
+					  "items": "kamenridercraft:aqua_driver"
 					}
 				  }
 				}
@@ -32,9 +30,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -45,9 +41,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:water_bucket"
-					  ]
+					  "items": "minecraft:water_bucket"
 					}
 				  }
 				}

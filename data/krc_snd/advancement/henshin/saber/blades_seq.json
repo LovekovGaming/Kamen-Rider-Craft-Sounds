@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:seiken_swordriver_blades"
-					]
+					"items": "kamenridercraft:seiken_swordriver_blades"
 				  }
 				}
             }

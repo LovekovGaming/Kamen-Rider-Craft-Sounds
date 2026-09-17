@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:gashacon_bugvisor_ii_lazer"
-				  ]
+				  "items": "kamenridercraft:gashacon_bugvisor_ii_lazer"
 				}
 			  }
 			}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:giri_giri_chambara_gashat"
-					  ]
+					  "items": "kamenridercraft:giri_giri_chambara_gashat"
 					}
 				  }
 				}

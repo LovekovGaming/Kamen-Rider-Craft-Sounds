@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:raise_riser_belt_kyuun"
-				  ]
+				  "items": "kamenridercraft:raise_riser_belt_kyuun"
 				}
 			  }
 			}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:kyuun_raise_riser_card"
-					  ]
+					  "items": "kamenridercraft:kyuun_raise_riser_card"
 					}
 				  }
 				}
@@ -53,9 +47,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:laser_raise_riser"
-					  ]
+					  "items": "kamenridercraft:laser_raise_riser"
 					}
 				  }
 				}

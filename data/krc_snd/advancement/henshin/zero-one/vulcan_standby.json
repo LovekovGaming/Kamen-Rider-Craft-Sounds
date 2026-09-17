@@ -22,9 +22,7 @@
 				},
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:shotriser_vulcan"
-					]
+					"items": "kamenridercraft:shotriser_vulcan"
 				  }
 				}
 			  }

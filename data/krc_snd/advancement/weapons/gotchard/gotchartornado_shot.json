@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"mainhand": {
-				  "items": [
-					"kamenridercraft:gotchar_tornado"
-				  ]
+				  "items": "kamenridercraft:gotchar_tornado"
 				}
 			  }
 			}
@@ -45,9 +43,7 @@
 			"predicate": {
 			  "equipment": {
 				"offhand": {
-				  "items": [
-					"kamenridercraft:gotchar_tornado"
-				  ]
+				  "items": "kamenridercraft:gotchar_tornado"
 				}
 			  }
 			}

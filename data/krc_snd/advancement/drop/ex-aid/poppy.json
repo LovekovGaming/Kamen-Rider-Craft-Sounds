@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:gashacon_bugvisor_ii_poppy"
-				  ]
+				  "items": "kamenridercraft:gashacon_bugvisor_ii_poppy"
 				}
 			  }
 			}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:toki_meki_crisis_gashat"
-					  ]
+					  "items": "kamenridercraft:toki_meki_crisis_gashat"
 					}
 				  }
 				}

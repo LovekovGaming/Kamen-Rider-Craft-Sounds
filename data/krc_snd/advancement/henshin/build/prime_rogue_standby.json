@@ -22,9 +22,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:build_driver_rogue"
-				  ]
+				  "items": "kamenridercraft:build_driver_rogue"
 				}
 			  }
 			}

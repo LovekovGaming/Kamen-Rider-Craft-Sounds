@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:zxhead"
-			  ]
+			  "items": "kamenridercraft:zxhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:zxtroso"
-			  ]
+			  "items": "kamenridercraft:zxtroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:zxlegs"
-			  ]
+			  "items": "kamenridercraft:zxlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:zx_belt"
-			  ]
+			  "items": "kamenridercraft:zx_belt"
 			}
 		  }
 		}
@@ -36,24 +28,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:zxhead"
-			  ]
+			  "items": "kamenridercraft:zxhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:zxtroso"
-			  ]
+			  "items": "kamenridercraft:zxtroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:zxlegs"
-			  ]
+			  "items": "kamenridercraft:zxlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:susanoo_belt"
-			  ]
+			  "items": "kamenridercraft:susanoo_belt"
 			}
 		  }
 		}
@@ -65,24 +49,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:zxhead"
-			  ]
+			  "items": "kamenridercraft:zxhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:zxtroso"
-			  ]
+			  "items": "kamenridercraft:zxtroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:zxlegs"
-			  ]
+			  "items": "kamenridercraft:zxlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:tsukuyomi_belt"
-			  ]
+			  "items": "kamenridercraft:tsukuyomi_belt"
 			}
 		  }
 		}
@@ -94,24 +70,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:zxhead"
-			  ]
+			  "items": "kamenridercraft:zxhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:zxtroso"
-			  ]
+			  "items": "kamenridercraft:zxtroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:zxlegs"
-			  ]
+			  "items": "kamenridercraft:zxlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:amaterasu_belt"
-			  ]
+			  "items": "kamenridercraft:amaterasu_belt"
 			}
 		  }
 		}

@@ -17,9 +17,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:gaoh_belt"
-				  ]
+				  "items": "kamenridercraft:gaoh_belt"
 				}
 			  }
 			}

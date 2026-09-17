@@ -22,9 +22,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:laser_raise_driver"
-				  ]
+				  "items": "kamenridercraft:laser_raise_driver"
 				}
 			  }
 			}

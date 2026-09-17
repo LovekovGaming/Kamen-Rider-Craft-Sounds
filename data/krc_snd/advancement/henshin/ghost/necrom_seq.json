@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:mega_ulorder"
-					]
+					"items": "kamenridercraft:mega_ulorder"
 				  }
 				}
             }

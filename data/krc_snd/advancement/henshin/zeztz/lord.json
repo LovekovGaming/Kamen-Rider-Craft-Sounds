@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:zeztz_head"
-			  ]
+			  "items": "kamenridercraft:zeztz_head"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:zeztz_troso"
-			  ]
+			  "items": "kamenridercraft:zeztz_troso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:zeztz_legs"
-			  ]
+			  "items": "kamenridercraft:zeztz_legs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:lord_invoker_zero"
-			  ]
+			  "items": "kamenridercraft:lord_invoker_zero"
 			}
 		  }
 		}
@@ -36,24 +28,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:zeztz_head"
-			  ]
+			  "items": "kamenridercraft:zeztz_head"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:zeztz_troso"
-			  ]
+			  "items": "kamenridercraft:zeztz_troso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:zeztz_legs"
-			  ]
+			  "items": "kamenridercraft:zeztz_legs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:lord_invoker_two"
-			  ]
+			  "items": "kamenridercraft:lord_invoker_two"
 			}
 		  }
 		}

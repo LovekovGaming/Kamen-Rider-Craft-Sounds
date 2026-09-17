@@ -22,9 +22,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:build_driver_cross_z"
-				  ]
+				  "items": "kamenridercraft:build_driver_cross_z"
 				}
 			  }
 			}

@@ -45,9 +45,7 @@
                   "predicate": {
                     "equipment": {
                       "feet": {
-                        "items": [
-                          "kamenridercraft:desire_driver_x_geats"
-                        ]
+                        "items": "kamenridercraft:desire_driver_x_geats"
                       }
                     }
                   }
@@ -61,9 +59,7 @@
                   "predicate": {
                     "equipment": {
                       "feet": {
-                        "items": [
-                          "kamenridercraft:desire_driver_dooms_geats"
-                        ]
+                        "items": "kamenridercraft:desire_driver_dooms_geats"
                       }
                     }
                   }
@@ -77,9 +73,7 @@
                   "predicate": {
                     "equipment": {
                       "feet": {
-                        "items": [
-                          "kamenridercraft:desire_driver_gm"
-                        ]
+                        "items": "kamenridercraft:desire_driver_gm"
                       }
                     }
                   }
@@ -93,9 +87,7 @@
                   "predicate": {
                     "equipment": {
                       "feet": {
-                        "items": [
-                          "kamenridercraft:desire_driver_gm_chirami"
-                        ]
+                        "items": "kamenridercraft:desire_driver_gm_chirami"
                       }
                     }
                   }
@@ -112,9 +104,7 @@
                 "predicate": {
                   "equipment": {
                     "mainhand": {
-                      "items": [
-                        "minecraft:air"
-                      ]
+                      "items": "minecraft:air"
                     }
                   }
                 }

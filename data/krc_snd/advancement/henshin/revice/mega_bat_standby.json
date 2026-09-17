@@ -31,9 +31,7 @@
 				  "predicate": {
 					"equipment": {
 					  "feet": {
-						"items": [
-						  "kamenridercraft:revice_driver_live"
-						]
+						"items": "kamenridercraft:revice_driver_live"
 					  }
 					}
 				  }
@@ -44,9 +42,7 @@
 				  "predicate": {
 					"equipment": {
 					  "feet": {
-						"items": [
-						  "kamenridercraft:revice_driver_evil"
-						]
+						"items": "kamenridercraft:revice_driver_evil"
 					  }
 					}
 				  }

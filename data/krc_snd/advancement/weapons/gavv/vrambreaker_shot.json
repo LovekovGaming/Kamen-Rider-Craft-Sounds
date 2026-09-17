@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:vrambreaker"
-					  ]
+					  "items": "kamenridercraft:vrambreaker"
 					}
 				  }
 				}
@@ -53,9 +51,7 @@
 				"predicate": {
 				  "equipment": {
 					"offhand": {
-					  "items": [
-						"kamenridercraft:vrambreaker"
-					  ]
+					  "items": "kamenridercraft:vrambreaker"
 					}
 				  }
 				}

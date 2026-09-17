@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:raise_riser_belt_ziin"
-					]
+					"items": "kamenridercraft:raise_riser_belt_ziin"
 				  }
 				}
             }

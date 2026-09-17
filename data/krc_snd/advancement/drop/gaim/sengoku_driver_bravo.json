@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:sengoku_driver_fifteen"
-					  ]
+					  "items": "kamenridercraft:sengoku_driver_fifteen"
 					}
 				  }
 				}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:sengoku_driver_proto_bravo"
-					  ]
+					  "items": "kamenridercraft:sengoku_driver_proto_bravo"
 					}
 				  }
 				}
@@ -45,9 +41,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}

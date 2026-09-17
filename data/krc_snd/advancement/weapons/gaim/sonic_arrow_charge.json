@@ -5,9 +5,7 @@
 		"trigger": "minecraft:using_item",
 		"conditions": {
 		  "item": {
-			"items": [
-			  "kamenridercraft:sonic_arrow"
-			]
+			"items": "kamenridercraft:sonic_arrow"
 		  }
 		}
 	  },
@@ -15,9 +13,7 @@
 		"trigger": "minecraft:using_item",
 		"conditions": {
 		  "item": {
-			"items": [
-			  "kamenridercraft:saver_arrow"
-			]
+			"items": "kamenridercraft:saver_arrow"
 		  }
 		}
 	  }

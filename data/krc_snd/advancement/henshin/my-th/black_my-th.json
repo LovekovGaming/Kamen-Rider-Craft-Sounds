@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:my_th_head"
-			  ]
+			  "items": "kamenridercraft:my_th_head"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:my_th_troso"
-			  ]
+			  "items": "kamenridercraft:my_th_troso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:my_th_legs"
-			  ]
+			  "items": "kamenridercraft:my_th_legs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:my_th_driver_hammer_on_black"
-			  ]
+			  "items": "kamenridercraft:my_th_driver_hammer_on_black"
 			}
 		  }
 		}

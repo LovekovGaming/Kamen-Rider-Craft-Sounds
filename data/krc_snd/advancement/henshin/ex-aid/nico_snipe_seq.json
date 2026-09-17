@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:gamer_driver_nico_snipe"
-					]
+					"items": "kamenridercraft:gamer_driver_nico_snipe"
 				  }
 				}
             }

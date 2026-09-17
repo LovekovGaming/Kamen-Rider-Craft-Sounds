@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:dreadriver_meikoku_no_sanshimai"
-					]
+					"items": "kamenridercraft:dreadriver_meikoku_no_sanshimai"
 				  }
 				}
             }

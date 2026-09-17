@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:dreadriver_trooper"
-					]
+					"items": "kamenridercraft:dreadriver_trooper"
 				  }
 				}
             }

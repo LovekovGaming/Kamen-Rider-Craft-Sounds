@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"mainhand": {
-				  "items": [
-					"kamenridercraft:legend_kamen_riser"
-				  ]
+				  "items": "kamenridercraft:legend_kamen_riser"
 				}
 			  }
 			}
@@ -45,9 +43,7 @@
 			"predicate": {
 			  "equipment": {
 				"offhand": {
-				  "items": [
-					"kamenridercraft:legend_kamen_riser"
-				  ]
+				  "items": "kamenridercraft:legend_kamen_riser"
 				}
 			  }
 			}

@@ -7,24 +7,16 @@
 		  "player": {
 			"equipment": {
 			  "head": {
-				"items": [
-				  "kamenridercraft:wizard_head"
-				]
+				"items": "kamenridercraft:wizard_head"
 			  },
 			  "chest": {
-				"items": [
-				  "kamenridercraft:wizard_troso"
-				]
+				"items": "kamenridercraft:wizard_troso"
 			  },
 			  "legs": {
-				"items": [
-				  "kamenridercraft:wizard_legs"
-				]
+				"items": "kamenridercraft:wizard_legs"
 			  },
 			  "feet": {
-				"items": [
-				  "kamenridercraft:whitewizardriver"
-				]
+				"items": "kamenridercraft:whitewizardriver"
 			  }
 			}
 		  }
@@ -36,24 +28,16 @@
 		  "player": {
 			"equipment": {
 			  "head": {
-				"items": [
-				  "kamenridercraft:wizard_head"
-				]
+				"items": "kamenridercraft:wizard_head"
 			  },
 			  "chest": {
-				"items": [
-				  "kamenridercraft:wizard_troso"
-				]
+				"items": "kamenridercraft:wizard_troso"
 			  },
 			  "legs": {
-				"items": [
-				  "kamenridercraft:wizard_legs"
-				]
+				"items": "kamenridercraft:wizard_legs"
 			  },
 			  "feet": {
-				"items": [
-				  "kamenridercraft:magewizardriver"
-				]
+				"items": "kamenridercraft:magewizardriver"
 			  }
 			}
 		  }
@@ -65,24 +49,16 @@
 		  "player": {
 			"equipment": {
 			  "head": {
-				"items": [
-				  "kamenridercraft:wizard_head"
-				]
+				"items": "kamenridercraft:wizard_head"
 			  },
 			  "chest": {
-				"items": [
-				  "kamenridercraft:wizard_troso"
-				]
+				"items": "kamenridercraft:wizard_troso"
 			  },
 			  "legs": {
-				"items": [
-				  "kamenridercraft:wizard_legs"
-				]
+				"items": "kamenridercraft:wizard_legs"
 			  },
 			  "feet": {
-				"items": [
-				  "kamenridercraft:magewizardriver_foot_soldiers"
-				]
+				"items": "kamenridercraft:magewizardriver_foot_soldiers"
 			  }
 			}
 		  }
@@ -94,24 +70,16 @@
 		  "player": {
 			"equipment": {
 			  "head": {
-				"items": [
-				  "kamenridercraft:wizard_head"
-				]
+				"items": "kamenridercraft:wizard_head"
 			  },
 			  "chest": {
-				"items": [
-				  "kamenridercraft:wizard_troso"
-				]
+				"items": "kamenridercraft:wizard_troso"
 			  },
 			  "legs": {
-				"items": [
-				  "kamenridercraft:wizard_legs"
-				]
+				"items": "kamenridercraft:wizard_legs"
 			  },
 			  "feet": {
-				"items": [
-				  "kamenridercraft:magewizardriver_captain"
-				]
+				"items": "kamenridercraft:magewizardriver_captain"
 			  }
 			}
 		  }
@@ -123,24 +91,16 @@
 		  "player": {
 			"equipment": {
 			  "head": {
-				"items": [
-				  "kamenridercraft:wizard_head"
-				]
+				"items": "kamenridercraft:wizard_head"
 			  },
 			  "chest": {
-				"items": [
-				  "kamenridercraft:wizard_troso"
-				]
+				"items": "kamenridercraft:wizard_troso"
 			  },
 			  "legs": {
-				"items": [
-				  "kamenridercraft:wizard_legs"
-				]
+				"items": "kamenridercraft:wizard_legs"
 			  },
 			  "feet": {
-				"items": [
-				  "kamenridercraft:sorcererdriver"
-				]
+				"items": "kamenridercraft:sorcererdriver"
 			  }
 			}
 		  }
@@ -152,24 +112,16 @@
 		  "player": {
 			"equipment": {
 			  "head": {
-				"items": [
-				  "kamenridercraft:wizard_head"
-				]
+				"items": "kamenridercraft:wizard_head"
 			  },
 			  "chest": {
-				"items": [
-				  "kamenridercraft:wizard_troso"
-				]
+				"items": "kamenridercraft:wizard_troso"
 			  },
 			  "legs": {
-				"items": [
-				  "kamenridercraft:wizard_legs"
-				]
+				"items": "kamenridercraft:wizard_legs"
 			  },
 			  "feet": {
-				"items": [
-				  "kamenridercraft:whitewizardriver_f"
-				]
+				"items": "kamenridercraft:whitewizardriver_f"
 			  }
 			}
 		  }

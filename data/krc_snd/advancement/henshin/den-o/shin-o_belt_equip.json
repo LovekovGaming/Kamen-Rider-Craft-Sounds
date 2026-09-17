@@ -17,9 +17,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:shin_o_belt"
-				  ]
+				  "items": "kamenridercraft:shin_o_belt"
 				}
 			  }
 			}

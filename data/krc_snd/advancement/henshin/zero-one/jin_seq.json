@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:forceriser_jin"
-					]
+					"items": "kamenridercraft:forceriser_jin"
 				  }
 				}
             }

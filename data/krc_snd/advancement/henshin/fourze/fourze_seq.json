@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:fourze_driver"
-					]
+					"items": "kamenridercraft:fourze_driver"
 				  }
 				}
             }

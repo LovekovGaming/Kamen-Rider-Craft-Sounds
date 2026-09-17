@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:zillion_driver"
-				  ]
+				  "items": "kamenridercraft:zillion_driver"
 				}
 			  }
 			}
@@ -24,9 +22,7 @@
 			"predicate": {
 			  "equipment": {
 				"mainhand": {
-				  "items": [
-					"minecraft:air"
-				  ]
+				  "items": "minecraft:air"
 				}
 			  }
 			}

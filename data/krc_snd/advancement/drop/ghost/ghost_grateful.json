@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:eyecon_driver_g"
-				  ]
+				  "items": "kamenridercraft:eyecon_driver_g"
 				}
 			  }
 			}

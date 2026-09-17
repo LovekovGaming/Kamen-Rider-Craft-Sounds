@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:mach_driver_honoh_drive"
-					]
+					"items": "kamenridercraft:mach_driver_honoh_drive"
 				  }
 				}
             }

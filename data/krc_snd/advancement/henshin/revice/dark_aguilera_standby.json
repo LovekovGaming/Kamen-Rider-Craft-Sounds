@@ -22,9 +22,7 @@
 				},
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:dark_week_endriver"
-					]
+					"items": "kamenridercraft:dark_week_endriver"
 				  }
 				}
 			  }

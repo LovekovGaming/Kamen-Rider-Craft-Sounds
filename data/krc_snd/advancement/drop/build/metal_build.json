@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:build_driver_metal"
-				  ]
+				  "items": "kamenridercraft:build_driver_metal"
 				}
 			  }
 			}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:hazard_trigger"
-					  ]
+					  "items": "kamenridercraft:hazard_trigger"
 					}
 				  }
 				}
@@ -53,9 +47,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:metal_tank_tank_full_bottle"
-					  ]
+					  "items": "kamenridercraft:metal_tank_tank_full_bottle"
 					}
 				  }
 				}

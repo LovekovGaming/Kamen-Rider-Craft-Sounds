@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:caucasus_rider_belt"
-					]
+					"items": "kamenridercraft:caucasus_rider_belt"
 				  }
 				}
             }

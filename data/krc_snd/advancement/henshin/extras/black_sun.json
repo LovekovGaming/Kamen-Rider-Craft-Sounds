@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:blacksunhead"
-			  ]
+			  "items": "kamenridercraft:blacksunhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:blacksuntroso"
-			  ]
+			  "items": "kamenridercraft:blacksuntroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:blacksunlegs"
-			  ]
+			  "items": "kamenridercraft:blacksunlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:century_king_sun_driver"
-			  ]
+			  "items": "kamenridercraft:century_king_sun_driver"
 			}
 		  }
 		}

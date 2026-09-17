@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:demons_driver_demons_trooper_b"
-					]
+					"items": "kamenridercraft:demons_driver_demons_trooper_b"
 				  }
 				}
             }

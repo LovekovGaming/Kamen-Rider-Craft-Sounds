@@ -334,9 +334,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:gotchardriver"
-				  ]
+				  "items": "kamenridercraft:gotchardriver"
 				}
 			  }
 			}

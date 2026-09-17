@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:dark_double_typhoon"
-					  ]
+					  "items": "kamenridercraft:dark_double_typhoon"
 					}
 				  }
 				}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:dark_riderman_belt"
-					  ]
+					  "items": "kamenridercraft:dark_riderman_belt"
 					}
 				  }
 				}
@@ -45,9 +41,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -58,9 +52,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:sinister_pachinko_ball"
-					  ]
+					  "items": "kamenridercraft:sinister_pachinko_ball"
 					}
 				  }
 				}

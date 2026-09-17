@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:skyriderhead"
-			  ]
+			  "items": "kamenridercraft:skyriderhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:skyridertroso"
-			  ]
+			  "items": "kamenridercraft:skyridertroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:skyriderlegs"
-			  ]
+			  "items": "kamenridercraft:skyriderlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:tornado"
-			  ]
+			  "items": "kamenridercraft:tornado"
 			}
 		  }
 		}
@@ -36,24 +28,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:skyriderhead"
-			  ]
+			  "items": "kamenridercraft:skyriderhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:skyridertroso"
-			  ]
+			  "items": "kamenridercraft:skyridertroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:skyriderlegs"
-			  ]
+			  "items": "kamenridercraft:skyriderlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:fake_tornado"
-			  ]
+			  "items": "kamenridercraft:fake_tornado"
 			}
 		  }
 		}

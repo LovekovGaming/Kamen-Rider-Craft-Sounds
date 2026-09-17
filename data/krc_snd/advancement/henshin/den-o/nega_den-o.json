@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:den_ohead"
-			  ]
+			  "items": "kamenridercraft:den_ohead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:den_otroso"
-			  ]
+			  "items": "kamenridercraft:den_otroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:den_olegs"
-			  ]
+			  "items": "kamenridercraft:den_olegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:nega_den_o_belt"
-			  ]
+			  "items": "kamenridercraft:nega_den_o_belt"
 			}
 		  }
 		}

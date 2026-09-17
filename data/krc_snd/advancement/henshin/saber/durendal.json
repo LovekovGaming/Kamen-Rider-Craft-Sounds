@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:saberhead"
-			  ]
+			  "items": "kamenridercraft:saberhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:sabertroso"
-			  ]
+			  "items": "kamenridercraft:sabertroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:saberlegs"
-			  ]
+			  "items": "kamenridercraft:saberlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:royal_sword_of_logos_buckle_durendal"
-			  ]
+			  "items": "kamenridercraft:royal_sword_of_logos_buckle_durendal"
 			}
 		  }
 		}

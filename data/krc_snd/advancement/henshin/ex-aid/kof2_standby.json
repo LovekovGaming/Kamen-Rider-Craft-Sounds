@@ -31,9 +31,7 @@
 				  "predicate": {
 					"equipment": {
 					  "feet": {
-						"items": [
-						  "kamenridercraft:gamer_driver_ex_aid"
-						]
+						"items": "kamenridercraft:gamer_driver_ex_aid"
 					  }
 					}
 				  }
@@ -44,9 +42,7 @@
 				  "predicate": {
 					"equipment": {
 					  "feet": {
-						"items": [
-						  "kamenridercraft:gamer_driver_paradx"
-						]
+						"items": "kamenridercraft:gamer_driver_paradx"
 					  }
 					}
 				  }

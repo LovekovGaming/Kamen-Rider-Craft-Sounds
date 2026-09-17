@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:ex_aidhead"
-			  ]
+			  "items": "kamenridercraft:ex_aidhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:ex_aidtroso"
-			  ]
+			  "items": "kamenridercraft:ex_aidtroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:ex_aidlegs"
-			  ]
+			  "items": "kamenridercraft:ex_aidlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:gamer_driver_nico_snipe"
-			  ]
+			  "items": "kamenridercraft:gamer_driver_nico_snipe"
 			}
 		  }
 		}

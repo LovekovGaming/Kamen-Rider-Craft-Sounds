@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:sonic_arrow"
-					  ]
+					  "items": "kamenridercraft:sonic_arrow"
 					}
 				  }
 				}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:saver_arrow"
-					  ]
+					  "items": "kamenridercraft:saver_arrow"
 					}
 				  }
 				}
@@ -66,9 +62,7 @@
 				"predicate": {
 				  "equipment": {
 					"offhand": {
-					  "items": [
-						"kamenridercraft:sonic_arrow"
-					  ]
+					  "items": "kamenridercraft:sonic_arrow"
 					}
 				  }
 				}
@@ -79,9 +73,7 @@
 				"predicate": {
 				  "equipment": {
 					"offhand": {
-					  "items": [
-						"kamenridercraft:saver_arrow"
-					  ]
+					  "items": "kamenridercraft:saver_arrow"
 					}
 				  }
 				}

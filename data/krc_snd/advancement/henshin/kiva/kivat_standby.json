@@ -18,24 +18,16 @@
 			},
 			"equipment": {
 			  "head": {
-				"items": [
-				  "kamenridercraft:kivahead"
-				]
+				"items": "kamenridercraft:kivahead"
 			  },
 			  "chest": {
-				"items": [
-				  "kamenridercraft:kivatroso"
-				]
+				"items": "kamenridercraft:kivatroso"
 			  },
 			  "legs": {
-				"items": [
-				  "kamenridercraft:kivalegs"
-				]
+				"items": "kamenridercraft:kivalegs"
 			  },
 			  "feet": {
-				"items": [
-				  "minecraft:air"
-				]
+				"items": "minecraft:air"
 			  }
 			}
 		  }

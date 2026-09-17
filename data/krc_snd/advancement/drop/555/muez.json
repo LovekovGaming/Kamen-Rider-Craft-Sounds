@@ -11,14 +11,10 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:muez_driver"
-				  ]
+				  "items": "kamenridercraft:muez_driver"
 				},
 				"mainhand": {
-				  "items": [
-					"minecraft:air"
-				  ]
+				  "items": "minecraft:air"
 				}
 			  }
 			}

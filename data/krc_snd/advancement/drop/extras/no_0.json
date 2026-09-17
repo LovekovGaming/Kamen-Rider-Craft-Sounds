@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:ulimate_half_typhoon_core"
-					  ]
+					  "items": "kamenridercraft:ulimate_half_typhoon_core"
 					}
 				  }
 				}
@@ -42,9 +38,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:ulimate_half_typhoon"
-				  ]
+				  "items": "kamenridercraft:ulimate_half_typhoon"
 				}
 			  }
 			}

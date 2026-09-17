@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:ooohead"
-			  ]
+			  "items": "kamenridercraft:ooohead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:oootroso"
-			  ]
+			  "items": "kamenridercraft:oootroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:ooolegs"
-			  ]
+			  "items": "kamenridercraft:ooolegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:core_driver"
-			  ]
+			  "items": "kamenridercraft:core_driver"
 			}
 		  }
 		}
@@ -36,24 +28,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:ooohead"
-			  ]
+			  "items": "kamenridercraft:ooohead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:oootroso"
-			  ]
+			  "items": "kamenridercraft:oootroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:ooolegs"
-			  ]
+			  "items": "kamenridercraft:ooolegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:powered_up_core_driver"
-			  ]
+			  "items": "kamenridercraft:powered_up_core_driver"
 			}
 		  }
 		}

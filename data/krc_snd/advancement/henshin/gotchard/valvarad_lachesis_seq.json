@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:valvaradraw_buckle_lachesis"
-					]
+					"items": "kamenridercraft:valvaradraw_buckle_lachesis"
 				  }
 				}
             }

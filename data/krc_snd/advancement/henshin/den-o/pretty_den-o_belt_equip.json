@@ -17,9 +17,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:pretty_den_o_belt"
-				  ]
+				  "items": "kamenridercraft:pretty_den_o_belt"
 				}
 			  }
 			}

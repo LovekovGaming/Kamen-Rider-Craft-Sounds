@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:zaia_thousandriver"
-				  ]
+				  "items": "kamenridercraft:zaia_thousandriver"
 				}
 			  }
 			}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:awaking_arsino_zetsumerisekey"
-					  ]
+					  "items": "kamenridercraft:awaking_arsino_zetsumerisekey"
 					}
 				  }
 				}
@@ -53,9 +47,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:amazing_caucasus_progrisekey"
-					  ]
+					  "items": "kamenridercraft:amazing_caucasus_progrisekey"
 					}
 				  }
 				}

@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:lady_rider_belt"
-					]
+					"items": "kamenridercraft:lady_rider_belt"
 				  }
 				}
             }

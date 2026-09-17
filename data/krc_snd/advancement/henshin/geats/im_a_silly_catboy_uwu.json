@@ -19,32 +19,22 @@
 		  },
 				"equipment": {
 				  "head": {
-					"items": [
-					  "kamenridercraft:geatshead"
-					]
+					"items": "kamenridercraft:geatshead"
 				  },
 				  "chest": {
-					"items": [
-					  "kamenridercraft:geatstroso"
-					]
+					"items": "kamenridercraft:geatstroso"
 				  },
 				  "legs": {
-					"items": [
-					  "kamenridercraft:geatslegs"
-					]
+					"items": "kamenridercraft:geatslegs"
 				  },
 				  "feet": {
-					"items": [
-					  "kamenridercraft:desire_driver_tycoon"
-					],
+					"items": "kamenridercraft:desire_driver_tycoon",
 					"predicates": {
 					  "minecraft:custom_data": "{slot_tex3:\"kamenridercraft:bujin_sword_raise_buckle\"}"
 					}
 				  },
 				  "offhand": {
-					"items": [
-					  "kamenridercraft:ichigo_chair"
-					]
+					"items": "kamenridercraft:ichigo_chair"
 				  }
 				}
 			  }

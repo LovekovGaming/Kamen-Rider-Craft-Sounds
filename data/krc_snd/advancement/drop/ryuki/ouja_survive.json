@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:v_buckle_ouja"
-				  ]
+				  "items": "kamenridercraft:v_buckle_ouja"
 				}
 			  }
 			}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:advent_deck_ouja_survive"
-					  ]
+					  "items": "kamenridercraft:advent_deck_ouja_survive"
 					}
 				  }
 				}

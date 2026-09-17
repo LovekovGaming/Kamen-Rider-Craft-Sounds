@@ -22,9 +22,7 @@
 				},
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:next_kaixa_driver"
-					]
+					"items": "kamenridercraft:next_kaixa_driver"
 				  }
 				}
 			  }

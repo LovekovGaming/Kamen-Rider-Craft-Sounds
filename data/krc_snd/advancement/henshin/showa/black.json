@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:blackhead"
-			  ]
+			  "items": "kamenridercraft:blackhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:blacktorso"
-			  ]
+			  "items": "kamenridercraft:blacktorso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:blacklegs"
-			  ]
+			  "items": "kamenridercraft:blacklegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:vital_charger"
-			  ]
+			  "items": "kamenridercraft:vital_charger"
 			}
 		  }
 		}

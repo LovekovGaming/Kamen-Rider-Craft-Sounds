@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:v3head"
-			  ]
+			  "items": "kamenridercraft:v3head"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:v3troso"
-			  ]
+			  "items": "kamenridercraft:v3troso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:v3legs"
-			  ]
+			  "items": "kamenridercraft:v3legs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:riderman_belt"
-			  ]
+			  "items": "kamenridercraft:riderman_belt"
 			}
 		  }
 		}
@@ -36,24 +28,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:v3head"
-			  ]
+			  "items": "kamenridercraft:v3head"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:v3troso"
-			  ]
+			  "items": "kamenridercraft:v3troso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:v3legs"
-			  ]
+			  "items": "kamenridercraft:v3legs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:dark_riderman_belt"
-			  ]
+			  "items": "kamenridercraft:dark_riderman_belt"
 			}
 		  }
 		}

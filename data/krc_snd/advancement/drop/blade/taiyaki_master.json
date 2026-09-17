@@ -11,9 +11,7 @@
 		 	"predicate": {
 		 	  "equipment": {
 		 		"feet": {
-		 		  "items": [
-		 			"kamenridercraft:taiyaki_secret_weapon"
-		 		  ]
+		 		  "items": "kamenridercraft:taiyaki_secret_weapon"
 		 		}
 		 	  }
 		 	}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:taiyaki_mold"
-					  ]
+					  "items": "kamenridercraft:taiyaki_mold"
 					}
 				  }
 				}

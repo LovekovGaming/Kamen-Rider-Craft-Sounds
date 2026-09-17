@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:super_1head"
-			  ]
+			  "items": "kamenridercraft:super_1head"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:super_1troso"
-			  ]
+			  "items": "kamenridercraft:super_1troso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:super_1legs"
-			  ]
+			  "items": "kamenridercraft:super_1legs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:cyclode"
-			  ]
+			  "items": "kamenridercraft:cyclode"
 			}
 		  }
 		}
@@ -36,24 +28,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:super_1head"
-			  ]
+			  "items": "kamenridercraft:super_1head"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:super_1troso"
-			  ]
+			  "items": "kamenridercraft:super_1troso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:super_1legs"
-			  ]
+			  "items": "kamenridercraft:super_1legs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:robot_cyclode"
-			  ]
+			  "items": "kamenridercraft:robot_cyclode"
 			}
 		  }
 		}

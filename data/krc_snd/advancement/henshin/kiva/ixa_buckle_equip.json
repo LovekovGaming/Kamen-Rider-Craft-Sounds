@@ -17,9 +17,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:proto_ixa_belt_first"
-				  ]
+				  "items": "kamenridercraft:proto_ixa_belt_first"
 				}
 			  }
 			}

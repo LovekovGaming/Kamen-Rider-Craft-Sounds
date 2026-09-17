@@ -7,9 +7,7 @@
 		"player": {
 		  "equipment": {
 			"offhand": {
-			  "items": [
-				"kamenridercraft:crosshopper_ride_chemy_card"
-			  ]
+			  "items": "kamenridercraft:crosshopper_ride_chemy_card"
 			}
 		  }
 		}
@@ -21,14 +19,10 @@
 		"player": {
 		  "equipment": {
 			"mainhand": {
-			  "items": [
-				"kamenridercraft:crosshopper_ride_chemy_card"
-			  ]
+			  "items": "kamenridercraft:crosshopper_ride_chemy_card"
 			},
 			"offhand": {
-			  "items": [
-				"kamenridercraft:tenliner_ride_chemy_card"
-			  ]
+			  "items": "kamenridercraft:tenliner_ride_chemy_card"
 			}
 		  }
 		}

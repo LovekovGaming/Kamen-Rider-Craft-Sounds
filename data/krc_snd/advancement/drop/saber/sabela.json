@@ -53,19 +53,13 @@
 			  "predicate": {
 				"equipment": {
 				  "head": {
-					"items": [
-					  "kamenridercraft:saberhead"
-					]
+					"items": "kamenridercraft:saberhead"
 				  },
 				  "chest": {
-					"items": [
-					  "kamenridercraft:sabertroso"
-					]
+					"items": "kamenridercraft:sabertroso"
 				  },
 				  "legs": {
-					"items": [
-					  "kamenridercraft:saberlegs"
-					]
+					"items": "kamenridercraft:saberlegs"
 				  }
 				}
 			  }

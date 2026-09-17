@@ -17,9 +17,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:chalice_rouzer"
-				  ]
+				  "items": "kamenridercraft:chalice_rouzer"
 				}
 			  }
 			}

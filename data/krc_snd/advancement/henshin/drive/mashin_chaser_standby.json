@@ -22,19 +22,13 @@
 				},
 				"equipment": {
 				  "head": {
-					"items": [
-					  "kamenridercraft:drive_head"
-					]
+					"items": "kamenridercraft:drive_head"
 				  },
 				  "chest": {
-					"items": [
-					  "kamenridercraft:drive_troso"
-					]
+					"items": "kamenridercraft:drive_troso"
 				  },
 				  "legs": {
-					"items": [
-					  "kamenridercraft:drive_legs"
-					]
+					"items": "kamenridercraft:drive_legs"
 				  }
 				}
 			  }

@@ -17,9 +17,7 @@
 					  "predicate": {
 						"equipment": {
 						  "feet": {
-							"items": [
-							  "kamenridercraft:zetsumetsu_driver"
-							]
+							"items": "kamenridercraft:zetsumetsu_driver"
 						  }
 						}
 					  }

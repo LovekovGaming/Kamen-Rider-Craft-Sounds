@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:ryukihead"
-			  ]
+			  "items": "kamenridercraft:ryukihead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:ryukitroso"
-			  ]
+			  "items": "kamenridercraft:ryukitroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:ryukilegs"
-			  ]
+			  "items": "kamenridercraft:ryukilegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:v_buckle_scissors"
-			  ]
+			  "items": "kamenridercraft:v_buckle_scissors"
 			}
 		  }
 		}
@@ -36,24 +28,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:ryukihead"
-			  ]
+			  "items": "kamenridercraft:ryukihead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:ryukitroso"
-			  ]
+			  "items": "kamenridercraft:ryukitroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:ryukilegs"
-			  ]
+			  "items": "kamenridercraft:ryukilegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:v_buckle_gai"
-			  ]
+			  "items": "kamenridercraft:v_buckle_gai"
 			}
 		  }
 		}
@@ -65,24 +49,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:ryukihead"
-			  ]
+			  "items": "kamenridercraft:ryukihead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:ryukitroso"
-			  ]
+			  "items": "kamenridercraft:ryukitroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:ryukilegs"
-			  ]
+			  "items": "kamenridercraft:ryukilegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:v_buckle_tiger"
-			  ]
+			  "items": "kamenridercraft:v_buckle_tiger"
 			}
 		  }
 		}
@@ -94,24 +70,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:ryukihead"
-			  ]
+			  "items": "kamenridercraft:ryukihead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:ryukitroso"
-			  ]
+			  "items": "kamenridercraft:ryukitroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:ryukilegs"
-			  ]
+			  "items": "kamenridercraft:ryukilegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:v_buckle_imperer"
-			  ]
+			  "items": "kamenridercraft:v_buckle_imperer"
 			}
 		  }
 		}
@@ -123,24 +91,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:ryukihead"
-			  ]
+			  "items": "kamenridercraft:ryukihead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:ryukitroso"
-			  ]
+			  "items": "kamenridercraft:ryukitroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:ryukilegs"
-			  ]
+			  "items": "kamenridercraft:ryukilegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:v_buckle_femme"
-			  ]
+			  "items": "kamenridercraft:v_buckle_femme"
 			}
 		  }
 		}
@@ -152,24 +112,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:ryukihead"
-			  ]
+			  "items": "kamenridercraft:ryukihead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:ryukitroso"
-			  ]
+			  "items": "kamenridercraft:ryukitroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:ryukilegs"
-			  ]
+			  "items": "kamenridercraft:ryukilegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:v_buckle_verde"
-			  ]
+			  "items": "kamenridercraft:v_buckle_verde"
 			}
 		  }
 		}
@@ -181,24 +133,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:ryukihead"
-			  ]
+			  "items": "kamenridercraft:ryukihead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:ryukitroso"
-			  ]
+			  "items": "kamenridercraft:ryukitroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:ryukilegs"
-			  ]
+			  "items": "kamenridercraft:ryukilegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:v_buckle_abyss"
-			  ]
+			  "items": "kamenridercraft:v_buckle_abyss"
 			}
 		  }
 		}
@@ -210,24 +154,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:ryukihead"
-			  ]
+			  "items": "kamenridercraft:ryukihead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:ryukitroso"
-			  ]
+			  "items": "kamenridercraft:ryukitroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:ryukilegs"
-			  ]
+			  "items": "kamenridercraft:ryukilegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:v_buckle_blade"
-			  ]
+			  "items": "kamenridercraft:v_buckle_blade"
 			}
 		  }
 		}

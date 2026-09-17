@@ -22,9 +22,7 @@
 				},
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:chimera_driver"
-					]
+					"items": "kamenridercraft:chimera_driver"
 				  }
 				}
 			  }

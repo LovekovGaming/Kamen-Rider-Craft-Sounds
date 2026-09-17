@@ -7,24 +7,16 @@
 		  "player": {
 			"equipment": {
 			  "head": {
-				"items": [
-				  "kamenridercraft:gavv_head"
-				]
+				"items": "kamenridercraft:gavv_head"
 			  },
 			  "chest": {
-				"items": [
-				  "kamenridercraft:gavv_troso"
-				]
+				"items": "kamenridercraft:gavv_troso"
 			  },
 			  "legs": {
-				"items": [
-				  "kamenridercraft:gavv_legs"
-				]
+				"items": "kamenridercraft:gavv_legs"
 			  },
 			  "feet": {
-				"items": [
-				  "kamenridercraft:bakebuckle"
-				]
+				"items": "kamenridercraft:bakebuckle"
 			  }
 			}
 		  }

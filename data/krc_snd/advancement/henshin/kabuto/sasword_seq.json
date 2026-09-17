@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:sasword_rider_belt"
-					]
+					"items": "kamenridercraft:sasword_rider_belt"
 				  }
 				}
             }

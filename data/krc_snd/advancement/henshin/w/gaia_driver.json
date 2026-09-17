@@ -7,19 +7,13 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:whead"
-			  ]
+			  "items": "kamenridercraft:whead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:wtroso"
-			  ]
+			  "items": "kamenridercraft:wtroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:wlegs"
-			  ]
+			  "items": "kamenridercraft:wlegs"
 			},
 			"feet": {
 			  "items": "#krc_snd:gaia_driver"

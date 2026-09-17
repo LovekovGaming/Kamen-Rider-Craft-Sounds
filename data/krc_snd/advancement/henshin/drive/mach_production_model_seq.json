@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:metro_pd_driver_honoh"
-					]
+					"items": "kamenridercraft:metro_pd_driver_honoh"
 				  }
 				}
             }

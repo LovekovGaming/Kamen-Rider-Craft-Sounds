@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:gashacon_bugvisor_ii_chronos"
-					]
+					"items": "kamenridercraft:gashacon_bugvisor_ii_chronos"
 				  }
 				}
             }

@@ -12,24 +12,16 @@
 			  "nbt": "{Tags:[\"clock_running\"]}",
 			  "equipment": {
 				"head": {
-				  "items": [
-					"kamenridercraft:ryukihead"
-				  ]
+				  "items": "kamenridercraft:ryukihead"
 				},
 				"chest": {
-				  "items": [
-					"kamenridercraft:ryukitroso"
-				  ]
+				  "items": "kamenridercraft:ryukitroso"
 				},
 				"legs": {
-				  "items": [
-					"kamenridercraft:ryukilegs"
-				  ]
+				  "items": "kamenridercraft:ryukilegs"
 				},
 				"feet": {
-				  "items": [
-					"kamenridercraft:v_buckle_ryuga"
-				  ]
+				  "items": "kamenridercraft:v_buckle_ryuga"
 				}
 			  }
 			}

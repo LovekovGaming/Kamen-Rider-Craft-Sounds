@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:birth_driver_x"
-				  ]
+				  "items": "kamenridercraft:birth_driver_x"
 				}
 			  }
 			}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:ebi_new_medal"
-					  ]
+					  "items": "kamenridercraft:ebi_new_medal"
 					}
 				  }
 				}
@@ -53,9 +47,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:kani_new_medal"
-					  ]
+					  "items": "kamenridercraft:kani_new_medal"
 					}
 				  }
 				}
@@ -66,9 +58,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:sasori_new_medal"
-					  ]
+					  "items": "kamenridercraft:sasori_new_medal"
 					}
 				  }
 				}

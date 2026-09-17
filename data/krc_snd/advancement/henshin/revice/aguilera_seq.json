@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:week_endriver"
-					]
+					"items": "kamenridercraft:week_endriver"
 				  }
 				}
             }

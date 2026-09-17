@@ -5,9 +5,7 @@
 		"trigger": "minecraft:using_item",
 		"conditions": {
 		  "item": {
-			"items": [
-			  "kamenridercraft:vrambreaker"
-			]
+			"items": "kamenridercraft:vrambreaker"
 		  }
 		}
 	  }

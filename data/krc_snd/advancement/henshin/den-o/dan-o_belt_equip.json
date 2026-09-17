@@ -17,9 +17,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:dan_o_belt"
-				  ]
+				  "items": "kamenridercraft:dan_o_belt"
 				}
 			  }
 			}

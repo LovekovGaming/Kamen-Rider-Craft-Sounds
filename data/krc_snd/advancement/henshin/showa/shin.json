@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:shinhead"
-			  ]
+			  "items": "kamenridercraft:shinhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:shintroso"
-			  ]
+			  "items": "kamenridercraft:shintroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:shinlegs"
-			  ]
+			  "items": "kamenridercraft:shinlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:grasshopper_dna"
-			  ]
+			  "items": "kamenridercraft:grasshopper_dna"
 			}
 		  }
 		}

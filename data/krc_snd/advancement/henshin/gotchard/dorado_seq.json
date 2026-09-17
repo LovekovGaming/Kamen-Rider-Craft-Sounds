@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:eldoradriver"
-					]
+					"items": "kamenridercraft:eldoradriver"
 				  }
 				}
             }

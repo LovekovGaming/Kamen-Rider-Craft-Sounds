@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:seeda_driver"
-					  ]
+					  "items": "kamenridercraft:seeda_driver"
 					}
 				  }
 				}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:seeda_driver_gb"
-					  ]
+					  "items": "kamenridercraft:seeda_driver_gb"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:seeda_driver_ro"
-					  ]
+					  "items": "kamenridercraft:seeda_driver_ro"
 					}
 				  }
 				}
@@ -53,9 +47,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:seeda_driver_uw"
-					  ]
+					  "items": "kamenridercraft:seeda_driver_uw"
 					}
 				  }
 				}
@@ -71,9 +63,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -84,9 +74,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:seeda_mission_memory"
-					  ]
+					  "items": "kamenridercraft:seeda_mission_memory"
 					}
 				  }
 				}

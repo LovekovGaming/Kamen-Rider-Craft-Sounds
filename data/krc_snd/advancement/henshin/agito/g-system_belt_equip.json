@@ -26,9 +26,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:g3_belt"
-					  ]
+					  "items": "kamenridercraft:g3_belt"
 					}
 				  }
 				}
@@ -39,9 +37,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:g3_x_belt"
-					  ]
+					  "items": "kamenridercraft:g3_x_belt"
 					}
 				  }
 				}
@@ -52,9 +48,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:g3_mild_belt"
-					  ]
+					  "items": "kamenridercraft:g3_mild_belt"
 					}
 				  }
 				}
@@ -65,9 +59,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:g4_belt"
-					  ]
+					  "items": "kamenridercraft:g4_belt"
 					}
 				  }
 				}
@@ -78,9 +70,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:g4_x_belt"
-					  ]
+					  "items": "kamenridercraft:g4_x_belt"
 					}
 				  }
 				}
@@ -91,9 +81,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:g1_belt"
-					  ]
+					  "items": "kamenridercraft:g1_belt"
 					}
 				  }
 				}
@@ -104,9 +92,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:g6_belt"
-					  ]
+					  "items": "kamenridercraft:g6_belt"
 					}
 				  }
 				}

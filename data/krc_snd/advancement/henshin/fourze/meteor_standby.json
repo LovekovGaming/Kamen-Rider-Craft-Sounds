@@ -22,9 +22,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:meteor_driver"
-				  ]
+				  "items": "kamenridercraft:meteor_driver"
 				}
 			  }
 			}

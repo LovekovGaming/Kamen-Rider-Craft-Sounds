@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:geatshead"
-			  ]
+			  "items": "kamenridercraft:geatshead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:geatstroso"
-			  ]
+			  "items": "kamenridercraft:geatstroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:geatslegs"
-			  ]
+			  "items": "kamenridercraft:geatslegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:zillion_driver_gazer_zero"
-			  ]
+			  "items": "kamenridercraft:zillion_driver_gazer_zero"
 			}
 		  }
 		}

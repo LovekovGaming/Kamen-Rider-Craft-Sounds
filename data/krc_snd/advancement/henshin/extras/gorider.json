@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:akariderhead"
-			  ]
+			  "items": "kamenridercraft:akariderhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:akaridertroso"
-			  ]
+			  "items": "kamenridercraft:akaridertroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:akariderlegs"
-			  ]
+			  "items": "kamenridercraft:akariderlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:typhoon_akarider"
-			  ]
+			  "items": "kamenridercraft:typhoon_akarider"
 			}
 		  }
 		}
@@ -36,24 +28,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:akariderhead"
-			  ]
+			  "items": "kamenridercraft:akariderhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:akaridertroso"
-			  ]
+			  "items": "kamenridercraft:akaridertroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:akariderlegs"
-			  ]
+			  "items": "kamenridercraft:akariderlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:typhoon_aorider"
-			  ]
+			  "items": "kamenridercraft:typhoon_aorider"
 			}
 		  }
 		}
@@ -65,24 +49,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:akariderhead"
-			  ]
+			  "items": "kamenridercraft:akariderhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:akaridertroso"
-			  ]
+			  "items": "kamenridercraft:akaridertroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:akariderlegs"
-			  ]
+			  "items": "kamenridercraft:akariderlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:typhoon_kirider"
-			  ]
+			  "items": "kamenridercraft:typhoon_kirider"
 			}
 		  }
 		}
@@ -94,24 +70,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:akariderhead"
-			  ]
+			  "items": "kamenridercraft:akariderhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:akaridertroso"
-			  ]
+			  "items": "kamenridercraft:akaridertroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:akariderlegs"
-			  ]
+			  "items": "kamenridercraft:akariderlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:typhoon_momorider"
-			  ]
+			  "items": "kamenridercraft:typhoon_momorider"
 			}
 		  }
 		}
@@ -123,24 +91,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:akariderhead"
-			  ]
+			  "items": "kamenridercraft:akariderhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:akaridertroso"
-			  ]
+			  "items": "kamenridercraft:akaridertroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:akariderlegs"
-			  ]
+			  "items": "kamenridercraft:akariderlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:typhoon_midorider"
-			  ]
+			  "items": "kamenridercraft:typhoon_midorider"
 			}
 		  }
 		}

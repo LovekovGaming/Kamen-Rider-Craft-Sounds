@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:pyron_driver"
-					  ]
+					  "items": "kamenridercraft:pyron_driver"
 					}
 				  }
 				}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:pyron_driver_sr"
-					  ]
+					  "items": "kamenridercraft:pyron_driver_sr"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:pyron_driver_mb"
-					  ]
+					  "items": "kamenridercraft:pyron_driver_mb"
 					}
 				  }
 				}
@@ -58,9 +52,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -71,9 +63,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:pyron_mission_memory"
-					  ]
+					  "items": "kamenridercraft:pyron_mission_memory"
 					}
 				  }
 				}

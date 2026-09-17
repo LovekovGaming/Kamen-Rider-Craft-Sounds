@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:shocker_ooodriver"
-					  ]
+					  "items": "kamenridercraft:shocker_ooodriver"
 					}
 				  }
 				}
@@ -32,9 +30,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -45,9 +41,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:shocker_medal"
-					  ]
+					  "items": "kamenridercraft:shocker_medal"
 					}
 				  }
 				}
@@ -58,9 +52,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:gel_shocker_medal"
-					  ]
+					  "items": "kamenridercraft:gel_shocker_medal"
 					}
 				  }
 				}
@@ -71,9 +63,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:destron_medal"
-					  ]
+					  "items": "kamenridercraft:destron_medal"
 					}
 				  }
 				}
@@ -84,9 +74,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:o_scanner"
-					  ]
+					  "items": "kamenridercraft:o_scanner"
 					}
 				  }
 				}

@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:mugen_driver"
-					]
+					"items": "kamenridercraft:mugen_driver"
 				  }
 				}
             }

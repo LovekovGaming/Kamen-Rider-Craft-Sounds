@@ -14,9 +14,7 @@
 				  "predicate": {
 					"equipment": {
 					  "feet": {
-						"items": [
-						  "kamenridercraft:smartbuckle"
-						]
+						"items": "kamenridercraft:smartbuckle"
 					  }
 					}
 				  }
@@ -27,9 +25,7 @@
 				  "predicate": {
 					"equipment": {
 					  "feet": {
-						"items": [
-						  "kamenridercraft:smartbuckle_v2"
-						]
+						"items": "kamenridercraft:smartbuckle_v2"
 					  }
 					}
 				  }
@@ -45,9 +41,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -58,9 +52,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:blank_mission_memory"
-					  ]
+					  "items": "kamenridercraft:blank_mission_memory"
 					}
 				  }
 				}

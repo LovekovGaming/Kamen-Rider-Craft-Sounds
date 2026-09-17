@@ -17,9 +17,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:century_king_moon_driver"
-				  ]
+				  "items": "kamenridercraft:century_king_moon_driver"
 				}
 			  }
 			}

@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:strongerhead"
-			  ]
+			  "items": "kamenridercraft:strongerhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:strongertroso"
-			  ]
+			  "items": "kamenridercraft:strongertroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:strongerlegs"
-			  ]
+			  "items": "kamenridercraft:strongerlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:tackle_belt"
-			  ]
+			  "items": "kamenridercraft:tackle_belt"
 			}
 		  }
 		}

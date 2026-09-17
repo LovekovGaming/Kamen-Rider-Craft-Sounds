@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:kivahead"
-			  ]
+			  "items": "kamenridercraft:kivahead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:kivatroso"
-			  ]
+			  "items": "kamenridercraft:kivatroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:kivalegs"
-			  ]
+			  "items": "kamenridercraft:kivalegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:sagarc_belt"
-			  ]
+			  "items": "kamenridercraft:sagarc_belt"
 			}
 		  }
 		}

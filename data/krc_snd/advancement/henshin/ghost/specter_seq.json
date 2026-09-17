@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:specter_driver"
-					]
+					"items": "kamenridercraft:specter_driver"
 				  }
 				}
             }

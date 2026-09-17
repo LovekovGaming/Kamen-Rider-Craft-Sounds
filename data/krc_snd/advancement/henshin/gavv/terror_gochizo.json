@@ -22,9 +22,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:henshin_belt_caries_gavv"
-				  ]
+				  "items": "kamenridercraft:henshin_belt_caries_gavv"
 				}
 			  }
 			}

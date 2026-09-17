@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:bladehead"
-			  ]
+			  "items": "kamenridercraft:bladehead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:bladetroso"
-			  ]
+			  "items": "kamenridercraft:bladetroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:bladelegs"
-			  ]
+			  "items": "kamenridercraft:bladelegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:glaive_buckle"
-			  ]
+			  "items": "kamenridercraft:glaive_buckle"
 			}
 		  }
 		}

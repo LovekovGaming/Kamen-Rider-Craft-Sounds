@@ -11,9 +11,7 @@
 			  "predicate": {
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:dreadriver_meikoku_no_sanshimai"
-					]
+					"items": "kamenridercraft:dreadriver_meikoku_no_sanshimai"
 				  }
 				}
 			  }
@@ -27,9 +25,7 @@
 				  "predicate": {
 					"equipment": {
 					  "mainhand": {
-						"items": [
-						  "minecraft:air"
-						]
+						"items": "minecraft:air"
 					  }
 					}
 				  }
@@ -40,9 +36,7 @@
 				  "predicate": {
 					"equipment": {
 					  "mainhand": {
-						"items": [
-						  "kamenridercraft:buglesia_ride_chemy_card"
-						]
+						"items": "kamenridercraft:buglesia_ride_chemy_card"
 					  }
 					}
 				  }
@@ -53,9 +47,7 @@
 				  "predicate": {
 					"equipment": {
 					  "mainhand": {
-						"items": [
-						  "kamenridercraft:kamantis_ride_chemy_card"
-						]
+						"items": "kamenridercraft:kamantis_ride_chemy_card"
 					  }
 					}
 				  }
@@ -66,9 +58,7 @@
 				  "predicate": {
 					"equipment": {
 					  "mainhand": {
-						"items": [
-						  "kamenridercraft:carery_ride_chemy_card"
-						]
+						"items": "kamenridercraft:carery_ride_chemy_card"
 					  }
 					}
 				  }

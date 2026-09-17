@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:zetsumeriser_vicarya"
-				  ]
+				  "items": "kamenridercraft:zetsumeriser_vicarya"
 				}
 			  }
 			}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:vicarya_zetsumerisekey"
-					  ]
+					  "items": "kamenridercraft:vicarya_zetsumerisekey"
 					}
 				  }
 				}
@@ -53,9 +47,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:unknown_zetsumerisekey"
-					  ]
+					  "items": "kamenridercraft:unknown_zetsumerisekey"
 					}
 				  }
 				}

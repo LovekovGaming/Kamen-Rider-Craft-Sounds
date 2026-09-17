@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:zero_onehead"
-			  ]
+			  "items": "kamenridercraft:zero_onehead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:zero_onetroso"
-			  ]
+			  "items": "kamenridercraft:zero_onetroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:zero_onelegs"
-			  ]
+			  "items": "kamenridercraft:zero_onelegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:hiden_zero_two_driver"
-			  ]
+			  "items": "kamenridercraft:hiden_zero_two_driver"
 			}
 		  }
 		}

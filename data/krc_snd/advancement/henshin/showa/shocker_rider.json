@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:typhoon_shocker_rider_1"
-					  ]
+					  "items": "kamenridercraft:typhoon_shocker_rider_1"
 					}
 				  }
 				}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:typhoon_shocker_rider_2"
-					  ]
+					  "items": "kamenridercraft:typhoon_shocker_rider_2"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:typhoon_shocker_rider_3"
-					  ]
+					  "items": "kamenridercraft:typhoon_shocker_rider_3"
 					}
 				  }
 				}
@@ -53,9 +47,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:typhoon_shocker_rider_4"
-					  ]
+					  "items": "kamenridercraft:typhoon_shocker_rider_4"
 					}
 				  }
 				}
@@ -66,9 +58,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:typhoon_shocker_rider_5"
-					  ]
+					  "items": "kamenridercraft:typhoon_shocker_rider_5"
 					}
 				  }
 				}
@@ -79,9 +69,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:typhoon_shocker_rider_6"
-					  ]
+					  "items": "kamenridercraft:typhoon_shocker_rider_6"
 					}
 				  }
 				}
@@ -92,9 +80,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:typhoon_shocker_rider_7"
-					  ]
+					  "items": "kamenridercraft:typhoon_shocker_rider_7"
 					}
 				  }
 				}
@@ -105,9 +91,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:typhoon_shocker_rider_8"
-					  ]
+					  "items": "kamenridercraft:typhoon_shocker_rider_8"
 					}
 				  }
 				}
@@ -118,9 +102,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:typhoon_shocker_rider_9"
-					  ]
+					  "items": "kamenridercraft:typhoon_shocker_rider_9"
 					}
 				  }
 				}
@@ -131,9 +113,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:typhoon_shocker_rider_10"
-					  ]
+					  "items": "kamenridercraft:typhoon_shocker_rider_10"
 					}
 				  }
 				}
@@ -144,9 +124,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:typhoon_shocker_rider_11"
-					  ]
+					  "items": "kamenridercraft:typhoon_shocker_rider_11"
 					}
 				  }
 				}
@@ -157,9 +135,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:typhoon_shocker_rider_12"
-					  ]
+					  "items": "kamenridercraft:typhoon_shocker_rider_12"
 					}
 				  }
 				}
@@ -170,9 +146,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:typhoon_dark_ichigo"
-					  ]
+					  "items": "kamenridercraft:typhoon_dark_ichigo"
 					}
 				  }
 				}
@@ -183,9 +157,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:typhoon_fake_ichigo"
-					  ]
+					  "items": "kamenridercraft:typhoon_fake_ichigo"
 					}
 				  }
 				}
@@ -198,19 +170,13 @@
 			"predicate": {
 			  "equipment": {
 				"head": {
-				  "items": [
-					"kamenridercraft:ichigohead"
-				  ]
+				  "items": "kamenridercraft:ichigohead"
 				},
 				"chest": {
-				  "items": [
-					"kamenridercraft:ichigotroso"
-				  ]
+				  "items": "kamenridercraft:ichigotroso"
 				},
 				"legs": {
-				  "items": [
-					"kamenridercraft:ichigolegs"
-				  ]
+				  "items": "kamenridercraft:ichigolegs"
 				}
 			  }
 			}

@@ -7,24 +7,16 @@
         "player": {
           "equipment": {
             "head": {
-              "items": [
-                "kamenridercraft:gotchard_head"
-              ]
+              "items": "kamenridercraft:gotchard_head"
             },
             "chest": {
-              "items": [
-                "kamenridercraft:gotchard_torso"
-              ]
+              "items": "kamenridercraft:gotchard_torso"
             },
             "legs": {
-              "items": [
-                "kamenridercraft:gotchard_legs"
-              ]
+              "items": "kamenridercraft:gotchard_legs"
             },
             "feet": {
-              "items": [
-                "kamenridercraft:gotchardriver"
-              ],
+              "items": "kamenridercraft:gotchardriver",
               "predicates": {
                 "minecraft:custom_data": {
                   "slot_tex1": "kamenridercraft:nijigon_ride_chemy_card_extra"

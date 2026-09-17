@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:ketaros_rider_belt"
-					]
+					"items": "kamenridercraft:ketaros_rider_belt"
 				  }
 				}
             }

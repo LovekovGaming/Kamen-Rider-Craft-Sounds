@@ -14,14 +14,10 @@
 				"predicate": {
 				  "equipment": {
 					"offhand": {
-					  "items": [
-						"kamenridercraft:glaive_buckle"
-					  ]
+					  "items": "kamenridercraft:glaive_buckle"
 					},
 					"feet": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -35,9 +31,7 @@
 					"predicate": {
 					  "equipment": {
 						"mainhand": {
-						  "items": [
-							"minecraft:air"
-						  ]
+						  "items": "minecraft:air"
 						}
 					  }
 					}
@@ -48,9 +42,7 @@
 					"predicate": {
 					  "equipment": {
 						"mainhand": {
-						  "items": [
-							"kamenridercraft:change_kerberos_glaive"
-						  ]
+						  "items": "kamenridercraft:change_kerberos_glaive"
 						}
 					  }
 					}

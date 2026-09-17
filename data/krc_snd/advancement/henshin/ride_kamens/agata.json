@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:ride_kamens_head"
-			  ]
+			  "items": "kamenridercraft:ride_kamens_head"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:ride_kamens_troso"
-			  ]
+			  "items": "kamenridercraft:ride_kamens_troso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:ride_kamens_legs"
-			  ]
+			  "items": "kamenridercraft:ride_kamens_legs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:chaos_driver_agata"
-			  ]
+			  "items": "kamenridercraft:chaos_driver_agata"
 			}
 		  }
 		}

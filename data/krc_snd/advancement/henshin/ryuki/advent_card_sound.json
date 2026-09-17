@@ -12,19 +12,13 @@
 			  "nbt": "{Tags:[\"clock_running\"]}",
 			  "equipment": {
 				"head": {
-				  "items": [
-					"kamenridercraft:ryukihead"
-				  ]
+				  "items": "kamenridercraft:ryukihead"
 				},
 				"chest": {
-				  "items": [
-					"kamenridercraft:ryukitroso"
-				  ]
+				  "items": "kamenridercraft:ryukitroso"
 				},
 				"legs": {
-				  "items": [
-					"kamenridercraft:ryukilegs"
-				  ]
+				  "items": "kamenridercraft:ryukilegs"
 				},
 				"feet": {
 				  "items": "#kamenridercraft:belts/ryuki_armor"
@@ -43,9 +37,7 @@
 				  "predicate": {
 					"equipment": {
 					  "feet": {
-						"items": [
-						  "kamenridercraft:v_buckle_ouja"
-						]
+						"items": "kamenridercraft:v_buckle_ouja"
 					  }
 					}
 				  }
@@ -56,9 +48,7 @@
 				  "predicate": {
 					"equipment": {
 					  "feet": {
-						"items": [
-						  "kamenridercraft:v_buckle_ryuga"
-						]
+						"items": "kamenridercraft:v_buckle_ryuga"
 					  }
 					}
 				  }
@@ -69,9 +59,7 @@
 				  "predicate": {
 					"equipment": {
 					  "feet": {
-						"items": [
-						  "kamenridercraft:alternative_v_buckle"
-						]
+						"items": "kamenridercraft:alternative_v_buckle"
 					  }
 					}
 				  }
@@ -82,9 +70,7 @@
 				  "predicate": {
 					"equipment": {
 					  "feet": {
-						"items": [
-						  "kamenridercraft:alternative_zero_v_buckle"
-						]
+						"items": "kamenridercraft:alternative_zero_v_buckle"
 					  }
 					}
 				  }

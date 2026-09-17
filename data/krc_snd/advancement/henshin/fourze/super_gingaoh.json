@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:fourze_head"
-			  ]
+			  "items": "kamenridercraft:fourze_head"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:fourze_troso"
-			  ]
+			  "items": "kamenridercraft:fourze_troso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:fourze_legs"
-			  ]
+			  "items": "kamenridercraft:fourze_legs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:ginga_oh_driver"
-			  ]
+			  "items": "kamenridercraft:ginga_oh_driver"
 			}
 		  }
 		}

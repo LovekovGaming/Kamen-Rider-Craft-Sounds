@@ -15,24 +15,16 @@
 	},
 			"equipment": {
 			  "head": {
-				"items": [
-				  "kamenridercraft:zero_onehead"
-				]
+				"items": "kamenridercraft:zero_onehead"
 			  },
 			  "chest": {
-				"items": [
-				  "kamenridercraft:zero_onetroso"
-				]
+				"items": "kamenridercraft:zero_onetroso"
 			  },
 			  "legs": {
-				"items": [
-				  "kamenridercraft:zero_onelegs"
-				]
+				"items": "kamenridercraft:zero_onelegs"
 			  },
 			  "feet": {
-				"items": [
-				  "kamenridercraft:zaia_thousandriver"
-				]
+				"items": "kamenridercraft:zaia_thousandriver"
 			  }
 			},
 			"effects": {

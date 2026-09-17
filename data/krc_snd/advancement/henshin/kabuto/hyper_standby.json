@@ -35,9 +35,7 @@
 				  "predicate": {
 					"equipment": {
 					  "feet": {
-						"items": [
-						  "kamenridercraft:kabuto_rider_belt"
-						]
+						"items": "kamenridercraft:kabuto_rider_belt"
 					  }
 					}
 				  }
@@ -48,9 +46,7 @@
 				  "predicate": {
 					"equipment": {
 					  "feet": {
-						"items": [
-						  "kamenridercraft:gatack_rider_belt"
-						]
+						"items": "kamenridercraft:gatack_rider_belt"
 					  }
 					}
 				  }
@@ -61,9 +57,7 @@
 				  "predicate": {
 					"equipment": {
 					  "feet": {
-						"items": [
-						  "kamenridercraft:dark_kabuto_rider_belt"
-						]
+						"items": "kamenridercraft:dark_kabuto_rider_belt"
 					  }
 					}
 				  }

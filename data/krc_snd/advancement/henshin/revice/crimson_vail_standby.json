@@ -22,19 +22,13 @@
 				},
 				"equipment": {
 				  "head": {
-					"items": [
-					  "kamenridercraft:revice_head"
-					]
+					"items": "kamenridercraft:revice_head"
 				  },
 				  "chest": {
-					"items": [
-					  "kamenridercraft:revice_troso"
-					]
+					"items": "kamenridercraft:revice_troso"
 				  },
 				  "legs": {
-					"items": [
-					  "kamenridercraft:revice_legs"
-					]
+					"items": "kamenridercraft:revice_legs"
 				  }
 				}
 			  }

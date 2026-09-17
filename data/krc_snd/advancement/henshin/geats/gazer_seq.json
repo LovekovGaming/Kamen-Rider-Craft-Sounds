@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:vision_driver_gazer"
-					]
+					"items": "kamenridercraft:vision_driver_gazer"
 				  }
 				}
             }
@@ -62,9 +60,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:vision_driver_gazer_suel"
-					]
+					"items": "kamenridercraft:vision_driver_gazer_suel"
 				  }
 				}
             }

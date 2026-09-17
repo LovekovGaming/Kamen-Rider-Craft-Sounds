@@ -26,9 +26,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:ank_point"
-					  ]
+					  "items": "kamenridercraft:ank_point"
 					}
 				  }
 				}
@@ -39,9 +37,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:ank_point_burning"
-					  ]
+					  "items": "kamenridercraft:ank_point_burning"
 					}
 				  }
 				}

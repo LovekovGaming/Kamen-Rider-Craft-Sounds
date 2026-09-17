@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:haken_bladriver_falchion"
-					]
+					"items": "kamenridercraft:haken_bladriver_falchion"
 				  }
 				}
             }

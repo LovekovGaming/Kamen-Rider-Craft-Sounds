@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:cycloneriser"
-				  ]
+				  "items": "kamenridercraft:cycloneriser"
 				}
 			  }
 			}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:rocking_hopper_zetsumerisekey"
-					  ]
+					  "items": "kamenridercraft:rocking_hopper_zetsumerisekey"
 					}
 				  }
 				}

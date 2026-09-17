@@ -7,19 +7,13 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:buildhead"
-			  ]
+			  "items": "kamenridercraft:buildhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:buildtroso"
-			  ]
+			  "items": "kamenridercraft:buildtroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:buildlegs"
-			  ]
+			  "items": "kamenridercraft:buildlegs"
 			},
 			"feet": {
 			  "items": "#krc_snd:transteam_gun"

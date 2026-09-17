@@ -6,19 +6,13 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:decadehead"
-			  ]
+			  "items": "kamenridercraft:decadehead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:decadetroso"
-			  ]
+			  "items": "kamenridercraft:decadetroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:decadelegs"
-			  ]
+			  "items": "kamenridercraft:decadelegs"
 			},
 			"feet": {
 			  "items": "#kamenridercraft:belts/decade_armor"
@@ -40,19 +34,13 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:decadehead"
-			  ]
+			  "items": "kamenridercraft:decadehead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:decadetroso"
-			  ]
+			  "items": "kamenridercraft:decadetroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:decadelegs"
-			  ]
+			  "items": "kamenridercraft:decadelegs"
 			},
 			"feet": {
 			  "items": "kamenridercraft:diend_belt"

@@ -22,9 +22,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:build_driver_grease"
-				  ]
+				  "items": "kamenridercraft:build_driver_grease"
 				}
 			  }
 			}

@@ -11,24 +11,16 @@
 			"predicate": {
 			  "equipment": {
 				"head": {
-				  "items": [
-					"kamenridercraft:hibikihead"
-				  ]
+				  "items": "kamenridercraft:hibikihead"
 				},
 				"chest": {
-				  "items": [
-					"kamenridercraft:hibikitroso"
-				  ]
+				  "items": "kamenridercraft:hibikitroso"
 				},
 				"legs": {
-				  "items": [
-					"kamenridercraft:hibikilegs"
-				  ]
+				  "items": "kamenridercraft:hibikilegs"
 				},
 				"feet": {
-				  "items": [
-					"kamenridercraft:todorokidriver"
-				  ]
+				  "items": "kamenridercraft:todorokidriver"
 				}
 			  }
 			}
@@ -46,24 +38,16 @@
 			"predicate": {
 			  "equipment": {
 				"head": {
-				  "items": [
-					"kamenridercraft:hibikihead"
-				  ]
+				  "items": "kamenridercraft:hibikihead"
 				},
 				"chest": {
-				  "items": [
-					"kamenridercraft:hibikitroso"
-				  ]
+				  "items": "kamenridercraft:hibikitroso"
 				},
 				"legs": {
-				  "items": [
-					"kamenridercraft:hibikilegs"
-				  ]
+				  "items": "kamenridercraft:hibikilegs"
 				},
 				"feet": {
-				  "items": [
-					"kamenridercraft:zankidriver"
-				  ]
+				  "items": "kamenridercraft:zankidriver"
 				}
 			  }
 			}
@@ -81,24 +65,16 @@
 			"predicate": {
 			  "equipment": {
 				"head": {
-				  "items": [
-					"kamenridercraft:hibikihead"
-				  ]
+				  "items": "kamenridercraft:hibikihead"
 				},
 				"chest": {
-				  "items": [
-					"kamenridercraft:hibikitroso"
-				  ]
+				  "items": "kamenridercraft:hibikitroso"
 				},
 				"legs": {
-				  "items": [
-					"kamenridercraft:hibikilegs"
-				  ]
+				  "items": "kamenridercraft:hibikilegs"
 				},
 				"feet": {
-				  "items": [
-					"kamenridercraft:sabakidriver"
-				  ]
+				  "items": "kamenridercraft:sabakidriver"
 				}
 			  }
 			}
@@ -116,24 +92,16 @@
 			"predicate": {
 			  "equipment": {
 				"head": {
-				  "items": [
-					"kamenridercraft:hibikihead"
-				  ]
+				  "items": "kamenridercraft:hibikihead"
 				},
 				"chest": {
-				  "items": [
-					"kamenridercraft:hibikitroso"
-				  ]
+				  "items": "kamenridercraft:hibikitroso"
 				},
 				"legs": {
-				  "items": [
-					"kamenridercraft:hibikilegs"
-				  ]
+				  "items": "kamenridercraft:hibikilegs"
 				},
 				"feet": {
-				  "items": [
-					"kamenridercraft:bankidriver"
-				  ]
+				  "items": "kamenridercraft:bankidriver"
 				}
 			  }
 			}

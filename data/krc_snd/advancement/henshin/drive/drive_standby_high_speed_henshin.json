@@ -22,24 +22,16 @@
 			  },
 			  "equipment": {
 				"head": {
-				  "items": [
-					"minecraft:air"
-				  ]
+				  "items": "minecraft:air"
 				},
 				"chest": {
-				  "items": [
-					"minecraft:air"
-				  ]
+				  "items": "minecraft:air"
 				},
 				"legs": {
-				  "items": [
-					"minecraft:air"
-				  ]
+				  "items": "minecraft:air"
 				},
 				"feet": {
-				  "items": [
-					"kamenridercraft:drivedriver"
-				  ]
+				  "items": "kamenridercraft:drivedriver"
 				}
 			  }
 			}

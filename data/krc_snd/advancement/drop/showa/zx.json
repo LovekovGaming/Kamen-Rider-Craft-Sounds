@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:zx_belt"
-					  ]
+					  "items": "kamenridercraft:zx_belt"
 					}
 				  }
 				}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:susanoo_belt"
-					  ]
+					  "items": "kamenridercraft:susanoo_belt"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:tsukuyomi_belt"
-					  ]
+					  "items": "kamenridercraft:tsukuyomi_belt"
 					}
 				  }
 				}
@@ -53,9 +47,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:amaterasu_belt"
-					  ]
+					  "items": "kamenridercraft:amaterasu_belt"
 					}
 				  }
 				}
@@ -71,9 +63,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -84,9 +74,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:zx_belt_core"
-					  ]
+					  "items": "kamenridercraft:zx_belt_core"
 					}
 				  }
 				}

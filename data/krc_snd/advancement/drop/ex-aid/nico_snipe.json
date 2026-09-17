@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:gamer_driver_nico_snipe"
-				  ]
+				  "items": "kamenridercraft:gamer_driver_nico_snipe"
 				}
 			  }
 			}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:bang_bang_shooting_gashat"
-					  ]
+					  "items": "kamenridercraft:bang_bang_shooting_gashat"
 					}
 				  }
 				}

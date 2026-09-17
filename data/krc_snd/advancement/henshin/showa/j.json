@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:jhead"
-			  ]
+			  "items": "kamenridercraft:jhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:jtroso"
-			  ]
+			  "items": "kamenridercraft:jtroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:jlegs"
-			  ]
+			  "items": "kamenridercraft:jlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:j_spirit"
-			  ]
+			  "items": "kamenridercraft:j_spirit"
 			}
 		  }
 		}

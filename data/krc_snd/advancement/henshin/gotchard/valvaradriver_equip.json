@@ -17,9 +17,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:valvaradriver"
-				  ]
+				  "items": "kamenridercraft:valvaradriver"
 				}
 			  }
 			}

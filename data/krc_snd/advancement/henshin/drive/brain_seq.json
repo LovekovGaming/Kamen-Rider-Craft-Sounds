@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:brain_driver"
-					]
+					"items": "kamenridercraft:brain_driver"
 				  }
 				}
             }

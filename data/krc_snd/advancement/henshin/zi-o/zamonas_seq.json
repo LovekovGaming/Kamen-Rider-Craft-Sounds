@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:ziku_driver_zamonas"
-					]
+					"items": "kamenridercraft:ziku_driver_zamonas"
 				  }
 				}
             }

@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:ichigohead"
-			  ]
+			  "items": "kamenridercraft:ichigohead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:ichigotroso"
-			  ]
+			  "items": "kamenridercraft:ichigotroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:ichigolegs"
-			  ]
+			  "items": "kamenridercraft:ichigolegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:cyborg_super_energy_converter"
-			  ]
+			  "items": "kamenridercraft:cyborg_super_energy_converter"
 			}
 		  }
 		}

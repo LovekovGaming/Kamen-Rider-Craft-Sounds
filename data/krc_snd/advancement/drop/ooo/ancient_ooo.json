@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:ancient_ooodriver"
-					  ]
+					  "items": "kamenridercraft:ancient_ooodriver"
 					}
 				  }
 				}
@@ -32,9 +30,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -45,9 +41,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:ancient_taka_medal"
-					  ]
+					  "items": "kamenridercraft:ancient_taka_medal"
 					}
 				  }
 				}
@@ -58,9 +52,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:ancient_tora_medal"
-					  ]
+					  "items": "kamenridercraft:ancient_tora_medal"
 					}
 				  }
 				}
@@ -71,9 +63,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:ancient_batta_medal"
-					  ]
+					  "items": "kamenridercraft:ancient_batta_medal"
 					}
 				  }
 				}
@@ -84,9 +74,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:o_scanner"
-					  ]
+					  "items": "kamenridercraft:o_scanner"
 					}
 				  }
 				}

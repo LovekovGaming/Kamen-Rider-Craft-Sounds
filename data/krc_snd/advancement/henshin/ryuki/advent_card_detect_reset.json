@@ -417,9 +417,7 @@
 					  "predicate": {
 						"equipment": {
 						  "mainhand": {
-							"items": [
-							  "kamenridercraft:metal_horn_vent"
-							]
+							"items": "kamenridercraft:metal_horn_vent"
 						  }
 						}
 					  }
@@ -433,9 +431,7 @@
 					  "predicate": {
 						"equipment": {
 						  "offhand": {
-							"items": [
-							  "kamenridercraft:metal_horn_vent"
-							]
+							"items": "kamenridercraft:metal_horn_vent"
 						  }
 						}
 					  }
@@ -640,9 +636,7 @@
 					  "predicate": {
 						"equipment": {
 						  "mainhand": {
-							"items": [
-							  "kamenridercraft:dest_claw_vent"
-							]
+							"items": "kamenridercraft:dest_claw_vent"
 						  }
 						}
 					  }
@@ -656,9 +650,7 @@
 					  "predicate": {
 						"equipment": {
 						  "offhand": {
-							"items": [
-							  "kamenridercraft:dest_claw_vent"
-							]
+							"items": "kamenridercraft:dest_claw_vent"
 						  }
 						}
 					  }
@@ -717,9 +709,7 @@
 					  "predicate": {
 						"equipment": {
 						  "mainhand": {
-							"items": [
-							  "kamenridercraft:gazelle_stab_vent"
-							]
+							"items": "kamenridercraft:gazelle_stab_vent"
 						  }
 						}
 					  }
@@ -733,9 +723,7 @@
 					  "predicate": {
 						"equipment": {
 						  "offhand": {
-							"items": [
-							  "kamenridercraft:gazelle_stab_vent"
-							]
+							"items": "kamenridercraft:gazelle_stab_vent"
 						  }
 						}
 					  }
@@ -940,9 +928,7 @@
 					  "predicate": {
 						"equipment": {
 						  "mainhand": {
-							"items": [
-							  "kamenridercraft:bio_winder_vent"
-							]
+							"items": "kamenridercraft:bio_winder_vent"
 						  }
 						}
 					  }
@@ -956,9 +942,7 @@
 					  "predicate": {
 						"equipment": {
 						  "offhand": {
-							"items": [
-							  "kamenridercraft:bio_winder_vent"
-							]
+							"items": "kamenridercraft:bio_winder_vent"
 						  }
 						}
 					  }
@@ -1090,9 +1074,7 @@
 					  "predicate": {
 						"equipment": {
 						  "mainhand": {
-							"items": [
-							  "kamenridercraft:slash_dagger_vent"
-							]
+							"items": "kamenridercraft:slash_dagger_vent"
 						  }
 						}
 					  }
@@ -1106,9 +1088,7 @@
 					  "predicate": {
 						"equipment": {
 						  "offhand": {
-							"items": [
-							  "kamenridercraft:slash_dagger_vent"
-							]
+							"items": "kamenridercraft:slash_dagger_vent"
 						  }
 						}
 					  }

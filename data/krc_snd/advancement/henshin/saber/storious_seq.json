@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:dooms_driver_buckle_storious"
-					]
+					"items": "kamenridercraft:dooms_driver_buckle_storious"
 				  }
 				}
             }

@@ -17,9 +17,7 @@
 		"player": {
 		  "equipment": {
 			"mainhand": {
-			  "items": [
-				"kamenridercraft:akiko_no_slipper"
-			  ]
+			  "items": "kamenridercraft:akiko_no_slipper"
 			}
 		  }
 		}

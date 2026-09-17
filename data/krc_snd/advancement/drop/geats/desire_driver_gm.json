@@ -37,9 +37,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:desire_driver_gm"
-					  ]
+					  "items": "kamenridercraft:desire_driver_gm"
 					}
 				  }
 				}
@@ -50,9 +48,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:desire_driver_gm_chirami"
-					  ]
+					  "items": "kamenridercraft:desire_driver_gm_chirami"
 					}
 				  }
 				}
@@ -68,9 +64,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}

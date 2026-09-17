@@ -57,9 +57,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:desire_driver_x_geats"
-					  ]
+					  "items": "kamenridercraft:desire_driver_x_geats"
 					}
 				  }
 				}
@@ -73,9 +71,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:desire_driver_dooms_geats"
-					  ]
+					  "items": "kamenridercraft:desire_driver_dooms_geats"
 					}
 				  }
 				}

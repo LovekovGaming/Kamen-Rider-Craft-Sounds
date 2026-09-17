@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:haken_bladriver_tassel"
-					]
+					"items": "kamenridercraft:haken_bladriver_tassel"
 				  }
 				}
             }

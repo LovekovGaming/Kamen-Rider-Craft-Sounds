@@ -11,9 +11,7 @@
 			  "predicate": {
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:henshin_belt_caries_gavv"
-					]
+					"items": "kamenridercraft:henshin_belt_caries_gavv"
 				  }
 				}
 			  }
@@ -27,9 +25,7 @@
 				  "predicate": {
 					"equipment": {
 					  "mainhand": {
-						"items": [
-						  "minecraft:air"
-						]
+						"items": "minecraft:air"
 					  }
 					}
 				  }

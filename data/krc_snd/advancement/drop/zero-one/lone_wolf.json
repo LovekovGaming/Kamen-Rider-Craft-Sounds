@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:hiden_zero_one_driver_vulcan"
-				  ]
+				  "items": "kamenridercraft:hiden_zero_one_driver_vulcan"
 				}
 			  }
 			}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:dire_wolf_zetsumerisekey"
-					  ]
+					  "items": "kamenridercraft:dire_wolf_zetsumerisekey"
 					}
 				  }
 				}

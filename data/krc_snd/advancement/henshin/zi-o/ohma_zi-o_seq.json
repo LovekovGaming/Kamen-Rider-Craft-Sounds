@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:ohma_zi_o_driver"
-					]
+					"items": "kamenridercraft:ohma_zi_o_driver"
 				  }
 				}
             }

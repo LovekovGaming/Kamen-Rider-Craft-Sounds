@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:buildhead"
-			  ]
+			  "items": "kamenridercraft:buildhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:buildtroso"
-			  ]
+			  "items": "kamenridercraft:buildtroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:buildlegs"
-			  ]
+			  "items": "kamenridercraft:buildlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:evol_driver_mad_rogue"
-			  ]
+			  "items": "kamenridercraft:evol_driver_mad_rogue"
 			}
 		  }
 		}

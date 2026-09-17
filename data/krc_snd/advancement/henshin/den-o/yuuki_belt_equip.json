@@ -17,9 +17,7 @@
 				},
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:yuuki_belt"
-					],
+					"items": "kamenridercraft:yuuki_belt",
 					"predicates": {
 					  "minecraft:custom_data": "{slot_tex1:\"kamenridercraft:rider_ticket_yuuki_hijack\"}"
 					}

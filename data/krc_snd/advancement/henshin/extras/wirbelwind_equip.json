@@ -17,9 +17,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:cyborg_super_energy_converter"
-				  ]
+				  "items": "kamenridercraft:cyborg_super_energy_converter"
 				}
 			  }
 			}

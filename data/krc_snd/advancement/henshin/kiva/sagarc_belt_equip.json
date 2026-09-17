@@ -17,9 +17,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:sagarc_belt"
-				  ]
+				  "items": "kamenridercraft:sagarc_belt"
 				}
 			  }
 			}

@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:lostdriver_skull"
-					]
+					"items": "kamenridercraft:lostdriver_skull"
 				  }
 				}
             }

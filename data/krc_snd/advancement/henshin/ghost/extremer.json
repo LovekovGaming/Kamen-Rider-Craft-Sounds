@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:ghost_head"
-			  ]
+			  "items": "kamenridercraft:ghost_head"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:ghost_troso"
-			  ]
+			  "items": "kamenridercraft:ghost_troso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:ghost_legs"
-			  ]
+			  "items": "kamenridercraft:ghost_legs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:extremer_driver"
-			  ]
+			  "items": "kamenridercraft:extremer_driver"
 			}
 		  }
 		}

@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:xhead"
-			  ]
+			  "items": "kamenridercraft:xhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:xtroso"
-			  ]
+			  "items": "kamenridercraft:xtroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:xlegs"
-			  ]
+			  "items": "kamenridercraft:xlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:ridol"
-			  ]
+			  "items": "kamenridercraft:ridol"
 			}
 		  }
 		}
@@ -36,24 +28,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:xhead"
-			  ]
+			  "items": "kamenridercraft:xhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:xtroso"
-			  ]
+			  "items": "kamenridercraft:xtroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:xlegs"
-			  ]
+			  "items": "kamenridercraft:xlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:dark_ridol"
-			  ]
+			  "items": "kamenridercraft:dark_ridol"
 			}
 		  }
 		}
@@ -65,24 +49,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:xhead"
-			  ]
+			  "items": "kamenridercraft:xhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:xtroso"
-			  ]
+			  "items": "kamenridercraft:xtroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:xlegs"
-			  ]
+			  "items": "kamenridercraft:xlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:fake_ridol"
-			  ]
+			  "items": "kamenridercraft:fake_ridol"
 			}
 		  }
 		}

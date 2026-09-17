@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:hiden_zero_two_driver"
-				  ]
+				  "items": "kamenridercraft:hiden_zero_two_driver"
 				}
 			  }
 			}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:zero_two_progrisekey"
-					  ]
+					  "items": "kamenridercraft:zero_two_progrisekey"
 					}
 				  }
 				}

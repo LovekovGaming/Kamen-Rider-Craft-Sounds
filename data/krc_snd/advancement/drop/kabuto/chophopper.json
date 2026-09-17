@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:chophopper_rider_belt"
-				  ]
+				  "items": "kamenridercraft:chophopper_rider_belt"
 				}
 			  }
 			}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:kickhopper_zecter"
-					  ]
+					  "items": "kamenridercraft:kickhopper_zecter"
 					}
 				  }
 				}
@@ -53,9 +47,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:punchhopper_zecter"
-					  ]
+					  "items": "kamenridercraft:punchhopper_zecter"
 					}
 				  }
 				}

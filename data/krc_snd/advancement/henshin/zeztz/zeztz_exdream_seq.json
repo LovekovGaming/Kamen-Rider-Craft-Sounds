@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:zeztz_exdream_driver"
-					]
+					"items": "kamenridercraft:zeztz_exdream_driver"
 				  }
 				}
             }

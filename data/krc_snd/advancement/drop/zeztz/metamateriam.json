@@ -39,24 +39,16 @@
 			"predicate": {
 			  "equipment": {
 				"head": {
-				  "items": [
-					"kamenridercraft:zeztz_head"
-				  ]
+				  "items": "kamenridercraft:zeztz_head"
 				},
 				"chest": {
-				  "items": [
-					"kamenridercraft:zeztz_troso"
-				  ]
+				  "items": "kamenridercraft:zeztz_troso"
 				},
 				"legs": {
-				  "items": [
-					"kamenridercraft:zeztz_legs"
-				  ]
+				  "items": "kamenridercraft:zeztz_legs"
 				},
 				"feet": {
-				  "items": [
-					"minecraft:air"
-				  ]
+				  "items": "minecraft:air"
 				}
 			  }
 			}

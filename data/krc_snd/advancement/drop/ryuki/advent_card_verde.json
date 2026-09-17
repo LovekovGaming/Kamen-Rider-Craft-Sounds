@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:bio_winder_vent"
-					  ]
+					  "items": "kamenridercraft:bio_winder_vent"
 					}
 				  }
 				}
@@ -47,24 +43,16 @@
               },
 			  "equipment": {
 				"head": {
-				  "items": [
-					"kamenridercraft:ryukihead"
-				  ]
+				  "items": "kamenridercraft:ryukihead"
 				},
 				"chest": {
-				  "items": [
-					"kamenridercraft:ryukitroso"
-				  ]
+				  "items": "kamenridercraft:ryukitroso"
 				},
 				"legs": {
-				  "items": [
-					"kamenridercraft:ryukilegs"
-				  ]
+				  "items": "kamenridercraft:ryukilegs"
 				},
 				"feet": {
-				  "items": [
-					"kamenridercraft:v_buckle_verde"
-				  ]
+				  "items": "kamenridercraft:v_buckle_verde"
 				}
 			  }
 			}

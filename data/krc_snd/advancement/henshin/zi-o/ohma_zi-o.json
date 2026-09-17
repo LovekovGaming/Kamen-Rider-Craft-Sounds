@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:zi_o_head"
-			  ]
+			  "items": "kamenridercraft:zi_o_head"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:zi_o_troso"
-			  ]
+			  "items": "kamenridercraft:zi_o_troso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:zi_o_legs"
-			  ]
+			  "items": "kamenridercraft:zi_o_legs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:ohma_zi_o_driver"
-			  ]
+			  "items": "kamenridercraft:ohma_zi_o_driver"
 			}
 		  }
 		}

@@ -18,9 +18,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:decadriver"
-					  ]
+					  "items": "kamenridercraft:decadriver"
 					}
 				  }
 				}
@@ -31,9 +29,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:neo_decadriver"
-					  ]
+					  "items": "kamenridercraft:neo_decadriver"
 					}
 				  }
 				}
@@ -44,9 +40,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:dark_decadriver"
-					  ]
+					  "items": "kamenridercraft:dark_decadriver"
 					}
 				  }
 				}
@@ -97,9 +91,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:diend_belt"
-				  ]
+				  "items": "kamenridercraft:diend_belt"
 				}
 			  }
 			}

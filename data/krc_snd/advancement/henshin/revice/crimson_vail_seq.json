@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:vail_belt"
-					]
+					"items": "kamenridercraft:vail_belt"
 				  }
 				}
             }

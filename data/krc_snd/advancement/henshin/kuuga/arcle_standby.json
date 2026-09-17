@@ -18,9 +18,7 @@
 		  },
 		  "equipment": {
 			"feet": {
-			  "items": [
-				"kamenridercraft:arcle"
-			  ]
+			  "items": "kamenridercraft:arcle"
 			}
 		  }
 		}

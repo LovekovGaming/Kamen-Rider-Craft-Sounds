@@ -42,9 +42,7 @@
 				  "predicate": {
 					"equipment": {
 					  "mainhand": {
-						"items": [
-						  "minecraft:air"
-						]
+						"items": "minecraft:air"
 					  }
 					}
 				  }
@@ -68,19 +66,13 @@
 			  "predicate": {
 				"equipment": {
 				  "head": {
-					"items": [
-					  "kamenridercraft:faizhead"
-					]
+					"items": "kamenridercraft:faizhead"
 				  },
 				  "chest": {
-					"items": [
-					  "kamenridercraft:faiztroso"
-					]
+					"items": "kamenridercraft:faiztroso"
 				  },
 				  "legs": {
-					"items": [
-					  "kamenridercraft:faizlegs"
-					]
+					"items": "kamenridercraft:faizlegs"
 				  }
 				}
 			  }

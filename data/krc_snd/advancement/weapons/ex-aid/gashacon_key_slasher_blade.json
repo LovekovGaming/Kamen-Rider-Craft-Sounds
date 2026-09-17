@@ -20,9 +20,7 @@
 		  },
 		  "equipment": {
 			"mainhand": {
-			  "items": [
-				"kamenridercraft:gashacon_key_slasher"
-			  ]
+			  "items": "kamenridercraft:gashacon_key_slasher"
 			}
 		  }
 		}

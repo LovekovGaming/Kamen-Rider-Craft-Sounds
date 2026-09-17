@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:ooohead"
-			  ]
+			  "items": "kamenridercraft:ooohead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:oootroso"
-			  ]
+			  "items": "kamenridercraft:oootroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:ooolegs"
-			  ]
+			  "items": "kamenridercraft:ooolegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:poseidon_driver"
-			  ]
+			  "items": "kamenridercraft:poseidon_driver"
 			}
 		  }
 		}

@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:faizhead"
-			  ]
+			  "items": "kamenridercraft:faizhead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:faiztroso"
-			  ]
+			  "items": "kamenridercraft:faiztroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:faizlegs"
-			  ]
+			  "items": "kamenridercraft:faizlegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:pyron_driver"
-			  ]
+			  "items": "kamenridercraft:pyron_driver"
 			}
 		  }
 		}

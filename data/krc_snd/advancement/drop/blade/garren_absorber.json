@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,24 +38,16 @@
 			"predicate": {
 			  "equipment": {
 				"head": {
-				  "items": [
-					"kamenridercraft:bladehead"
-				  ]
+				  "items": "kamenridercraft:bladehead"
 				},
 				"chest": {
-				  "items": [
-					"kamenridercraft:bladetroso"
-				  ]
+				  "items": "kamenridercraft:bladetroso"
 				},
 				"legs": {
-				  "items": [
-					"kamenridercraft:bladelegs"
-				  ]
+				  "items": "kamenridercraft:bladelegs"
 				},
 				"feet": {
-				  "items": [
-					"kamenridercraft:garren_buckle"
-				  ]
+				  "items": "kamenridercraft:garren_buckle"
 				}
 			  },
 			  "slots": {

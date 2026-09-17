@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:knight_invoker"
-					]
+					"items": "kamenridercraft:knight_invoker"
 				  }
 				}
             }

@@ -11,9 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:ark_driver_zero_thousand_ark"
-				  ]
+				  "items": "kamenridercraft:ark_driver_zero_thousand_ark"
 				}
 			  }
 			}
@@ -27,9 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -40,9 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"kamenridercraft:thousand_ark_progrisekey"
-					  ]
+					  "items": "kamenridercraft:thousand_ark_progrisekey"
 					}
 				  }
 				}

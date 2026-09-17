@@ -22,9 +22,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": [
-					"kamenridercraft:new_den_o_belt"
-				  ]
+				  "items": "kamenridercraft:new_den_o_belt"
 				}
 			  }
 			}

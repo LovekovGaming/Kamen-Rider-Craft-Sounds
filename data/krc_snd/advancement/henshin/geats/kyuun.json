@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:geatshead"
-			  ]
+			  "items": "kamenridercraft:geatshead"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:geatstroso"
-			  ]
+			  "items": "kamenridercraft:geatstroso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:geatslegs"
-			  ]
+			  "items": "kamenridercraft:geatslegs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:raise_riser_belt_kyuun"
-			  ]
+			  "items": "kamenridercraft:raise_riser_belt_kyuun"
 			}
 		  }
 		}

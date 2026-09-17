@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:metsuboujinrai_driver"
-					]
+					"items": "kamenridercraft:metsuboujinrai_driver"
 				  }
 				}
             }

@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:hattari_driver"
-					]
+					"items": "kamenridercraft:hattari_driver"
 				  }
 				}
             }

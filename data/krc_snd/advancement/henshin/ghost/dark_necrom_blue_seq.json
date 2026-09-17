@@ -22,9 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": [
-					  "kamenridercraft:proto_mega_ulorder_blue"
-					]
+					"items": "kamenridercraft:proto_mega_ulorder_blue"
 				  }
 				}
             }

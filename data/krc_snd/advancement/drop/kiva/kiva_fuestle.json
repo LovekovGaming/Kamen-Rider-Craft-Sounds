@@ -14,9 +14,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": [
-						"minecraft:air"
-					  ]
+					  "items": "minecraft:air"
 					}
 				  }
 				}
@@ -43,9 +41,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:kivadriver"
-					  ]
+					  "items": "kamenridercraft:kivadriver"
 					}
 				  }
 				}
@@ -56,9 +52,7 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": [
-						"kamenridercraft:newkivadriver"
-					  ]
+					  "items": "kamenridercraft:newkivadriver"
 					}
 				  }
 				}
@@ -71,19 +65,13 @@
 			"predicate": {
 			  "equipment": {
 				"head": {
-				  "items": [
-					"kamenridercraft:kivahead"
-				  ]
+				  "items": "kamenridercraft:kivahead"
 				},
 				"chest": {
-				  "items": [
-					"kamenridercraft:kivatroso"
-				  ]
+				  "items": "kamenridercraft:kivatroso"
 				},
 				"legs": {
-				  "items": [
-					"kamenridercraft:kivalegs"
-				  ]
+				  "items": "kamenridercraft:kivalegs"
 				}
 			  }
 			}

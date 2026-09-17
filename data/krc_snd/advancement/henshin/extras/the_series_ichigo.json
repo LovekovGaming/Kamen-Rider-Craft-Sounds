@@ -7,24 +7,16 @@
 		"player": {
 		  "equipment": {
 			"head": {
-			  "items": [
-				"kamenridercraft:the_ichigo_head"
-			  ]
+			  "items": "kamenridercraft:the_ichigo_head"
 			},
 			"chest": {
-			  "items": [
-				"kamenridercraft:the_ichigo_troso"
-			  ]
+			  "items": "kamenridercraft:the_ichigo_troso"
 			},
 			"legs": {
-			  "items": [
-				"kamenridercraft:the_ichigo_legs"
-			  ]
+			  "items": "kamenridercraft:the_ichigo_legs"
 			},
 			"feet": {
-			  "items": [
-				"kamenridercraft:the_typhoon_ichigo"
-			  ]
+			  "items": "kamenridercraft:the_typhoon_ichigo"
 			}
 		  }
 		}
