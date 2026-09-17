@@ -1,0 +1,37 @@
+{
+  "parent": "krc_snd:henshin/w/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": [
+				"kamenridercraft:whead"
+			  ]
+			},
+			"chest": {
+			  "items": [
+				"kamenridercraft:wtroso"
+			  ]
+			},
+			"legs": {
+			  "items": [
+				"kamenridercraft:wlegs"
+			  ]
+			},
+			"feet": {
+			  "items": [
+				"kamenridercraft:lostdriver_cyclone"
+			  ]
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/w/cyclone"
+  }
+}

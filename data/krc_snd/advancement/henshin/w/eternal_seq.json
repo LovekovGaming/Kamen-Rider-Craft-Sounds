@@ -15,11 +15,18 @@
               "type_specific": {
 			"type": "minecraft:player",
 			"advancements": {
-			  "krc_snd:henshin/w/lostdriver_seq": {
+			  "krc_snd:henshin/w/eternal_seq": {
 				"1": true
                   }
                 }
-              }
+              },
+				"equipment": {
+				  "feet": {
+					"items": [
+					  "kamenridercraft:lostdriver_eternal"
+					]
+				  }
+				}
             }
           },
           {
@@ -39,6 +46,6 @@
     }
   },
   "rewards": {
-	"function": "krc_snd:henshin/w/sounds/lostdriver"
+	"function": "krc_snd:henshin/w/sounds/eternal"
   }
 }
