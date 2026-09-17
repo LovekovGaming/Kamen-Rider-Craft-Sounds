@@ -109,10 +109,12 @@ execute if score @s krc.form1n matches 2..3 as @n[type=item,distance=..5,predica
 execute if score @s krc.form1n matches 2..3 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:agito_shining_card run tag @s add final_kamen_ride
 execute if score @s krc.form1n matches 2..3 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:kuuga_ultimate_card run tag @s add final_kamen_ride
 execute if score @s krc.form1n matches 2..3 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:kuuga_rising_ultimate_card run tag @s add final_kamen_ride
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:decade_ooo_armor_card run tag @s add final_form_ride
 execute as @n[type=item,distance=..5,tag=final_kamen_ride] run tag @s add valid
 execute as @n[type=item,distance=..5,tag=kamen_ride] run tag @s add valid
 execute as @n[type=item,distance=..5,tag=form_ride] run tag @s add valid
 execute as @n[type=item,distance=..5,tag=attack_ride] run tag @s add valid
+execute as @n[type=item,distance=..5,tag=final_form_ride] run tag @s add valid
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid,tag=final_kamen_ride] run playsound kamenridercraft:k-touch_press player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
@@ -196,6 +198,7 @@ execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=kamen_ride] run tag @s add kamen_ride
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=form_ride] run tag @s add form_ride
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=attack_ride] run tag @s add attack_ride
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=final_form_ride] run tag @s add final_form_ride
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid,tag=!k-touch] run scoreboard players set @s krc.henshin-stage 13
 
 execute if score @s krc.henshin-stage matches 13 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/decade/root
@@ -204,6 +207,7 @@ execute if score @s krc.henshin-stage matches 13 unless predicate krc_core:heise
 execute if score @s krc.henshin-stage matches 13 unless predicate krc_core:heisei/decade_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:decadelegs"}
 execute if score @s krc.henshin-stage matches 13 if entity @n[type=item,distance=..5,tag=valid] run tag @s remove kamen_ride
 execute if score @s krc.henshin-stage matches 13 if entity @n[type=item,distance=..5,tag=valid] run tag @s remove form_ride
+execute if score @s krc.henshin-stage matches 13 if entity @n[type=item,distance=..5,tag=valid] run tag @s remove final_form_ride
 execute if score @s krc.henshin-stage matches 13 if entity @n[type=item,distance=..5,tag=valid] run tag @s remove attack_ride
 execute if score @s krc.henshin-stage matches 13 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
 execute if score @s krc.henshin-stage matches 13 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:decadriver_standby
