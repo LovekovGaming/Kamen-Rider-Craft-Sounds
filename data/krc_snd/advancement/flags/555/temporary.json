@@ -1,4 +1,5 @@
 {
+  "parent": "krc_snd:flags/root",
   "criteria": {
 	"shocker_leader": {
 	  "trigger": "minecraft:impossible"
