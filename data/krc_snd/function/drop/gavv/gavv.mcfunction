@@ -20,7 +20,6 @@ execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item,tag=valid] if 
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item,tag=valid] if items entity @s contents kamenridercraft:caking_gochizo run tag @s add special_gochizo
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item,tag=valid] if items entity @s contents kamenridercraft:blizzardsorbei_gochizo run tag @s add special_gochizo
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item,tag=valid] if items entity @s contents kamenridercraft:gochipod run tag @s add special_gochizo
-execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:hexenheim_gochizo run tag @s add valid
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item,tag=valid] if items entity @s contents kamenridercraft:hexenheim_gochizo run tag @s add special_gochizo
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item,tag=valid] if items entity @s contents kamenridercraft:hexenheim_gochizo run tag @s add sweets
 execute if score @s krc.henshin-stage matches 4 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:chocodongun run tag @s add valid
