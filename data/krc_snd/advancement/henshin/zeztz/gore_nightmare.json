@@ -1,0 +1,29 @@
+{
+  "parent": "krc_snd:henshin/zeztz/root",
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "equipment": {
+			"head": {
+			  "items": "kamenridercraft:zeztz_head"
+			},
+			"chest": {
+			  "items": "kamenridercraft:zeztz_troso"
+			},
+			"legs": {
+			  "items": "kamenridercraft:zeztz_legs"
+			},
+			"feet": {
+			  "items": "#krc_snd:gore_nightmare_belts"
+			}
+		  }
+		}
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/zeztz/gore_nightmare"
+  }
+}
