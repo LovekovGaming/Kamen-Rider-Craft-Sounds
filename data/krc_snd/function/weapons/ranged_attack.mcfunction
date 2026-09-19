@@ -1,6 +1,6 @@
 execute as @n[type=#krc_snd:non_arrows,distance=..2,tag=!sounded] on origin if entity @s[advancements={krc_snd:weapons/ranged_attack=true}] run data modify storage krc_snd:weapons last_used."id" set string entity @s SelectedItem.id 16
 execute as @n[type=#krc_snd:non_arrows,distance=..2,tag=!sounded] on origin if entity @s[advancements={krc_snd:weapons/ranged_attack=true}] run function krc_snd:weapons/ranged_sound_non_arrow with storage krc_snd:weapons last_used
 execute as @n[type=#krc_snd:non_arrows,distance=..2,tag=!sounded] run tag @s add sounded
-execute unless entity @n[type=#krc_snd:non_arrows,distance=..2,tag=!sounded] if data entity @n[type=#minecraft:arrows,distance=..2,tag=!sound_invalid] {HasBeenShot:false} run data modify storage krc_snd:weapons last_used."id" set string entity @s SelectedItem.id 16
-execute unless entity @n[type=#krc_snd:non_arrows,distance=..2,tag=!sounded] if data entity @n[type=#minecraft:arrows,distance=..2,tag=!sound_invalid] {HasBeenShot:false} run function krc_snd:weapons/ranged_sound with storage krc_snd:weapons last_used
+execute unless entity @n[type=#krc_snd:non_arrows,distance=..2,tag=!sounded] if entity @n[type=#minecraft:arrows,distance=..2,tag=!sound_invalid] run data modify storage krc_snd:weapons last_used."id" set string entity @s SelectedItem.id 16
+execute unless entity @n[type=#krc_snd:non_arrows,distance=..2,tag=!sounded] if entity @n[type=#minecraft:arrows,distance=..2,tag=!sound_invalid] run function krc_snd:weapons/ranged_sound with storage krc_snd:weapons last_used
 advancement revoke @s only krc_snd:weapons/ranged_attack
