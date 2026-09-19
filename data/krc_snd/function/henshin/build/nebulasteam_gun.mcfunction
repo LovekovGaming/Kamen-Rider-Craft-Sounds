@@ -1,5 +1,5 @@
 execute if entity @s[tag=sound_off] run return 0
-stopsound @a[scores={krc.configs.weapon_snd=1},distance=..50] player kamenridercraft:steam_gun
+stopsound @a[scores={krc.configs.weapon_snd=1},distance=..50] player kamenridercraft:item.nebulasteam_gun.shot
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
 execute if items entity @s armor.feet kamenridercraft:nebula_steam_gun_hell_bros run advancement grant @s only krc_snd:henshin/build/bros_seq 1
 execute if items entity @s armor.feet kamenridercraft:nebula_steam_gun_kaiser run advancement grant @s only krc_snd:henshin/build/kaiser_seq 1

@@ -1,5 +1,5 @@
 execute if entity @s[tag=sound_off] run return 0
-stopsound @a[scores={krc.configs.weapon_snd=1},distance=..50] player kamenridercraft:bakemagnum
+stopsound @a[scores={krc.configs.weapon_snd=1},distance=..50] player kamenridercraft:item.bakemagnum.shot
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
 advancement grant @s only krc_snd:henshin/gavv/bake_seq 1
 execute as @n[type=arrow,nbt={HasBeenShot:false},distance=..4] run tag @s add sound_invalid

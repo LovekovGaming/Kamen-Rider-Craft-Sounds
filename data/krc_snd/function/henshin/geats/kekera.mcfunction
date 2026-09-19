@@ -1,4 +1,5 @@
 execute if entity @s[tag=sound_off] run return 0
+stopsound @a[scores={krc.configs.weapon_snd=1},distance=..50] player kamenridercraft:item.laser_raise_riser.shot
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
 scoreboard players reset @s krc.henshin-stage
 execute as @n[type=arrow,nbt={HasBeenShot:false}] run tag @s add sound_invalid

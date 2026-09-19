@@ -1,4 +1,5 @@
 execute if entity @s[tag=sound_off] run return 0
+stopsound @a[scores={krc.configs.weapon_snd=1},distance=..50] player kamenridercraft:item.transteam_gun.shot
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
 execute if items entity @s armor.feet kamenridercraft:transteam_gun_night_rogue run advancement grant @s only krc_snd:henshin/build/night_rogue_seq 1
 execute if items entity @s armor.feet kamenridercraft:transteam_gun_blood_stalk run advancement grant @s only krc_snd:henshin/build/blood_stalk_seq 1
