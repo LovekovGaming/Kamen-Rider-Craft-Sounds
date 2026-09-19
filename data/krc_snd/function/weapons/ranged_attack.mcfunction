@@ -1,3 +1,4 @@
+execute as @n[distance=..2,tag=sound_invalid] run stopsound @a[scores={krc.configs.weapon_snd=1},distance=..50] player minecraft:entity.blaze.shoot
 execute as @n[type=#krc_snd:non_arrows,distance=..2,tag=!sounded] on origin if entity @s[advancements={krc_snd:weapons/ranged_attack=true}] run data modify storage krc_snd:weapons last_used."id" set string entity @s SelectedItem.id 16
 execute as @n[type=#krc_snd:non_arrows,distance=..2,tag=!sounded] on origin if entity @s[advancements={krc_snd:weapons/ranged_attack=true}] run function krc_snd:weapons/ranged_sound_non_arrow with storage krc_snd:weapons last_used
 execute as @n[type=#krc_snd:non_arrows,distance=..2,tag=!sounded] run tag @s add sounded
