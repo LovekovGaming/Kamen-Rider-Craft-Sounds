@@ -1,6 +1,9 @@
 {
   "parent": "krc_snd:flags/root",
   "criteria": {
+	"blaster_standing_by": {
+	  "trigger": "minecraft:impossible"
+	},
 	"shocker_leader": {
 	  "trigger": "minecraft:impossible"
 	},
