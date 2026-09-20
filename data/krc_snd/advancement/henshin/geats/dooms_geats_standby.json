@@ -15,7 +15,7 @@
 				"type_specific": {
 				  "type": "minecraft:player",
 				  "advancements": {
-					"krc_snd:henshin/geats/dooms_geats_buckle_standby": {
+					"krc_snd:henshin/geats/dooms_geats_standby": {
 					  "1": true
 					}
 				  }
@@ -31,7 +31,9 @@
 			  "condition": "minecraft:entity_scores",
 			  "entity": "this",
 			  "scores": {
-				"krc.henshin-stage": 1
+				"krc.henshin-stage": {
+				  "min": 2
+				}
 			  }
 			}
 		  ]
@@ -39,7 +41,7 @@
 	  }
 	},
 	"rewards": {
-	  "function": "krc_snd:henshin/geats/standby/dooms_geats_buckle"
+	  "function": "krc_snd:henshin/geats/standby/dooms_geats"
 	}
   }
   
