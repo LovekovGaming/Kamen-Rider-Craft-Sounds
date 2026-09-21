@@ -6,7 +6,7 @@ execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entit
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:shinobi_raise_buckle run tag @s add great_buckle
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:shark_raise_buckle run tag @s add great_buckle
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:jyamato_buckle run tag @s add great_buckle
-execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents #kamenridercraft:gear/legend_rider/raise_buckles unless items entity @s contents kamenridercraft:ouja_v_buckle_raise_buckle run tag @s add armed_buckle
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents #kamenridercraft:gear/legend_rider/raise_buckles run tag @s add armed_buckle
 execute as @n[type=item,distance=..5,tag=great_buckle] run tag @s add valid
 execute as @n[type=item,distance=..5,tag=armed_buckle] run tag @s add valid
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
