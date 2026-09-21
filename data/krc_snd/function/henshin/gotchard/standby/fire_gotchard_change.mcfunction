@@ -2,9 +2,9 @@ advancement revoke @s only krc_snd:henshin/gotchard/fire_gotchard_change_standby
 advancement revoke @s only krc_snd:henshin/gotchard/fire_gotchard_change_standby 3
 scoreboard players add @s krc.seq1 1
 
-execute if score @s krc.henshin-stage matches 3 if score @s krc.seq1 matches 60 run playsound kamenridercraft:gotcharigniter_standby_1 player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.henshin-stage matches 4 if score @s krc.seq1 matches 60 unless score @s krc.seq2 matches 1.. run playsound kamenridercraft:gotcharigniter_standby_2 player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.henshin-stage matches 4 if score @s krc.seq1 matches 60 if score @s krc.seq2 matches 1.. run playsound kamenridercraft:gotcharigniter_standby_1 player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 3 if score @s krc.seq1 matches 60 run function krc_snd:play_global {name:"kamenridercraft:gotcharigniter_standby_1",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 4 if score @s krc.seq1 matches 60 unless score @s krc.seq2 matches 1.. run function krc_snd:play_global {name:"kamenridercraft:gotcharigniter_standby_2",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 4 if score @s krc.seq1 matches 60 if score @s krc.seq2 matches 1.. run function krc_snd:play_global {name:"kamenridercraft:gotcharigniter_standby_1",scope:"henshin_snd"}
 
 execute if score @s krc.henshin-stage matches 4 if score @s krc.seq1 matches ..117 run return 0
 execute if score @s krc.henshin-stage matches 3 if score @s krc.seq1 matches ..119 run return 0

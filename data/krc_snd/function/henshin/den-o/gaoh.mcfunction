@@ -5,7 +5,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 advancement revoke @s only krc_snd:henshin/den-o/gaoh_standby
 scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:gaoh_form
-playsound kamenridercraft:gaoh_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+function krc_snd:play_global {name:"kamenridercraft:gaoh_form",scope:"henshin_snd"}
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.den-o.gaoh_form","color":"gold"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

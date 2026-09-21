@@ -6,7 +6,7 @@ advancement grant @s only krc_snd:henshin/555/alpha_seq 1
 scoreboard players reset @s krc.henshin-stage
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:alpha_standby
 
-playsound kamenridercraft:faiz_complete player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+function krc_snd:play_global {name:"kamenridercraft:faiz_complete",scope:"henshin_snd"}
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.faiz.complete","color":"yellow"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

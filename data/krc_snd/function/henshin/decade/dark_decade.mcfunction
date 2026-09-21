@@ -8,10 +8,10 @@ advancement grant @s only krc_snd:henshin/decade/decade_seq 1
 scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:decadriver
 
-execute if score @s krc.form1n matches 0 unless score Form_Difference krc.form1n matches 1.. run playsound kamenridercraft:decadriver player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 0 if score Form_Difference krc.form1n matches 1.. run playsound kamenridercraft:decade_revert player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 0 unless score Form_Difference krc.form1n matches 1.. run function krc_snd:play_global {name:"kamenridercraft:decadriver",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 0 if score Form_Difference krc.form1n matches 1.. run function krc_snd:play_global {name:"kamenridercraft:decade_revert",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 0 if score Form_Difference krc.form1n matches 1.. run advancement revoke @s only krc_snd:henshin/decade/decade_seq
-execute if score @s krc.form1n matches 1.. run playsound kamenridercraft:decadriver player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 1.. run function krc_snd:play_global {name:"kamenridercraft:decadriver",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
 advancement grant @s only krc_snd:henshin/common/detransform_root

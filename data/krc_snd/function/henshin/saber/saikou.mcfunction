@@ -12,14 +12,14 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:x-swordman_powerful
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:x-swordman_wonderful
 
-execute if score @s krc.form1n matches 0 run playsound kamenridercraft:saikou_hakkou player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 0 run function krc_snd:play_global {name:"kamenridercraft:saikou_hakkou",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.saikou_hakkou","color":"yellow"}
-execute if score @s krc.form1n matches 1 if entity @s[advancements={krc_core:player_transformed=false}] run playsound kamenridercraft:saikou_hakkou player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 1 if entity @s[advancements={krc_core:player_transformed=false}] run function krc_snd:play_global {name:"kamenridercraft:saikou_hakkou",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 1 if entity @s[advancements={krc_core:player_transformed=false}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.saikou_hakkou","color":"yellow"}
 execute if score @s krc.form1n matches 1 unless entity @s[advancements={krc_core:player_transformed=false}] run scoreboard players set @s krc.seq1 64
-execute if score @s krc.form1n matches 2 run playsound kamenridercraft:x-swordman player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 3 run playsound kamenridercraft:x-swordman_powerful player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 4 run playsound kamenridercraft:x-swordman_wonderful player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 2 run function krc_snd:play_global {name:"kamenridercraft:x-swordman",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 3 run function krc_snd:play_global {name:"kamenridercraft:x-swordman_powerful",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 4 run function krc_snd:play_global {name:"kamenridercraft:x-swordman_wonderful",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
 advancement grant @s only krc_snd:henshin/common/detransform_root

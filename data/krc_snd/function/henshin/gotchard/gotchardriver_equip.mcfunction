@@ -1,5 +1,5 @@
 stopsound @a[scores={krc.configs.equip_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
-execute unless items entity @s armor.feet kamenridercraft:gotchardriver[minecraft:custom_data~{slot_tex1:"kamenridercraft:hopper1_ride_chemy_card_ultima"}] run playsound kamenridercraft:gotchardriver_equip player @a[scores={krc.configs.equip_snd=1}] ~ ~1 ~ 3
-execute if items entity @s armor.feet kamenridercraft:gotchardriver[minecraft:custom_data~{slot_tex1:"kamenridercraft:hopper1_ride_chemy_card_ultima"}] run playsound kamenridercraft:belt_equip_new player @a[scores={krc.configs.equip_snd=1}] ~ ~1 ~ 3
+execute unless items entity @s armor.feet kamenridercraft:gotchardriver[minecraft:custom_data~{slot_tex1:"kamenridercraft:hopper1_ride_chemy_card_ultima"}] run function krc_snd:play_global {name:"kamenridercraft:gotchardriver_equip",scope:"equip_snd"}
+execute if items entity @s armor.feet kamenridercraft:gotchardriver[minecraft:custom_data~{slot_tex1:"kamenridercraft:hopper1_ride_chemy_card_ultima"}] run function krc_snd:play_global {name:"kamenridercraft:belt_equip_new",scope:"equip_snd"}
 execute if items entity @s armor.feet kamenridercraft:gotchardriver[minecraft:custom_data~{slot_tex1:"kamenridercraft:hopper1_ride_chemy_card_ultima"}] run advancement grant @s only krc_snd:henshin/gotchard/gotchardriver_daybreak_equip_seq 1
 advancement revoke @s only krc_snd:henshin/common/reset

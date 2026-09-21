@@ -10,12 +10,12 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:kobuta_3_kyoudai_open
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:jackun-to-domamenoki_open
 
-playsound kamenridercraft:kenzan_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 0 run playsound kamenridercraft:sarutobi_ninjaden_open player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+function krc_snd:play_global {name:"kamenridercraft:kenzan_henshin",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 0 run function krc_snd:play_global {name:"kamenridercraft:sarutobi_ninjaden_open",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.sarutobi_ninjaden_name","color":"green"}
-execute if score @s krc.form1n matches 1 run playsound kamenridercraft:kobuta_3_kyoudai_open player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 1 run function krc_snd:play_global {name:"kamenridercraft:kobuta_3_kyoudai_open",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.kobuta_3_kyoudai_name","color":"green"}
-execute if score @s krc.form1n matches 2 run playsound kamenridercraft:jackun-to-domamenoki_open player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 2 run function krc_snd:play_global {name:"kamenridercraft:jackun-to-domamenoki_open",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 2 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.jackun_to_domamenoki_name","color":"aqua"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

@@ -7,7 +7,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 scoreboard players set @s krc.seq1 0
 scoreboard players set @s krc.seq2 0
 
-playsound kamenridercraft:sclash_driver_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+function krc_snd:play_global {name:"kamenridercraft:sclash_driver_henshin",scope:"henshin_snd"}
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.build.tsubureru","color":"aqua"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

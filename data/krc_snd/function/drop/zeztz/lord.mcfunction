@@ -1,14 +1,14 @@
 execute if entity @n[type=item,distance=..5,tag=pick_up] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:entity.item.pickup
 execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:break_code_down_capsem run scoreboard players add @s krc.henshin-stage 1
 
-execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:break_code_down_capsem run playsound kamenridercraft:capsem_in_lord player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:break_code_down_capsem run function krc_snd:play_global {name:"kamenridercraft:capsem_in_lord",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:break_code_down_capsem run advancement grant @s only krc_snd:henshin/zeztz/lord_standby 1
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:break_code_down_capsem run advancement revoke @s from krc_snd:henshin/zeztz/standby_root
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:break_code_down_capsem run scoreboard players set @s krc.seq1 0
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:break_code_down_capsem run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:lord_standby
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:break_code_down_capsem run advancement grant @s only krc_snd:henshin/zeztz/lord_standby_lord 1
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:break_code_down_capsem run advancement grant @s only krc_snd:henshin/zeztz/capsems 1
-execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:break_code_down_capsem run playsound kamenridercraft:lord_invoker_lever player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:break_code_down_capsem run function krc_snd:play_global {name:"kamenridercraft:lord_invoker_lever",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:break_code_down_capsem run advancement grant @s only krc_snd:henshin/zeztz/capsems break
 
 execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:break_code_down_capsem run advancement revoke @s from krc_snd:henshin/zeztz/root

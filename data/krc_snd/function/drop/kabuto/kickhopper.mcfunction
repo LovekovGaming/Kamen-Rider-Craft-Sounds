@@ -1,8 +1,8 @@
 execute if entity @n[type=item,distance=..5,tag=pick_up] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:entity.item.pickup
 execute unless score @s krc.form1n matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:kickhopper_zecter run scoreboard players add @s krc.henshin-stage 1
 
-execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:kickhopper_zecter run playsound kamenridercraft:zect_buckle_open player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:kickhopper_zecter run playsound kamenridercraft:hopper_zecter_appear player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:kickhopper_zecter run function krc_snd:play_global {name:"kamenridercraft:zect_buckle_open",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:kickhopper_zecter run function krc_snd:play_global {name:"kamenridercraft:hopper_zecter_appear",scope:"henshin_snd"}
 
 execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:kickhopper_zecter run advancement revoke @s from krc_snd:henshin/kabuto/root
 execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:kickhopper_zecter run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:kabutohead"}

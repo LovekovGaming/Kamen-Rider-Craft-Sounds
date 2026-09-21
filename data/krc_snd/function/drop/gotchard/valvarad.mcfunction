@@ -10,27 +10,27 @@ execute as @n[type=item,distance=..5,tag=gekiocopter_card] run tag @s add valid
 execute as @n[type=item,distance=..5,tag=gutsshovel_card] run tag @s add valid
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
-execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valvarusher] run playsound kamenridercraft:valvarusher_gakin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valvarusher] run function krc_snd:play_global {name:"kamenridercraft:valvarusher_gakin",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valvarusher] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gakin","color":"gray"}
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valvarusher] run scoreboard players set @s krc.henshin-stage 1
-execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=madwheel_card] run playsound kamenridercraft:madwheel_card_valvarad player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=madwheel_card] run function krc_snd:play_global {name:"kamenridercraft:madwheel_card_valvarad",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=madwheel_card] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.madwheel","color":"light_purple"}
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=madwheel_card] run scoreboard players add @s krc.henshin-stage 1
 execute unless predicate krc_core:sneaking if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=gekiocopter_card] run scoreboard players add @s krc.henshin-stage 1
-execute if predicate krc_core:sneaking if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=gekiocopter_card] run playsound kamenridercraft:gekiocopter_card_tri_custom player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if predicate krc_core:sneaking if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=gekiocopter_card] run function krc_snd:play_global {name:"kamenridercraft:gekiocopter_card_tri_custom",scope:"henshin_snd"}
 execute if predicate krc_core:sneaking if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=gekiocopter_card] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.gotchard.tune_up","color":"gray"}," ",{"translate":"sound.kamenridercraft.gotchard.gekiocopter","color":"blue"}," ",{"translate":"sound.kamenridercraft.gotchard.gakin","color":"gray"}]
 execute unless predicate krc_core:sneaking if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=gutsshovel_card] run scoreboard players add @s krc.henshin-stage 1
-execute if predicate krc_core:sneaking if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=gutsshovel_card] run playsound kamenridercraft:gutsshovel_card_tri_custom player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if predicate krc_core:sneaking if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=gutsshovel_card] run function krc_snd:play_global {name:"kamenridercraft:gutsshovel_card_tri_custom",scope:"henshin_snd"}
 execute if predicate krc_core:sneaking if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=gutsshovel_card] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.gotchard.tune_up","color":"gray"}," ",{"translate":"sound.kamenridercraft.gotchard.gutsshovel","color":"yellow"}," ",{"translate":"sound.kamenridercraft.gotchard.gakin","color":"gray"}]
-execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=gekiocopter_card] run playsound kamenridercraft:gekiocopter_card_valvarad player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=gekiocopter_card] run function krc_snd:play_global {name:"kamenridercraft:gekiocopter_card_valvarad",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=gekiocopter_card] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gekiocopter","color":"blue"}
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=gekiocopter_card] run tag @s add gekiocopter
-execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=gutsshovel_card] run playsound kamenridercraft:gutsshovel_card_valvarad player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=gutsshovel_card] run function krc_snd:play_global {name:"kamenridercraft:gutsshovel_card_valvarad",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=gutsshovel_card] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gutsshovel","color":"yellow"}
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=gutsshovel_card] run tag @s add gutsshovel
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/gotchard/valvarad_standby 1
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valvarusher] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:valvarusher_standby_1
-execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valvarusher] run playsound kamenridercraft:valvarusher_gokin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valvarusher] run function krc_snd:play_global {name:"kamenridercraft:valvarusher_gokin",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valvarusher] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gokin","color":"gray"}
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valvarusher] run scoreboard players set @s krc.seq1 0
 

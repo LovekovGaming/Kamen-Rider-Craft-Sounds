@@ -6,11 +6,11 @@ scoreboard players reset @s krc.henshin-stage
 scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:next_kaixa_standby
 
-execute if score @s krc.form1n matches 0 unless score Form_Difference krc.form1n matches 1 run playsound kamenridercraft:next_kaixa_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 0 unless score Form_Difference krc.form1n matches 1 run function krc_snd:play_global {name:"kamenridercraft:next_kaixa_henshin",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 0 unless score Form_Difference krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.faiz.complete","color":"yellow"}
-execute if score @s krc.form1n matches 0 if score Form_Difference krc.form1n matches 1 run playsound kamenridercraft:next_kaixa_deformation player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 0 if score Form_Difference krc.form1n matches 1 run function krc_snd:play_global {name:"kamenridercraft:next_kaixa_deformation",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 0 if score Form_Difference krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.faiz.deformation","color":"yellow"}
-execute if score @s krc.form1n matches 1 run playsound kamenridercraft:next_kaixa_axel player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 1 run function krc_snd:play_global {name:"kamenridercraft:next_kaixa_axel",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.faiz.complete","color":"white"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

@@ -13,26 +13,26 @@ execute as @n[type=item,distance=..5,tag=abiotic_bottle] run tag @s add valid
 execute as @n[type=item,distance=..5,tag=evol-x_bottle] run tag @s add valid
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
-execute if score @s krc.henshin-stage matches 1 if score @s krc.form1n matches 3 if entity @n[type=item,distance=..5,tag=valid,tag=evol_trigger] run playsound kamenridercraft:over_over_the_revolution player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 1 if score @s krc.form1n matches 3 if entity @n[type=item,distance=..5,tag=valid,tag=evol_trigger] run function krc_snd:play_global {name:"kamenridercraft:over_over_the_revolution",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if score @s krc.form1n matches 3 if entity @n[type=item,distance=..5,tag=valid,tag=evol_trigger] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.build.over-over_the_revolution"}
 execute if score @s krc.henshin-stage matches 1 if score @s krc.form1n matches 3 if entity @n[type=item,distance=..5,tag=valid,tag=evol_trigger] run advancement grant @s only krc_snd:henshin/build/evol_standby 1
 execute if score @s krc.henshin-stage matches 1 if score @s krc.form1n matches 3 if entity @n[type=item,distance=..5,tag=valid,tag=evol_trigger] run scoreboard players set @s krc.henshin-stage 6
-execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid,tag=evol_trigger] run playsound kamenridercraft:over_the_evolution player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid,tag=evol_trigger] run function krc_snd:play_global {name:"kamenridercraft:over_the_evolution",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid,tag=evol_trigger] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.build.over_the_evolution","color":"dark_gray"}
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid,tag=evol_trigger] run tag @s add evol_trigger
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid,tag=evol_trigger] run scoreboard players set @s krc.henshin-stage 2
-# execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid,tag=evol_trigger] run playsound kamenridercraft:hazard_trigger player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+# execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid,tag=evol_trigger] run function krc_snd:play_global {name:"kamenridercraft:hazard_trigger",scope:"henshin_snd"}
 # execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid,tag=evol_trigger] run tag @s add evol_trigger
 execute if score @s krc.henshin-stage matches 1..2 if entity @n[type=item,distance=..5,tag=valid,tag=!evol_trigger] run scoreboard players set @s krc.henshin-stage 3
 
-execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:fullbottle_turn player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=!evol-x_bottle] run playsound kamenridercraft:fullbottle_turn player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=evol-x_bottle] run playsound kamenridercraft:next_phase player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:fullbottle_turn",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=!evol-x_bottle] run function krc_snd:play_global {name:"kamenridercraft:fullbottle_turn",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=evol-x_bottle] run function krc_snd:play_global {name:"kamenridercraft:next_phase",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=evol-x_bottle] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.build.next_phase","color":"dark_aqua"}
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/build/standby_root
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq2 0
-execute if score @s krc.henshin-stage matches 5..6 if entity @n[type=item,distance=..5,tag=valid,tag=!evol_trigger] run playsound kamenridercraft:evolbottle_in player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 5..6 if entity @n[type=item,distance=..5,tag=valid,tag=!evol_trigger] run function krc_snd:play_global {name:"kamenridercraft:evolbottle_in",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=biotic_bottle] run advancement grant @s only krc_snd:henshin/build/biotic_evolbottles_seq 1
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=abiotic_bottle] run advancement grant @s only krc_snd:henshin/build/abiotic_evolbottles_seq 1
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=evol-x_bottle] run scoreboard players set @s krc.henshin-stage 6
@@ -45,7 +45,7 @@ execute if score @s krc.henshin-stage matches 7 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 7 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:evol_driver_standby_1
 execute if score @s krc.henshin-stage matches 7 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:evol-x_standby
 execute if score @s krc.henshin-stage matches 7 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
-execute if score @s[tag=!evol_trigger] krc.henshin-stage matches 7 if entity @n[type=item,distance=..5,tag=valid,tag=!evol_trigger] run playsound kamenridercraft:evol_driver_standby_2_start player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[tag=!evol_trigger] krc.henshin-stage matches 7 if entity @n[type=item,distance=..5,tag=valid,tag=!evol_trigger] run function krc_snd:play_global {name:"kamenridercraft:evol_driver_standby_2_start",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 7 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s[tag=!evol_trigger] only krc_snd:henshin/build/evol_standby_2 1
 execute if score @s krc.henshin-stage matches 7 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s[tag=evol_trigger] only krc_snd:henshin/build/black_hole_standby 1
 

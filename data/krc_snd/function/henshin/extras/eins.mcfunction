@@ -1,3 +1,3 @@
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
-playsound kamenridercraft:eins_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+function krc_snd:play_global {name:"kamenridercraft:eins_henshin",scope:"henshin_snd"}
 advancement revoke @s from krc_snd:henshin/common/detransform_root

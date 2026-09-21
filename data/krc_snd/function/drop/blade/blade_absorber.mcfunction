@@ -14,13 +14,13 @@ execute as @n[type=item,distance=..5,tag=gorider_card] run function krc_snd:drop
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
 execute if score @s krc.henshin-stage matches 1.. run scoreboard players set @s krc.seq1 0
-execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:absorb_capricorn run playsound kamenridercraft:absorb_queen player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:absorb_capricorn run function krc_snd:play_global {name:"kamenridercraft:absorb_queen",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:absorb_capricorn run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.blade.absorb_queen","color":"gold"}
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:absorb_capricorn run advancement grant @s only krc_snd:henshin/blade/absorber_standby 1
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:absorb_capricorn run scoreboard players set @s krc.henshin-stage 3
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=evolution] run advancement revoke @s only krc_snd:henshin/blade/absorber_standby
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=evolution] run advancement grant @s only krc_snd:henshin/blade/king_form_standby 1
-execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=evolution] run playsound kamenridercraft:king_start player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=evolution] run function krc_snd:play_global {name:"kamenridercraft:king_start",scope:"henshin_snd"}
 
 execute as @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/return_item
 execute if score @s krc.henshin-stage matches 3.. run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:king_standby

@@ -1,10 +1,10 @@
 execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:mega_bat_vistamp run scoreboard players add @s krc.henshin-stage 1
 
-execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:mega_bat_vistamp run playsound kamenridercraft:mega_bat_vistamp player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:mega_bat_vistamp run function krc_snd:play_global {name:"kamenridercraft:mega_bat_vistamp",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:mega_bat_vistamp run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.mega_bat","color":"yellow"}
-execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:mega_bat_vistamp run playsound kamenridercraft:vistamp_down_mega_bat player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:mega_bat_vistamp run function krc_snd:play_global {name:"kamenridercraft:vistamp_down_mega_bat",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:mega_bat_vistamp run advancement grant @s only krc_snd:henshin/revice/mega_bat_standby 1
-execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:mega_bat_vistamp run playsound kamenridercraft:vistamp_set player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:mega_bat_vistamp run function krc_snd:play_global {name:"kamenridercraft:vistamp_set",scope:"henshin_snd"}
 
 execute if score @s krc.henshin-stage matches 4 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:mega_bat_vistamp run advancement revoke @s from krc_snd:henshin/revice/root
 execute if score @s krc.henshin-stage matches 4 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:mega_bat_vistamp run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:revice_head"}

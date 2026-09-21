@@ -17,15 +17,15 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 scoreboard players set @s krc.seq1 0
 
 execute if score @s krc.form1n matches 3 unless score Form_Difference krc.form1n matches -2..-1 run advancement grant @s only krc_snd:flags/gavv/temporary punchin_kickin
-execute if score @s krc.form1n matches 0 unless score Form_Difference krc.form1n matches 1..4 run playsound kamenridercraft:frappe_custom player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 0 unless score Form_Difference krc.form1n matches 1..4 run function krc_snd:play_global {name:"kamenridercraft:frappe_custom",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 0 if score Form_Difference krc.form1n matches 1..4 run advancement revoke @s only krc_snd:henshin/gavv/valen_frappe_seq
-execute if score @s krc.form1n matches 1 run playsound kamenridercraft:punchingummy_valen player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 2 run playsound kamenridercraft:kickingummy_valen player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s[advancements={krc_snd:flags/gavv/temporary={punchin_kickin=false}}] krc.form1n matches 3 if score Form_Difference krc.form1n matches -1 run playsound kamenridercraft:punchingummy_valen player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s[advancements={krc_snd:flags/gavv/temporary={punchin_kickin=false}}] krc.form1n matches 3 if score Form_Difference krc.form1n matches -2 run playsound kamenridercraft:kickingummy_valen player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s[advancements={krc_snd:flags/gavv/temporary={punchin_kickin=true}}] krc.form1n matches 3 run playsound kamenridercraft:punchingummy_kickingummy_valen player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 4 run playsound kamenridercraft:gurucan_valen player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 5 run playsound kamenridercraft:parfait_mode player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 1 run function krc_snd:play_global {name:"kamenridercraft:punchingummy_valen",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 2 run function krc_snd:play_global {name:"kamenridercraft:kickingummy_valen",scope:"henshin_snd"}
+execute if score @s[advancements={krc_snd:flags/gavv/temporary={punchin_kickin=false}}] krc.form1n matches 3 if score Form_Difference krc.form1n matches -1 run function krc_snd:play_global {name:"kamenridercraft:punchingummy_valen",scope:"henshin_snd"}
+execute if score @s[advancements={krc_snd:flags/gavv/temporary={punchin_kickin=false}}] krc.form1n matches 3 if score Form_Difference krc.form1n matches -2 run function krc_snd:play_global {name:"kamenridercraft:kickingummy_valen",scope:"henshin_snd"}
+execute if score @s[advancements={krc_snd:flags/gavv/temporary={punchin_kickin=true}}] krc.form1n matches 3 run function krc_snd:play_global {name:"kamenridercraft:punchingummy_kickingummy_valen",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 4 run function krc_snd:play_global {name:"kamenridercraft:gurucan_valen",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 5 run function krc_snd:play_global {name:"kamenridercraft:parfait_mode",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
 advancement grant @s only krc_snd:henshin/common/detransform_root

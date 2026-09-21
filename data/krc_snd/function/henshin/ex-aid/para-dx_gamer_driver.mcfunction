@@ -10,10 +10,10 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:dual_gashat
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:double_up
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:mazaru_up
-execute if score @s[tag=!no_gashat] krc.form1n matches 0 run playsound kamenridercraft:dual_gashat player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[tag=!no_gashat] krc.form1n matches 0 run function krc_snd:play_global {name:"kamenridercraft:dual_gashat",scope:"henshin_snd"}
 execute if score @s[tag=!no_gashat] krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar [{"translate":"sound.kamenridercraft.ex-aid.dual_gashat"}," ",{"translate":"sound.kamenridercraft.ex-aid.gachan"}]
 execute if score @s[tag=no_gashat] krc.form1n matches 0 run scoreboard players set @s krc.seq1 47
-execute if score @s[tag=!no_gashat] krc.form1n matches 1 run playsound kamenridercraft:double_gashat player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[tag=!no_gashat] krc.form1n matches 1 run function krc_snd:play_global {name:"kamenridercraft:double_gashat",scope:"henshin_snd"}
 execute if score @s[tag=!no_gashat] krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar [{"translate":"sound.kamenridercraft.ex-aid.double_gashat"}," ",{"translate":"sound.kamenridercraft.ex-aid.gachan"}]
 execute if score @s[tag=no_gashat] krc.form1n matches 1 run scoreboard players set @s krc.seq1 39
 execute if entity @s[tag=no_gashat] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ex-aid.gachan"}

@@ -6,7 +6,7 @@ execute if score @s krc.seq1 matches 10 run title @a[scores={krc.configs.sound_s
 execute if score @s krc.seq1 matches 14 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.decade.kuuga","color":"red"}
 execute if score @s krc.seq1 matches 17 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.decade.kuuga","color":"white"}
 execute if score @s krc.seq1 matches 20 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.decade.kuuga","color":"red"}
-execute if score @s krc.seq1 matches 30 run playsound kamenridercraft:kuuga_ball player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 30 run function krc_snd:play_global {name:"kamenridercraft:kuuga_ball",scope:"henshin_snd"}
 
 execute if score @s krc.seq1 matches ..29 run return 0
 scoreboard players set @s krc.seq1 0

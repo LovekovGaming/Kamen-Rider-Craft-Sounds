@@ -3,7 +3,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:
 advancement revoke @s only krc_snd:henshin/555/delta_standby
 scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:delta_standby
-playsound kamenridercraft:delta_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+function krc_snd:play_global {name:"kamenridercraft:delta_henshin",scope:"henshin_snd"}
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar "Complete"
 advancement revoke @s from krc_snd:henshin/common/detransform_root
 advancement grant @s only krc_snd:henshin/common/detransform_root

@@ -1,8 +1,8 @@
 execute if entity @n[type=item,distance=..5,tag=pick_up] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:entity.item.pickup
 execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:robot_sclash_jelly if data entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] Thrower run scoreboard players add @s krc.henshin-stage 1
 
-execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:robot_sclash_jelly run playsound kamenridercraft:fullbottle_turn player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:robot_sclash_jelly run playsound kamenridercraft:robot_jelly player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:robot_sclash_jelly run function krc_snd:play_global {name:"kamenridercraft:fullbottle_turn",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:robot_sclash_jelly run function krc_snd:play_global {name:"kamenridercraft:robot_jelly",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:robot_sclash_jelly run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.build.robot_jelly","color":"gold"}
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:robot_sclash_jelly run advancement grant @s only krc_snd:henshin/build/sclash_driver_standby 1
 

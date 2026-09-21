@@ -5,15 +5,15 @@ execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items enti
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid,tag=!twilight_card] run scoreboard players add @s krc.henshin-stage 1
-execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid,tag=twilight_card] run playsound kamenridercraft:brightness_link player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid,tag=!twilight_card] if score @s krc.configs.majade_link matches 0 run playsound kamenridercraft:alchemis_link_majade player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid,tag=!twilight_card] if score @s krc.configs.majade_link matches 1 run playsound kamenridercraft:majade_link player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid,tag=twilight_card] run playsound kamenridercraft:darkness_link player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid,tag=twilight_card] run function krc_snd:play_global {name:"kamenridercraft:brightness_link",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid,tag=!twilight_card] if score @s krc.configs.majade_link matches 0 run function krc_snd:play_global {name:"kamenridercraft:alchemis_link_majade",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid,tag=!twilight_card] if score @s krc.configs.majade_link matches 1 run function krc_snd:play_global {name:"kamenridercraft:majade_link",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid,tag=twilight_card] run function krc_snd:play_global {name:"kamenridercraft:darkness_link",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid,tag=twilight_card] run advancement grant @s only krc_snd:henshin/gotchard/majade_standby 1
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/gotchard/majade_standby 1
 execute if score @s krc.henshin-stage matches 2..4 if entity @n[type=item,distance=..5,tag=valid,tag=!twilight_card] run advancement revoke @s only krc_snd:henshin/gotchard/majade_standby twilight
 execute if score @s krc.henshin-stage matches 1..4 unless score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid,tag=twilight_card] run advancement grant @s only krc_snd:henshin/gotchard/majade_standby twilight
-execute if score @s krc.henshin-stage matches 3..4 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:chemy_card_in player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 3..4 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:chemy_card_in",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 3..4 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s only krc_snd:henshin/gotchard/majade_chemy_cards twilight
 execute if score @s krc.henshin-stage matches 3..4 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/gotchard/majade_chemy_cards 1
 execute if score @s krc.henshin-stage matches 3..4 if entity @n[type=item,distance=..5,tag=valid,tag=twilight_card] run advancement grant @s only krc_snd:henshin/gotchard/majade_chemy_cards twilight

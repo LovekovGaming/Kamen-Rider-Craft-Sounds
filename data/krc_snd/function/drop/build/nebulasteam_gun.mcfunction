@@ -6,7 +6,7 @@ execute unless score @s krc.henshin-stage matches 3 as @n[type=item,distance=..5
 execute if score @s krc.henshin-stage matches 1..3 unless score @s krc.henshin-stage matches 2 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:nebulasteam_gun run tag @s add valid
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
-execute if score @s krc.henshin-stage matches 1..3 unless score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:transteam_gun_load player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 1..3 unless score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:transteam_gun_load",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1..3 unless score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:gear_engine run advancement grant @s only krc_snd:henshin/build/nebulasteam_gun_standby engine
 execute if score @s krc.henshin-stage matches 1..3 unless score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:gear_engine run scoreboard players set @s krc.seq1 5
 execute if score @s krc.henshin-stage matches 1..3 unless score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:gear_remocon run advancement grant @s only krc_snd:henshin/build/nebulasteam_gun_standby remocon
@@ -17,7 +17,7 @@ execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s only krc_snd:henshin/build/nebulasteam_gun_standby
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:nebulasteam_gun_standby
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
-execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:gear_out player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:gear_out",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1..3 unless score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/build/nebulasteam_gun_standby 1
 
 execute if score @s krc.henshin-stage matches 4 unless items entity @s armor.feet #kamenridercraft:belts/build_armor unless items entity @s container.* kamenridercraft:nebula_steam_gun_hell_bros if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:nebulasteam_gun run function krc_snd:drop/common/equip_armor {slot: "armor.feet", item: "kamenridercraft:nebula_steam_gun_kaiser"}

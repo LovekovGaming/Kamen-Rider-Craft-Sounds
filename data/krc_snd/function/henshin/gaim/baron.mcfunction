@@ -11,9 +11,9 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:lord_baron
 
 execute unless score @s krc.form1n matches 59 run advancement grant @s only krc_snd:henshin/gaim/sengoku_driver_seq 1
-execute unless score @s krc.form1n matches 59 run playsound kamenridercraft:baron_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute unless score @s krc.form1n matches 59 run function krc_snd:play_global {name:"kamenridercraft:baron_henshin",scope:"henshin_snd"}
 execute unless score @s krc.form1n matches 59 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.come_on","color":"yellow"}
-execute if score @s krc.form1n matches 59 run playsound kamenridercraft:lord_baron player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 59 run function krc_snd:play_global {name:"kamenridercraft:lord_baron",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
 advancement revoke @s only krc_snd:henshin/common/detransform_root

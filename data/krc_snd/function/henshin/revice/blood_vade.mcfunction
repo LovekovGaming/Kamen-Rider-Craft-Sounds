@@ -4,6 +4,6 @@ advancement grant @s only krc_snd:henshin/revice/blood_vade_seq 1
 scoreboard players reset @s krc.henshin-stage
 scoreboard players set @s krc.seq1 0
 
-playsound kamenridercraft:blood_vade player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+function krc_snd:play_global {name:"kamenridercraft:blood_vade",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

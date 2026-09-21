@@ -12,9 +12,9 @@ scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ikazuchi_battou
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:gekkou_ikazuchi_battou
 
-execute unless score @s krc.form1n matches 7 run playsound kamenridercraft:ikazuchi_battou player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute unless score @s krc.form1n matches 7 run function krc_snd:play_global {name:"kamenridercraft:ikazuchi_battou",scope:"henshin_snd"}
 execute unless score @s krc.form1n matches 7 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.ikazuchi_battou","color":"yellow"}
-execute if score @s krc.form1n matches 7 run playsound kamenridercraft:gekkou_ikazuchi_battou player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 7 run function krc_snd:play_global {name:"kamenridercraft:gekkou_ikazuchi_battou",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 7 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.gekkou_ikazuchi_battou","color":"dark_blue"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

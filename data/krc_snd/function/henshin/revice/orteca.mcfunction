@@ -6,8 +6,8 @@ scoreboard players reset @s krc.henshin-stage
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:demons_standby
 scoreboard players set @s krc.seq1 0
 
-playsound kamenridercraft:vistamp_down_kraken player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-playsound kamenridercraft:demons_trooper player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+function krc_snd:play_global {name:"kamenridercraft:vistamp_down_kraken",scope:"henshin_snd"}
+function krc_snd:play_global {name:"kamenridercraft:demons_trooper",scope:"henshin_snd"}
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.decide_up","color":"green"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

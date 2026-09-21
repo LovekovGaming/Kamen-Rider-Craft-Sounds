@@ -7,9 +7,9 @@ execute if entity @n[type=item,distance=..5,tag=scanner] run scoreboard players 
 
 execute if score @s krc.henshin-stage matches 1..3 if entity @n[type=item,distance=..5,tag=scanner] run scoreboard players set @s krc.henshin-stage 4
 execute unless score @s krc.henshin-stage matches 3.. if entity @n[type=item,distance=..5,tag=medal] run scoreboard players add @s krc.henshin-stage 1
-execute if score @s krc.henshin-stage matches 1..3 if entity @n[type=item,distance=..5,tag=medal] run playsound kamenridercraft:medal_in player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.henshin-stage matches 3 if predicate krc_core:sneaking if entity @n[type=item,distance=..5,tag=medal] run playsound kamenridercraft:ooo_driver_ready player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=scanner] run playsound kamenridercraft:ooo_driver_tilt player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 1..3 if entity @n[type=item,distance=..5,tag=medal] run function krc_snd:play_global {name:"kamenridercraft:medal_in",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 3 if predicate krc_core:sneaking if entity @n[type=item,distance=..5,tag=medal] run function krc_snd:play_global {name:"kamenridercraft:ooo_driver_ready",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=scanner] run function krc_snd:play_global {name:"kamenridercraft:ooo_driver_tilt",scope:"henshin_snd"}
 execute if predicate krc_core:sneaking if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=scanner] run scoreboard players add @s krc.henshin-stage 1
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=scanner] run advancement grant @s only krc_snd:henshin/ooo/ooo_standby 1
 

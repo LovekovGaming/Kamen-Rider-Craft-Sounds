@@ -25,15 +25,15 @@ execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item,tag=valid] if 
 execute if score @s krc.henshin-stage matches 4 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:chocodongun run tag @s add valid
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
-execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:belt_gavv_close player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.henshin-stage matches 1 if score @s krc.form1n matches 14..15 if entity @n[type=item,distance=..5,tag=valid,tag=gochipod] run playsound kamenridercraft:gochipod_flip player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:belt_gavv_close",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 1 if score @s krc.form1n matches 14..15 if entity @n[type=item,distance=..5,tag=valid,tag=gochipod] run function krc_snd:play_global {name:"kamenridercraft:gochipod_flip",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if score @s krc.form1n matches 14 if entity @n[type=item,distance=..5,tag=valid,tag=gochipod] run advancement grant @s only krc_snd:flags/gavv/temporary gochipod_master
 execute if score @s krc.henshin-stage matches 1 if score @s krc.form1n matches 14..15 if entity @n[type=item,distance=..5,tag=valid,tag=gochipod] run scoreboard players set @s krc.henshin-stage 3
-execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:belt_gavv_open player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:belt_gavv_open",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/gavv/gochizo 1
-execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid,tag=!gochipod,tag=!sweets] run playsound kamenridercraft:gochizo_taste player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid,tag=gochipod,tag=!sweets] run playsound kamenridercraft:gochipod_taste player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid,tag=sweets] run playsound kamenridercraft:hexenheim_gochizo_taste player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid,tag=!gochipod,tag=!sweets] run function krc_snd:play_global {name:"kamenridercraft:gochizo_taste",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid,tag=gochipod,tag=!sweets] run function krc_snd:play_global {name:"kamenridercraft:gochipod_taste",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid,tag=sweets] run function krc_snd:play_global {name:"kamenridercraft:hexenheim_gochizo_taste",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=gummy] run advancement grant @s only krc_snd:henshin/gavv/gochizo gummy
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=gummy] contents kamenridercraft:punchingummy_gochizo run tag @s add punchingummy
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=gummy] contents kamenridercraft:kickingummy_gochizo run tag @s add kickingummy
@@ -54,9 +54,9 @@ execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=scone] run advancement grant @s only krc_snd:henshin/gavv/gochizo scone
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=special] run advancement grant @s only krc_snd:henshin/gavv/gochizo special
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=hero] run advancement grant @s only krc_snd:henshin/gavv/gochizo hero
-execute if score @s[tag=punchingummy] krc.henshin-stage matches 3 if predicate krc_core:sneaking if items entity @n[type=item,distance=..5,tag=gummy] contents kamenridercraft:kickingummy_gochizo run playsound kamenridercraft:punchingummy_close player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[tag=punchingummy] krc.henshin-stage matches 3 if predicate krc_core:sneaking if items entity @n[type=item,distance=..5,tag=gummy] contents kamenridercraft:kickingummy_gochizo run function krc_snd:play_global {name:"kamenridercraft:punchingummy_close",scope:"henshin_snd"}
 execute if score @s[tag=punchingummy] krc.henshin-stage matches 3 if predicate krc_core:sneaking if items entity @n[type=item,distance=..5,tag=gummy] contents kamenridercraft:kickingummy_gochizo run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gavv.punchingummy","color":"aqua"}
-execute if score @s[tag=kickingummy] krc.henshin-stage matches 3 if predicate krc_core:sneaking if items entity @n[type=item,distance=..5,tag=gummy] contents kamenridercraft:punchingummy_gochizo run playsound kamenridercraft:kickingummy_close player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[tag=kickingummy] krc.henshin-stage matches 3 if predicate krc_core:sneaking if items entity @n[type=item,distance=..5,tag=gummy] contents kamenridercraft:punchingummy_gochizo run function krc_snd:play_global {name:"kamenridercraft:kickingummy_close",scope:"henshin_snd"}
 execute if score @s[tag=kickingummy] krc.henshin-stage matches 3 if predicate krc_core:sneaking if items entity @n[type=item,distance=..5,tag=gummy] contents kamenridercraft:punchingummy_gochizo run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gavv.kickingummy","color":"gold"}
 execute if score @s[tag=punchingummy] krc.henshin-stage matches 3 if predicate krc_core:sneaking if items entity @n[type=item,distance=..5,tag=gummy] contents kamenridercraft:kickingummy_gochizo run scoreboard players set @s krc.henshin-stage 1
 execute if score @s[tag=kickingummy] krc.henshin-stage matches 3 if predicate krc_core:sneaking if items entity @n[type=item,distance=..5,tag=gummy] contents kamenridercraft:punchingummy_gochizo run scoreboard players set @s krc.henshin-stage 1
@@ -81,10 +81,10 @@ execute if score @s krc.henshin-stage matches 3..4 if entity @n[type=item,distan
 execute if score @s krc.henshin-stage matches 3..4 if entity @n[type=item,distance=..5,tag=sweets] run advancement grant @s only krc_snd:henshin/gavv/gavv_sweets_standby 1
 execute if score @s krc.henshin-stage matches 3 unless score @s krc.form1n matches 14..15 if entity @n[type=item,distance=..5,tag=gochipod] run scoreboard players set @s krc.seq1 34
 execute if score @s krc.henshin-stage matches 5 if predicate krc_core:sneaking if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.henshin-stage 4
-execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=!ice,tag=!gochipod] run playsound kamenridercraft:belt_gavv_eat player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=ice] run playsound kamenridercraft:belt_gavv_eat_ice player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=gochipod] if entity @s[advancements={krc_snd:flags/gavv/temporary={gochipod_master=false}}] run playsound kamenridercraft:belt_gavv_eat_over player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=gochipod] if entity @s[advancements={krc_snd:flags/gavv/temporary={gochipod_master=true}}] run playsound kamenridercraft:belt_gavv_eat_master player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=!ice,tag=!gochipod] run function krc_snd:play_global {name:"kamenridercraft:belt_gavv_eat",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=ice] run function krc_snd:play_global {name:"kamenridercraft:belt_gavv_eat_ice",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=gochipod] if entity @s[advancements={krc_snd:flags/gavv/temporary={gochipod_master=false}}] run function krc_snd:play_global {name:"kamenridercraft:belt_gavv_eat_over",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=gochipod] if entity @s[advancements={krc_snd:flags/gavv/temporary={gochipod_master=true}}] run function krc_snd:play_global {name:"kamenridercraft:belt_gavv_eat_master",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq2 0
 
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/gavv/root
@@ -101,7 +101,7 @@ execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:gavv_standby_blizzardsorbet
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:gavv_standby_gochipod
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:gavv_standby_hexenheim
-execute if score @s krc.henshin-stage matches 5 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:chocodongun run playsound kamenridercraft:gochizo_pop_out player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 5 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:chocodongun run function krc_snd:play_global {name:"kamenridercraft:gochizo_pop_out",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 5 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:chocodongun run advancement grant @s only krc_snd:henshin/gavv/gavv_chocodon_seq 1
 execute if score @s krc.henshin-stage matches 5.. run scoreboard players reset @s krc.henshin-stage
 execute as @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/return_item

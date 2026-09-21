@@ -6,7 +6,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 scoreboard players reset @s krc.henshin-stage
 scoreboard players set @s krc.seq1 0
 
-playsound kamenridercraft:storious_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+function krc_snd:play_global {name:"kamenridercraft:storious_henshin",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
 advancement grant @s only krc_snd:henshin/common/detransform_root

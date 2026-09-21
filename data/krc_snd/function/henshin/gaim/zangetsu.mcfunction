@@ -12,10 +12,10 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:jimber_arms
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:kachidoki_arms
 
-execute unless score @s krc.form1n matches 59 if score @s krc.form2n matches 0..1 run playsound kamenridercraft:gaim_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 59 run playsound kamenridercraft:kachidoki_arms player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute unless score @s krc.form1n matches 59 if score @s krc.form2n matches 0..1 run function krc_snd:play_global {name:"kamenridercraft:gaim_henshin",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 59 run function krc_snd:play_global {name:"kamenridercraft:kachidoki_arms",scope:"henshin_snd"}
 execute if score @s krc.form2n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.soiya","color":"green"}
-execute if score @s krc.form2n matches 1 run playsound kamenridercraft:jimber_arms player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form2n matches 1 run function krc_snd:play_global {name:"kamenridercraft:jimber_arms",scope:"henshin_snd"}
 execute if score @s krc.form2n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar [{"translate":"sound.kamenridercraft.gaim.soiya","color":"green"}," ",{"translate":"sound.kamenridercraft.gaim.mix","color":"dark_gray"}]
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

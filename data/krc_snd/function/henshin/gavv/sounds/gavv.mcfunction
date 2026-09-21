@@ -1,37 +1,37 @@
 advancement revoke @s only krc_snd:henshin/gavv/gavv_seq 2
 scoreboard players add @s krc.seq1 1
 
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 0 run playsound kamenridercraft:poppingummy player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 0 run function krc_snd:play_global {name:"kamenridercraft:poppingummy",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 0 run scoreboard players add @s krc.seq1 154
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 1 run playsound kamenridercraft:punchingummy player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 1 run function krc_snd:play_global {name:"kamenridercraft:punchingummy",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 1 run scoreboard players add @s krc.seq1 137
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 2 run playsound kamenridercraft:kickingummy player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 2 run function krc_snd:play_global {name:"kamenridercraft:kickingummy",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 2 run scoreboard players add @s krc.seq1 141
-execute if score @s[tag=punchingummy] krc.seq1 matches 38 if score @s krc.form1n matches 3 run playsound kamenridercraft:punchingummy player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[tag=punchingummy] krc.seq1 matches 38 if score @s krc.form1n matches 3 run function krc_snd:play_global {name:"kamenridercraft:punchingummy",scope:"henshin_snd"}
 execute if score @s[tag=punchingummy] krc.seq1 matches 38 if score @s krc.form1n matches 3 run scoreboard players add @s krc.seq1 137
-execute if score @s[tag=!punchingummy] krc.seq1 matches 38 if score @s krc.form1n matches 3 run playsound kamenridercraft:kickingummy player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[tag=!punchingummy] krc.seq1 matches 38 if score @s krc.form1n matches 3 run function krc_snd:play_global {name:"kamenridercraft:kickingummy",scope:"henshin_snd"}
 execute if score @s[tag=!punchingummy] krc.seq1 matches 38 if score @s krc.form1n matches 3 run scoreboard players add @s krc.seq1 141
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 4 run playsound kamenridercraft:zakuzakuchips player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 4 run function krc_snd:play_global {name:"kamenridercraft:zakuzakuchips",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 4 run scoreboard players add @s krc.seq1 130
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 5 run playsound kamenridercraft:hirihirichips player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 5 run function krc_snd:play_global {name:"kamenridercraft:hirihirichips",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 5 run scoreboard players add @s krc.seq1 121
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 6 run playsound kamenridercraft:fuwamallow player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 6 run function krc_snd:play_global {name:"kamenridercraft:fuwamallow",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 6 run scoreboard players add @s krc.seq1 118
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 7 run playsound kamenridercraft:marumallow player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 7 run function krc_snd:play_global {name:"kamenridercraft:marumallow",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 7 run scoreboard players add @s krc.seq1 130
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 8 run playsound kamenridercraft:chocodan player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 8 run function krc_snd:play_global {name:"kamenridercraft:chocodan",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 8 run scoreboard players add @s krc.seq1 127
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 9 run playsound kamenridercraft:gurucan player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 9 run function krc_snd:play_global {name:"kamenridercraft:gurucan",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 9 run scoreboard players add @s krc.seq1 118
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 10 run playsound kamenridercraft:bakucan player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 10 run function krc_snd:play_global {name:"kamenridercraft:bakucan",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 10 run scoreboard players add @s krc.seq1 124
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 11 run playsound kamenridercraft:bushel player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 11 run function krc_snd:play_global {name:"kamenridercraft:bushel",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 11 run scoreboard players add @s krc.seq1 88
-execute if score @s[tag=!caking_alt] krc.seq1 matches 38 if score @s krc.form1n matches 12 run playsound kamenridercraft:caking player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s[tag=caking_alt] krc.seq1 matches 38 if score @s krc.form1n matches 12 run playsound kamenridercraft:caking_alt player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[tag=!caking_alt] krc.seq1 matches 38 if score @s krc.form1n matches 12 run function krc_snd:play_global {name:"kamenridercraft:caking",scope:"henshin_snd"}
+execute if score @s[tag=caking_alt] krc.seq1 matches 38 if score @s krc.form1n matches 12 run function krc_snd:play_global {name:"kamenridercraft:caking_alt",scope:"henshin_snd"}
 execute if score @s[tag=caking_alt] krc.seq1 matches 38 if score @s krc.form1n matches 12 run tag @s remove caking_alt
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 12 run scoreboard players add @s krc.seq1 80
-execute if score @s krc.seq1 matches 60 if score @s krc.form1n matches 13 run playsound kamenridercraft:blizzardsorbet player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 60 if score @s krc.form1n matches 13 run function krc_snd:play_global {name:"kamenridercraft:blizzardsorbet",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 111 if score @s krc.form1n matches 13 store result score @s krc.form2n run random value 1..8
 execute if score @s krc.seq1 matches 111 if score @s krc.form1n matches 13 if score @s krc.form2n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.gavv.blizzardsorbet_1","color":"aqua"},{"translate":"sound.kamenridercraft.gavv.blizzardsorbet_2","color":"aqua"},{"translate":"sound.kamenridercraft.gavv.blizzardsorbet_3","color":"aqua"},{"translate":"sound.kamenridercraft.gavv.blizzardsorbet_4","color":"aqua"},{"translate":"sound.kamenridercraft.gavv.blizzardsorbet_5","color":"aqua"}]
 execute if score @s krc.seq1 matches 111 if score @s krc.form1n matches 13 if score @s krc.form2n matches 2 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.gavv.blizzardsorbet_1","color":"aqua"},{"translate":"sound.kamenridercraft.gavv.blizzardsorbet_2","color":"aqua"},{"translate":"sound.kamenridercraft.gavv.blizzardsorbet_3","color":"aqua"},{"translate":"sound.kamenridercraft.gavv.blizzardsorbet_4","color":"yellow"},{"translate":"sound.kamenridercraft.gavv.blizzardsorbet_5","color":"aqua"}]
@@ -43,7 +43,7 @@ execute if score @s krc.seq1 matches 111 if score @s krc.form1n matches 13 if sc
 execute if score @s krc.seq1 matches 111 if score @s krc.form1n matches 13 if score @s krc.form2n matches 8 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.gavv.blizzardsorbet_1","color":"aqua"},{"translate":"sound.kamenridercraft.gavv.blizzardsorbet_2","color":"yellow"},{"translate":"sound.kamenridercraft.gavv.blizzardsorbet_3","color":"yellow"},{"translate":"sound.kamenridercraft.gavv.blizzardsorbet_4","color":"yellow"},{"translate":"sound.kamenridercraft.gavv.blizzardsorbet_5","color":"aqua"}]
 execute if score @s krc.seq1 matches 111 if score @s krc.form1n matches 13 run scoreboard players reset @s krc.form2n
 execute if score @s krc.seq1 matches 111 if score @s krc.form1n matches 13 run scoreboard players add @s krc.seq1 49
-execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=false}}] krc.seq1 matches 56 if score @s krc.form1n matches 14 run playsound kamenridercraft:over_mode player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=false}}] krc.seq1 matches 56 if score @s krc.form1n matches 14 run function krc_snd:play_global {name:"kamenridercraft:over_mode",scope:"henshin_snd"}
 execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=false}}] krc.seq1 matches 142 if score @s krc.form1n matches 14 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gavv.over_energy","color":"#9522ff"}
 execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=false}}] krc.seq1 matches 148 if score @s krc.form1n matches 14 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gavv.over_energy","color":"aqua"}
 execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=false}}] krc.seq1 matches 154 if score @s krc.form1n matches 14 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gavv.over_energy","color":"gold"}
@@ -64,7 +64,7 @@ execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=f
 execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=false}}] krc.seq1 matches 212 if score @s krc.form1n matches 14 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gavv.over_energy","color":"#9522ff"}
 execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=false}}] krc.seq1 matches 219 if score @s krc.form1n matches 14 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gavv.over_energy","color":"yellow"}
 execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=false}}] krc.seq1 matches 226 if score @s krc.form1n matches 14 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gavv.over_energy","color":"gold"}
-execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=false}}] krc.seq1 matches 56 if score @s krc.form1n matches 15 run playsound kamenridercraft:master_mode player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=false}}] krc.seq1 matches 56 if score @s krc.form1n matches 15 run function krc_snd:play_global {name:"kamenridercraft:master_mode",scope:"henshin_snd"}
 execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=false}}] krc.seq1 matches 160 if score @s krc.form1n matches 15 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gavv.master_taste","color":"aqua","obfuscated":true}
 execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=false}}] krc.seq1 matches 164 if score @s krc.form1n matches 15 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gavv.master_taste","color":"gold","obfuscated":true}
 execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=false}}] krc.seq1 matches 168 if score @s krc.form1n matches 15 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gavv.master_taste","color":"red","obfuscated":true}
@@ -80,33 +80,33 @@ execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=f
 execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=false}}] krc.seq1 matches 216 if score @s krc.form1n matches 15 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gavv.master_taste","color":"yellow"}
 execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=false}}] krc.seq1 matches 220 if score @s krc.form1n matches 15 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gavv.master_taste","color":"#9522ff"}
 execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=false}}] krc.seq1 matches 220 if score @s krc.form1n matches 15 run scoreboard players set @s krc.seq1 226
-execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=true}}] krc.seq1 matches 56 if score @s krc.form1n matches 14 run playsound kamenridercraft:over_mode_short player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=true}}] krc.seq1 matches 56 if score @s krc.form1n matches 14 run function krc_snd:play_global {name:"kamenridercraft:over_mode_short",scope:"henshin_snd"}
 execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=true}}] krc.seq1 matches 56 if score @s krc.form1n matches 14 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gavv.over_energy","color":"gold"}
-execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=true}}] krc.seq1 matches 56 if score @s krc.form1n matches 15 run playsound kamenridercraft:master_mode_short player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=true}}] krc.seq1 matches 56 if score @s krc.form1n matches 15 run function krc_snd:play_global {name:"kamenridercraft:master_mode_short",scope:"henshin_snd"}
 execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=true}}] krc.seq1 matches 56 if score @s krc.form1n matches 15 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gavv.master_taste","color":"#9522ff"}
 execute if score @s[advancements={krc_snd:flags/gavv/temporary={gochipod_short=true}}] krc.seq1 matches 56 if score @s krc.form1n matches 14..14 run scoreboard players set @s krc.seq1 226
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 16 run playsound kamenridercraft:amazingummy player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 16 run function krc_snd:play_global {name:"kamenridercraft:amazingummy",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 16 run scoreboard players add @s krc.seq1 99
-execute if score @s krc.seq1 matches 42 if score @s krc.form1n matches 17 run playsound kamenridercraft:hexenheim player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 42 if score @s krc.form1n matches 17 run function krc_snd:play_global {name:"kamenridercraft:hexenheim",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 136 if score @s krc.form1n matches 17 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gavv.hexenheim","color":"dark_aqua"}
 execute if score @s krc.seq1 matches 136 if score @s krc.form1n matches 17 run scoreboard players add @s krc.seq1 30
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 18 run playsound kamenridercraft:shield_snack player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 18 run function krc_snd:play_global {name:"kamenridercraft:shield_snack",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 18 run scoreboard players add @s krc.seq1 89
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 19 run playsound kamenridercraft:choco_t player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 19 run function krc_snd:play_global {name:"kamenridercraft:choco_t",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 19 run scoreboard players add @s krc.seq1 126
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 20 run playsound kamenridercraft:partea_scone player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 20 run function krc_snd:play_global {name:"kamenridercraft:partea_scone",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 20 run scoreboard players add @s krc.seq1 114
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 21..25 run playsound kamenridercraft:gavv_special player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 21..25 run function krc_snd:play_global {name:"kamenridercraft:gavv_special",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 21..25 run scoreboard players add @s krc.seq1 130
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 26..27 run playsound kamenridercraft:chocohone player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 26..27 run function krc_snd:play_global {name:"kamenridercraft:chocohone",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 26..27 run scoreboard players add @s krc.seq1 114
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 28 run playsound kamenridercraft:fishingummy player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 28 run function krc_snd:play_global {name:"kamenridercraft:fishingummy",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 28 run scoreboard players add @s krc.seq1 105
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 29 run playsound kamenridercraft:tirol_choco player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 29 run function krc_snd:play_global {name:"kamenridercraft:tirol_choco",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 29 run scoreboard players add @s krc.seq1 101
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 30 run playsound kamenridercraft:shot_snack player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 30 run function krc_snd:play_global {name:"kamenridercraft:shot_snack",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 30 run scoreboard players add @s krc.seq1 127
-execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 31 run playsound kamenridercraft:boonboomger_gavv player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 31 run function krc_snd:play_global {name:"kamenridercraft:boonboomger_gavv",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 108 if score @s krc.form1n matches 31 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gavv.boonboomger_1","color":"aqua"}
 execute if score @s krc.seq1 matches 108 if score @s krc.form1n matches 31 run scoreboard players add @s krc.seq1 39
 

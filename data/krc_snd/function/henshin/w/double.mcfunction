@@ -17,11 +17,11 @@ execute if score @s krc.form1n matches 0 if items entity @s weapon.mainhand kame
 execute if score @s krc.form2n matches 0 if items entity @s weapon.mainhand kamenridercraft:kirifuda_memory run tag @s add kirifuda_in
 execute if score @s[tag=!shippu_in] krc.form1n matches 0 if items entity @s weapon.offhand kamenridercraft:shippu_memory run tag @s add shippu_in
 execute if score @s[tag=!kirifuda_in] krc.form2n matches 0 if items entity @s weapon.offhand kamenridercraft:kirifuda_memory run tag @s add kirifuda_in
-execute unless score @s[tag=!shippu_in,tag=!kirifuda_in] krc.form1n matches 6 run playsound kamenridercraft:doubledriver_open player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute unless score @s[tag=shippu_in] krc.form1n matches 6 run playsound kamenridercraft:doubledriver_open_jidaigeki player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute unless score @s[tag=!shippu_in,tag=kirifuda_in] krc.form1n matches 6 run playsound kamenridercraft:doubledriver_open_jidaigeki player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 6 run playsound kamenridercraft:gold_xtreme player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 6 unless score Form_Difference krc.form1n matches -1 run playsound kamenridercraft:doubledriver_open player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute unless score @s[tag=!shippu_in,tag=!kirifuda_in] krc.form1n matches 6 run function krc_snd:play_global {name:"kamenridercraft:doubledriver_open",scope:"henshin_snd"}
+execute unless score @s[tag=shippu_in] krc.form1n matches 6 run function krc_snd:play_global {name:"kamenridercraft:doubledriver_open_jidaigeki",scope:"henshin_snd"}
+execute unless score @s[tag=!shippu_in,tag=kirifuda_in] krc.form1n matches 6 run function krc_snd:play_global {name:"kamenridercraft:doubledriver_open_jidaigeki",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 6 run function krc_snd:play_global {name:"kamenridercraft:gold_xtreme",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 6 unless score Form_Difference krc.form1n matches -1 run function krc_snd:play_global {name:"kamenridercraft:doubledriver_open",scope:"henshin_snd"}
 execute if score @s krc.configs.xtreme matches 1 unless score @s krc.form1n matches 6 if score @s krc.form1n matches 5..7 run tag @s add xtreme_armor
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

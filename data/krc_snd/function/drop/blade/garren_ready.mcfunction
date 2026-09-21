@@ -1,3 +1,3 @@
-execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:change_stag run playsound kamenridercraft:rouze_card_insert player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:change_stag run function krc_snd:play_global {name:"kamenridercraft:rouze_card_insert",scope:"henshin_snd"}
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:change_stag run function krc_snd:drop/common/return_item
 advancement revoke @s from krc_snd:drop/blade/root

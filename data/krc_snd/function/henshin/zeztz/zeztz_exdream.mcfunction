@@ -10,9 +10,9 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:agendream
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:capsem_spin
 
-execute if score @s krc.form1n matches 0 run playsound kamenridercraft:exdream player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 1 run playsound kamenridercraft:agendream player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 2 run playsound kamenridercraft:capsem_spin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 0 run function krc_snd:play_global {name:"kamenridercraft:exdream",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 1 run function krc_snd:play_global {name:"kamenridercraft:agendream",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 2 run function krc_snd:play_global {name:"kamenridercraft:capsem_spin",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
 advancement grant @s only krc_snd:henshin/common/detransform_root

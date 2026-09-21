@@ -1,7 +1,7 @@
 execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:smilodon_memory run scoreboard players add @s krc.henshin-stage 1
 execute if score @s krc.henshin-stage matches 3.. run scoreboard players reset @s krc.henshin-stage
 
-execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:smilodon_memory run playsound kamenridercraft:smilodon_dopant player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:smilodon_memory run function krc_snd:play_global {name:"kamenridercraft:smilodon_dopant",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:smilodon_memory run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.double.smilodon","color":"gold"}
 
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:smilodon_memory run function krc_snd:drop/common/return_item

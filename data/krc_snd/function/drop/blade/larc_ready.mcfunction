@@ -1,7 +1,7 @@
 execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:change_kerberos_larc run scoreboard players add @s krc.henshin-stage 1
 
-execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:change_kerberos_larc run playsound kamenridercraft:rouze_card_insert player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:change_kerberos_larc run playsound kamenridercraft:leangle_buckle_close player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:change_kerberos_larc run function krc_snd:play_global {name:"kamenridercraft:rouze_card_insert",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:change_kerberos_larc run function krc_snd:play_global {name:"kamenridercraft:leangle_buckle_close",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 2.. run scoreboard players reset @s krc.henshin-stage
 
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:change_kerberos_larc run function krc_snd:drop/common/return_item

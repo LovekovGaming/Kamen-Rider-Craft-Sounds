@@ -11,8 +11,8 @@ scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:vrastumgear_lever_down
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:a_la_mode_mode
 
-execute unless score @s krc.form1n matches 2 run playsound kamenridercraft:vrastumgear_lever_down player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 2 run playsound kamenridercraft:a_la_mode_mode player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute unless score @s krc.form1n matches 2 run function krc_snd:play_global {name:"kamenridercraft:vrastumgear_lever_down",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 2 run function krc_snd:play_global {name:"kamenridercraft:a_la_mode_mode",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 2 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gavv.complete","color":"gold"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

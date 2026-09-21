@@ -5,7 +5,7 @@ execute unless score @s krc.henshin-stage matches 1.. as @n[type=item,distance=.
 execute unless score @s krc.henshin-stage matches 1.. as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:rider_ticket_strike run tag @s add strike_form
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
-execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid,tag=rider_pass] run playsound kamenridercraft:den-o_belt_buckle_plat player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid,tag=rider_pass] run function krc_snd:play_global {name:"kamenridercraft:den-o_belt_buckle_plat",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid,tag=strike_form] run advancement grant @s only krc_snd:henshin/den-o/new_den-o_standby 1
 
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/den-o/root

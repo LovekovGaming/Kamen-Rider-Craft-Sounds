@@ -10,12 +10,12 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:jackun-to-domamenoki_open
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:bremen_no_rock_band_open
 
-playsound kamenridercraft:buster_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 0 run playsound kamenridercraft:genbu_shinwa_open player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+function krc_snd:play_global {name:"kamenridercraft:buster_henshin",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 0 run function krc_snd:play_global {name:"kamenridercraft:genbu_shinwa_open",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.genbu_shinwa_name","color":"gray"}
-execute if score @s krc.form1n matches 1 run playsound kamenridercraft:jackun-to-domamenoki_open player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 1 run function krc_snd:play_global {name:"kamenridercraft:jackun-to-domamenoki_open",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.jackun_to_domamenoki_name","color":"aqua"}
-execute if score @s krc.form1n matches 2 run playsound kamenridercraft:bremen_no_rock_band_open player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 2 run function krc_snd:play_global {name:"kamenridercraft:bremen_no_rock_band_open",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 2 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.bremen_no_rock_band_name","color":"dark_purple"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

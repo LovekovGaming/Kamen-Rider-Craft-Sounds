@@ -15,15 +15,15 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:beast_go
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:land_dragon_ring
 
-execute if score @s krc.form1n matches 0 run playsound kamenridercraft:beast_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 0 run function krc_snd:play_global {name:"kamenridercraft:beast_henshin",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.wizard.open","color":"yellow"}
-execute if score @s krc.form1n matches 1..5 run playsound kamenridercraft:beast_go player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 1..5 run function krc_snd:play_global {name:"kamenridercraft:beast_go",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.wizard.go","color":"yellow"}," ",{"translate":"sound.kamenridercraft.wizard.falco_mantle","color":"gold"}]
 execute if score @s krc.form1n matches 2 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.wizard.go","color":"yellow"}," ",{"translate":"sound.kamenridercraft.wizard.chameleo_mantle","color":"green"}]
 execute if score @s krc.form1n matches 3 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.wizard.go","color":"yellow"}," ",{"translate":"sound.kamenridercraft.wizard.buffa_mantle","color":"red"}]
 execute if score @s krc.form1n matches 4 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.wizard.go","color":"yellow"}," ",{"translate":"sound.kamenridercraft.wizard.dolphi_mantle","color":"#9522ff"}]
 execute if score @s krc.form1n matches 5 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.wizard.go","color":"yellow"}," ",{"translate":"sound.kamenridercraft.wizard.beast_hyper","color":"blue"}]
-execute if score @s krc.form1n matches 6 run playsound kamenridercraft:land_dragon_ring player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 6 run function krc_snd:play_global {name:"kamenridercraft:land_dragon_ring",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 6 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.wizard.land","color":"yellow"}," ",{"translate":"sound.kamenridercraft.wizard.dragon","color":"black","obfuscated":true}]
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

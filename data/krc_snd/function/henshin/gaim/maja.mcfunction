@@ -11,11 +11,11 @@ scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:gaim_henshin
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:maja_arms
 
-execute unless score @s krc.form1n matches 21 run playsound kamenridercraft:gaim_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute unless score @s krc.form1n matches 21 run function krc_snd:play_global {name:"kamenridercraft:gaim_henshin",scope:"henshin_snd"}
 execute unless score @s krc.form1n matches 21 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.soiya","color":"#9522ff"}
-execute if score @s krc.form1n matches 21 if predicate krc_core:sneaking run playsound kamenridercraft:gaim_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 21 if predicate krc_core:sneaking run function krc_snd:play_global {name:"kamenridercraft:gaim_henshin",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 21 if predicate krc_core:sneaking run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.soiya","color":"#9522ff"}
-execute if score @s krc.form1n matches 21 unless predicate krc_core:sneaking run playsound kamenridercraft:maja_arms player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 21 unless predicate krc_core:sneaking run function krc_snd:play_global {name:"kamenridercraft:maja_arms",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 21 unless predicate krc_core:sneaking run advancement revoke @s only krc_snd:henshin/gaim/sengoku_driver_seq
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

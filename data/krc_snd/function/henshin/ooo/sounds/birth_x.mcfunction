@@ -1,7 +1,7 @@
 advancement revoke @s only krc_snd:henshin/ooo/birth_x_seq 2
 scoreboard players add @s krc.seq1 1
 
-execute if score @s krc.seq1 matches 13 if score @s krc.form1n matches 1 run playsound kamenridercraft:kani_arm player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 13 if score @s krc.form1n matches 1 run function krc_snd:play_global {name:"kamenridercraft:kani_arm",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 23 if score @s krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ooo.kani_arm","color":"#f534d2"}
 execute if score @s krc.seq1 matches 23 if score @s krc.form1n matches 1 run scoreboard players set @s krc.seq1 205
 execute if score @s krc.seq1 matches 44 if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.ooo.bir","color":"#3ebd83"},{"translate":"sound.kamenridercraft.ooo.bir"}," ",{"translate":"sound.kamenridercraft.ooo.bir","color":"#3ebd83"},{"translate":"sound.kamenridercraft.ooo.birth"}]

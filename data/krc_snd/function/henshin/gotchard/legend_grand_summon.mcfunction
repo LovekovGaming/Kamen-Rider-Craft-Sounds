@@ -8,7 +8,7 @@ execute if entity @n[type=kamenridercraft:grand_summon,tag=!sounded,distance=..2
 execute if entity @n[type=kamenridercraft:grand_summon,tag=!sounded,distance=..2] run advancement revoke @s only krc_snd:henshin/zi-o/ridewatches
 execute if entity @n[type=kamenridercraft:grand_summon,tag=!sounded,distance=..2] run advancement grant @s only krc_snd:henshin/zi-o/ridewatches 1
 execute if entity @n[type=kamenridercraft:grand_summon,tag=!sounded,distance=..2] if score @s krc.configs.zio_summon matches 0 run advancement grant @s only krc_snd:henshin/zi-o/ridewatches finish
-execute if entity @n[type=kamenridercraft:grand_summon,tag=!sounded,distance=..2] run playsound kamenridercraft:grand_zi-o_summon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @n[type=kamenridercraft:grand_summon,tag=!sounded,distance=..2] run function krc_snd:play_global {name:"kamenridercraft:grand_zi-o_summon",scope:"henshin_snd"}
 execute if items entity @n[type=kamenridercraft:grand_summon,tag=!sounded,distance=..2] armor.feet kamenridercraft:arcle run advancement grant @s only krc_snd:henshin/zi-o/ridewatches kuuga
 execute if items entity @n[type=kamenridercraft:grand_summon,tag=!sounded,distance=..2] armor.feet kamenridercraft:alter_ring run advancement grant @s only krc_snd:henshin/zi-o/ridewatches agito
 execute if items entity @n[type=kamenridercraft:grand_summon,tag=!sounded,distance=..2] armor.feet kamenridercraft:v_buckle_ryuki run advancement grant @s only krc_snd:henshin/zi-o/ridewatches ryuki

@@ -9,9 +9,9 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:invincible_jeanne
 scoreboard players set @s krc.seq1 0
 
-execute if score @s krc.form1n matches 0 run playsound kamenridercraft:jeanne_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 0 run function krc_snd:play_global {name:"kamenridercraft:jeanne_henshin",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.liberal_up","color":"blue"}
-execute if score @s krc.form1n matches 1 run playsound kamenridercraft:invincible_jeanne player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 1 run function krc_snd:play_global {name:"kamenridercraft:invincible_jeanne",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.hyper_liberal_up","color":"blue"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

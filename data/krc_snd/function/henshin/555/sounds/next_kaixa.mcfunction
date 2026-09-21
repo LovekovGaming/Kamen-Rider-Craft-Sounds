@@ -1,7 +1,7 @@
 advancement revoke @s only krc_snd:henshin/555/next_kaixa_seq 2
 scoreboard players add @s krc.seq1 1
 
-execute if score @s krc.seq1 matches 4 if score @s krc.form1n matches 1 run playsound kamenridercraft:next_kaixa_axel_start_up player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 4 if score @s krc.form1n matches 1 run function krc_snd:play_global {name:"kamenridercraft:next_kaixa_axel_start_up",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 23 if score @s krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.faiz.start_up","color":"white"}
 execute if score @s krc.seq1 matches 28 if score @s krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.faiz.start_up","color":"yellow"}
 execute if score @s krc.seq1 matches 30 if score @s krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.faiz.start_up","color":"white"}

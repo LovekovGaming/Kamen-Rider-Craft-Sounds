@@ -7,7 +7,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:crimson_vail_standby
 scoreboard players set @s krc.seq1 0
 
-playsound kamenridercraft:crimson_vail player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+function krc_snd:play_global {name:"kamenridercraft:crimson_vail",scope:"henshin_snd"}
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.crimson_up","color":"dark_red"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

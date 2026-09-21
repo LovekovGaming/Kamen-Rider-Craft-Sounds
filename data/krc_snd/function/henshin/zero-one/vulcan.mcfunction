@@ -11,9 +11,9 @@ scoreboard players set @s krc.seq2 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:shotrise
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:full_shotrise
 
-execute unless score @s krc.form1n matches 4 run playsound kamenridercraft:shotrise player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute unless score @s krc.form1n matches 4 run function krc_snd:play_global {name:"kamenridercraft:shotrise",scope:"henshin_snd"}
 execute unless score @s krc.form1n matches 4 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zero-one.shotrise","color":"blue"}
-execute if score @s krc.form1n matches 4 run playsound kamenridercraft:full_shotrise player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 4 run function krc_snd:play_global {name:"kamenridercraft:full_shotrise",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 4 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.zero-one.full","color":"yellow"}," ",{"translate":"sound.kamenridercraft.zero-one.shotrise","color":"blue"}]
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

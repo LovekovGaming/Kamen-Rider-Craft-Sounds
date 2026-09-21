@@ -8,7 +8,7 @@ execute unless predicate krc_core:sneaking run scoreboard players set @s krc.seq
 execute if predicate krc_core:sneaking run scoreboard players set @s krc.seq1 40
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:battou
 
-playsound kamenridercraft:battou player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+function krc_snd:play_global {name:"kamenridercraft:battou",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.battou","color":"gold"}
 execute if score @s krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.battou","color":"white"}
 

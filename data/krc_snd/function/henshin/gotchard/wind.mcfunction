@@ -9,7 +9,7 @@ scoreboard players set @s krc.seq1 0
 scoreboard players set @s krc.seq2 0
 
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","color":"dark_gray"}
-playsound kamenridercraft:ggggotchanko_alchemisdriver player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+function krc_snd:play_global {name:"kamenridercraft:ggggotchanko_alchemisdriver",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
 advancement grant @s only krc_snd:henshin/common/detransform_root

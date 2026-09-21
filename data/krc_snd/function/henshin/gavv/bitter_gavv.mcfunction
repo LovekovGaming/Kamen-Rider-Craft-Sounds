@@ -9,6 +9,6 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:bitter_gochizo_pop_out
 
-playsound kamenridercraft:bitter_gochizo_pop_out player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+function krc_snd:play_global {name:"kamenridercraft:bitter_gochizo_pop_out",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

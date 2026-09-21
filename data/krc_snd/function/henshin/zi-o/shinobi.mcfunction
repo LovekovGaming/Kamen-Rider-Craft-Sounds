@@ -6,7 +6,7 @@ scoreboard players reset @s krc.henshin-stage
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:shinobi_driver_equip
 scoreboard players set @s krc.seq1 0
 
-playsound kamenridercraft:shinobi_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+function krc_snd:play_global {name:"kamenridercraft:shinobi_henshin",scope:"henshin_snd"}
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.shinobi_1","color":"dark_purple"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

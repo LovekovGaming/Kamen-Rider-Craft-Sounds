@@ -2,4 +2,4 @@ advancement revoke @s only krc_snd:henshin/saber/seiken_swordriver_desast_off
 advancement revoke @s from krc_snd:henshin/saber/root
 function krc_core:reset
 function krc_snd:henshin/reset_sound
-playsound kamenridercraft:desast_detransform player @a[scores={krc.configs.detransform_snd=1}] ~ ~1 ~ 3
+function krc_snd:play_global {name:"kamenridercraft:desast_detransform",scope:"detransform_snd"}

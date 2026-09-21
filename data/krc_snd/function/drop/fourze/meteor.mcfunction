@@ -4,11 +4,11 @@ execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items enti
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:meteor_switch run scoreboard players add @s krc.henshin-stage 1
-execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:meteor_storm_switch run playsound kamenridercraft:meteor_storm player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:meteor_storm_switch run function krc_snd:play_global {name:"kamenridercraft:meteor_storm",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:meteor_storm_switch run title @s[scores={krc.configs.sound_subs=1}] actionbar {"translate":"sound.kamenridercraft.fourze.meteor_storm","color":"yellow"}
-execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:meteor_switch run playsound kamenridercraft:meteor_ready player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:meteor_switch run function krc_snd:play_global {name:"kamenridercraft:meteor_ready",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:meteor_switch run advancement grant @s only krc_snd:henshin/fourze/meteor_standby 1
-execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:meteor_storm_switch run playsound kamenridercraft:meteor_on player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:meteor_storm_switch run function krc_snd:play_global {name:"kamenridercraft:meteor_on",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:meteor_storm_switch run title @s[scores={krc.configs.sound_subs=1}] actionbar {"translate":"sound.kamenridercraft.fourze.meteor_on","color":"yellow"}
 
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:meteor_standby

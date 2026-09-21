@@ -1,5 +1,5 @@
 advancement revoke @s only krc_snd:henshin/gaim/oren_arms
-playsound kamenridercraft:fake_donguri player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+function krc_snd:play_global {name:"kamenridercraft:fake_donguri",scope:"henshin_snd"}
 scoreboard players reset @s krc.henshin-stage
 scoreboard players reset @s krc-item.donguri
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:gaim_standby

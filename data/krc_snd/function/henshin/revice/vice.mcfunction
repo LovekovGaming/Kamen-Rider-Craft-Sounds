@@ -29,15 +29,15 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:gold_spino_genome
 scoreboard players set @s krc.seq1 0
 
-execute if score @s krc.form1n matches 0..20 unless score @s krc.form1n matches 16..19 run playsound kamenridercraft:buddy_up player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 0..20 unless score @s krc.form1n matches 16..19 run function krc_snd:play_global {name:"kamenridercraft:buddy_up",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 0..20 unless score @s krc.form1n matches 16..19 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.buddy_up","color":"#9522ff"}
-execute if score @s krc.form1n matches 16 run playsound kamenridercraft:baribari_up player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 16 run function krc_snd:play_global {name:"kamenridercraft:baribari_up",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 16 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.baribari_up","color":"aqua"}
-execute if score @s krc.form1n matches 17 run playsound kamenridercraft:burst_up player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 17 run function krc_snd:play_global {name:"kamenridercraft:burst_up",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 17 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.burst_up","color":"yellow"}
-execute if score @s krc.form1n matches 18 run playsound kamenridercraft:ultimate_up player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 18 run function krc_snd:play_global {name:"kamenridercraft:ultimate_up",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 18 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.ultimate_up","color":"aqua"}
-execute if score @s krc.form1n matches 19 run playsound kamenridercraft:gold_spino_genome player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 19 run function krc_snd:play_global {name:"kamenridercraft:gold_spino_genome",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 19 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.gold_up","color":"yellow"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

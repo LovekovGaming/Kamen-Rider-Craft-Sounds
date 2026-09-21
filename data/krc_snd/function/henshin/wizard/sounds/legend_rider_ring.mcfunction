@@ -27,33 +27,33 @@ execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={
 execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={ooo=true}}] krc.seq1 matches 36 if items entity @s armor.feet #krc_snd:white_wizardriver run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.wizard.ooo","color":"red"}," ",{"translate":"sound.kamenridercraft.wizard.now"}]
 execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={fourze=true}}] krc.seq1 matches 36 unless items entity @s armor.feet #krc_snd:white_wizardriver run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.wizard.fourze","color":"white"}," ",{"translate":"sound.kamenridercraft.wizard.please"}]
 execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={fourze=true}}] krc.seq1 matches 36 if items entity @s armor.feet #krc_snd:white_wizardriver run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.wizard.fourze","color":"white"}," ",{"translate":"sound.kamenridercraft.wizard.now"}]
-execute unless items entity @s armor.feet #krc_snd:white_wizardriver if score @s krc.seq1 matches 36 run playsound kamenridercraft:wizardriver_please player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute unless items entity @s armor.feet #krc_snd:white_wizardriver if score @s krc.seq1 matches 36 run function krc_snd:play_global {name:"kamenridercraft:wizardriver_please",scope:"henshin_snd"}
 execute unless items entity @s armor.feet #krc_snd:white_wizardriver if score @s krc.seq1 matches 36 run scoreboard players add @s krc.seq1 10
-execute if items entity @s armor.feet #krc_snd:white_wizardriver if score @s krc.seq1 matches 36 run playsound kamenridercraft:white_wizardriver_now player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={kuuga=true}}] krc.seq1 matches 79 run playsound kamenridercraft:kuuga_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if items entity @s armor.feet #krc_snd:white_wizardriver if score @s krc.seq1 matches 36 run function krc_snd:play_global {name:"kamenridercraft:white_wizardriver_now",scope:"henshin_snd"}
+execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={kuuga=true}}] krc.seq1 matches 79 run function krc_snd:play_global {name:"kamenridercraft:kuuga_ring_effect",scope:"henshin_snd"}
 execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={kuuga=true}}] krc.seq1 matches 79 run scoreboard players add @s krc.seq1 44
-execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={agito=true}}] krc.seq1 matches 79 run playsound kamenridercraft:agito_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={agito=true}}] krc.seq1 matches 79 run function krc_snd:play_global {name:"kamenridercraft:agito_ring_effect",scope:"henshin_snd"}
 execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={agito=true}}] krc.seq1 matches 79 run scoreboard players add @s krc.seq1 31
-execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={ryuki=true}}] krc.seq1 matches 79 run playsound kamenridercraft:ryuki_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={ryuki=true}}] krc.seq1 matches 79 run function krc_snd:play_global {name:"kamenridercraft:ryuki_ring_effect",scope:"henshin_snd"}
 execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={ryuki=true}}] krc.seq1 matches 79 run scoreboard players add @s krc.seq1 69
-execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={faiz=true}}] krc.seq1 matches 79 run playsound kamenridercraft:faiz_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={faiz=true}}] krc.seq1 matches 79 run function krc_snd:play_global {name:"kamenridercraft:faiz_ring_effect",scope:"henshin_snd"}
 execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={faiz=true}}] krc.seq1 matches 79 run scoreboard players add @s krc.seq1 61
-execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={blade=true}}] krc.seq1 matches 79 run playsound kamenridercraft:blade_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={blade=true}}] krc.seq1 matches 79 run function krc_snd:play_global {name:"kamenridercraft:blade_ring_effect",scope:"henshin_snd"}
 execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={blade=true}}] krc.seq1 matches 79 run scoreboard players add @s krc.seq1 64
-execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={hibiki=true}}] krc.seq1 matches 79 run playsound kamenridercraft:hibiki_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={hibiki=true}}] krc.seq1 matches 79 run function krc_snd:play_global {name:"kamenridercraft:hibiki_ring_effect",scope:"henshin_snd"}
 execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={hibiki=true}}] krc.seq1 matches 79 run scoreboard players add @s krc.seq1 70
-execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={kabuto=true}}] krc.seq1 matches 79 run playsound kamenridercraft:kabuto_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={kabuto=true}}] krc.seq1 matches 79 run function krc_snd:play_global {name:"kamenridercraft:kabuto_ring_effect",scope:"henshin_snd"}
 execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={kabuto=true}}] krc.seq1 matches 79 run scoreboard players add @s krc.seq1 49
-execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={den-o=true}}] krc.seq1 matches 79 run playsound kamenridercraft:den-o_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={den-o=true}}] krc.seq1 matches 79 run function krc_snd:play_global {name:"kamenridercraft:den-o_ring_effect",scope:"henshin_snd"}
 execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={den-o=true}}] krc.seq1 matches 79 run scoreboard players add @s krc.seq1 24
-execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={kiva=true}}] krc.seq1 matches 79 run playsound kamenridercraft:kiva_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={kiva=true}}] krc.seq1 matches 79 run function krc_snd:play_global {name:"kamenridercraft:kiva_ring_effect",scope:"henshin_snd"}
 execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={kiva=true}}] krc.seq1 matches 79 run scoreboard players add @s krc.seq1 22
-execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={decade=true}}] krc.seq1 matches 79 run playsound kamenridercraft:decade_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={double=true}}] krc.seq1 matches 79 run playsound kamenridercraft:double_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={decade=true}}] krc.seq1 matches 79 run function krc_snd:play_global {name:"kamenridercraft:decade_ring_effect",scope:"henshin_snd"}
+execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={double=true}}] krc.seq1 matches 79 run function krc_snd:play_global {name:"kamenridercraft:double_ring_effect",scope:"henshin_snd"}
 execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={double=true}}] krc.seq1 matches 79 run scoreboard players add @s krc.seq1 4
-execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={ooo=true}}] krc.seq1 matches 79 run playsound kamenridercraft:ooo_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={ooo=true}}] krc.seq1 matches 79 run function krc_snd:play_global {name:"kamenridercraft:ooo_ring_effect",scope:"henshin_snd"}
 execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={ooo=true}}] krc.seq1 matches 79 run scoreboard players add @s krc.seq1 49
-execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={fourze=true}}] krc.seq1 matches 79 run playsound kamenridercraft:fourze_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={fourze=true}}] krc.seq1 matches 79 run function krc_snd:play_global {name:"kamenridercraft:fourze_ring_effect",scope:"henshin_snd"}
 execute if score @s[advancements={krc_snd:henshin/wizard/legend_rider_ring_seq={fourze=true}}] krc.seq1 matches 79 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.fourze.three_two_one"}
 
 execute if score @s krc.seq1 matches ..169 run return 0

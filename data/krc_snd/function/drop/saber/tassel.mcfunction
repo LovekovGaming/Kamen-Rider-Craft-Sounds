@@ -2,9 +2,9 @@ execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] 
 execute if score @s krc.henshin-stage matches 4.. run scoreboard players reset @s krc.henshin-stage
 
 execute if score @s krc.henshin-stage matches 2 if predicate krc_core:sneaking if entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] run scoreboard players set @s krc.henshin-stage 3
-execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:tassel_dark_wonder_ride_book run playsound kamenridercraft:tassel_dark_open player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:tassel_dark_wonder_ride_book run function krc_snd:play_global {name:"kamenridercraft:tassel_dark_open",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:tassel_dark_wonder_ride_book run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.tassel_dark_name","color":"light_purple"}
-execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:tassel_dark_wonder_ride_book run playsound kamenridercraft:tassel_dark_story player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:tassel_dark_wonder_ride_book run function krc_snd:play_global {name:"kamenridercraft:tassel_dark_story",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:tassel_dark_wonder_ride_book run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.tassel_dark_story","color":"light_purple"}
 
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:tassel_dark_wonder_ride_book run function krc_snd:drop/common/return_item

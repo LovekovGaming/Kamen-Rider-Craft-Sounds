@@ -1,4 +1,4 @@
-execute if score @s krc.seq1 matches 192 run playsound kamenridercraft:ghostarmor player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 192 run function krc_snd:play_global {name:"kamenridercraft:ghostarmor",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 192 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"###","color":"black"},{"text":"G","color":"gold"},"||"]
 execute if score @s krc.seq1 matches 195 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"##","color":"black"},{"text":"GH","color":"gold"},"||"]
 execute if score @s krc.seq1 matches 198 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"#","color":"black"},{"text":"GHO","color":"gold"},"||"]

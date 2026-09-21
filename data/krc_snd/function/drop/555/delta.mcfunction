@@ -1,7 +1,7 @@
 execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:delta_blaster run scoreboard players add @s krc.henshin-stage 1
 execute if score @s krc.henshin-stage matches 3.. run scoreboard players reset @s krc.henshin-stage
 
-execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:delta_blaster run playsound kamenridercraft:faiz_standing_by player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:delta_blaster run function krc_snd:play_global {name:"kamenridercraft:faiz_standing_by",scope:"henshin_snd"}
 execute if predicate krc_core:sneaking if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:delta_blaster if score Delta_Chat_Message krc.configs matches 1 run tellraw @a ["","<",{"selector":"@s"},"> ",{"translate":"sound.kamenridercraft.general.henshin"},"!"]
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:delta_blaster if score Delta_Chat_Message krc.configs matches 2 run tellraw @a ["","<",{"selector":"@s"},"> ",{"translate":"sound.kamenridercraft.general.henshin"},"!"]
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:delta_blaster run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar "Standing by"

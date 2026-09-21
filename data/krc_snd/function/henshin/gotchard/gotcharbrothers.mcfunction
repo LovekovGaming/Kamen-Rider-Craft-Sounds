@@ -18,9 +18,9 @@ execute as @p[distance=1..20,advancements={krc_snd:flags/gotchard/temporary={rai
 execute as @p[distance=1..20,advancements={krc_snd:flags/gotchard/temporary={rainbow_breath=true}}] unless score @s krc.henshin-stage matches 0.. run advancement revoke @s only krc_snd:flags/gotchard/temporary
 
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","color":"dark_gray"}
-execute if score @s krc.form1n matches 0.. unless score @s krc.form1n matches 36..46 unless score @s krc.form1n matches 50..51 run playsound kamenridercraft:gotchanko_rainbow player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 36..46 run playsound kamenridercraft:ggggotchanko player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 50..51 run playsound kamenridercraft:gotchanko player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 0.. unless score @s krc.form1n matches 36..46 unless score @s krc.form1n matches 50..51 run function krc_snd:play_global {name:"kamenridercraft:gotchanko_rainbow",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 36..46 run function krc_snd:play_global {name:"kamenridercraft:ggggotchanko",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 50..51 run function krc_snd:play_global {name:"kamenridercraft:gotchanko",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
 advancement grant @s only krc_snd:henshin/common/detransform_root

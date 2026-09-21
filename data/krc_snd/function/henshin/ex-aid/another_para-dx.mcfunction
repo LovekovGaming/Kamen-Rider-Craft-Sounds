@@ -11,7 +11,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:gachan_vrx
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:gachan_build
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:mazaru_up
-execute if entity @s[tag=!no_gashat] run playsound kamenridercraft:dual_gashat player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=!no_gashat] run function krc_snd:play_global {name:"kamenridercraft:dual_gashat",scope:"henshin_snd"}
 execute if entity @s[tag=!no_gashat] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar [{"translate":"sound.kamenridercraft.ex-aid.dual_gashat"}," ",{"translate":"sound.kamenridercraft.ex-aid.gachan"}]
 execute if entity @s[tag=no_gashat] run scoreboard players set @s krc.seq1 47
 execute if entity @s[tag=no_gashat] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ex-aid.gachan"}

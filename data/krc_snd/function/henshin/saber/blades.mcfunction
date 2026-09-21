@@ -11,7 +11,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:nagare_battou
 
-playsound kamenridercraft:nagare_battou player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+function krc_snd:play_global {name:"kamenridercraft:nagare_battou",scope:"henshin_snd"}
 execute unless score @s krc.form1n matches 8 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.nagare_battou","color":"blue"}
 execute if score @s krc.form1n matches 8 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.saber.nagare_battou","color":"blue"}," ",{"translate":"sound.kamenridercraft.saber.tategami_tenkai","color":"aqua"}]
 

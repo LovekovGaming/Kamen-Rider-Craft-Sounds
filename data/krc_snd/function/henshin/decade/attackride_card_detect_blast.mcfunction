@@ -6,7 +6,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 scoreboard players set @s krc.seq1 0
 advancement revoke @s from krc_snd:henshin/decade/seq_root
 tag @s add blast
-execute unless items entity @s armor.feet kamenridercraft:diend_belt run playsound kamenridercraft:decadriver player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute unless items entity @s armor.feet kamenridercraft:diend_belt run function krc_snd:play_global {name:"kamenridercraft:decadriver",scope:"henshin_snd"}
 execute unless items entity @s armor.feet kamenridercraft:diend_belt run advancement grant @s only krc_snd:henshin/decade/attackride_decade_seq 1
-execute if items entity @s armor.feet kamenridercraft:diend_belt run playsound kamenridercraft:diend_fire player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if items entity @s armor.feet kamenridercraft:diend_belt run function krc_snd:play_global {name:"kamenridercraft:diend_fire",scope:"henshin_snd"}
 execute if items entity @s armor.feet kamenridercraft:diend_belt run advancement grant @s only krc_snd:henshin/decade/attackride_diend_seq 1

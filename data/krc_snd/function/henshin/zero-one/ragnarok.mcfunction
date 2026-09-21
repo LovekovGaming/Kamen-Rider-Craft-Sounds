@@ -5,10 +5,10 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ragnarok_flaming_tiger
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ragnarok_apocalypse_reboot
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ragnarok_supreme
-execute if score @s krc.form1n matches 0 run playsound kamenridercraft:ragnarok_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 1 run playsound kamenridercraft:ragnarok_flaming_tiger player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 2 run playsound kamenridercraft:ragnarok_apocalypse_reboot player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 3 run playsound kamenridercraft:ragnarok_supreme player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 0 run function krc_snd:play_global {name:"kamenridercraft:ragnarok_henshin",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 1 run function krc_snd:play_global {name:"kamenridercraft:ragnarok_flaming_tiger",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 2 run function krc_snd:play_global {name:"kamenridercraft:ragnarok_apocalypse_reboot",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 3 run function krc_snd:play_global {name:"kamenridercraft:ragnarok_supreme",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
 advancement grant @s only krc_snd:henshin/common/detransform_root

@@ -1,6 +1,6 @@
 advancement revoke @s only krc_snd:henshin/zero-one/thousandriver_standby 2
 scoreboard players add @s krc.seq1 1
-execute if score @s krc.seq1 matches 60 run playsound kamenridercraft:thousandriver_standby player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 60 run function krc_snd:play_global {name:"kamenridercraft:thousandriver_standby",scope:"henshin_snd"}
 
 execute if score @s krc.seq1 matches ..132 run return 0
 scoreboard players set @s krc.seq1 59

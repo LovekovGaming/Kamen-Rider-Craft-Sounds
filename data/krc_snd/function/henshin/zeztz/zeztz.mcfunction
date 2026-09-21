@@ -21,10 +21,10 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:dualmare_press
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:shock_fatal
 
-execute if score @s krc.form1n matches 0 unless score Form_Difference krc.form1n matches 14 run playsound kamenridercraft:capsem_spin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 1.. unless score @s krc.form1n matches 12..14 run playsound kamenridercraft:capsem_spin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 12..13 run playsound kamenridercraft:dualmare_press player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.form1n matches 14 run playsound kamenridercraft:shock_fatal player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 0 unless score Form_Difference krc.form1n matches 14 run function krc_snd:play_global {name:"kamenridercraft:capsem_spin",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 1.. unless score @s krc.form1n matches 12..14 run function krc_snd:play_global {name:"kamenridercraft:capsem_spin",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 12..13 run function krc_snd:play_global {name:"kamenridercraft:dualmare_press",scope:"henshin_snd"}
+execute if score @s krc.form1n matches 14 run function krc_snd:play_global {name:"kamenridercraft:shock_fatal",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
 advancement grant @s only krc_snd:henshin/common/detransform_root

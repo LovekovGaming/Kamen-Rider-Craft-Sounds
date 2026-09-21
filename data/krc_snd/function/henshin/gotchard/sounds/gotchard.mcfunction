@@ -32,72 +32,72 @@ execute if score @s krc.seq1 matches 66 unless score @s krc.form1n matches 36..4
 execute if score @s krc.seq1 matches 66 if score @s krc.form1n matches 59..60 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","obfuscated":true}
 execute if score @s krc.seq1 matches 68 unless score @s krc.form1n matches 36..46 unless score @s krc.form1n matches 53..56 unless score @s krc.form1n matches 59..60 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","color":"light_purple"}
 execute if score @s krc.seq1 matches 70 unless score @s krc.form1n matches 36..46 unless score @s krc.form1n matches 53..56 unless score @s krc.form1n matches 59..60 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","obfuscated":true}
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 0 run playsound kamenridercraft:steamhopper player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 0 run function krc_snd:play_global {name:"kamenridercraft:steamhopper",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.steamhopper","color":"aqua"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 0 run scoreboard players add @s krc.seq1 21
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 1 run playsound kamenridercraft:appareskebow player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 1 run function krc_snd:play_global {name:"kamenridercraft:appareskebow",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.appareskebow","color":"red"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 1 run scoreboard players add @s krc.seq1 27
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 2 run playsound kamenridercraft:venommariner player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 2 run function krc_snd:play_global {name:"kamenridercraft:venommariner",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 2 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.venommariner","color":"aqua"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 2 run scoreboard players add @s krc.seq1 51
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 3 run playsound kamenridercraft:antwrestler player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 3 run function krc_snd:play_global {name:"kamenridercraft:antwrestler",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 3 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.antwrestler","color":"blue"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 3 run scoreboard players add @s krc.seq1 31
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 4 run playsound kamenridercraft:burninggorilla player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 4 run function krc_snd:play_global {name:"kamenridercraft:burninggorilla",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 4 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.burninggorilla","color":"red"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 4 run scoreboard players add @s krc.seq1 31
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 5 run playsound kamenridercraft:needlehawk player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 5 run function krc_snd:play_global {name:"kamenridercraft:needlehawk",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 5 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.needlehawk","color":"green"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 5 run scoreboard players add @s krc.seq1 17
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 6 run playsound kamenridercraft:dokkirishovel player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 6 run function krc_snd:play_global {name:"kamenridercraft:dokkirishovel",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 6 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.dokkirishovel","color":"light_purple"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 6 run scoreboard players add @s krc.seq1 9
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 7 run playsound kamenridercraft:goldmechanichor player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 7 run function krc_snd:play_global {name:"kamenridercraft:goldmechanichor",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 7 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.goldmechanichor","color":"gold"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 7 run scoreboard players add @s krc.seq1 21
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 8 run playsound kamenridercraft:hiikesurose player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 8 run function krc_snd:play_global {name:"kamenridercraft:hiikesurose",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 8 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.hiikesurose","color":"red"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 8 run scoreboard players add @s krc.seq1 32
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 9 run playsound kamenridercraft:lightningjungle player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 9 run function krc_snd:play_global {name:"kamenridercraft:lightningjungle",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 9 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.lightningjungle"}
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 10 run playsound kamenridercraft:smahotaru player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 10 run function krc_snd:play_global {name:"kamenridercraft:smahotaru",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 10 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.smahotaru","color":"red"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 10 run scoreboard players add @s krc.seq1 49
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 11 run playsound kamenridercraft:bulletchoucho player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 11 run function krc_snd:play_global {name:"kamenridercraft:bulletchoucho",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 11 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.bulletchoucho","color":"gold"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 11 run scoreboard players add @s krc.seq1 63
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 12 run playsound kamenridercraft:odorimantis player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 12 run function krc_snd:play_global {name:"kamenridercraft:odorimantis",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 12 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.odorimantis","color":"green"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 12 run scoreboard players add @s krc.seq1 75
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 13 run playsound kamenridercraft:madpirates player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 13 run function krc_snd:play_global {name:"kamenridercraft:madpirates",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 13 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.madpirates","color":"dark_purple"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 13 run scoreboard players add @s krc.seq1 27
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 14 run playsound kamenridercraft:energymaru player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 14 run function krc_snd:play_global {name:"kamenridercraft:energymaru",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 14 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.energymaru","color":"green"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 14 run scoreboard players add @s krc.seq1 45
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 15 run playsound kamenridercraft:spiclewhale player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 15 run function krc_snd:play_global {name:"kamenridercraft:spiclewhale",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 15 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.spiclewhale","color":"dark_blue"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 15 run scoreboard players add @s krc.seq1 26
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 16 run playsound kamenridercraft:batkingrobo player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 16 run function krc_snd:play_global {name:"kamenridercraft:batkingrobo",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 16 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.batkingrobo","color":"dark_purple"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 16 run scoreboard players add @s krc.seq1 17
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 17 run playsound kamenridercraft:stagmirror player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 17 run function krc_snd:play_global {name:"kamenridercraft:stagmirror",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 17 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.stagmirror","color":"gray"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 17 run scoreboard players add @s krc.seq1 33
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 18 run playsound kamenridercraft:greatsasorry player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 18 run function krc_snd:play_global {name:"kamenridercraft:greatsasorry",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 18 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.greatsasorry","color":"dark_purple"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 18 run scoreboard players add @s krc.seq1 53
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 19 run playsound kamenridercraft:bunnyparka player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 19 run function krc_snd:play_global {name:"kamenridercraft:bunnyparka",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 19 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.bunnyparka","color":"light_purple"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 19 run scoreboard players add @s krc.seq1 31
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 20 run playsound kamenridercraft:doctorhebi player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 20 run function krc_snd:play_global {name:"kamenridercraft:doctorhebi",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 20 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.doctorhebi","color":"dark_purple"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 20 run scoreboard players add @s krc.seq1 45
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 21 run playsound kamenridercraft:bakuontelevi player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 21 run function krc_snd:play_global {name:"kamenridercraft:bakuontelevi",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 21 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.bakuontelevi","color":"green"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 21 run scoreboard players add @s krc.seq1 21
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 22 run playsound kamenridercraft:onicopter player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 22 run function krc_snd:play_global {name:"kamenridercraft:onicopter",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 22 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.onicopter","color":"blue"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 22 run scoreboard players add @s krc.seq1 15
 execute if score @s krc.seq1 matches 2 if score @s krc.form1n matches 36..46 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","obfuscated":true}
@@ -110,32 +110,32 @@ execute if score @s krc.seq1 matches 23 if score @s krc.form1n matches 36..46 ru
 execute if score @s krc.seq1 matches 27 if score @s krc.form1n matches 36..46 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko"}
 execute if score @s krc.seq1 matches 33 if score @s krc.form1n matches 36..46 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","color":"aqua"}
 execute if score @s krc.seq1 matches 44 if score @s krc.form1n matches 36..46 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko"}
-execute if score @s krc.seq1 matches 70 if score @s krc.form1n matches 39 run playsound kamenridercraft:mooncerberus_gotchard player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 70 if score @s krc.form1n matches 39 run function krc_snd:play_global {name:"kamenridercraft:mooncerberus_gotchard",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 116 if score @s krc.form1n matches 39 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.mooncerberus","color":"blue"}
 execute if score @s krc.seq1 matches 116 if score @s krc.form1n matches 39 run scoreboard players set @s krc.seq1 341
-execute if score @s krc.seq1 matches 70 if score @s krc.form1n matches 40..41 run playsound kamenridercraft:marsphoenix player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 70 if score @s krc.form1n matches 40..41 run function krc_snd:play_global {name:"kamenridercraft:marsphoenix",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 116 if score @s krc.form1n matches 40..41 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.marsphoenix","color":"red"}
 execute if score @s krc.seq1 matches 116 if score @s krc.form1n matches 40 run scoreboard players set @s krc.seq1 341
-execute if score @s krc.seq1 matches 70 if score @s krc.form1n matches 43 run playsound kamenridercraft:sununicorn_gotchard player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 70 if score @s krc.form1n matches 43 run function krc_snd:play_global {name:"kamenridercraft:sununicorn_gotchard",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 116 if score @s krc.form1n matches 43 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.sununicorn","color":"gold"}
 execute if score @s krc.seq1 matches 116 if score @s krc.form1n matches 43 run scoreboard players set @s krc.seq1 341
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 47 run playsound kamenridercraft:exceed_mighty player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 47 run function krc_snd:play_global {name:"kamenridercraft:exceed_mighty",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 47 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.faiz.complete","color":"red"}
 execute if score @s krc.seq1 matches 152 if score @s krc.form1n matches 47 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.faiz.complete","color":"red","obfuscated":true}
 execute if score @s krc.seq1 matches 164 if score @s krc.form1n matches 47 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.exceed_mighty","color":"gold","obfuscated":true}
 execute if score @s krc.seq1 matches 177 if score @s krc.form1n matches 47 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.exceed_mighty","color":"gold"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 47 run scoreboard players add @s krc.seq1 66
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 48 run playsound kamenridercraft:cyclone_tatoba player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 48 run function krc_snd:play_global {name:"kamenridercraft:cyclone_tatoba",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 48 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.cyclone_tatoba","color":"gold"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 48 run scoreboard players add @s krc.seq1 75
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 49 run playsound kamenridercraft:fullfull_rocket player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 49 run function krc_snd:play_global {name:"kamenridercraft:fullfull_rocket",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 49 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.fullfull_rocket","color":"gold"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 49 run scoreboard players add @s krc.seq1 45
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 50..52 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko_x"}
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 50..52 run playsound kamenridercraft:gotchanko_x player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.seq1 matches 91 if score @s krc.form1n matches 50 run playsound kamenridercraft:super_gotchard_ufo_x player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.seq1 matches 91 if score @s krc.form1n matches 51 run playsound kamenridercraft:super_gotchard_x_rex player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.seq1 matches 91 if score @s krc.form1n matches 52 run playsound kamenridercraft:star_gotchard player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 50..52 run function krc_snd:play_global {name:"kamenridercraft:gotchanko_x",scope:"henshin_snd"}
+execute if score @s krc.seq1 matches 91 if score @s krc.form1n matches 50 run function krc_snd:play_global {name:"kamenridercraft:super_gotchard_ufo_x",scope:"henshin_snd"}
+execute if score @s krc.seq1 matches 91 if score @s krc.form1n matches 51 run function krc_snd:play_global {name:"kamenridercraft:super_gotchard_x_rex",scope:"henshin_snd"}
+execute if score @s krc.seq1 matches 91 if score @s krc.form1n matches 52 run function krc_snd:play_global {name:"kamenridercraft:star_gotchard",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 121 if score @s krc.form1n matches 50 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.gotchard.ufo-x","color":"yellow"}," ",{"translate":"sound.kamenridercraft.gotchard.super","color":"blue"}]
 execute if score @s krc.seq1 matches 121 if score @s krc.form1n matches 50 run scoreboard players set @s krc.seq1 341
 execute if score @s krc.seq1 matches 140 if score @s krc.form1n matches 51 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.gotchard.x-rex","color":"red"}," ",{"translate":"sound.kamenridercraft.gotchard.super","color":"blue"}]
@@ -147,7 +147,7 @@ execute if score @s krc.seq1 matches 4 if score @s krc.form1n matches 53..56 run
 execute if score @s krc.seq1 matches 6 if score @s krc.form1n matches 53..56 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko_fire"}
 execute if score @s krc.seq1 matches 8 if score @s krc.form1n matches 53..56 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko_fire","color":"dark_gray"}
 execute if score @s krc.seq1 matches 10 if score @s krc.form1n matches 53..56 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko_fire"}
-execute if score @s krc.seq1 matches 34 if score @s krc.form1n matches 53..56 run playsound kamenridercraft:gotchanko_fire player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 34 if score @s krc.form1n matches 53..56 run function krc_snd:play_global {name:"kamenridercraft:gotchanko_fire",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 34 if score @s krc.form1n matches 53..56 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko_fire","color":"red"}
 execute if score @s krc.seq1 matches 36 if score @s krc.form1n matches 53..56 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko_fire","color":"gold"}
 execute if score @s krc.seq1 matches 38 if score @s krc.form1n matches 53..56 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko_fire","color":"yellow"}
@@ -178,10 +178,10 @@ execute if score @s krc.seq1 matches 86 if score @s krc.form1n matches 53..56 ru
 execute if score @s krc.seq1 matches 88 if score @s krc.form1n matches 53..56 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko_fire","color":"red","obfuscated":true}
 execute if score @s krc.seq1 matches 90 if score @s krc.form1n matches 53..56 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko_fire","color":"dark_red","obfuscated":true}
 execute if score @s krc.seq1 matches 92 if score @s krc.form1n matches 53..56 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko_fire","color":"black","obfuscated":true}
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 53 run playsound kamenridercraft:fire_gotchard_steamhopper player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 54 run playsound kamenridercraft:fire_gotchard_appareskebow player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 55 run playsound kamenridercraft:fire_gotchard_antwrestler player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 56 run playsound kamenridercraft:fire_gotchard_exceed_mighty player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 53 run function krc_snd:play_global {name:"kamenridercraft:fire_gotchard_steamhopper",scope:"henshin_snd"}
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 54 run function krc_snd:play_global {name:"kamenridercraft:fire_gotchard_appareskebow",scope:"henshin_snd"}
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 55 run function krc_snd:play_global {name:"kamenridercraft:fire_gotchard_antwrestler",scope:"henshin_snd"}
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 56 run function krc_snd:play_global {name:"kamenridercraft:fire_gotchard_exceed_mighty",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 106 if score @s krc.form1n matches 53 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.gotchard.steamhopper","color":"aqua"}," ",{"translate":"sound.kamenridercraft.gotchard.achi","color":"red"}]
 execute if score @s krc.seq1 matches 106 if score @s krc.form1n matches 53 run scoreboard players set @s krc.seq1 341
 execute if score @s krc.seq1 matches 104 if score @s krc.form1n matches 54 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.gotchard.appareskebow","color":"red"}," ",{"translate":"sound.kamenridercraft.gotchard.achi","color":"red"}]
@@ -189,7 +189,7 @@ execute if score @s krc.seq1 matches 104 if score @s krc.form1n matches 55 run t
 execute if score @s krc.seq1 matches 104 if score @s krc.form1n matches 54..55 run scoreboard players set @s krc.seq1 341
 execute if score @s krc.seq1 matches 122 if score @s krc.form1n matches 56 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.general.kamen_rider","color":"gold"}," ",{"translate":"sound.kamenridercraft.gotchard.achi","color":"red"}]
 execute if score @s krc.seq1 matches 122 if score @s krc.form1n matches 56 run scoreboard players set @s krc.seq1 341
-execute if score @s krc.seq1 matches 70 if score @s krc.form1n matches 57 run playsound kamenridercraft:iron_gotchard player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 70 if score @s krc.form1n matches 57 run function krc_snd:play_global {name:"kamenridercraft:iron_gotchard",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 70 if score @s krc.form1n matches 57 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","color":"aqua","obfuscated":true}
 execute if score @s krc.seq1 matches 73 if score @s krc.form1n matches 57 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","color":"yellow","obfuscated":true}
 execute if score @s krc.seq1 matches 76 if score @s krc.form1n matches 57 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","color":"aqua","obfuscated":true}
@@ -202,7 +202,7 @@ execute if score @s krc.seq1 matches 94 if score @s krc.form1n matches 57 run ti
 execute if score @s krc.seq1 matches 97 if score @s krc.form1n matches 57 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.shuppatsu_shinko","color":"aqua"}
 execute if score @s krc.seq1 matches 138 if score @s krc.form1n matches 57 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.iron_gotchard","color":"dark_gray"}
 execute if score @s krc.seq1 matches 138 if score @s krc.form1n matches 57 run scoreboard players set @s krc.seq1 341
-execute if score @s krc.seq1 matches 70 if score @s krc.form1n matches 58 run playsound kamenridercraft:platina_gotchard player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 70 if score @s krc.form1n matches 58 run function krc_snd:play_global {name:"kamenridercraft:platina_gotchard",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 70 if score @s krc.form1n matches 58 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","color":"dark_gray","obfuscated":true}
 execute if score @s krc.seq1 matches 73 if score @s krc.form1n matches 58 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","color":"white","obfuscated":true}
 execute if score @s krc.seq1 matches 76 if score @s krc.form1n matches 58 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","color":"dark_gray","obfuscated":true}
@@ -217,7 +217,7 @@ execute if score @s krc.seq1 matches 114 if score @s krc.form1n matches 58 run t
 execute if score @s krc.seq1 matches 131 if score @s krc.form1n matches 58 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.gotchard.gotcha","color":"yellow"}," ",{"translate":"sound.kamenridercraft.gotchard.gotcha","color":"white"}," ",{"translate":"sound.kamenridercraft.gotchard.gotcha","color":"aqua"}]
 execute if score @s krc.seq1 matches 161 if score @s krc.form1n matches 58 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.platina_gotchard","color":"white"}
 execute if score @s krc.seq1 matches 161 if score @s krc.form1n matches 58 run scoreboard players set @s krc.seq1 341
-execute if score @s krc.seq1 matches 69 if score @s krc.form1n matches 59 run playsound kamenridercraft:rainbow_gotchard player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 69 if score @s krc.form1n matches 59 run function krc_snd:play_global {name:"kamenridercraft:rainbow_gotchard",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 69 if score @s krc.form1n matches 59 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","color":"light_purple","obfuscated":true}
 execute if score @s krc.seq1 matches 71 if score @s krc.form1n matches 59 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","color":"red","obfuscated":true}
 execute if score @s krc.seq1 matches 73 if score @s krc.form1n matches 59 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","color":"gold","obfuscated":true}
@@ -282,7 +282,7 @@ execute if score @s krc.seq1 matches 335 if score @s krc.form1n matches 59 run t
 execute if score @s krc.seq1 matches 337 if score @s krc.form1n matches 59 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.gotchard.rainbow","color":"yellow"}," ",{"translate":"sound.kamenridercraft.gotchard.gotchard","color":"yellow"}]
 execute if score @s krc.seq1 matches 339 if score @s krc.form1n matches 59 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.gotchard.rainbow","color":"aqua"}," ",{"translate":"sound.kamenridercraft.gotchard.gotchard","color":"aqua"}]
 execute if score @s krc.seq1 matches 341 if score @s krc.form1n matches 59 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.gotchard.rainbow","color":"blue"}," ",{"translate":"sound.kamenridercraft.gotchard.gotchard","color":"blue"}]
-execute if score @s krc.seq1 matches 69 if score @s krc.form1n matches 60 run playsound kamenridercraft:miracle_gotchard player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 69 if score @s krc.form1n matches 60 run function krc_snd:play_global {name:"kamenridercraft:miracle_gotchard",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 69 if score @s krc.form1n matches 60 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","color":"red","obfuscated":true}
 execute if score @s krc.seq1 matches 71 if score @s krc.form1n matches 60 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","color":"gold","obfuscated":true}
 execute if score @s krc.seq1 matches 73 if score @s krc.form1n matches 60 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","color":"yellow","obfuscated":true}
@@ -322,7 +322,7 @@ execute if score @s krc.seq1 matches 199 if score @s krc.form1n matches 60 run t
 execute if score @s krc.seq1 matches 201 if score @s krc.form1n matches 60 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.gotchard.metcha","color":"aqua"}," ",{"translate":"sound.kamenridercraft.gotchard.gotcha","color":"yellow"}," ",{"translate":"sound.kamenridercraft.gotchard.together","color":"aqua"}]
 execute if score @s krc.seq1 matches 221 if score @s krc.form1n matches 60 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.miracle_gotchard","color":"aqua"}
 execute if score @s krc.seq1 matches 221 if score @s krc.form1n matches 60 run scoreboard players set @s krc.seq1 341
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 61 run playsound kamenridercraft:ultima_steamhopper player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 61 run function krc_snd:play_global {name:"kamenridercraft:ultima_steamhopper",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 61 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.steamhopper","color":"aqua"}
 execute if score @s krc.seq1 matches 112 if score @s krc.form1n matches 61 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.steamhopper","color":"aqua"}
 execute if score @s krc.seq1 matches 152 if score @s krc.form1n matches 61 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.steamhopper","color":"aqua"}
@@ -342,7 +342,7 @@ execute if score @s krc.seq1 matches 208 if score @s krc.form1n matches 61 run t
 execute if score @s krc.seq1 matches 209 if score @s krc.form1n matches 61 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.ultima","color":"light_purple","obfuscated":true}
 execute if score @s krc.seq1 matches 210 if score @s krc.form1n matches 61 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.ultima","color":"red"}
 execute if score @s krc.seq1 matches 210 if score @s krc.form1n matches 61 run scoreboard players set @s krc.seq1 341
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 62 run playsound kamenridercraft:legendliner player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 62 run function krc_snd:play_global {name:"kamenridercraft:legendliner",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 62 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","color":"yellow","obfuscated":true}
 execute if score @s krc.seq1 matches 74 if score @s krc.form1n matches 62 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","color":"gold","obfuscated":true}
 execute if score @s krc.seq1 matches 76 if score @s krc.form1n matches 62 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.gotchanko","color":"yellow","obfuscated":true}
@@ -356,12 +356,12 @@ execute if score @s krc.seq1 matches 135 if score @s krc.form1n matches 62 run t
 execute if score @s krc.seq1 matches 147 if score @s krc.form1n matches 62 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.gotchard.legendliner_1","color":"yellow"}," ",{"translate":"sound.kamenridercraft.gotchard.legendliner_2","color":"yellow"}]
 execute if score @s krc.seq1 matches 180 if score @s krc.form1n matches 62 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.legendliner_3","color":"yellow"}
 execute if score @s krc.seq1 matches 180 if score @s krc.form1n matches 62 run scoreboard players set @s krc.seq1 341
-execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 63 run playsound kamenridercraft:sushihopper player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 63 run function krc_snd:play_global {name:"kamenridercraft:sushihopper",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 63 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.sushihopper_1","color":"aqua"}
 execute if score @s krc.seq1 matches 145 if score @s krc.form1n matches 63 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.sushihopper_2","color":"gold"}
 execute if score @s krc.seq1 matches 145 if score @s krc.form1n matches 63 run scoreboard players add @s krc.seq1 21
 
-execute unless score @s krc.form1n matches 36..46 unless score @s krc.form1n matches 50..62 if score @s krc.seq1 matches 224.. run playsound kamenridercraft:gotchard_basic player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute unless score @s krc.form1n matches 36..46 unless score @s krc.form1n matches 50..62 if score @s krc.seq1 matches 224.. run function krc_snd:play_global {name:"kamenridercraft:gotchard_basic",scope:"henshin_snd"}
 execute unless score @s krc.form1n matches 36..46 unless score @s krc.form1n matches 50..62 if score @s krc.seq1 matches 224.. run scoreboard players set @s krc.seq1 341
 
 execute if score @s krc.seq1 matches ..340 run return 0
