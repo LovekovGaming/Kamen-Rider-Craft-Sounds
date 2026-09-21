@@ -11,13 +11,13 @@ execute if score Form_Difference krc.form2n matches 1 run tag @s remove breast_c
 execute if score Form_Difference krc.form3n matches 1 run tag @s remove crane_arm
 execute if score Form_Difference krc.form4n matches 1 run tag @s remove cutter_wing
 execute unless score Form_Difference krc.form2n matches 1 unless score Form_Difference krc.form3n matches 1 unless score Form_Difference krc.form4n matches 1 run advancement grant @s only krc_snd:henshin/ooo/birth_seq 1
-execute unless score Form_Difference krc.form2n matches 1 unless score Form_Difference krc.form3n matches 1 unless score Form_Difference krc.form4n matches 1 run playsound kamenridercraft:birth_knob_turn player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute unless score Form_Difference krc.form2n matches 1 unless score Form_Difference krc.form3n matches 1 unless score Form_Difference krc.form4n matches 1 run playsound kamenridercraft:birth_knob_turn player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute unless entity @s[advancements={krc_core:player_transformed=false}] run tag @s add birth_claws
 execute unless entity @s[advancements={krc_core:player_transformed=false}] if score Form_Difference krc.form2n matches -1 run tag @s add breast_cannon
 execute unless entity @s[advancements={krc_core:player_transformed=false}] if score Form_Difference krc.form3n matches -1 run tag @s add crane_arm
 execute unless entity @s[advancements={krc_core:player_transformed=false}] if score Form_Difference krc.form4n matches -1 run tag @s add cutter_wing
 
-execute if entity @s[advancements={krc_core:player_transformed=false}] run playsound kamenridercraft:birth_knob_turn player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if entity @s[advancements={krc_core:player_transformed=false}] run playsound kamenridercraft:birth_knob_turn player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
 advancement grant @s only krc_snd:henshin/common/detransform_root

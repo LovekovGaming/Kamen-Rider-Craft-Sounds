@@ -1,5 +1,5 @@
 execute if score @s krc.configs.grand_zio matches 1 if score @s krc.seq1 matches 72 run scoreboard players set @s krc.seq1 431
-execute if score @s krc.seq1 matches 72 run playsound kamenridercraft:grandzi-o_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 72 run playsound kamenridercraft:grandzi-o_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 72 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"###","color":"black"},{"text":"N","color":"red"},"||"]
 execute if score @s krc.seq1 matches 74 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"##","color":"black"},{"text":"NE","color":"red"},"||"]
 execute if score @s krc.seq1 matches 76 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"#","color":"black"},{"text":"NEW","color":"gold"},"||"]
@@ -40,7 +40,7 @@ execute if score @s krc.seq1 matches 363 run title @a[scores={krc.configs.sound_
 execute if score @s krc.seq1 matches 377 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["","||",{"text":"2015","color":"gold"},"|| ",{"translate":"sound.kamenridercraft.general.ex-aid","color":"light_purple"}," ",{"translate":"sound.kamenridercraft.zi-o.build","color":"black","obfuscated":true}]
 execute if score @s krc.seq1 matches 397 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["","||",{"text":"2015","color":"gold"},"|| ||",{"text":"2016","color":"light_purple"},"|| ",{"translate":"sound.kamenridercraft.general.build","color":"red"}]
 execute if score @s krc.seq1 matches 416 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["","||",{"text":"2015","color":"gold"},"|| ||",{"text":"2016","color":"light_purple"},"|| ||",{"text":"2017","color":"red"},"||"]
-execute if score @s krc.configs.grand_zio matches 1 if score @s krc.seq1 matches 431 run playsound kamenridercraft:grandzi-o_form_short player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.configs.grand_zio matches 1 if score @s krc.seq1 matches 431 run playsound kamenridercraft:grandzi-o_form_short player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 431 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["","||",{"text":"IWAE","color":"green"},"|| ",{"translate":"sound.kamenridercraft.general.kamen_rider","color":"black","obfuscated":true}," ||",{"text":"IWAE","color":"green"},"||"]
 execute if score @s krc.seq1 matches 450 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["","||",{"text":"1971","color":"green"},"|| ",{"translate":"sound.kamenridercraft.general.kamen_rider","color":"green"}," ||",{"text":"1971","color":"green"},"||"]
 execute if score @s krc.seq1 matches 451 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["","||",{"text":"1972","color":"green"},"|| ",{"translate":"sound.kamenridercraft.general.kamen_rider","color":"green"}," ||",{"text":"1972","color":"green"},"||"]

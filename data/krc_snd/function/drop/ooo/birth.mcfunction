@@ -5,7 +5,7 @@ execute if predicate krc_core:heisei/ooo_armor as @n[type=item,distance=..5,pred
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 execute if score @s krc.henshin-stage matches 3.. run scoreboard players reset @s krc.henshin-stage
 
-execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:birth_medal_in player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:birth_medal_in player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/ooo/birth_standby 1
 execute if score @s krc.configs.birth_sb matches 0 if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run tag @s add no_standby
 

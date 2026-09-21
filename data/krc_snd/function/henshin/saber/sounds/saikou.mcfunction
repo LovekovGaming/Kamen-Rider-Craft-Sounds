@@ -1,14 +1,14 @@
 advancement revoke @s only krc_snd:henshin/saber/saikou_seq 2
 scoreboard players add @s krc.seq1 1
 
-execute if score @s krc.seq1 matches 65 if score @s krc.form1n matches 0 run playsound kamenridercraft:saikou_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 65 if score @s krc.form1n matches 0 run playsound kamenridercraft:saikou_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 102 if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.kin_no_buki_gin_no_buki_1","color":"yellow"}
 execute if score @s krc.seq1 matches 181 if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.kin_no_buki_gin_no_buki_2","color":"black","obfuscated":true}
 execute if score @s krc.seq1 matches 221 if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.kin_no_buki_gin_no_buki_2","color":"black","obfuscated":true}
 execute if score @s krc.seq1 matches 261 if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.kin_no_buki_gin_no_buki_2","color":"black","obfuscated":true}
 execute if score @s krc.seq1 matches 298 if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.kin_no_buki_gin_no_buki_2","color":"white"}
 execute if score @s krc.seq1 matches 298 if score @s krc.form1n matches 0 run scoreboard players set @s krc.seq1 332
-execute if score @s krc.seq1 matches 65 if score @s krc.form1n matches 1 run playsound kamenridercraft:saikou_shadow player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 65 if score @s krc.form1n matches 1 run playsound kamenridercraft:saikou_shadow player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 80 if score @s krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.saikou_shadow_1","color":"gray"}
 execute if score @s krc.seq1 matches 125 if score @s krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.saikou_shadow_2","color":"black","obfuscated":true}
 execute if score @s krc.seq1 matches 165 if score @s krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.saikou_shadow_2","color":"black","obfuscated":true}

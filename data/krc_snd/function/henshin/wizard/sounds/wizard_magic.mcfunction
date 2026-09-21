@@ -1,12 +1,12 @@
 advancement revoke @s only krc_snd:henshin/wizard/wizard_magic_seq 2
 scoreboard players add @s krc.seq1 1
 
-execute if score @s[tag=kick_strike] krc.seq1 matches 17 run playsound kamenridercraft:kick_strike_ring player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s[tag=gravity] krc.seq1 matches 17 run playsound kamenridercraft:gravity_ring player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s[tag=blizzard] krc.seq1 matches 17 run playsound kamenridercraft:blizzard_ring player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s[tag=thunder] krc.seq1 matches 17 run playsound kamenridercraft:thunder_ring player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s[tag=!saikou] krc.seq1 matches 44 run playsound kamenridercraft:wizardriver_please player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s[tag=saikou] krc.seq1 matches 44 run playsound kamenridercraft:wizardriver_saikou player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s[tag=kick_strike] krc.seq1 matches 17 run playsound kamenridercraft:kick_strike_ring player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[tag=gravity] krc.seq1 matches 17 run playsound kamenridercraft:gravity_ring player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[tag=blizzard] krc.seq1 matches 17 run playsound kamenridercraft:blizzard_ring player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[tag=thunder] krc.seq1 matches 17 run playsound kamenridercraft:thunder_ring player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[tag=!saikou] krc.seq1 matches 44 run playsound kamenridercraft:wizardriver_please player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[tag=saikou] krc.seq1 matches 44 run playsound kamenridercraft:wizardriver_saikou player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s[tag=light] krc.seq1 matches 44 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.wizard.light","color":"gold"}," ",{"translate":"sound.kamenridercraft.wizard.please"}]
 execute if score @s[tag=excite] krc.seq1 matches 44 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.wizard.excite","color":"gold"}," ",{"translate":"sound.kamenridercraft.wizard.please"}]
 execute if score @s[tag=sleep] krc.seq1 matches 44 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.wizard.sleep","color":"gold"}," ",{"translate":"sound.kamenridercraft.wizard.please"}]
@@ -33,30 +33,30 @@ execute if score @s[tag=flower] krc.seq1 matches 44 run title @a[scores={krc.con
 execute if score @s[tag=time] krc.seq1 matches 44 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.wizard.time","color":"blue"}," ",{"translate":"sound.kamenridercraft.wizard.please"}]
 
 execute if score @s krc.seq1 matches ..76 run return 0
-execute if entity @s[tag=light] run playsound kamenridercraft:light_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=excite] run playsound kamenridercraft:excite_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=sleep] run playsound kamenridercraft:sleep_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=kick_strike] run playsound kamenridercraft:kick_strike_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=defend] run playsound kamenridercraft:defend_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=thunder] run playsound kamenridercraft:thunder_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=explosion] run playsound kamenridercraft:explosion_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=bind] run playsound kamenridercraft:bind_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=teleport] run playsound kamenridercraft:teleport_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=fall] run playsound kamenridercraft:fall_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=connect] run playsound kamenridercraft:connect_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=eclipse] run playsound kamenridercraft:explosion_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=liquid] run playsound kamenridercraft:liquid_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=drill] run playsound kamenridercraft:drill_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=big] run playsound kamenridercraft:big_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=small] run playsound kamenridercraft:small_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=copy] run playsound kamenridercraft:copy_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=smell] run playsound kamenridercraft:smell_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=extend] run playsound kamenridercraft:extend_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=merry_christmas] run playsound kamenridercraft:merry_christmas_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=blizzard] run playsound kamenridercraft:blizzard_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=gravity] run playsound kamenridercraft:gravity_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=flower] run playsound kamenridercraft:flower_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=time] run playsound kamenridercraft:time_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if entity @s[tag=light] run playsound kamenridercraft:light_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=excite] run playsound kamenridercraft:excite_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=sleep] run playsound kamenridercraft:sleep_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=kick_strike] run playsound kamenridercraft:kick_strike_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=defend] run playsound kamenridercraft:defend_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=thunder] run playsound kamenridercraft:thunder_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=explosion] run playsound kamenridercraft:explosion_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=bind] run playsound kamenridercraft:bind_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=teleport] run playsound kamenridercraft:teleport_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=fall] run playsound kamenridercraft:fall_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=connect] run playsound kamenridercraft:connect_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=eclipse] run playsound kamenridercraft:explosion_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=liquid] run playsound kamenridercraft:liquid_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=drill] run playsound kamenridercraft:drill_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=big] run playsound kamenridercraft:big_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=small] run playsound kamenridercraft:small_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=copy] run playsound kamenridercraft:copy_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=smell] run playsound kamenridercraft:smell_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=extend] run playsound kamenridercraft:extend_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=merry_christmas] run playsound kamenridercraft:merry_christmas_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=blizzard] run playsound kamenridercraft:blizzard_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=gravity] run playsound kamenridercraft:gravity_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=flower] run playsound kamenridercraft:flower_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=time] run playsound kamenridercraft:time_ring_effect player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 scoreboard players set @s krc.seq1 0
 tag @s remove saikou
 tag @s remove light

@@ -10,14 +10,14 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:agito_burning
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:agito_shining
 
-execute if score @s krc.form1n matches 0.. unless score @s krc.form1n matches 1..5 run playsound kamenridercraft:agito_ground player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 1 run playsound kamenridercraft:agito_storm player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 2 run playsound kamenridercraft:agito_flame player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 3 if score Form_Difference krc.form1n matches -1 run playsound kamenridercraft:agito_storm player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 3 if score Form_Difference krc.form1n matches -2 run playsound kamenridercraft:agito_flame player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 3 unless score Form_Difference krc.form1n matches -2..-1 run playsound kamenridercraft:agito_trinity player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 4 run playsound kamenridercraft:agito_burning player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 5 run playsound kamenridercraft:agito_shining player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 0.. unless score @s krc.form1n matches 1..5 run playsound kamenridercraft:agito_ground player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 1 run playsound kamenridercraft:agito_storm player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 2 run playsound kamenridercraft:agito_flame player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 3 if score Form_Difference krc.form1n matches -1 run playsound kamenridercraft:agito_storm player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 3 if score Form_Difference krc.form1n matches -2 run playsound kamenridercraft:agito_flame player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 3 unless score Form_Difference krc.form1n matches -2..-1 run playsound kamenridercraft:agito_trinity player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 4 run playsound kamenridercraft:agito_burning player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 5 run playsound kamenridercraft:agito_shining player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
 advancement grant @s only krc_snd:henshin/common/detransform_root

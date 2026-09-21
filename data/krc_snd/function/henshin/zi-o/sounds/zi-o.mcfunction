@@ -1,16 +1,16 @@
 advancement revoke @s only krc_snd:henshin/zi-o/zi-o_seq 2
 scoreboard players add @s krc.seq1 1
 
-execute if score @s krc.seq1 matches 14 unless score @s krc.form1n matches 18..26 unless score @s krc.form1n matches 28 run playsound kamenridercraft:zi-o_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 14 unless score @s krc.form1n matches 18..26 unless score @s krc.form1n matches 28 run playsound kamenridercraft:zi-o_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 14 unless score @s krc.form1n matches 18..29 run scoreboard players set @s krc.seq1 136
-execute if score @s krc.seq1 matches 28 unless score @s krc.form1n matches 18..29 run playsound kamenridercraft:zi-o_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 48 unless score @s krc.form1n matches 18..29 run playsound kamenridercraft:rider_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 28 unless score @s krc.form1n matches 18..29 run playsound kamenridercraft:zi-o_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 48 unless score @s krc.form1n matches 18..29 run playsound kamenridercraft:rider_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 48 unless score @s krc.form1n matches 18..29 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.rider_time","color":"light_purple"}
-execute if score @s krc.seq1 matches 82 unless score @s krc.form1n matches 18..29 run playsound kamenridercraft:zi-o_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 82 unless score @s krc.form1n matches 18..29 run playsound kamenridercraft:zi-o_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 91 unless score @s krc.form1n matches 18..29 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.zi-o","color":"light_purple"}
-execute if score @s krc.seq1 matches 14 if score @s krc.form1n matches 26 run playsound kamenridercraft:rider_time_ii player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 14 if score @s krc.form1n matches 26 run playsound kamenridercraft:rider_time_ii player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 42 if score @s krc.form1n matches 26 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.rider_time_ii","color":"light_purple"}
-execute if score @s krc.seq1 matches 75 if score @s krc.form1n matches 26 run playsound kamenridercraft:zi-o_ii_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 75 if score @s krc.form1n matches 26 run playsound kamenridercraft:zi-o_ii_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 87 if score @s krc.form1n matches 26 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.zi-o_ii_1","color":"light_purple"}
 execute if score @s krc.seq1 matches 116 if score @s krc.form1n matches 26 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.zi-o_ii_1","color":"yellow"}
 execute if score @s krc.seq1 matches 139 if score @s krc.form1n matches 26 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.zi-o_ii_2","color":"white"}
@@ -19,15 +19,15 @@ execute if score @s krc.seq1 matches 165 if score @s krc.form1n matches 26 run t
 execute if score @s krc.seq1 matches 183 if score @s krc.form1n matches 26 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.zi-o_ii_3","color":"yellow"}
 execute if score @s krc.seq1 matches 203 if score @s krc.form1n matches 26 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"NEXT","color":"green"},"||"]
 execute if score @s krc.seq1 matches 203 if score @s krc.form1n matches 26 run scoreboard players set @s krc.seq1 635
-execute if score @s[tag=solo_time] krc.seq1 matches 34 if score @s krc.form1n matches 27 run playsound kamenridercraft:solo_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s[tag=duo_time] krc.seq1 matches 34 if score @s krc.form1n matches 27 run playsound kamenridercraft:duo_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s[tag=!solo_time,tag=!duo_time] krc.seq1 matches 34 if score @s krc.form1n matches 27 run playsound kamenridercraft:trinity_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s[tag=solo_time] krc.seq1 matches 34 if score @s krc.form1n matches 27 run playsound kamenridercraft:solo_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[tag=duo_time] krc.seq1 matches 34 if score @s krc.form1n matches 27 run playsound kamenridercraft:duo_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[tag=!solo_time,tag=!duo_time] krc.seq1 matches 34 if score @s krc.form1n matches 27 run playsound kamenridercraft:trinity_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s[tag=solo_time] krc.seq1 matches 34 if score @s krc.form1n matches 27 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.solo_time","color":"light_purple"}
 execute if score @s[tag=duo_time] krc.seq1 matches 34 if score @s krc.form1n matches 27 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.duo_time","color":"light_purple"}
 execute if score @s[tag=!solo_time,tag=!duo_time] krc.seq1 matches 34 if score @s krc.form1n matches 27 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.trinity_time","color":"light_purple"}
-execute if score @s[tag=solo_time] krc.seq1 matches 62 if score @s krc.form1n matches 27 run playsound kamenridercraft:zi-o_trinity_solo player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s[tag=duo_time] krc.seq1 matches 62 if score @s krc.form1n matches 27 run playsound kamenridercraft:zi-o_trinity_duo player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s[tag=!solo_time,tag=!duo_time] krc.seq1 matches 62 if score @s krc.form1n matches 27 run playsound kamenridercraft:zi-o_trinity_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s[tag=solo_time] krc.seq1 matches 62 if score @s krc.form1n matches 27 run playsound kamenridercraft:zi-o_trinity_solo player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[tag=duo_time] krc.seq1 matches 62 if score @s krc.form1n matches 27 run playsound kamenridercraft:zi-o_trinity_duo player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[tag=!solo_time,tag=!duo_time] krc.seq1 matches 62 if score @s krc.form1n matches 27 run playsound kamenridercraft:zi-o_trinity_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s[tag=!solo_time,tag=!duo_time] krc.seq1 matches 70 if score @s krc.form1n matches 27 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.zi-o.zi-o_trinity_1","color":"light_purple"}," ",{"translate":"sound.kamenridercraft.zi-o.zi-o","color":"light_purple"}," ",{"translate":"sound.kamenridercraft.zi-o.geiz_watch","color":"black","obfuscated":true}," ",{"translate":"sound.kamenridercraft.zi-o.woz_watch","color":"black","obfuscated":true}]
 execute if score @s[tag=!solo_time,tag=!duo_time] krc.seq1 matches 110 if score @s krc.form1n matches 27 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.zi-o.zi-o_trinity_1","color":"light_purple"}," ",{"translate":"sound.kamenridercraft.zi-o.zi-o","color":"light_purple"}," ",{"translate":"sound.kamenridercraft.zi-o.geiz_watch","color":"black","obfuscated":true}," ",{"translate":"sound.kamenridercraft.zi-o.woz_watch","color":"black","obfuscated":true}]
 execute if score @s[tag=!solo_time,tag=!duo_time] krc.seq1 matches 134 if score @s krc.form1n matches 27 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.zi-o.zi-o_trinity_1","color":"yellow"}," ",{"translate":"sound.kamenridercraft.zi-o.zi-o","color":"light_purple"}," ",{"translate":"sound.kamenridercraft.zi-o.geiz_watch","color":"yellow"}," ",{"translate":"sound.kamenridercraft.zi-o.woz_watch","color":"green"}]
@@ -45,13 +45,13 @@ execute if score @s[tag=!solo_time,tag=!duo_time] krc.seq1 matches 226 if score 
 execute if score @s[tag=!solo_time,tag=!duo_time] krc.seq1 matches 229 if score @s krc.form1n matches 27 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.zi-o.zi-o_trinity_2","color":"green"}]
 execute if score @s[tag=!solo_time,tag=!duo_time] krc.seq1 matches 234 if score @s krc.form1n matches 27 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.zi-o.zi-o_trinity_3","color":"light_purple"}]
 execute if score @s[tag=!solo_time,tag=!duo_time] krc.seq1 matches 234 if score @s krc.form1n matches 27 run scoreboard players set @s krc.seq1 635
-execute if score @s krc.seq1 matches 14 if score @s krc.form1n matches 28 run playsound kamenridercraft:grandzi-o_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 40 if score @s krc.form1n matches 28 run playsound kamenridercraft:grand_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 14 if score @s krc.form1n matches 28 run playsound kamenridercraft:grandzi-o_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 40 if score @s krc.form1n matches 28 run playsound kamenridercraft:grand_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 40 if score @s krc.form1n matches 28 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.grand_time","color":"yellow"}
 execute if score @s krc.seq1 matches 72.. if score @s krc.form1n matches 28 run function krc_snd:henshin/zi-o/sounds/armor/grandzi-o
-execute if score @s krc.seq1 matches 34 if score @s krc.form1n matches 29 run playsound kamenridercraft:king_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 34 if score @s krc.form1n matches 29 run playsound kamenridercraft:king_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 34 if score @s krc.form1n matches 29 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.king_time","color":"gold"}
-execute if score @s krc.seq1 matches 57 if score @s krc.form1n matches 29 run playsound kamenridercraft:ohma_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 57 if score @s krc.form1n matches 29 run playsound kamenridercraft:ohma_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 57 if score @s krc.form1n matches 29 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"###","color":"black"},{"text":"F","color":"red"},"||"]
 execute if score @s krc.seq1 matches 60 if score @s krc.form1n matches 29 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"##","color":"black"},{"text":"FU","color":"red"},"||"]
 execute if score @s krc.seq1 matches 63 if score @s krc.form1n matches 29 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"#","color":"black"},{"text":"FUT","color":"gold"},"||"]
@@ -68,7 +68,7 @@ execute if score @s krc.seq1 matches 180 if score @s krc.form1n matches 29 run s
 execute if score @s krc.seq1 matches 186 if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"2018","color":"light_purple"},"||"]
 execute if score @s krc.seq1 matches 186 if score @s krc.form1n matches 0 run scoreboard players set @s krc.seq1 635
 
-execute if score @s krc.seq1 matches 156 if score @s krc.form1n matches 1..17 run playsound kamenridercraft:armor_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 156 if score @s krc.form1n matches 1..17 run playsound kamenridercraft:armor_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 156 if score @s krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.armor_time","color":"red"}
 execute if score @s krc.seq1 matches 156 if score @s krc.form1n matches 2 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.armor_time","color":"light_purple"}
 execute if score @s krc.seq1 matches 156 if score @s krc.form1n matches 3..5 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.armor_time","color":"gold"}
@@ -99,20 +99,20 @@ execute if score @s krc.seq1 matches 192.. if score @s krc.form1n matches 15 run
 execute if score @s krc.seq1 matches 192.. if score @s krc.form1n matches 16 run function krc_snd:henshin/zi-o/sounds/armor/woz
 execute if score @s krc.seq1 matches 192.. if score @s krc.form1n matches 17 run function krc_snd:henshin/zi-o/sounds/armor/decade
 
-execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 18 run playsound kamenridercraft:fft_kamen_rider player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 19 run playsound kamenridercraft:fft_build player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 18 run playsound kamenridercraft:fft_kamen_rider player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 19 run playsound kamenridercraft:fft_build player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 19 run scoreboard players add @s krc.seq1 8
-execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 20..21 run playsound kamenridercraft:fft_ex-aid player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 20..21 run playsound kamenridercraft:fft_ex-aid player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 20..21 run scoreboard players add @s krc.seq1 5
-execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 22 run playsound kamenridercraft:fft_ghost player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 22 run playsound kamenridercraft:fft_ghost player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 22 run scoreboard players add @s krc.seq1 5
-execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 23 run playsound kamenridercraft:fft_ooo player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 23 run playsound kamenridercraft:fft_ooo player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 23 run scoreboard players add @s krc.seq1 7
-execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 24 run playsound kamenridercraft:fft_faiz player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 24 run playsound kamenridercraft:fft_faiz player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 24 run scoreboard players add @s krc.seq1 5
-execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 25 run playsound kamenridercraft:fft_ryuki player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 25 run playsound kamenridercraft:fft_ryuki player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 32 if score @s krc.form1n matches 25 run scoreboard players add @s krc.seq1 5
-execute if score @s krc.seq1 matches 63 if score @s krc.form1n matches 18..25 run playsound kamenridercraft:decadearmor_change player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 63 if score @s krc.form1n matches 18..25 run playsound kamenridercraft:decadearmor_change player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 63 if score @s krc.form1n matches 18..25 run scoreboard players set @s krc.seq1 635
 
 execute if score @s krc.seq1 matches ..634 run return 0

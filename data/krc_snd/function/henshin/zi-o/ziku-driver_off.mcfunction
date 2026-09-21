@@ -5,4 +5,4 @@ tag @s remove solo_time
 tag @s remove duo_time
 tag @s remove short_sound
 function krc_snd:henshin/reset_sound
-playsound kamenridercraft:zi-o_detransform player @a[scores={krc.configs.detransform_snd=1}] ~ ~1 ~
+playsound kamenridercraft:zi-o_detransform player @a[scores={krc.configs.detransform_snd=1}] ~ ~1 ~ 3

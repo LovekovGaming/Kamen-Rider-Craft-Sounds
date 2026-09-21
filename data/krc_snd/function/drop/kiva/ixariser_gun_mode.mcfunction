@@ -1,2 +1,2 @@
-execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:ixariser run playsound kamenridercraft:ixariser_gun_mode player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:ixariser run playsound kamenridercraft:ixariser_gun_mode player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:ixariser run function krc_snd:drop/common/return_item

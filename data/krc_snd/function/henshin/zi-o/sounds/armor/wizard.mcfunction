@@ -1,4 +1,4 @@
-execute if score @s krc.seq1 matches 192 run playsound kamenridercraft:wizardarmor player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 192 run playsound kamenridercraft:wizardarmor player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 192 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"###","color":"black"},{"text":"W","color":"red"},"||"]
 execute if score @s krc.seq1 matches 195 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"##","color":"black"},{"text":"WI","color":"red"},"||"]
 execute if score @s krc.seq1 matches 198 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"#","color":"black"},{"text":"WIZ","color":"red"},"||"]

@@ -2,7 +2,7 @@ execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] 
 execute if score @s krc.henshin-stage matches 3.. run scoreboard players reset @s krc.henshin-stage
 
 execute if score @s krc.henshin-stage matches 1 unless predicate krc_core:sneaking if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:providence_card_gazer run scoreboard players add @s krc.henshin-stage 1
-execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:providence_card_gazer run playsound kamenridercraft:gazer_login player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:providence_card_gazer run playsound kamenridercraft:gazer_login player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:providence_card_gazer run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.geats.gazer","color":"light_purple"}," ",{"translate":"sound.kamenridercraft.geats.log_in","color":"light_purple"}]
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:providence_card_gazer run advancement grant @s only krc_snd:henshin/geats/gazer_standby 1
 

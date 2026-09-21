@@ -8,7 +8,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 advancement grant @s only krc_snd:henshin/geats/ziin_seq 1
 advancement revoke @s only krc_snd:henshin/geats/laser_raise_riser_standby
 scoreboard players set @s krc.seq1 0
-playsound kamenridercraft:laser_on player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+playsound kamenridercraft:laser_on player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.geats.laser_on","color":"blue"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

@@ -1,7 +1,7 @@
 advancement revoke @s only krc_snd:henshin/ghost/kanon_specter_seq 2
 scoreboard players add @s krc.seq1 1
 
-execute if score @s krc.seq1 matches 29 run playsound kamenridercraft:kaigan player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 29 run playsound kamenridercraft:kaigan player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 29 if score @s krc.form2n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.ghost.kaigan"}," ",{"translate":"sound.kamenridercraft.ghost.special_ore_damashii_1","color":"light_purple"}]
 execute if score @s krc.seq1 matches 29 if score @s krc.form2n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.ghost.kaigan"}," ",{"translate":"sound.kamenridercraft.ghost.ore_damashii_1","color":"gold"}]
 execute if score @s krc.seq1 matches 29 if score @s krc.form2n matches 2 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.ghost.kaigan"}," ",{"translate":"sound.kamenridercraft.ghost.specter_damashii_1","color":"aqua"}]
@@ -64,61 +64,61 @@ execute if score @s krc.seq1 matches 29 if score @s krc.form2n matches 58 run ti
 execute if score @s krc.seq1 matches 29 if score @s krc.form2n matches 59 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.ghost.kaigan"}," ",{"translate":"sound.kamenridercraft.ghost.ore_damashii_1","color":"gold"}]
 execute if score @s krc.seq1 matches 29 if score @s krc.form2n matches 60 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.ghost.kaigan"}," ",{"translate":"sound.kamenridercraft.ghost.heisei_damashii_1","color":"light_purple"}]
 execute if score @s krc.seq1 matches 29 if score @s krc.form2n matches 61 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.ghost.kaigan"}," ",{"translate":"sound.kamenridercraft.ghost.ichigo_damashii_1","color":"green"}]
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 0 run playsound kamenridercraft:special_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 1..11 unless score @s krc.form2n matches 2..5 unless score @s krc.form2n matches 7..10 run playsound kamenridercraft:ore_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 2..5 unless score @s krc.form2n matches 3..4 run playsound kamenridercraft:specter_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 3..10 unless score @s krc.form2n matches 4..6 run playsound kamenridercraft:necrom_ghost player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 4 run playsound kamenridercraft:dark_rider_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 12 run playsound kamenridercraft:musashi_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 13 run playsound kamenridercraft:edison_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 14 run playsound kamenridercraft:robin_hood_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 15 run playsound kamenridercraft:newton_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 16 run playsound kamenridercraft:billy_the_kid_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 17 run playsound kamenridercraft:beethoven_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 18 run playsound kamenridercraft:benkei_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 19 run playsound kamenridercraft:goemon_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 20 run playsound kamenridercraft:ryoma_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 21 run playsound kamenridercraft:himiko_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 22 run playsound kamenridercraft:tutankhamun_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 23 run playsound kamenridercraft:nobunaga_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 24 run playsound kamenridercraft:houdini_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 25 run playsound kamenridercraft:grimm_eyecon_ghost player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 26 run playsound kamenridercraft:sanzo_eyecon_ghost player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 27 run playsound kamenridercraft:napoleon_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 28 run playsound kamenridercraft:darwin_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 29 run playsound kamenridercraft:ikkyu_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 30 run playsound kamenridercraft:pythagoras_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 31 run playsound kamenridercraft:santa_claus_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 32 run playsound kamenridercraft:nightingale_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 33 run playsound kamenridercraft:special_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 34 run playsound kamenridercraft:ore_specter_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 35 run playsound kamenridercraft:columbus_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 36 run playsound kamenridercraft:shakespeare_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 37 run playsound kamenridercraft:kamehameha_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 38 run playsound kamenridercraft:galileo_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 39 run playsound kamenridercraft:da_vinci_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 40 run playsound kamenridercraft:tenkatoitsu_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 41 run playsound kamenridercraft:shinsengumi_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 42 run playsound kamenridercraft:showa_rider_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 43 run playsound kamenridercraft:kuuga_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 44 run playsound kamenridercraft:agito_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 45 run playsound kamenridercraft:ryuki_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 46 run playsound kamenridercraft:faiz_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 47 run playsound kamenridercraft:blade_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 48 run playsound kamenridercraft:hibiki_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 49 run playsound kamenridercraft:kabuto_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 50 run playsound kamenridercraft:den-o_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 51 run playsound kamenridercraft:kiva_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 52 run playsound kamenridercraft:decade_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 53 run playsound kamenridercraft:double_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 54 run playsound kamenridercraft:ooo_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 55 run playsound kamenridercraft:fourze_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 56 run playsound kamenridercraft:wizard_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 57 run playsound kamenridercraft:gaim_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 58 run playsound kamenridercraft:drive_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 59 run playsound kamenridercraft:ore_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 60 run playsound kamenridercraft:heisei_rider_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 61 run playsound kamenridercraft:kamen_rider_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 0 run playsound kamenridercraft:special_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 1..11 unless score @s krc.form2n matches 2..5 unless score @s krc.form2n matches 7..10 run playsound kamenridercraft:ore_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 2..5 unless score @s krc.form2n matches 3..4 run playsound kamenridercraft:specter_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 3..10 unless score @s krc.form2n matches 4..6 run playsound kamenridercraft:necrom_ghost player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 4 run playsound kamenridercraft:dark_rider_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 12 run playsound kamenridercraft:musashi_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 13 run playsound kamenridercraft:edison_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 14 run playsound kamenridercraft:robin_hood_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 15 run playsound kamenridercraft:newton_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 16 run playsound kamenridercraft:billy_the_kid_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 17 run playsound kamenridercraft:beethoven_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 18 run playsound kamenridercraft:benkei_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 19 run playsound kamenridercraft:goemon_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 20 run playsound kamenridercraft:ryoma_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 21 run playsound kamenridercraft:himiko_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 22 run playsound kamenridercraft:tutankhamun_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 23 run playsound kamenridercraft:nobunaga_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 24 run playsound kamenridercraft:houdini_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 25 run playsound kamenridercraft:grimm_eyecon_ghost player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 26 run playsound kamenridercraft:sanzo_eyecon_ghost player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 27 run playsound kamenridercraft:napoleon_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 28 run playsound kamenridercraft:darwin_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 29 run playsound kamenridercraft:ikkyu_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 30 run playsound kamenridercraft:pythagoras_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 31 run playsound kamenridercraft:santa_claus_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 32 run playsound kamenridercraft:nightingale_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 33 run playsound kamenridercraft:special_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 34 run playsound kamenridercraft:ore_specter_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 35 run playsound kamenridercraft:columbus_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 36 run playsound kamenridercraft:shakespeare_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 37 run playsound kamenridercraft:kamehameha_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 38 run playsound kamenridercraft:galileo_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 39 run playsound kamenridercraft:da_vinci_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 40 run playsound kamenridercraft:tenkatoitsu_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 41 run playsound kamenridercraft:shinsengumi_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 42 run playsound kamenridercraft:showa_rider_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 43 run playsound kamenridercraft:kuuga_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 44 run playsound kamenridercraft:agito_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 45 run playsound kamenridercraft:ryuki_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 46 run playsound kamenridercraft:faiz_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 47 run playsound kamenridercraft:blade_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 48 run playsound kamenridercraft:hibiki_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 49 run playsound kamenridercraft:kabuto_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 50 run playsound kamenridercraft:den-o_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 51 run playsound kamenridercraft:kiva_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 52 run playsound kamenridercraft:decade_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 53 run playsound kamenridercraft:double_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 54 run playsound kamenridercraft:ooo_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 55 run playsound kamenridercraft:fourze_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 56 run playsound kamenridercraft:wizard_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 57 run playsound kamenridercraft:gaim_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 58 run playsound kamenridercraft:drive_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 59 run playsound kamenridercraft:ore_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 60 run playsound kamenridercraft:heisei_rider_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 46 if score @s krc.form2n matches 61 run playsound kamenridercraft:kamen_rider_eyecon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 90 if score @s krc.form2n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ghost.special_ore_damashii_2","color":"light_purple"}
 execute if score @s krc.seq1 matches 90 if score @s krc.form2n matches 0 run scoreboard players set @s krc.seq1 336
 execute if score @s krc.seq1 matches 76 if score @s krc.form2n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ghost.ore_damashii_2","color":"gold"}

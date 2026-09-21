@@ -10,7 +10,7 @@ execute if entity @n[type=minecraft:item,predicate=krc_snd:valid_item,tag=!sound
 execute if entity @n[type=minecraft:item,predicate=krc_snd:valid_item,tag=!sounded,distance=..2] run advancement revoke @s only krc_snd:henshin/zi-o/ridewatches
 execute if entity @n[type=minecraft:item,predicate=krc_snd:valid_item,tag=!sounded,distance=..2] run advancement grant @s only krc_snd:henshin/zi-o/ridewatches 1
 execute if entity @n[type=minecraft:item,predicate=krc_snd:valid_item,tag=!sounded,distance=..2] if score @s krc.configs.zio_summon matches 0 run advancement grant @s only krc_snd:henshin/zi-o/ridewatches finish
-execute if entity @n[type=minecraft:item,predicate=krc_snd:valid_item,tag=!sounded,distance=..2] run playsound kamenridercraft:grand_zi-o_summon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if entity @n[type=minecraft:item,predicate=krc_snd:valid_item,tag=!sounded,distance=..2] run playsound kamenridercraft:grand_zi-o_summon player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if items entity @n[type=minecraft:item,predicate=krc_snd:valid_item,tag=!sounded,distance=..2] contents kamenridercraft:dark_visor run advancement grant @s only krc_snd:henshin/zi-o/ridewatches knight
 execute if items entity @n[type=minecraft:item,predicate=krc_snd:valid_item,tag=!sounded,distance=..2] contents kamenridercraft:wing_lancer run advancement grant @s only krc_snd:henshin/zi-o/ridewatches knight
 execute if items entity @n[type=minecraft:item,predicate=krc_snd:valid_item,tag=!sounded,distance=..2] contents kamenridercraft:dark_blade run advancement grant @s only krc_snd:henshin/zi-o/ridewatches knight

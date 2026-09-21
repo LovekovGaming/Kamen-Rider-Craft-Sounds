@@ -8,7 +8,7 @@ execute if score @s krc.seq1 matches 6 run title @s[scores={krc.configs.sound_su
 execute if score @s krc.seq1 matches 7 run title @s[scores={krc.configs.sound_subs=1}] actionbar {"text":"S####i####y","color":"#fffd9e"}
 execute if score @s krc.seq1 matches 8 run title @s[scores={krc.configs.sound_subs=1}] actionbar {"text":"St##din##by","color":"#fffc7b"}
 execute if score @s krc.seq1 matches 9 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.faiz.standing_by","color":"yellow"}
-execute if score @s krc.seq1 matches 23 run playsound kamenridercraft:next_kaixa_standby player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 23 run playsound kamenridercraft:next_kaixa_standby player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 
 execute if score @s krc.seq1 matches ..32 run return 0
 scoreboard players set @s krc.seq1 22

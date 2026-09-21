@@ -2,8 +2,8 @@ advancement revoke @s only krc_snd:henshin/gotchard/dread_standby 2
 scoreboard players add @s krc.seq1 1
 
 execute if score @s krc.henshin-stage matches 1..5 unless score @s krc.henshin-stage matches 2 unless score @s krc.henshin-stage matches 4 if score @s krc.seq1 matches 18 run function krc_snd:henshin/gotchard/sounds/replichemy_cards
-execute if score @s krc.seq1 matches 47 if score @s krc.configs.dread_standby matches 0 run playsound kamenridercraft:dreadriver_standby_scan player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 47 if score @s krc.configs.dread_standby matches 1 run playsound kamenridercraft:dreadriver_standby_scan_alt player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 47 if score @s krc.configs.dread_standby matches 0 run playsound kamenridercraft:dreadriver_standby_scan player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 47 if score @s krc.configs.dread_standby matches 1 run playsound kamenridercraft:dreadriver_standby_scan_alt player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 47 if score @s krc.configs.dread_standby matches 1 run scoreboard players set @s krc.seq1 25
 
 execute if score @s krc.seq1 matches ..105 run return 0

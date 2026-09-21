@@ -3,7 +3,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:black_rx
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:rx_form_change
 
-execute if score @s krc.form1n matches 0 run playsound kamenridercraft:black_rx player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute unless score @s krc.form1n matches 0 run playsound kamenridercraft:rx_form_change player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 0 run playsound kamenridercraft:black_rx player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute unless score @s krc.form1n matches 0 run playsound kamenridercraft:rx_form_change player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

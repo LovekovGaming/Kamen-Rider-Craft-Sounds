@@ -5,7 +5,7 @@ advancement revoke @s from krc_snd:henshin/zero-one/standby_root
 advancement revoke @s only krc_snd:henshin/zero-one/justice_order_seq
 scoreboard players set @s krc.seq1 0
 
-playsound kamenridercraft:justice_order player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+playsound kamenridercraft:justice_order player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 advancement grant @s only krc_snd:henshin/zero-one/justice_order_seq 1
 execute if entity @s[advancements={krc_snd:henshin/zero-one/justice_order={super-1=true}}] run advancement grant @s only krc_snd:henshin/zero-one/justice_order_seq super-1
 execute if entity @s[advancements={krc_snd:henshin/zero-one/justice_order={kuuga_ultimate=true}}] run advancement grant @s only krc_snd:henshin/zero-one/justice_order_seq kuuga_ultimate

@@ -6,7 +6,7 @@ advancement grant @s only krc_snd:henshin/geats/glare2_seq 1
 advancement revoke @s only krc_snd:henshin/geats/glare2_standby
 scoreboard players set @s krc.seq1 0
 advancement revoke @s only krc_snd:henshin/geats/vision_driver_equip_seq
-playsound kamenridercraft:glare2 player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+playsound kamenridercraft:glare2 player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.geats.install","color":"red"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

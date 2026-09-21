@@ -1,10 +1,10 @@
 advancement revoke @s only krc_snd:henshin/zi-o/zamonas_seq 2
 scoreboard players add @s krc.seq1 1
 
-execute if score @s krc.seq1 matches 14 run playsound kamenridercraft:zi-o_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.seq1 matches 34 run playsound kamenridercraft:rider_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 14 run playsound kamenridercraft:zi-o_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.seq1 matches 34 run playsound kamenridercraft:rider_time player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 34 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.rider_time","color":"blue"}
-execute if score @s krc.seq1 matches 68 run playsound kamenridercraft:zamonas_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 68 run playsound kamenridercraft:zamonas_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 68 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"###","color":"black"},{"text":"S","color":"red"},"||"]
 execute if score @s krc.seq1 matches 71 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"##","color":"black"},{"text":"SI","color":"red"},"||"]
 execute if score @s krc.seq1 matches 74 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"#","color":"black"},{"text":"SIN","color":"gold"},"||"]

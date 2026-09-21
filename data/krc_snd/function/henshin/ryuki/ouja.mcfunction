@@ -7,12 +7,12 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:visor_close_dragon_knight
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:survive
 
-execute unless score @s krc.form1n matches 2..3 if score @s krc.configs.ryuki_type matches 0 run playsound kamenridercraft:v_buckle player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute unless score @s krc.form1n matches 2..3 if score @s krc.configs.ryuki_type matches 1 run playsound kamenridercraft:v_buckle_dragon_knight player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s[advancements={krc_core:player_transformed=false}] krc.form1n matches 2..3 if score @s krc.configs.ryuki_type matches 0 run playsound kamenridercraft:v_buckle player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s[advancements={krc_core:player_transformed=false}] krc.form1n matches 2..3 if score @s krc.configs.ryuki_type matches 1 run playsound kamenridercraft:v_buckle_dragon_knight player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n matches 2..3 if score @s krc.configs.ryuki_type matches 0 run playsound kamenridercraft:visor_open player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n matches 2..3 if score @s krc.configs.ryuki_type matches 1 run playsound kamenridercraft:visor_close_dragon_knight player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute unless score @s krc.form1n matches 2..3 if score @s krc.configs.ryuki_type matches 0 run playsound kamenridercraft:v_buckle player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute unless score @s krc.form1n matches 2..3 if score @s krc.configs.ryuki_type matches 1 run playsound kamenridercraft:v_buckle_dragon_knight player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[advancements={krc_core:player_transformed=false}] krc.form1n matches 2..3 if score @s krc.configs.ryuki_type matches 0 run playsound kamenridercraft:v_buckle player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[advancements={krc_core:player_transformed=false}] krc.form1n matches 2..3 if score @s krc.configs.ryuki_type matches 1 run playsound kamenridercraft:v_buckle_dragon_knight player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n matches 2..3 if score @s krc.configs.ryuki_type matches 0 run playsound kamenridercraft:visor_open player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n matches 2..3 if score @s krc.configs.ryuki_type matches 1 run playsound kamenridercraft:visor_close_dragon_knight player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n matches 2..3 run tag @s add clock_running
 execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n matches 2..3 run tag @s add survive
 execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n matches 2..3 run scoreboard players set @s krc.seq1 9

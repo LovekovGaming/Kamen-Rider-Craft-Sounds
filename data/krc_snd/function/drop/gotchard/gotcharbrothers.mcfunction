@@ -12,9 +12,9 @@ execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players ad
 execute if score @s krc.henshin-stage matches 1..2 if entity @n[type=item,distance=..5,tag=valid,tag=number_10_item] run scoreboard players set @s krc.henshin-stage 4
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:flags/gotchard/temporary rainbow_breath
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gotchard.rainbow_breath","color":"aqua"}
-execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:rainbow_breath player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:rainbow_breath player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 
-execute if score @s krc.henshin-stage matches 2..3 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:chemy_card_in player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 2..3 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:chemy_card_in player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/gotchard/gotcharbrothers_standby 1
 execute if score @s krc.henshin-stage matches 2..3 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/gotchard/rainbow_chemy_cards 1
 execute if score @s krc.henshin-stage matches 2..3 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:hopper1_ride_chemy_card run advancement grant @s only krc_snd:henshin/gotchard/chemy_cards hopper1
@@ -125,10 +125,10 @@ execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=number_10_item] run advancement revoke @s from krc_snd:henshin/gotchard/standby_root
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=number_10_item] run scoreboard players set @s krc.seq1 0
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=number_10_item] run scoreboard players set @s krc.seq2 0
-execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=number_10_item] run playsound kamenridercraft:cross_on player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=number_10_item] run playsound kamenridercraft:cross_on player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=number_10_item] run advancement grant @s only krc_snd:henshin/gotchard/super_gotchard_standby 1
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid,tag=number_10_item] run advancement grant @s only krc_snd:henshin/gotchard/super_gotchard_cards 1
-execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid,tag=number_10_item] run playsound kamenridercraft:chemy_card_in_exgotchalibur player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid,tag=number_10_item] run playsound kamenridercraft:chemy_card_in_exgotchalibur player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid,tag=number_10_item] if items entity @n[type=item,distance=..5,tag=valid,tag=number_10_item] contents kamenridercraft:ufo_x_ride_chemy_card run tag @s add ufo_x
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid,tag=number_10_item] if items entity @n[type=item,distance=..5,tag=valid,tag=number_10_item] contents kamenridercraft:x_rex_ride_chemy_card run tag @s add x_rex
 

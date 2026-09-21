@@ -18,10 +18,10 @@ execute unless entity @n[type=arrow,nbt={HasBeenShot:false},distance=..2] as @n[
 execute unless entity @n[type=arrow,nbt={HasBeenShot:false},distance=..2] if entity @n[type=kamenridercraft:rider_summon,tag=!sounded,distance=..2] run tag @s remove legendride_trio
 execute unless entity @n[type=arrow,nbt={HasBeenShot:false},distance=..2] if entity @n[type=kamenridercraft:rider_summon,tag=!sounded,distance=..2] run tag @s add legendride_massimo
 execute unless entity @n[type=arrow,nbt={HasBeenShot:false},distance=..2] as @n[type=kamenridercraft:rider_summon,tag=!sounded,distance=..2] run tag @s add sounded
-execute unless entity @n[type=arrow,nbt={HasBeenShot:false},distance=..2] if entity @s[tag=legendride] run playsound kamenridercraft:legendride player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute unless entity @n[type=arrow,nbt={HasBeenShot:false},distance=..2] if entity @s[tag=legendride_duo] run playsound kamenridercraft:legendride_duo player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute unless entity @n[type=arrow,nbt={HasBeenShot:false},distance=..2] if entity @s[tag=legendride_trio] run playsound kamenridercraft:legendride_trio player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute unless entity @n[type=arrow,nbt={HasBeenShot:false},distance=..2] if entity @s[tag=legendride_massimo] run playsound kamenridercraft:legendride_massimo player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute unless entity @n[type=arrow,nbt={HasBeenShot:false},distance=..2] if entity @s[tag=legendride] run playsound kamenridercraft:legendride player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute unless entity @n[type=arrow,nbt={HasBeenShot:false},distance=..2] if entity @s[tag=legendride_duo] run playsound kamenridercraft:legendride_duo player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute unless entity @n[type=arrow,nbt={HasBeenShot:false},distance=..2] if entity @s[tag=legendride_trio] run playsound kamenridercraft:legendride_trio player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute unless entity @n[type=arrow,nbt={HasBeenShot:false},distance=..2] if entity @s[tag=legendride_massimo] run playsound kamenridercraft:legendride_massimo player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute unless entity @n[type=arrow,nbt={HasBeenShot:false},distance=..2] run tag @s remove legendride
 execute unless entity @n[type=arrow,nbt={HasBeenShot:false},distance=..2] run tag @s remove legendride_duo
 execute unless entity @n[type=arrow,nbt={HasBeenShot:false},distance=..2] run tag @s remove legendride_trio

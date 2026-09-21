@@ -10,7 +10,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ryugen_henshin
 
-playsound kamenridercraft:ryugen_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+playsound kamenridercraft:ryugen_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.hai","color":"dark_purple"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

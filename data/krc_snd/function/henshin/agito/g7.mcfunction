@@ -3,7 +3,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:
 advancement grant @s only krc_snd:henshin/agito/g7_seq 1
 scoreboard players set @s krc.seq1 0
 
-playsound kamenridercraft:g7 player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+playsound kamenridercraft:g7 player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if predicate krc_core:sneaking run advancement grant @s only krc_snd:flags/agito/temporary g7_short
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

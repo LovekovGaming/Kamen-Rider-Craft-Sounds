@@ -20,10 +20,10 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:tire_kakimazerl
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:tire_all_kakimazerl
 
-execute if score @s krc.form2n matches 0 run playsound kamenridercraft:shift_brace player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute unless score @s krc.form2n matches 0 unless score @s krc.form1n matches 5 run playsound kamenridercraft:tire_koukan player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form2n matches 19..21 if score @s krc.form1n matches 5 run playsound kamenridercraft:tire_kakimazerl player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form2n matches 22 if score @s krc.form1n matches 5 run playsound kamenridercraft:tire_all_kakimazerl player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form2n matches 0 run playsound kamenridercraft:shift_brace player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute unless score @s krc.form2n matches 0 unless score @s krc.form1n matches 5 run playsound kamenridercraft:tire_koukan player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form2n matches 19..21 if score @s krc.form1n matches 5 run playsound kamenridercraft:tire_kakimazerl player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form2n matches 22 if score @s krc.form1n matches 5 run playsound kamenridercraft:tire_all_kakimazerl player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.form2n matches 22 if score @s krc.form1n matches 5 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.drive.tire_all_kakimazerl","color":"red"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

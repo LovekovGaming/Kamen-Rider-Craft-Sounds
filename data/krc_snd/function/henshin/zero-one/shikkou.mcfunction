@@ -4,6 +4,6 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 advancement revoke @s from krc_snd:henshin/zero-one/standby_root
 scoreboard players set @s krc.seq1 0
 
-playsound kamenridercraft:zein_shikkou player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+playsound kamenridercraft:zein_shikkou player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 
 advancement revoke @s only krc_snd:henshin/zero-one/shikkou

@@ -5,7 +5,7 @@ advancement revoke @s from krc_snd:henshin/zi-o/standby_root
 scoreboard players reset @s krc.henshin-stage
 scoreboard players set @s krc.seq1 0
 
-playsound kamenridercraft:ginga_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+playsound kamenridercraft:ginga_henshin player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.ginga_1","color":"red"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

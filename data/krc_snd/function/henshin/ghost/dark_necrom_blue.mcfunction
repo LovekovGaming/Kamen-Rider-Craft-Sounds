@@ -5,7 +5,7 @@ scoreboard players reset @s krc.henshin-stage
 scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:proto_ulorder_loading
 
-playsound kamenridercraft:proto_ulorder_loading player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+playsound kamenridercraft:proto_ulorder_loading player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ghost.loading","color":"dark_gray"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

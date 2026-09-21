@@ -9,4 +9,4 @@ tag @s remove drill_arm
 tag @s remove shovel_arm
 tag @s remove breast_cannon
 function krc_snd:henshin/reset_sound
-playsound kamenridercraft:birth_driver_off player @a[scores={krc.configs.detransform_snd=1}] ~ ~1 ~
+playsound kamenridercraft:birth_driver_off player @a[scores={krc.configs.detransform_snd=1}] ~ ~1 ~ 3

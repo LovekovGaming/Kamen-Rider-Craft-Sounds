@@ -10,9 +10,9 @@ scoreboard players set @s krc.seq1 0
 scoreboard players set @s krc.seq2 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:progrise
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:metalcluster_hopper
-execute unless score @s krc.form1n matches 4 run playsound kamenridercraft:progrise player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute unless score @s krc.form1n matches 4 run playsound kamenridercraft:progrise player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute unless score @s krc.form1n matches 4 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zero-one.progrise","color":"green"}
-execute if score @s krc.form1n matches 4 run playsound kamenridercraft:metalcluster_hopper player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 4 run playsound kamenridercraft:metalcluster_hopper player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.form1n matches 4 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zero-one.metalrise","color":"gray"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

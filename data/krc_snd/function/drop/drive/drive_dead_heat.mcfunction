@@ -2,7 +2,7 @@ execute if entity @n[type=item,distance=..5,tag=pick_up] run stopsound @a[scores
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents #kamenridercraft:gear/form_items/drive_dead_heat run tag @s add valid
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
-execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:mach_driver_open player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:mach_driver_open player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.henshin-stage matches 1 unless predicate krc_core:heisei/drive_armor if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/drive/mach_standby_empty 1
 execute if score @s krc.henshin-stage matches 1 if predicate krc_core:heisei/drive_armor if score @s krc.form1n matches 0 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/drive/mach_standby_dead_heat 1
 execute if score @s krc.henshin-stage matches 1 if predicate krc_core:heisei/drive_armor if score @s krc.form1n matches 1 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/drive/chaser_standby 1
@@ -12,7 +12,7 @@ execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:mach_standby_chaser
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:mach_standby_dead_heat
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
-execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:signal_bike_shift_car player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run playsound kamenridercraft:signal_bike_shift_car player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.drive.signal_bike_shift_car","color":"blue"}
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:deadheatshift run advancement grant @s only krc_snd:henshin/drive/mach_standby_dead_heat 1
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:tridoron_key run advancement grant @s only krc_snd:henshin/drive/chaser_standby 1

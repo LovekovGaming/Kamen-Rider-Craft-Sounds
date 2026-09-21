@@ -5,6 +5,6 @@ scoreboard players set @s krc.seq1 0
 advancement revoke @s from krc_snd:henshin/decade/seq_root
 advancement grant @s only krc_snd:henshin/decade/attackride_decade_seq 1
 tag @s add metal
-playsound kamenridercraft:decadriver player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+playsound kamenridercraft:decadriver player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 scoreboard players reset @s krc-atkride.metal
 advancement revoke @s only krc_snd:henshin/decade/attackride_card_detect_metal

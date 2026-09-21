@@ -7,8 +7,8 @@ advancement revoke @s from krc_snd:henshin/zero-one/standby_root
 scoreboard players set @s krc.seq1 0
 scoreboard players set @s krc.seq2 0
 
-execute unless predicate krc_core:sneaking run playsound kamenridercraft:zero-three_rise player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if predicate krc_core:sneaking run playsound kamenridercraft:zero-three_rise_short player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute unless predicate krc_core:sneaking run playsound kamenridercraft:zero-three_rise player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if predicate krc_core:sneaking run playsound kamenridercraft:zero-three_rise_short player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if predicate krc_core:sneaking run tag @s add zero-three_short
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zero-one.zero-three_rise","color":"green"}
 

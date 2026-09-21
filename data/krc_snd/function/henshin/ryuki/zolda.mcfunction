@@ -9,10 +9,10 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 
 tag @s remove shoot_vent
 tag @s remove guard_vent
-execute if score @s krc.form1n matches 0 if score @s krc.configs.ryuki_type matches 0 run playsound kamenridercraft:v_buckle player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 0 if score @s krc.configs.ryuki_type matches 1 run playsound kamenridercraft:v_buckle_dragon_knight player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 1..2 if score @s krc.configs.ryuki_type matches 0 run playsound kamenridercraft:visor_close player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 1..2 if score @s krc.configs.ryuki_type matches 1 run playsound kamenridercraft:visor_close_dragon_knight player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 0 if score @s krc.configs.ryuki_type matches 0 run playsound kamenridercraft:v_buckle player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 0 if score @s krc.configs.ryuki_type matches 1 run playsound kamenridercraft:v_buckle_dragon_knight player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 1..2 if score @s krc.configs.ryuki_type matches 0 run playsound kamenridercraft:visor_close player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 1..2 if score @s krc.configs.ryuki_type matches 1 run playsound kamenridercraft:visor_close_dragon_knight player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.form1n matches 1..2 run tag @s add clock_running
 execute if score @s krc.form1n matches 1 run tag @s add shoot_vent
 execute if score @s krc.form1n matches 2 run tag @s add guard_vent

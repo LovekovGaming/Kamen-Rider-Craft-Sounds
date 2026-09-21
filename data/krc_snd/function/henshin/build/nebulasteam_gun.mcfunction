@@ -11,9 +11,9 @@ scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:kaiser_funky
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:kaiser_fusion
 
-execute if score @s krc.form1n matches 0 run playsound kamenridercraft:kaiser_funky player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 1 run playsound kamenridercraft:kaiser_funky player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 2 run playsound kamenridercraft:kaiser_fusion player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 0 run playsound kamenridercraft:kaiser_funky player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 1 run playsound kamenridercraft:kaiser_funky player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 2 run playsound kamenridercraft:kaiser_fusion player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.form1n matches 0..1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.build.funky_2","color":"light_purple"}
 execute if score @s krc.form1n matches 2 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.build.fever","color":"light_purple"}
 

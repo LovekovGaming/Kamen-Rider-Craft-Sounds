@@ -11,14 +11,14 @@ execute if items entity @n[type=kamenridercraft:rider_summon,tag=!sounded,distan
 execute if items entity @n[type=kamenridercraft:rider_summon,tag=!sounded,distance=..2] weapon.mainhand kamenridercraft:ride_booker run scoreboard players set @s krc.seq1 0
 execute if items entity @n[type=kamenridercraft:rider_summon,tag=!sounded,distance=..2] weapon.mainhand kamenridercraft:ride_booker run advancement revoke @s from krc_snd:henshin/decade/seq_root
 execute if items entity @n[type=kamenridercraft:rider_summon,tag=!sounded,distance=..2] weapon.mainhand kamenridercraft:ride_booker run advancement grant @s only krc_snd:henshin/decade/attackride_decade_seq 1
-execute if items entity @n[type=kamenridercraft:rider_summon,tag=!sounded,distance=..2] weapon.mainhand kamenridercraft:ride_booker run playsound kamenridercraft:decadriver player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if items entity @n[type=kamenridercraft:rider_summon,tag=!sounded,distance=..2] weapon.mainhand kamenridercraft:ride_booker run playsound kamenridercraft:decadriver player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @n[type=item,predicate=krc_snd:valid_item,distance=..2] krc.seq1 matches 0 run scoreboard players reset @s krc.henshin-stage
 execute if score @n[type=item,predicate=krc_snd:valid_item,distance=..2] krc.seq1 matches 0 run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:decadriver_standby
 execute if score @n[type=item,predicate=krc_snd:valid_item,distance=..2] krc.seq1 matches 0 run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:k-touch_standby
 execute if score @n[type=item,predicate=krc_snd:valid_item,distance=..2] krc.seq1 matches 0 run scoreboard players set @s krc.seq1 0
 execute if score @n[type=item,predicate=krc_snd:valid_item,distance=..2] krc.seq1 matches 0 run advancement revoke @s from krc_snd:henshin/decade/seq_root
 execute if score @n[type=item,predicate=krc_snd:valid_item,distance=..2] krc.seq1 matches 0 run advancement grant @s only krc_snd:henshin/decade/attackride_decade_seq 1
-execute if score @n[type=item,predicate=krc_snd:valid_item,distance=..2] krc.seq1 matches 0 run playsound kamenridercraft:decadriver player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @n[type=item,predicate=krc_snd:valid_item,distance=..2] krc.seq1 matches 0 run playsound kamenridercraft:decadriver player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if entity @s[advancements={krc_snd:henshin/decade/attackride_decade_seq={1=true}}] if items entity @n[type=item,predicate=krc_snd:valid_item,distance=..2] contents kamenridercraft:g4_gigant run tag @s add gigant
 execute if entity @s[advancements={krc_snd:henshin/decade/attackride_decade_seq={1=true}}] if items entity @n[type=item,predicate=krc_snd:valid_item,distance=..2] contents kamenridercraft:drag_claw run tag @s add strike_vent
 execute if entity @s[advancements={krc_snd:henshin/decade/attackride_decade_seq={1=true}}] if items entity @n[type=item,predicate=krc_snd:valid_item,distance=..2] contents kamenridercraft:ongekibo_rekka run tag @s add ongekibou_rekka

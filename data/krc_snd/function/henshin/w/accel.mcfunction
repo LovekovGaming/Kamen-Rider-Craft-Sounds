@@ -10,13 +10,13 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:trial_active
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:booster
 
-execute if score @s krc.form1n matches 0 unless score Form_Difference krc.form1n matches 1 unless predicate krc_core:sneaking run playsound kamenridercraft:acceldriver_rev player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 0 unless score Form_Difference krc.form1n matches 1 if predicate krc_core:sneaking run playsound kamenridercraft:acceldriver_rev_alt player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 0 unless score Form_Difference krc.form1n matches 1 unless predicate krc_core:sneaking run playsound kamenridercraft:acceldriver_rev player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 0 unless score Form_Difference krc.form1n matches 1 if predicate krc_core:sneaking run playsound kamenridercraft:acceldriver_rev_alt player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.form1n matches 0 unless score Form_Difference krc.form1n matches 1 run advancement grant @s only krc_snd:henshin/w/accel_seq 1
-execute if score @s krc.form1n matches 0 if score Form_Difference krc.form1n matches 1 run playsound kamenridercraft:accel_bikeform_revert player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 1 run playsound kamenridercraft:accel_bikeform player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 2 run playsound kamenridercraft:trial_active player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 3 run playsound kamenridercraft:booster player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 0 if score Form_Difference krc.form1n matches 1 run playsound kamenridercraft:accel_bikeform_revert player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 1 run playsound kamenridercraft:accel_bikeform player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 2 run playsound kamenridercraft:trial_active player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 3 run playsound kamenridercraft:booster player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.form1n matches 2..3 run advancement grant @s only krc_snd:henshin/w/accel_seq 1
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

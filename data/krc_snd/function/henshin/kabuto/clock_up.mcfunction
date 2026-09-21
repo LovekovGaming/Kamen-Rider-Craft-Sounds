@@ -1,9 +1,9 @@
 execute if score @s krc.form1n matches 3.. run tag @s add hyper_clock_up
-playsound kamenridercraft:clock_up_pad player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+playsound kamenridercraft:clock_up_pad player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if items entity @s armor.feet kamenridercraft:caucasus_rider_belt run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.kabuto.hyper_clock_up","color":"gold"}
 execute if items entity @s armor.feet kamenridercraft:caucasus_rider_belt run tag @s add hyper_clock_up
-execute if entity @s[tag=!hyper_clock_up] unless items entity @s armor.feet kamenridercraft:gatack_rider_belt run playsound kamenridercraft:clock_up player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if entity @s[tag=!hyper_clock_up] if items entity @s armor.feet kamenridercraft:gatack_rider_belt run playsound kamenridercraft:gatack_clock_up player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if entity @s[tag=!hyper_clock_up] unless items entity @s armor.feet kamenridercraft:gatack_rider_belt run playsound kamenridercraft:clock_up player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if entity @s[tag=!hyper_clock_up] if items entity @s armor.feet kamenridercraft:gatack_rider_belt run playsound kamenridercraft:gatack_clock_up player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if items entity @s[tag=!hyper_clock_up] armor.feet kamenridercraft:kabuto_rider_belt run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.kabuto.clock_up","color":"red"}
 execute if items entity @s[tag=!hyper_clock_up] armor.feet kamenridercraft:gatack_rider_belt run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.kabuto.clock_up","color":"blue"}
 execute if items entity @s[tag=!hyper_clock_up] armor.feet kamenridercraft:dark_kabuto_rider_belt run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.kabuto.clock_up","color":"dark_red"}
@@ -15,7 +15,7 @@ execute if items entity @s armor.feet kamenridercraft:puchhopper_rider_belt run 
 execute if items entity @s armor.feet kamenridercraft:hercus_rider_belt run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar "Clock Up"
 execute if items entity @s armor.feet kamenridercraft:ketaros_rider_belt run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.kabuto.clock_up","color":"#fc8000"}
 execute if items entity @s armor.feet kamenridercraft:lady_rider_belt run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.kabuto.clock_up","color":"red"}
-execute if entity @s[tag=hyper_clock_up] run playsound kamenridercraft:hyper_clock_up player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if entity @s[tag=hyper_clock_up] run playsound kamenridercraft:hyper_clock_up player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if items entity @s[tag=hyper_clock_up] armor.feet kamenridercraft:kabuto_rider_belt run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.kabuto.hyper_clock_up","color":"red"}
 execute if items entity @s[tag=hyper_clock_up] armor.feet kamenridercraft:gatack_rider_belt run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.kabuto.hyper_clock_up","color":"blue"}
 execute if items entity @s[tag=hyper_clock_up] armor.feet kamenridercraft:dark_kabuto_rider_belt run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.kabuto.hyper_clock_up","color":"dark_red"}

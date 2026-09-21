@@ -1,4 +1,4 @@
 stopsound @a[scores={krc.configs.equip_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
-playsound kamenridercraft:altering_start player @a[scores={krc.configs.equip_snd=1}] ~ ~1 ~
+playsound kamenridercraft:altering_start player @a[scores={krc.configs.equip_snd=1}] ~ ~1 ~ 3
 execute if entity @s[advancements={krc_core:player_transformed=false}] if predicate krc_snd:has_armor/agito run advancement grant @s only krc_snd:henshin/agito/altering_standby 1
 advancement revoke @s only krc_snd:henshin/common/reset

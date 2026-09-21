@@ -9,7 +9,7 @@ advancement revoke @s from krc_snd:henshin/zero-one/standby_root
 scoreboard players set @s krc.seq1 0
 scoreboard players set @s krc.seq2 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:shotrise
-playsound kamenridercraft:shotrise player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+playsound kamenridercraft:shotrise player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute unless score @s krc.form1n matches 4 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zero-one.shotrise","color":"gold"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

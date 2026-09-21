@@ -1,4 +1,4 @@
-execute if score @s krc.seq1 matches 188 run playsound kamenridercraft:bibillgeiz player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.seq1 matches 188 run playsound kamenridercraft:bibillgeiz player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.seq1 matches 188 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"###","color":"black"},{"text":"G","color":"red"},"||"]
 execute if score @s krc.seq1 matches 191 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"##","color":"black"},{"text":"GE","color":"red"},"||"]
 execute if score @s krc.seq1 matches 194 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"#","color":"black"},{"text":"GEI","color":"gold"},"||"]

@@ -7,8 +7,8 @@ scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:plat_form
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:sword_form
 
-execute if score @s krc.form1n matches -1 run playsound kamenridercraft:plat_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 0 run playsound kamenridercraft:sword_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches -1 run playsound kamenridercraft:plat_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 0 run playsound kamenridercraft:sword_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.den-o.sword_form","color":"red"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

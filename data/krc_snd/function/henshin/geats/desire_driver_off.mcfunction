@@ -19,4 +19,4 @@ tag @s remove dual_fever
 tag @s remove special_buckle_override
 advancement revoke @s only krc_snd:drop/geats/boost_time
 function krc_snd:henshin/reset_sound
-playsound kamenridercraft:buckle_out player @a[scores={krc.configs.detransform_snd=1}] ~ ~1 ~
+playsound kamenridercraft:buckle_out player @a[scores={krc.configs.detransform_snd=1}] ~ ~1 ~ 3

@@ -1,5 +1,5 @@
 execute if entity @s[tag=sound_off] run return 0
 stopsound @a[scores={krc.configs.equip_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
-execute unless items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:alpha_amazon_cell_vial"}|minecraft:custom_data~{slot_tex1:"kamenridercraft:omega_amazon_cell_vial"}|minecraft:custom_data~{slot_tex1:"kamenridercraft:sigma_amazon_cell_vial"}] run playsound kamenridercraft:amazons_equip player @a[scores={krc.configs.equip_snd=1}] ~ ~1 ~
+execute unless items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:alpha_amazon_cell_vial"}|minecraft:custom_data~{slot_tex1:"kamenridercraft:omega_amazon_cell_vial"}|minecraft:custom_data~{slot_tex1:"kamenridercraft:sigma_amazon_cell_vial"}] run playsound kamenridercraft:amazons_equip player @a[scores={krc.configs.equip_snd=1}] ~ ~1 ~ 3
 execute unless items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:alpha_amazon_cell_vial"}|minecraft:custom_data~{slot_tex1:"kamenridercraft:omega_amazon_cell_vial"}|minecraft:custom_data~{slot_tex1:"kamenridercraft:sigma_amazon_cell_vial"}] if predicate krc_snd:has_armor/amazons run advancement grant @s only krc_snd:henshin/extras/amazons_standby 1
 advancement revoke @s only krc_snd:henshin/common/reset

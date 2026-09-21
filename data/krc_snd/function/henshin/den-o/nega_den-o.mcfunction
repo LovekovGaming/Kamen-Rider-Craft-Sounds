@@ -5,7 +5,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 advancement revoke @s only krc_snd:henshin/den-o/nega_den-o_standby
 scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:nega_den-o
-playsound kamenridercraft:nega_den-o player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+playsound kamenridercraft:nega_den-o player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.den-o.nega_form","color":"dark_purple"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

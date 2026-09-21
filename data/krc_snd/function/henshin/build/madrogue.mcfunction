@@ -9,7 +9,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 scoreboard players set @s krc.seq1 0
 scoreboard players set @s krc.seq2 0
 
-playsound kamenridercraft:are_you_ready_evol player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+playsound kamenridercraft:are_you_ready_evol player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
 # advancement grant @s only krc_snd:henshin/common/detransform_root

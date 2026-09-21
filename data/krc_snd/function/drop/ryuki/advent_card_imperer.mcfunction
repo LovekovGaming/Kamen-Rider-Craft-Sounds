@@ -1,6 +1,6 @@
 execute if entity @n[type=item,distance=..5,tag=pick_up] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:entity.item.pickup
-execute if score @s krc.configs.ryuki_type matches 0 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:gazelle_stab_vent run playsound kamenridercraft:draw_advent_card player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.configs.ryuki_type matches 1 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:gazelle_stab_vent run playsound kamenridercraft:draw_advent_card_dragon_knight player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.configs.ryuki_type matches 0 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:gazelle_stab_vent run playsound kamenridercraft:draw_advent_card player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.configs.ryuki_type matches 1 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:gazelle_stab_vent run playsound kamenridercraft:draw_advent_card_dragon_knight player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:gazelle_stab_vent run function krc_snd:drop/common/return_item
 advancement revoke @s from krc_snd:drop/ryuki/root
 advancement revoke @s only krc_snd:henshin/common/reset

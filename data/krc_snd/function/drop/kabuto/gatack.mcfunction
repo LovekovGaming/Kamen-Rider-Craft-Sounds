@@ -5,12 +5,12 @@ execute if predicate krc_core:heisei/kabuto_armor unless score @s krc.form1n mat
 execute if predicate krc_core:heisei/kabuto_armor unless score @s krc.form1n matches 3 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:hyper_zecter run tag @s add hyper_zecter
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
-execute if score @s krc.henshin-stage matches 1 unless predicate krc_core:heisei/kabuto_armor if entity @n[type=item,distance=..5,tag=gatack_zecter] run playsound kamenridercraft:gatack_zecter_appear player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.henshin-stage matches 1 if predicate krc_core:heisei/kabuto_armor if entity @n[type=item,distance=..5,tag=gatack_zecter] run playsound kamenridercraft:gatack_cast_off_start player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 1 unless predicate krc_core:heisei/kabuto_armor if entity @n[type=item,distance=..5,tag=gatack_zecter] run playsound kamenridercraft:gatack_zecter_appear player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.henshin-stage matches 1 if predicate krc_core:heisei/kabuto_armor if entity @n[type=item,distance=..5,tag=gatack_zecter] run playsound kamenridercraft:gatack_cast_off_start player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.henshin-stage matches 1 if predicate krc_core:heisei/kabuto_armor if entity @n[type=item,distance=..5,tag=gatack_zecter] run advancement grant @s only krc_snd:henshin/kabuto/gatack_standby 1
-execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=hyper_zecter] run playsound kamenridercraft:hyper_zecter_appear player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=hyper_zecter] run playsound kamenridercraft:hyper_zecter_appear player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=gatack_zecter] run scoreboard players add @s krc.henshin-stage 1
-execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=hyper_zecter] run playsound kamenridercraft:hyper_cast_off_start player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=hyper_zecter] run playsound kamenridercraft:hyper_cast_off_start player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=hyper_zecter] run advancement grant @s only krc_snd:henshin/kabuto/hyper_standby 1
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=hyper_zecter] run tag @s add hyper_zecter_active
 

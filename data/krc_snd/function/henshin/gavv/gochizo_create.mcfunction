@@ -1,3 +1,3 @@
 execute if entity @s[advancements={krc_snd:henshin/gavv/gochizo_create=true}] run schedule function krc_snd:henshin/gavv/gochizo_create 1t replace
-execute unless entity @s at @a[advancements={krc_snd:henshin/gavv/gochizo_create=true}] if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents #kamenridercraft:gear/gochizo run playsound kamenridercraft:gochizo_create player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute unless entity @s at @a[advancements={krc_snd:henshin/gavv/gochizo_create=true}] if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents #kamenridercraft:gear/gochizo run playsound kamenridercraft:gochizo_create player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute unless entity @s at @a[advancements={krc_snd:henshin/gavv/gochizo_create=true}] run advancement revoke @p only krc_snd:henshin/gavv/gochizo_create

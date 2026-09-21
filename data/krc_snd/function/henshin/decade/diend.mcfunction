@@ -17,9 +17,9 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:diend_complete
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:chinomanako_diend_fire
 
-execute if score @s krc.form1n matches 0..2 run playsound kamenridercraft:diend_fire player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 3 run playsound kamenridercraft:diend_complete player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 4 run playsound kamenridercraft:chinomanako_diend_fire player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 0..2 run playsound kamenridercraft:diend_fire player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 3 run playsound kamenridercraft:diend_complete player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 4 run playsound kamenridercraft:chinomanako_diend_fire player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
 # advancement grant @s only krc_snd:henshin/common/detransform_root

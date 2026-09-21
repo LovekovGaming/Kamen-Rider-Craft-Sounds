@@ -6,4 +6,4 @@ scoreboard players set @s krc.seq1 0
 advancement revoke @s from krc_snd:henshin/decade/seq_root
 advancement grant @s only krc_snd:henshin/decade/attackride_decade_seq 1
 tag @s add utchari
-playsound kamenridercraft:decadriver player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+playsound kamenridercraft:decadriver player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3

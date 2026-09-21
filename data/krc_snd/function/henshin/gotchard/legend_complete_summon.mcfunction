@@ -7,7 +7,7 @@ execute if entity @n[type=kamenridercraft:complete_summon,tag=!sounded,distance=
 execute if entity @n[type=kamenridercraft:complete_summon,tag=!sounded,distance=..2] run advancement revoke @s from krc_snd:henshin/gotchard/standby_root
 execute if entity @n[type=kamenridercraft:complete_summon,tag=!sounded,distance=..2] run advancement revoke @s only krc_snd:henshin/decade/complete_summon_seq
 execute if entity @n[type=kamenridercraft:complete_summon,tag=!sounded,distance=..2] run advancement grant @s only krc_snd:henshin/decade/complete_summon_seq 1
-execute if entity @n[type=kamenridercraft:complete_summon,tag=!sounded,distance=..2] run playsound kamenridercraft:kamen_ride_complete player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if entity @n[type=kamenridercraft:complete_summon,tag=!sounded,distance=..2] run playsound kamenridercraft:kamen_ride_complete player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.form1n matches 37 if items entity @n[type=kamenridercraft:complete_summon,tag=!sounded,distance=..2] armor.feet kamenridercraft:arcle run advancement grant @s only krc_snd:henshin/decade/complete_summon_seq ultimate
 execute if score @s krc.form1n matches 37 if items entity @n[type=kamenridercraft:complete_summon,tag=!sounded,distance=..2] armor.feet kamenridercraft:alter_ring run advancement grant @s only krc_snd:henshin/decade/complete_summon_seq shining
 execute if score @s krc.form1n matches 37 if items entity @n[type=kamenridercraft:complete_summon,tag=!sounded,distance=..2] armor.feet kamenridercraft:v_buckle_ryuki run advancement grant @s only krc_snd:henshin/decade/complete_summon_seq survive

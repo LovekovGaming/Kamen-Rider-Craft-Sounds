@@ -6,6 +6,6 @@ advancement revoke @s from krc_snd:henshin/geats/standby_root
 scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:eyecon_driver_standby
 
-playsound kamenridercraft:eyecon_driver_button player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+playsound kamenridercraft:eyecon_driver_button player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

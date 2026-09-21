@@ -1,2 +1,2 @@
-playsound kamenridercraft:gochipod_death player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+playsound kamenridercraft:gochipod_death player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 advancement revoke @s only krc_snd:henshin/gavv/gochipod_death_seq

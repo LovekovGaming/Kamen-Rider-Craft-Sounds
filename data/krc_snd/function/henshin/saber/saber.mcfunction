@@ -19,11 +19,11 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:saber_battou
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:wonder_almighty
 
-execute unless score @s krc.form1n matches 5..6 run playsound kamenridercraft:rekka_battou player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute unless score @s krc.form1n matches 5..6 run playsound kamenridercraft:rekka_battou player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute unless score @s krc.form1n matches 5..6 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.rekka_battou","color":"red"}
-execute if score @s krc.form1n matches 5 run playsound kamenridercraft:saber_battou player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 5 run playsound kamenridercraft:saber_battou player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.form1n matches 5 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.saber_battou","color":"#0B16E5"}
-execute if score @s krc.form1n matches 6 run playsound kamenridercraft:wonder_almighty player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 6 run playsound kamenridercraft:wonder_almighty player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.form1n matches 6 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.rekka_zen_battou","color":"red"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root

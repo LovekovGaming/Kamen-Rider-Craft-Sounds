@@ -9,12 +9,12 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:vega_form
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:zero_form
 
-execute if score @s krc.form1n matches -1 run playsound kamenridercraft:plat_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
-execute if score @s krc.form1n matches 0 run playsound kamenridercraft:altair_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches -1 run playsound kamenridercraft:plat_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
+execute if score @s krc.form1n matches 0 run playsound kamenridercraft:altair_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.den-o.altair_form","color":"dark_green"}
-execute if score @s krc.form1n matches 1 run playsound kamenridercraft:vega_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 1 run playsound kamenridercraft:vega_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.den-o.vega_form","color":"yellow"}
-execute if score @s krc.form1n matches 2 run playsound kamenridercraft:zero_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~
+execute if score @s krc.form1n matches 2 run playsound kamenridercraft:zero_form player @a[scores={krc.configs.henshin_snd=1}] ~ ~1 ~ 3
 execute if score @s krc.form1n matches 2 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.den-o.charge_and_up","color":"red"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
