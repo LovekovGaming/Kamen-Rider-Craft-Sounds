@@ -12,7 +12,7 @@ Kamen Rider Craft notably does not include henshin sounds due to concerns regard
 - Automatic armor equipping via the drop system
 - Sounds for mob and weapon hits
 - Compatible with both release and dev builds of Kamen Rider Craft
-- Multiplayer compatible (all players must be using the resource pack)
+- Multiplayer compatible
 
 ## Prerequisites
 
