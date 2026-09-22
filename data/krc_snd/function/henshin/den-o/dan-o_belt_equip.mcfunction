@@ -1,3 +1,0 @@
-execute unless items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:rider_ticket_dan_o_plat"}] run function krc_snd:play_global {name:"kamenridercraft:den-o_belt_buckle",scope:"henshin_snd"}
-execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:rider_ticket_dan_o_plat"}] run function krc_snd:play_global {name:"kamenridercraft:den-o_belt_appear",scope:"henshin_snd"}
-advancement revoke @s only krc_snd:henshin/common/reset
