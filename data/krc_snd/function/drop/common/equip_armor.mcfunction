@@ -1,4 +1,4 @@
-$execute if items entity @s[gamemode=!creative] $(slot) *[!minecraft:enchantments={"minecraft:binding_curse":0}] run return 0
+$execute if items entity @s[gamemode=!creative] $(slot) *[enchantments={binding_curse:1}] run return 0
 $execute unless items entity @s $(slot) $(item) if items entity @s $(slot) * run summon minecraft:item ~ ~1 ~ {Age:1s,Tags:["equipped-$(slot)"],Item:{id:"minecraft:egg",Count:1b}}
 $execute unless items entity @s $(slot) $(item) if items entity @s $(slot) * run item replace entity @n[type=item,distance=..5,tag=equipped-$(slot)] contents from entity @s $(slot)
 $execute unless items entity @s $(slot) $(item) if items entity @s $(slot) * run item replace entity @s $(slot) with minecraft:air
