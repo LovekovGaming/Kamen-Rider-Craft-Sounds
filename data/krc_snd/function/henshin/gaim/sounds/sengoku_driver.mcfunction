@@ -34,9 +34,9 @@ execute if score @s krc.seq1 matches 46 if score @s krc.form1n matches 3 run tit
 execute if score @s krc.seq1 matches 86 if score @s krc.form1n matches 3 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.melon_arms_2","color":"green"}
 execute if score @s krc.seq1 matches 86 if score @s krc.form1n matches 3 run scoreboard players set @s krc.seq1 194
 execute if score @s krc.seq1 matches 26 if score @s krc.form1n matches 4 run function krc_snd:play_global {name:"kamenridercraft:pine_arms",scope:"henshin_snd"}
-execute if score @s krc.seq1 matches 45 if score @s krc.form1n matches 4 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.pine_arms_1","color":"yellow"}
-execute if score @s krc.seq1 matches 73 if score @s krc.form1n matches 4 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.pine_arms_2","color":"yellow"}
-execute if score @s krc.seq1 matches 73 if score @s krc.form1n matches 4 run scoreboard players set @s krc.seq1 194
+execute if score @s krc.seq1 matches 44 if score @s krc.form1n matches 4 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.pine_arms_1","color":"yellow"}
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 4 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.pine_arms_2","color":"yellow"}
+execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 4 run scoreboard players set @s krc.seq1 194
 execute if score @s krc.seq1 matches 26 if score @s krc.form1n matches 5 run function krc_snd:play_global {name:"kamenridercraft:ichigo_arms",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 45 if score @s krc.form1n matches 5 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.ichigo_arms_1","color":"red"}
 execute if score @s krc.seq1 matches 72 if score @s krc.form1n matches 5 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.ichigo_arms_2","color":"red"}
@@ -58,9 +58,9 @@ execute if score @s krc.seq1 matches 46 if score @s krc.form1n matches 9 run tit
 execute if score @s krc.seq1 matches 89 if score @s krc.form1n matches 9 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.suika_arms_2","color":"dark_green"}
 execute if score @s krc.seq1 matches 89 if score @s krc.form1n matches 9 run scoreboard players set @s krc.seq1 194
 execute if score @s krc.seq1 matches 26 if score @s krc.form1n matches 10 run function krc_snd:play_global {name:"kamenridercraft:mango_arms",scope:"henshin_snd"}
-execute if score @s krc.seq1 matches 41 if score @s krc.form1n matches 10 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.mango_arms_1","color":"gold"}
-execute if score @s krc.seq1 matches 93 if score @s krc.form1n matches 10 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.mango_arms_2","color":"gold"}
-execute if score @s krc.seq1 matches 93 if score @s krc.form1n matches 10 run scoreboard players set @s krc.seq1 194
+execute if score @s krc.seq1 matches 40 if score @s krc.form1n matches 10 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.mango_arms_1","color":"gold"}
+execute if score @s krc.seq1 matches 91 if score @s krc.form1n matches 10 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.mango_arms_2","color":"gold"}
+execute if score @s krc.seq1 matches 91 if score @s krc.form1n matches 10 run scoreboard players set @s krc.seq1 194
 execute if score @s krc.seq1 matches 26 if score @s krc.form1n matches 11 run function krc_snd:play_global {name:"kamenridercraft:durian_arms",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 40 if score @s krc.form1n matches 11 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.durian_arms_1","color":"dark_green"}
 execute if score @s krc.seq1 matches 87 if score @s krc.form1n matches 11 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.durian_arms_2","color":"dark_green"}
