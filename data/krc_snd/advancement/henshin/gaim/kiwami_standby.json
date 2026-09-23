@@ -32,8 +32,8 @@
 			"entity": "this",
 			"scores": {
 			  "krc.henshin-stage": {
-				"min": 3,
-				"max": 4
+				"min": 5,
+				"max": 6
 			  }
 			}
 		  }
