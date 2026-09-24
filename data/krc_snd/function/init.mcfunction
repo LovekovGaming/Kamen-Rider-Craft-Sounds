@@ -118,6 +118,7 @@ scoreboard objectives add krc.configs.gd_voice dummy
 scoreboard objectives add krc.configs.best_match dummy
 scoreboard objectives add krc.configs.grand_zio dummy
 scoreboard objectives add krc.configs.zio_summon dummy
+scoreboard objectives add krc.configs.barlckxs_type dummy
 scoreboard objectives add krc.configs.force_key dummy
 scoreboard objectives add krc.configs.vice_skip dummy
 scoreboard objectives add krc.configs.barid_type dummy

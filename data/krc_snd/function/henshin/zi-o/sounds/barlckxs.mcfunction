@@ -4,7 +4,8 @@ scoreboard players add @s krc.seq1 1
 execute if score @s krc.seq1 matches 14 if score @s krc.form1n matches 0 run function krc_snd:play_global {name:"kamenridercraft:zi-o_time",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 34 if score @s krc.form1n matches 0 run function krc_snd:play_global {name:"kamenridercraft:rider_time",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 34 if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.rider_time","color":"gold"}
-execute if score @s krc.seq1 matches 68 if score @s krc.form1n matches 0 run function krc_snd:play_global {name:"kamenridercraft:barlckxs_henshin",scope:"henshin_snd"}
+execute if score @s krc.seq1 matches 68 if score @s krc.form1n matches 0 if score @s krc.configs.barlckxs_type matches 0 run function krc_snd:play_global {name:"kamenridercraft:barlckxs_henshin",scope:"henshin_snd"}
+execute if score @s krc.seq1 matches 68 if score @s krc.form1n matches 0 if score @s krc.configs.barlckxs_type matches 1 run function krc_snd:play_global {name:"kamenridercraft:barlckxs_hundred",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 68 if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"###","color":"black"},{"text":"S","color":"red"},"||"]
 execute if score @s krc.seq1 matches 71 if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"##","color":"black"},{"text":"SI","color":"red"},"||"]
 execute if score @s krc.seq1 matches 74 if score @s krc.form1n matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["||",{"text":"#","color":"black"},{"text":"SIN","color":"gold"},"||"]

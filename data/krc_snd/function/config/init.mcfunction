@@ -24,6 +24,7 @@ execute unless score @s krc.configs.gd_voice matches 0.. run scoreboard players 
 execute unless score @s krc.configs.best_match matches 0.. run scoreboard players set @s krc.configs.best_match 1
 execute unless score @s krc.configs.grand_zio matches 0.. run scoreboard players set @s krc.configs.grand_zio 0
 execute unless score @s krc.configs.zio_summon matches 0.. run scoreboard players set @s krc.configs.zio_summon 0
+execute unless score @s krc.configs.barlckxs_type matches 0.. run scoreboard players set @s krc.configs.barlckxs_type 0
 execute unless score @s krc.configs.force_key matches 0.. run scoreboard players set @s krc.configs.force_key 0
 execute unless score @s krc.configs.vice_skip matches 0.. run scoreboard players set @s krc.configs.vice_skip 1
 execute unless score @s krc.configs.barid_type matches 0.. run scoreboard players set @s krc.configs.barid_type 0

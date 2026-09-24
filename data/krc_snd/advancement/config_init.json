@@ -14,8 +14,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.sound_subs": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -27,8 +26,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.henshin_snd": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -40,8 +38,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.equip_snd": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -53,8 +50,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.detransform_snd": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -66,8 +62,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.weapon_snd": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -79,8 +74,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.mob_snd": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -92,8 +86,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.ride_kamens": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -105,8 +98,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.kuuga_mighty": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -118,8 +110,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.kuuga_ult": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -131,8 +122,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.ryuki_type": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -144,8 +134,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.faiz_type": {
-					  "min": 0,
-					  "max": 3
+					  "min": 0
 					}
 				  }
 				}
@@ -157,8 +146,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.blaster_type": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -170,8 +158,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.psyga_type": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -183,8 +170,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.orga_type": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -196,8 +182,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.zeronos_equip": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -209,8 +194,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.w_mode": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -222,8 +206,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.akiko_w": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -235,8 +218,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.xtreme": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -248,8 +230,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.birth_sb": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -261,8 +242,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.ghost_equip": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -274,8 +254,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.gd_voice": {
-					  "min": 0,
-					  "max": 3
+					  "min": 0
 					}
 				  }
 				}
@@ -287,8 +266,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.best_match": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -300,8 +278,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.grand_zio": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -313,8 +290,19 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.zio_summon": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:inverted",
+				"term": {
+				  "condition": "minecraft:entity_scores",
+				  "entity": "this",
+				  "scores": {
+					"krc.configs.barlckxs_type": {
+					  "min": 0
 					}
 				  }
 				}
@@ -326,8 +314,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.force_key": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -339,8 +326,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.vice_skip": {
-					  "min": 0,
-					  "max": 2
+					  "min": 0
 					}
 				  }
 				}
@@ -352,8 +338,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.barid_type": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -365,8 +350,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.destream_voice": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -378,8 +362,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.for_desire": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -391,8 +374,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.geatsix_type": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -404,8 +386,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.beat_buckle": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -417,8 +398,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.glare_type": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -430,8 +410,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.ouja_gm": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -443,8 +422,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.majade_link": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -456,8 +434,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.dread_standby": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
@@ -469,8 +446,7 @@
 				  "entity": "this",
 				  "scores": {
 					"krc.configs.legend_type": {
-					  "min": 0,
-					  "max": 1
+					  "min": 0
 					}
 				  }
 				}
