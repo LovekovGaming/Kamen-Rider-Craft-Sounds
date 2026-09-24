@@ -10,10 +10,11 @@ execute if entity @n[type=item,distance=..5,tag=gorider_card] run function krc_s
 execute as @n[type=item,distance=..5,tag=gorider_card] run function krc_snd:drop/common/return_item
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
-execute if score @s krc.henshin-stage matches 1 if predicate krc_core:heisei/gaim_armor unless predicate krc_core:sneaking if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 2
-execute if score @s krc.henshin-stage matches 1 if predicate krc_core:heisei/gaim_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:lockseed_off",scope:"henshin_snd"}
-execute if score @s krc.henshin-stage matches 1 if predicate krc_core:heisei/gaim_armor if entity @n[type=item,distance=..5,tag=valid] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.lock_off","color":"yellow"}
-execute if score @s krc.henshin-stage matches 2 if predicate krc_core:heisei/gaim_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:lockseed_remove",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 1 unless predicate krc_core:heisei/gaim_armor if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 2
+execute if score @s krc.henshin-stage matches 1 unless predicate krc_core:sneaking if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 2
+execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:lockseed_off",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.lock_off","color":"yellow"}
+execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:lockseed_remove",scope:"henshin_snd"}
 
 execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:matsubokkuri_lockseed run function krc_snd:play_global {name:"kamenridercraft:matsubokkuri_lockseed",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:matsubokkuri_lockseed run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.matsubokkuri","color":"#935c27"}
