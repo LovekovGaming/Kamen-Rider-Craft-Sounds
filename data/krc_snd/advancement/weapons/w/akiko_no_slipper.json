@@ -7,10 +7,10 @@
 		"damage": {
 		  "type": {
 			"tags": [
-			  {
-				"id": "minecraft:is_projectile",
-				"expected": false
-			  }
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
 			]
 		  }
 		},
