@@ -1,0 +1,20 @@
+advancement revoke @s only krc_snd:henshin/saber/wonder_ride_books 2
+scoreboard players add @s krc.seq1 1
+
+execute if score @s[advancements={krc_snd:henshin/saber/wonder_ride_books={wonder_almighty=true}}] krc.seq1 matches 40 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.wonder_almighty_story","color":"gray"}
+execute if score @s[advancements={krc_snd:henshin/saber/wonder_ride_books={wonder_almighty=true}}] krc.seq1 matches 80 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.wonder_almighty_story","color":"gray"}
+execute if score @s[advancements={krc_snd:henshin/saber/wonder_ride_books={wonder_almighty=true}}] krc.seq1 matches 114 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.wonder_almighty_story_2","color":"blue"}
+execute if score @s[advancements={krc_snd:henshin/saber/wonder_ride_books={wonder_almighty=true}}] krc.seq1 matches 154 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.wonder_almighty_story_2","color":"blue"}
+execute if score @s[advancements={krc_snd:henshin/saber/wonder_ride_books={wonder_almighty=true}}] krc.seq1 matches 194 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.wonder_almighty_story_2","color":"blue"}
+execute if score @s[advancements={krc_snd:henshin/saber/wonder_ride_books={wonder_almighty=true}}] krc.seq1 matches 234 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.wonder_almighty_story_2","color":"blue"}
+execute if score @s[advancements={krc_snd:henshin/saber/wonder_ride_books={wonder_almighty=true}}] krc.seq1 matches 256 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.wonder_almighty_story_3","color":"red"}
+execute if score @s[advancements={krc_snd:henshin/saber/wonder_ride_books={wonder_almighty=true}}] krc.seq1 matches 310 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.wonder_almighty_story_4","color":"red"}
+execute if score @s[advancements={krc_snd:henshin/saber/wonder_ride_books={wonder_almighty=true}}] krc.seq1 matches 315 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.wonder_almighty_story_4","color":"blue"}
+execute if score @s[advancements={krc_snd:henshin/saber/wonder_ride_books={wonder_almighty=true}}] krc.seq1 matches 320 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.wonder_almighty_story_4","color":"yellow"}
+execute if score @s[advancements={krc_snd:henshin/saber/wonder_ride_books={wonder_almighty=true}}] krc.seq1 matches 325 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.wonder_almighty_story_4","color":"gray"}
+execute if score @s[advancements={krc_snd:henshin/saber/wonder_ride_books={wonder_almighty=true}}] krc.seq1 matches 330 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.wonder_almighty_story_4","color":"green"}
+execute if score @s[advancements={krc_snd:henshin/saber/wonder_ride_books={wonder_almighty=true}}] krc.seq1 matches 335 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.wonder_almighty_story_4","color":"light_purple"}
+execute if score @s[advancements={krc_snd:henshin/saber/wonder_ride_books={wonder_almighty=true}}] krc.seq1 matches 340 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.wonder_almighty_story_4","color":"white"}
+
+execute if score @s krc.seq1 matches ..339 run return 0
+advancement revoke @s only krc_snd:henshin/saber/wonder_ride_books

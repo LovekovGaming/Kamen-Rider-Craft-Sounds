@@ -4,6 +4,9 @@
 	  "1": {
 		"trigger": "minecraft:impossible"
 	  },
+	"wonder_almighty": {
+	  "trigger": "minecraft:impossible"
+	},
 	  "2": {
 		"trigger": "minecraft:tick",
 		"conditions": {
@@ -15,25 +18,10 @@
 				"type_specific": {
 				  "type": "minecraft:player",
 				  "advancements": {
-					"krc_snd:henshin/saber/wonder_almighty_story": {
+					"krc_snd:henshin/saber/wonder_ride_books": {
 					  "1": true
 					}
 				  }
-				},
-				"equipment": {
-				  "feet": {
-					"items": "kamenridercraft:seiken_swordriver_saber"
-				  }
-				}
-			  }
-			},
-			{
-			  "condition": "minecraft:entity_scores",
-			  "entity": "this",
-			  "scores": {
-				"krc.henshin-stage": {
-				  "min": 4,
-				  "max": 7
 				}
 			  }
 			}
@@ -41,8 +29,17 @@
 		}
 	  }
 	},
+  "requirements": [
+	[
+	  "1",
+	  "wonder_almighty"
+	],
+	[
+	  "2"
+	]
+  ],
 	"rewards": {
-	  "function": "krc_snd:henshin/saber/sounds/wonder_almighty_story"
+	  "function": "krc_snd:henshin/saber/sounds/wonder_ride_books"
 	}
   }
   
