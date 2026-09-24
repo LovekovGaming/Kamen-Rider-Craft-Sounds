@@ -113,6 +113,7 @@ scoreboard objectives add krc.configs.w_mode dummy
 scoreboard objectives add krc.configs.akiko_w dummy
 scoreboard objectives add krc.configs.xtreme dummy
 scoreboard objectives add krc.configs.birth_sb dummy
+scoreboard objectives add krc.configs.zangetsu_type dummy
 scoreboard objectives add krc.configs.ghost_equip dummy
 scoreboard objectives add krc.configs.gd_voice dummy
 scoreboard objectives add krc.configs.best_match dummy

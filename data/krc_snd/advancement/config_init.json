@@ -241,6 +241,18 @@
 				  "condition": "minecraft:entity_scores",
 				  "entity": "this",
 				  "scores": {
+					"krc.configs.zangetsu_type": {
+					  "min": 0
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:inverted",
+				"term": {
+				  "condition": "minecraft:entity_scores",
+				  "entity": "this",
+				  "scores": {
 					"krc.configs.ghost_equip": {
 					  "min": 0
 					}

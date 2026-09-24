@@ -19,6 +19,7 @@ execute unless score @s krc.configs.w_mode matches 0.. run scoreboard players se
 execute unless score @s krc.configs.akiko_w matches 0.. run scoreboard players set @s krc.configs.akiko_w 0
 execute unless score @s krc.configs.xtreme matches 0.. run scoreboard players set @s krc.configs.xtreme 1
 execute unless score @s krc.configs.birth_sb matches 0.. run scoreboard players set @s krc.configs.birth_sb 0
+execute unless score @s krc.configs.zangetsu_type matches 0.. run scoreboard players set @s krc.configs.zangetsu_type 0
 execute unless score @s krc.configs.ghost_equip matches 0.. run scoreboard players set @s krc.configs.ghost_equip 0
 execute unless score @s krc.configs.gd_voice matches 0.. run scoreboard players set @s krc.configs.gd_voice 0
 execute unless score @s krc.configs.best_match matches 0.. run scoreboard players set @s krc.configs.best_match 1
