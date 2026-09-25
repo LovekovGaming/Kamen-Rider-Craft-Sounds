@@ -18,9 +18,11 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:zeztz_standby_shock
 scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:capsem_spin
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:capsem_animate
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:dualmare_press
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:shock_fatal
 
+execute if predicate krc_core:sneaking unless score @s krc.form1n matches 12..13 run advancement grant @s only krc_snd:flags/zeztz/temporary capsem_animate
 execute if score @s krc.form1n matches 0 unless score Form_Difference krc.form1n matches 14 run function krc_snd:play_global {name:"kamenridercraft:capsem_spin",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 1.. unless score @s krc.form1n matches 12..14 run function krc_snd:play_global {name:"kamenridercraft:capsem_spin",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 12..13 run function krc_snd:play_global {name:"kamenridercraft:dualmare_press",scope:"henshin_snd"}

@@ -1,6 +1,7 @@
 advancement revoke @s only krc_snd:henshin/zeztz/zeztz_seq 2
 scoreboard players add @s krc.seq1 1
 
+execute if score @s[advancements={krc_snd:flags/zeztz/temporary={capsem_animate=true}}] krc.seq1 matches 10 run function krc_snd:play_global {name:"kamenridercraft:capsem_animate",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 0 if score @s krc.seq1 matches 44 run function krc_snd:play_global {name:"kamenridercraft:physicam_impact",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 0 if score @s krc.seq1 matches 51 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.zeztz.good_morning","color":"aqua"}," ",{"translate":"sound.kamenridercraft.zeztz.rider","color":"aqua"}]
 execute if score @s krc.form1n matches 0 if score @s krc.seq1 matches 91 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.zeztz.good_morning","color":"aqua"}," ",{"translate":"sound.kamenridercraft.zeztz.rider","color":"aqua"}]
@@ -137,4 +138,4 @@ execute if score @s krc.seq1 matches ..313 run return 0
 execute if entity @s[advancements={krc_snd:flags/zeztz/temporary={zeztz_eyes_open=true}}] run function krc_snd:play_global {name:"kamenridercraft:zeztz_eyes_open",scope:"henshin_snd"}
 scoreboard players set @s krc.seq1 0
 advancement revoke @s only krc_snd:henshin/zeztz/zeztz_seq
-advancement revoke @s only krc_snd:flags/zeztz/temporary zeztz_eyes_open
+advancement revoke @s only krc_snd:flags/zeztz/temporary

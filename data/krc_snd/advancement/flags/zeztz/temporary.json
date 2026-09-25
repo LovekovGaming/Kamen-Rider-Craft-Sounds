@@ -1,6 +1,9 @@
 {
   "parent": "krc_snd:flags/root",
   "criteria": {
+	"capsem_animate": {
+	  "trigger": "minecraft:impossible"
+	},
 	"zeztz_eyes_open": {
 	  "trigger": "minecraft:impossible"
 	},
