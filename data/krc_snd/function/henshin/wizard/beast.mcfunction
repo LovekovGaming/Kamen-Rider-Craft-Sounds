@@ -24,7 +24,7 @@ execute if score @s krc.form1n matches 3 run title @a[scores={krc.configs.sound_
 execute if score @s krc.form1n matches 4 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.wizard.go","color":"yellow"}," ",{"translate":"sound.kamenridercraft.wizard.dolphi_mantle","color":"#9522ff"}]
 execute if score @s krc.form1n matches 5 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.wizard.go","color":"yellow"}," ",{"translate":"sound.kamenridercraft.wizard.beast_hyper","color":"blue"}]
 execute if score @s krc.form1n matches 6 run function krc_snd:play_global {name:"kamenridercraft:land_dragon_ring",scope:"henshin_snd"}
-execute if score @s krc.form1n matches 6 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.wizard.land","color":"yellow"}," ",{"translate":"sound.kamenridercraft.wizard.dragon","color":"black","obfuscated":true}]
+execute if score @s krc.form1n matches 6 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.wizard.land_beast","color":"yellow"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
 # advancement grant @s only krc_snd:henshin/common/detransform_root
