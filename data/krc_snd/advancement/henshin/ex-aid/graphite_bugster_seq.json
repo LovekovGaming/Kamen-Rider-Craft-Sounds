@@ -1,0 +1,37 @@
+{
+  "parent": "krc_snd:henshin/ex-aid/seq_root",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    },
+    "2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+			"type": "minecraft:player",
+			"advancements": {
+			  "krc_snd:henshin/ex-aid/graphite_bugster_seq": {
+				"1": true
+                  }
+                }
+              },
+				"equipment": {
+				  "feet": {
+					"items": "#krc_core:item_alias/gashacon_bugvisor_graphite"
+				  }
+				}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+	"function": "krc_snd:henshin/ex-aid/sounds/graphite_bugster"
+  }
+}

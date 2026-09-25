@@ -1,0 +1,75 @@
+{
+	"parent": "krc_snd:drop/ex-aid/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:any_of",
+			  "terms": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"type_specific": {
+					  "type": "minecraft:player",
+					  "gamemode": [
+						"creative"
+					  ]
+					}
+				  }
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"slots": {
+					  "container.*": {
+						"items": "#krc_core:item_alias/gashacon_bugvisor_graphite"
+					  }
+					}
+				  }
+				}
+			  ]
+			},
+			{
+			  "condition": "minecraft:inverted",
+			  "term": {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"feet": {
+					  "items": "#kamenridercraft:belts/ex-aid_armor"
+					}
+				  }
+				}
+			  }
+			},
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"equipment": {
+				  "head": {
+					"items": "kamenridercraft:ex_aidhead"
+				  },
+				  "chest": {
+					"items": "kamenridercraft:ex_aidtroso"
+				  },
+				  "legs": {
+					"items": "kamenridercraft:ex_aidlegs"
+				  }
+				}
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:drop/ex-aid/graphite_bugster"
+	}
+  }
+  
