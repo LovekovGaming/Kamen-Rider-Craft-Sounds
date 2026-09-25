@@ -2,8 +2,8 @@ execute if entity @s[tag=sound_off] run return 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
 execute if score @s krc.form1n matches 0 unless score Form_Difference krc.form1n matches 14 run advancement grant @s only krc_snd:henshin/zeztz/zeztz_seq 1
 execute if score @s krc.form1n matches 1.. run advancement grant @s only krc_snd:henshin/zeztz/zeztz_seq 1
-tag @s remove eyes_open
-execute if entity @s[advancements={krc_core:player_transformed=false}] unless score @s krc.form1n matches 12..13 run tag @s add eyes_open
+advancement revoke @s only krc_snd:flags/zeztz/temporary
+execute if entity @s[advancements={krc_core:player_transformed=false}] unless score @s krc.form1n matches 12..13 run advancement grant @s only krc_snd:flags/zeztz/temporary zeztz_eyes_open
 advancement revoke @s from krc_snd:henshin/zeztz/standby_root
 scoreboard players reset @s krc.henshin-stage
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:zeztz_standby

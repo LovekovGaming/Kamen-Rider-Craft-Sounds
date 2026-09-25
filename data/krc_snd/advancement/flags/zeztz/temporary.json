@@ -1,7 +1,7 @@
 {
   "parent": "krc_snd:flags/root",
   "criteria": {
-	"lady_gauntlet_active": {
+	"zeztz_eyes_open": {
 	  "trigger": "minecraft:impossible"
 	},
 	"midnight_shadow_drive": {
