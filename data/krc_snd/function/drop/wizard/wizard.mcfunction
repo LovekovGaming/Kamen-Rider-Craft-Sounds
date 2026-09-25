@@ -12,7 +12,7 @@ execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entit
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:special_ring run tag @s add magic_ring
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:finish_strike_ring run tag @s add magic_ring
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:special_rush_ring run tag @s add magic_ring
-execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:falco_ring run tag @s add change_ring
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:falco_ring run tag @s add magic_ring
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:buffa_ring run tag @s add change_ring
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:dress_up_ring run tag @s add magic_ring
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:garuda_ring_color_ver run tag @s add magic_ring

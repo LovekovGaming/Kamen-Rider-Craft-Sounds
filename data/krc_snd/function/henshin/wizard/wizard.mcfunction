@@ -11,7 +11,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:wizard_standby_magic
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:drago_timer_standby
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:drago_timer_standby_final
-execute unless score @s krc.form1n matches 10..16 unless score @s krc.form1n matches 19..21 run tag @s remove magic_ring_used
+execute unless score @s krc.form1n matches 10..17 unless score @s krc.form1n matches 19..21 run tag @s remove magic_ring_used
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:flame_ring
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:water_ring
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:hurricane_ring
