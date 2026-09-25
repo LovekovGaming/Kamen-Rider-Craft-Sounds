@@ -16,7 +16,7 @@
 			  "items": "kamenridercraft:ride_kamens_legs"
 			},
 			"feet": {
-			  "items": "kamenridercraft:chaos_driver_toten"
+			  "items": "#krc_snd:item_alias/chaos_driver_toten"
 			}
 		  }
 		}
