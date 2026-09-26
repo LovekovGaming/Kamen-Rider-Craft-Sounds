@@ -1,0 +1,11 @@
+{
+  "parent": "krc_snd:flags/root",
+  "criteria": {
+	"genesis_driver_switch": {
+	  "trigger": "minecraft:impossible"
+	},
+	"sengoku_driver_switch": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}

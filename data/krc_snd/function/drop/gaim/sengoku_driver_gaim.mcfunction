@@ -1,5 +1,9 @@
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents #kamenridercraft:gear/form_items/sengoku_driver run tag @s add valid
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:fake_donguri_lockseed run tag @s add valid
+execute unless score @s krc.henshin-stage matches 1.. if items entity @s armor.feet kamenridercraft:sengoku_driver_kurokage as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:genesis_driver_kurokage_shin run playsound kamenridercraft:belt_equip player @a[scores={krc.configs.weapon_snd=1}] ~ ~1 ~
+execute unless score @s krc.henshin-stage matches 1.. if items entity @s armor.feet kamenridercraft:sengoku_driver_kurokage as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:genesis_driver_kurokage_shin run playsound kamenridercraft:sengoku_driver_detransform player @a[scores={krc.configs.weapon_snd=1}] ~ ~1 ~
+execute unless score @s krc.henshin-stage matches 1.. if items entity @s armor.feet kamenridercraft:sengoku_driver_kurokage if data entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] Thrower if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:genesis_driver_kurokage_shin run advancement grant @s only krc_snd:flags/gaim/temporary genesis_driver_switch
+execute unless score @s krc.henshin-stage matches 1.. if items entity @s armor.feet kamenridercraft:sengoku_driver_kurokage as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:genesis_driver_kurokage_shin run function krc_snd:drop/common/return_item
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
 execute if score @s krc.henshin-stage matches 1 unless predicate krc_core:heisei/gaim_armor if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 2
@@ -115,6 +119,7 @@ execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid] if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:fake_donguri_lockseed run advancement grant @s only krc_snd:henshin/gaim/oren_standby 1
 
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/gaim/root
+execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s only krc_snd:flags/gaim/temporary
 execute if score @s krc.henshin-stage matches 6 unless predicate krc_core:heisei/gaim_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:gaimhead"}
 execute if score @s krc.henshin-stage matches 6 unless predicate krc_core:heisei/gaim_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:gaimtroso"}
 execute if score @s krc.henshin-stage matches 6 unless predicate krc_core:heisei/gaim_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:gaimlegs"}

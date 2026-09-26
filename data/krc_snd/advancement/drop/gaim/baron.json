@@ -6,15 +6,47 @@
 	  "conditions": {
 		"player": [
 		  {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-			  "equipment": {
-				"feet": {
-				  "items": "kamenridercraft:sengoku_driver_baron"
+			"condition": "minecraft:any_of",
+			"terms": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "type_specific": {
+					"type": "minecraft:player",
+					"advancements": {
+					  "krc_snd:flags/gaim/temporary": {
+						"genesis_driver_switch": false
+					  }
+					}
+				  },
+				  "equipment": {
+					"feet": {
+					  "items": "kamenridercraft:sengoku_driver_baron"
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "type_specific": {
+					"type": "minecraft:player",
+					"advancements": {
+					  "krc_snd:flags/gaim/temporary": {
+						"sengoku_driver_switch": true
+					  }
+					}
+				  },
+				  "equipment": {
+					"feet": {
+					  "items": "kamenridercraft:genesis_driver_baron_shin"
+					}
+				  }
 				}
 			  }
-			}
+			]
 		  },
 		  {
 			"condition": "minecraft:any_of",

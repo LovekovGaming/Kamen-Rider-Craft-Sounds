@@ -12,6 +12,14 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
+				  "type_specific": {
+					"type": "minecraft:player",
+					"advancements": {
+					  "krc_snd:flags/gaim/temporary": {
+						"genesis_driver_switch": false
+					  }
+					}
+				  },
 				  "equipment": {
 					"feet": {
 					  "items": "kamenridercraft:sengoku_driver_kurokage"
@@ -81,6 +89,25 @@
 				  "equipment": {
 					"feet": {
 					  "items": "kamenridercraft:sengoku_driver_proto_gaim"
+					}
+				  }
+				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "type_specific": {
+					"type": "minecraft:player",
+					"advancements": {
+					  "krc_snd:flags/gaim/temporary": {
+						"sengoku_driver_switch": true
+					  }
+					}
+				  },
+				  "equipment": {
+					"feet": {
+					  "items": "kamenridercraft:genesis_driver_kurokage_shin"
 					}
 				  }
 				}

@@ -22,7 +22,7 @@
 			  },
 			  "equipment": {
 				"feet": {
-				  "items": "#krc_snd:genesis_driver"
+				  "items": "#kamenridercraft:belts/gaim_armor"
 				}
 			  }
 			}
