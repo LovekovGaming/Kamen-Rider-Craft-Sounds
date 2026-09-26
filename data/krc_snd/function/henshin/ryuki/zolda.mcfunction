@@ -13,9 +13,9 @@ execute if score @s krc.form1n matches 0 if score @s krc.configs.ryuki_type matc
 execute if score @s krc.form1n matches 0 if score @s krc.configs.ryuki_type matches 1 run function krc_snd:play_global {name:"kamenridercraft:v_buckle_dragon_knight",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 1..2 if score @s krc.configs.ryuki_type matches 0 run function krc_snd:play_global {name:"kamenridercraft:visor_close",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 1..2 if score @s krc.configs.ryuki_type matches 1 run function krc_snd:play_global {name:"kamenridercraft:visor_close_dragon_knight",scope:"henshin_snd"}
-execute if score @s krc.form1n matches 1..2 run tag @s add clock_running
-execute if score @s krc.form1n matches 1 run tag @s add shoot_vent
-execute if score @s krc.form1n matches 2 run tag @s add guard_vent
+execute if score @s krc.form1n matches 1..2 run advancement grant @s only krc_snd:henshin/ryuki/advent_card_sound 1
+execute if score @s krc.form1n matches 1 run advancement grant @s only krc_snd:henshin/ryuki/advent_card_sound shoot_vent
+execute if score @s krc.form1n matches 2 run advancement grant @s only krc_snd:henshin/ryuki/advent_card_sound guard_vent
 execute if score @s krc.form1n matches 1 run scoreboard players set @s krc.seq1 0
 execute if score @s krc.form1n matches 2 run scoreboard players set @s krc.seq1 9
 

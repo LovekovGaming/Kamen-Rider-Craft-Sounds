@@ -1,15 +1,37 @@
 {
   "parent": "krc_snd:henshin/ryuki/root",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:tick",
-	  "conditions": {
-		"player": [
-		  {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-			  "nbt": "{Tags:[\"clock_running\"]}",
+    "1": {
+      "trigger": "minecraft:impossible"
+    },
+    "sword_vent": {
+      "trigger": "minecraft:impossible"
+    },
+	"strike_vent": {
+      "trigger": "minecraft:impossible"
+    },
+	"guard_vent": {
+      "trigger": "minecraft:impossible"
+    },
+	"survive": {
+      "trigger": "minecraft:impossible"
+    },
+    "2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+			"type": "minecraft:player",
+			"advancements": {
+			  "krc_snd:henshin/ryuki/advent_card_sound_ouja": {
+				"1": true
+                  }
+                }
+              },
 			  "equipment": {
 				"head": {
 				  "items": "kamenridercraft:ryukihead"
@@ -30,6 +52,18 @@
 	  }
 	}
   },
+  "requirements": [
+	[
+		"1",
+		"sword_vent",
+		"strike_vent",
+		"guard_vent",
+		"survive"
+	],
+	[
+		"2"
+	]
+  ],
   "rewards": {
 	"function": "krc_snd:henshin/ryuki/sounds/advent_card_ouja"
   }

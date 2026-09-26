@@ -25,15 +25,15 @@ execute if score @s krc.form1n matches 2 if score @s krc.configs.ryuki_type matc
 execute if score @s krc.form1n matches 2 if score @s krc.configs.ryuki_type matches 1 if score Form_Difference krc.form1n matches -2 if entity @s[advancements={krc_core:player_transformed=false}] run function krc_snd:play_global {name:"kamenridercraft:v_buckle_dragon_knight",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 3 if score @s krc.configs.ryuki_type matches 0 run function krc_snd:play_global {name:"kamenridercraft:visor_close",scope:"henshin_snd"}
 execute if score @s krc.form1n matches 3 if score @s krc.configs.ryuki_type matches 1 run function krc_snd:play_global {name:"kamenridercraft:visor_close_dragon_knight",scope:"henshin_snd"}
-execute if score @s krc.form1n matches 0..3 unless score @s krc.form1n matches 1..2 run tag @s add clock_running
-execute if score @s krc.form1n matches 3 run tag @s add guard_vent
+execute if score @s krc.form1n matches 0..3 unless score @s krc.form1n matches 1..2 run advancement grant @s only krc_snd:henshin/ryuki/advent_card_sound 1
+execute if score @s krc.form1n matches 3 run advancement grant @s only krc_snd:henshin/ryuki/advent_card_sound guard_vent
 execute if score @s krc.form1n matches 3 run scoreboard players set @s krc.seq1 0
 execute if score @s[advancements={krc_core:player_transformed=false}] krc.form1n matches 4 if score @s krc.configs.ryuki_type matches 0 run function krc_snd:play_global {name:"kamenridercraft:v_buckle",scope:"henshin_snd"}
 execute if score @s[advancements={krc_core:player_transformed=false}] krc.form1n matches 4 if score @s krc.configs.ryuki_type matches 1 run function krc_snd:play_global {name:"kamenridercraft:v_buckle_dragon_knight",scope:"henshin_snd"}
 execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n matches 4 if score @s krc.configs.ryuki_type matches 0 run function krc_snd:play_global {name:"kamenridercraft:advent_card_in",scope:"henshin_snd"}
 execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n matches 4 if score @s krc.configs.ryuki_type matches 1 run function krc_snd:play_global {name:"kamenridercraft:advent_card_in_dragon_knight",scope:"henshin_snd"}
-execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n matches 4 run tag @s add clock_running
-execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n matches 4 run tag @s add survive
+execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n matches 4 run advancement grant @s only krc_snd:henshin/ryuki/advent_card_sound 1
+execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n matches 4 run advancement grant @s only krc_snd:henshin/ryuki/advent_card_sound survive
 execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n matches 4 run scoreboard players set @s krc.seq1 9
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
