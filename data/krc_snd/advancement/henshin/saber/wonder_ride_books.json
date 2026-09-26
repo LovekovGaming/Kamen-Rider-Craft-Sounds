@@ -4,6 +4,219 @@
 	  "1": {
 		"trigger": "minecraft:impossible"
 	  },
+	  "brave_dragon": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "storm_eagle": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "saiyuu_journey": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "dragonic_knight": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "dragonic_knight_2": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "dragonic_knight_3": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "emotional_dragon": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "emotional_dragon_2": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "emotional_dragon_3": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "emotional_dragon_4": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "primitive_dragon": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "primitive_dragon_2": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "primitive_dragon_3": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "elemental_dragon": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "elemental_dragon_2": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "elemental_dragon_3": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "elemental_dragon_4": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "ultimate_bahamut": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "ghost_ijinroku": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "super_hero_senki": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "super_hero_senki_2": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "tenkuu_no_pegasus": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "lion_senki": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "peter_fantasista": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "king_lion_daisenki": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "king_lion_daisenki_2": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "king_lion_daisenki_3": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "tategami_hyoujuusenki": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "tategami_hyoujuusenki_2": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "tategami_hyoujuusenki_3": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "tategami_hyoujuusenki_4": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "specter_gekikou_senki": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "tri_cerberus": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "needle_hedgehog": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "lamp_do_alangina": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "arabiana_night": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "genbu_shinwa": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "jackun_to_domamenoki": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "sarutobi_ninjaden": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "kobuta_3_kyoudai": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "hanselnuts_to_gretel": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "bremen_no_rock_band": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "kirin_no_ongaeshi": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "sarukani_wars": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "bakusou_usagi_to_kame": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "houshin_kamen_engi": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "tsuki_no_hime_kaguyan": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "osha_jizou_san": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "issun_bushi": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "daishougun_momoichirou": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "daikengou_urashimajirou": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "daiyokozuna_kinzaburou": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "jaaku_dragon": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "jaou_dragon": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "jaou_dragon_2": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "jaou_dragon_3": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "x-swordman": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "x-swordman_2": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "x-swordman_3": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "konchuu_daihyakka": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "ocean_history": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "omni_force": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "omni_force_2": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "grimoire": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "grimoire_2": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "tassel_dark": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "eternal_phoenix": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "amazing_siren": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "king_of_arthur": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "televi_kun": {
+	  "trigger": "minecraft:impossible"
+	},
+	  "gaikotsu_ninjaden": {
+	  "trigger": "minecraft:impossible"
+	},
 	"wonder_almighty": {
 	  "trigger": "minecraft:impossible"
 	},
@@ -32,6 +245,77 @@
   "requirements": [
 	[
 	  "1",
+	  "brave_dragon",
+	  "storm_eagle",
+	  "saiyuu_journey",
+	  "dragonic_knight",
+	  "dragonic_knight_2",
+	  "dragonic_knight_3",
+	  "emotional_dragon",
+	  "emotional_dragon_2",
+	  "emotional_dragon_3",
+	  "emotional_dragon_4",
+	  "primitive_dragon",
+	  "primitive_dragon_2",
+	  "primitive_dragon_3",
+	  "elemental_dragon",
+	  "elemental_dragon_2",
+	  "elemental_dragon_3",
+	  "elemental_dragon_4",
+	  "ultimate_bahamut",
+	  "ghost_ijinroku",
+	  "super_hero_senki",
+	  "super_hero_senki_2",
+	  "tenkuu_no_pegasus",
+	  "lion_senki",
+	  "peter_fantasista",
+	  "king_lion_daisenki",
+	  "king_lion_daisenki_2",
+	  "king_lion_daisenki_3",
+	  "tategami_hyoujuusenki",
+	  "tategami_hyoujuusenki_2",
+	  "tategami_hyoujuusenki_3",
+	  "tategami_hyoujuusenki_4",
+	  "specter_gekikou_senki",
+	  "tri_cerberus",
+	  "needle_hedgehog",
+	  "lamp_do_alangina",
+	  "arabiana_night",
+	  "genbu_shinwa",
+	  "jackun_to_domamenoki",
+	  "sarutobi_ninjaden",
+	  "kobuta_3_kyoudai",
+	  "hanselnuts_to_gretel",
+	  "bremen_no_rock_band",
+	  "kirin_no_ongaeshi",
+	  "sarukani_wars",
+	  "bakusou_usagi_to_kame",
+	  "houshin_kamen_engi",
+	  "tsuki_no_hime_kaguyan",
+	  "osha_jizou_san",
+	  "issun_bushi",
+	  "daishougun_momoichirou",
+	  "daikengou_urashimajirou",
+	  "daiyokozuna_kinzaburou",
+	  "jaaku_dragon",
+	  "jaou_dragon",
+	  "jaou_dragon_2",
+	  "jaou_dragon_3",
+	  "x-swordman",
+	  "x-swordman_2",
+	  "x-swordman_3",
+	  "konchuu_daihyakka",
+	  "ocean_history",
+	  "omni_force",
+	  "omni_force_2",
+	  "grimoire",
+	  "grimoire_2",
+	  "tassel_dark",
+	  "eternal_phoenix",
+	  "amazing_siren",
+	  "king_of_arthur",
+	  "televi_kun",
+	  "gaikotsu_ninjaden",
 	  "wonder_almighty"
 	],
 	[
