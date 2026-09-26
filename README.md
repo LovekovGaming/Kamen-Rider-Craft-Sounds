@@ -1,18 +1,20 @@
-# Kamen Rider Craft Sounds
+# Kamen Rider Craft Sounds [![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/LovekovGaming/Kamen-Rider-Craft-Sounds/total)](https://github.com/LovekovGaming/Kamen-Rider-Craft-Sounds/releases) [![Discord](https://img.shields.io/discord/355766960207691778)](https://discord.gg/3b37BRX)
 
 A Minecraft data pack adding sound functionality for the [Kamen Rider Craft](https://modrinth.com/mod/kamen-rider-craft) mod.
 
-Kamen Rider Craft notably does not include henshin sounds due to concerns regarding file size and difficulty with implementation. This data pack acts as a sound system for the mod, complete with henshins, standby loops, weapons, and more.
+Kamen Rider Craft notably does not include henshin sounds due to concerns regarding file size and difficulty with implementation. This data pack acts as a sound system for the mod, complete with henshins, standby loops, weapons, and more. The data pack is multiplayer compatible and can even be used with development builds of the mod.
 
 ## Features
 
 - Henshin sounds and subtitles for almost every Rider in the mod
-- Sounds for belt equips and detransforms
 - Standby loop activation by dropping henshin items
 - Automatic armor equipping via the drop system
-- Sounds for mob and weapon hits
-- Compatible with both release and dev builds of Kamen Rider Craft
-- Multiplayer compatible
+- Sounds for belt equips (incl. name announcement when sneaking)
+- Sounds for detransformation
+- Sounds for henchmen and bosses
+- Sounds for melee and ranged weapon attacks
+
+[demo.webm](https://github.com/user-attachments/assets/494c272b-30a8-45ed-ab98-c6f53879d881)
 
 ## Prerequisites
 
@@ -20,7 +22,7 @@ Kamen Rider Craft notably does not include henshin sounds due to concerns regard
 - The [Kamen Rider Craft](https://modrinth.com/mod/kamen-rider-craft) mod
 - The [Kamen Rider Craft Data Core](https://github.com/LovekovGaming/Kamen-Rider-Craft-Data-Core/) pack
 
-## Installing 
+## Installation
 
 ### Step 1: Resource Pack
 Before using the data pack, you will need to install the **KRC Sounds Resource Pack** for your
@@ -47,10 +49,14 @@ will activate once the reload is complete.
 ## Settings
 
 You can open the config menu with the following command:
-
 ```mcfunction
 /trigger krc.configs.sounds
 ```
 
 This will open a menu in chat where you can choose between Sound Toggles for certain features
 of the data pack, and Player Settings to tweak certain sounds to your liking.
+
+---
+
+> [!NOTE]
+> Some sound extraction was performed using the separation models on [MVSEP](https://mvsep.com/en/home). However, no AI-generated code was or will be used in this data pack.
