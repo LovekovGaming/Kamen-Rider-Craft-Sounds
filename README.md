@@ -1,4 +1,4 @@
-# Kamen Rider Craft Sounds [![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/LovekovGaming/Kamen-Rider-Craft-Sounds/total)](https://github.com/LovekovGaming/Kamen-Rider-Craft-Sounds/releases) [![Discord](https://img.shields.io/discord/355766960207691778)](https://discord.gg/3b37BRX)
+# Kamen Rider Craft Sounds [![Downloads](https://img.shields.io/github/downloads/LovekovGaming/Kamen-Rider-Craft-Sounds/Kamen-Rider-Craft-Sounds.zip?displayAssetName=false)](https://github.com/LovekovGaming/Kamen-Rider-Craft-Sounds/releases) [![Discord](https://img.shields.io/discord/355766960207691778)](https://discord.gg/3b37BRX)
 
 A Minecraft data pack adding sound functionality for the [Kamen Rider Craft](https://modrinth.com/mod/kamen-rider-craft) mod.
 
