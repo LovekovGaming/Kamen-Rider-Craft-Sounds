@@ -1,2 +1,4 @@
+$execute if score @s krc.seq4 matches 1.. run stopsound @a[scores={krc.configs.weapon_snd=1},distance=..50] player kamenridercraft:item.$(id).charge
 $execute if data entity @n[type=#minecraft:arrows,distance=..2,tag=!sound_invalid] {HasBeenShot:false,weapon:{id:"kamenridercraft:$(id)"}} run stopsound @a[scores={krc.configs.weapon_snd=1},distance=..50] player minecraft:entity.blaze.shoot
 $execute if data entity @n[type=#minecraft:arrows,distance=..2,tag=!sound_invalid] {HasBeenShot:false,weapon:{id:"kamenridercraft:$(id)"}} run playsound kamenridercraft:item.$(id).shot player @a[scores={krc.configs.weapon_snd=1}] ~ ~1 ~ 0.75
+scoreboard players set @s krc.seq4 0
