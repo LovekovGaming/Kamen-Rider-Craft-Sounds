@@ -17,7 +17,5 @@ execute unless score @s krc.form1n matches 59 run title @a[scores={krc.configs.s
 execute if score @s krc.form1n matches 59 run function krc_snd:play_global {name:"kamenridercraft:lord_baron",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement revoke @s only krc_snd:henshin/common/detransform_root
-advancement revoke @s from krc_snd:henshin/common/detransform_root
 execute unless score @s krc.form1n matches 59 run advancement grant @s only krc_snd:henshin/common/detransform_root
 execute unless score @s krc.form1n matches 59 run advancement grant @s only krc_snd:henshin/gaim/sengoku_driver_off 1
