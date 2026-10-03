@@ -17,5 +17,5 @@ execute unless score @s krc.form1n matches 4 run function krc_snd:play_global {n
 execute if score @s krc.form1n matches 4 run function krc_snd:play_global {name:"kamenridercraft:feverflow",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-# advancement grant @s only krc_snd:henshin/common/detransform_root
+# advancement grant @s only krc_snd:henshin/common/detransform
 # advancement grant @s only krc_snd:henshin/build/evol-driver_off 1

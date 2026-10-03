@@ -10,5 +10,5 @@ execute if score @s krc.form1n matches 2 unless score Form_Difference krc.form1n
 execute if score @s krc.form1n matches 3 unless score Form_Difference krc.form1n matches -1 run function krc_snd:play_global {name:"kamenridercraft:exceed_gills",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/agito/meta_factor_off 1

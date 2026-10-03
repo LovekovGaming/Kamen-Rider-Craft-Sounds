@@ -72,5 +72,5 @@ execute if score @s krc.form1n matches 7 if score Form_Difference krc.form1n mat
 
 advancement revoke @s only krc_snd:flags/555/temporary
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/555/faiz_driver_off 1

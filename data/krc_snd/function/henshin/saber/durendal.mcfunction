@@ -11,5 +11,5 @@ function krc_snd:play_global {name:"kamenridercraft:durendal_henshin",scope:"hen
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.kaiji_gyakkai","color":"aqua"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/saber/seiken_swordriver_off 1

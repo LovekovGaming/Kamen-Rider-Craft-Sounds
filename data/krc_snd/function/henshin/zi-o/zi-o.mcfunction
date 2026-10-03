@@ -44,5 +44,5 @@ execute if score @s krc.form1n matches 25 run title @a[scores={krc.configs.sound
 execute if score @s krc.form1n matches 0..17 if entity @s[advancements={krc_core:player_transformed=false}] run scoreboard players set @s krc.seq1 15
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/zi-o/ziku-driver_off 1

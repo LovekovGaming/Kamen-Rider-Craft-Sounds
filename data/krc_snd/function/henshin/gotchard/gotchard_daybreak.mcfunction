@@ -17,5 +17,5 @@ execute if score @s krc.form1n matches 1 run title @a[scores={krc.configs.sound_
 function krc_snd:play_global {name:"kamenridercraft:gotchanko",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/gotchard/gotchardriver_off 1_daybreak
+advancement grant @s only krc_snd:henshin/common/detransform
+advancement grant @s only krc_snd:henshin/gotchard/gotchardriver_daybreak_off 1

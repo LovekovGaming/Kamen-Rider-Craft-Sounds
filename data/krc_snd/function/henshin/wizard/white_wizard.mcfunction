@@ -11,5 +11,5 @@ function krc_snd:play_global {name:"kamenridercraft:change_ring",scope:"henshin_
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.wizard.change","color":"gold"}," ",{"translate":"sound.kamenridercraft.wizard.now","color":"black","obfuscated":true}]
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-# advancement grant @s only krc_snd:henshin/common/detransform_root
+# advancement grant @s only krc_snd:henshin/common/detransform
 # advancement grant @s only krc_snd:henshin/wizard/white_wizardriver_off 1

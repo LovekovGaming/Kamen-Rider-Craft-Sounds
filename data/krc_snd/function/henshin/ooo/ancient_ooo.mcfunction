@@ -13,5 +13,5 @@ execute unless score @s krc.form1n matches 0 run advancement revoke @s only krc_
 execute unless score @s krc.form1n matches 0 run function krc_snd:play_global {name:"kamenridercraft:greeed_absorption",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/ooo/ooo_driver_off 1

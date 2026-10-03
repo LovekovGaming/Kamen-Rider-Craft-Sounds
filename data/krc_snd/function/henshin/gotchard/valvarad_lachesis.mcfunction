@@ -12,5 +12,5 @@ title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate"
 function krc_snd:play_global {name:"kamenridercraft:valvarad_henshin",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/gotchard/valvaradraw_buckle_off 1

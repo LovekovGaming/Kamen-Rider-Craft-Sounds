@@ -174,5 +174,5 @@ execute unless entity @s[advancements={krc_core:player_transformed=false}] unles
 execute unless entity @s[advancements={krc_core:player_transformed=false}] unless predicate krc_core:sneaking unless score Form_Difference krc.form4n matches 0 if score @s krc.form4n matches 9 run scoreboard players set @s krc.seq1 21
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/fourze/fourze_driver_off 1

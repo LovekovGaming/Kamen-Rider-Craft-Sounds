@@ -21,5 +21,5 @@ execute if score @s krc.form1n matches 1.. run function krc_snd:play_global {nam
 execute unless score @s krc.form1n matches 1 run tag @s remove tousan_eyecon
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/ghost/ghost_driver_off 1

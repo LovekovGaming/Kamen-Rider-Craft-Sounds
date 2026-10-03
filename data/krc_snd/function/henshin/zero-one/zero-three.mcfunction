@@ -13,5 +13,5 @@ execute if predicate krc_core:sneaking run tag @s add zero-three_short
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zero-one.zero-three_rise","color":"green"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/zero-one/zero-one_driver_off 1

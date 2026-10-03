@@ -38,5 +38,5 @@ execute if score @s krc.form1n matches 8 if entity @s[advancements={krc_core:pla
 execute if score @s krc.form1n matches 5..8 if entity @s[advancements={krc_core:player_transformed=false}] run function krc_snd:play_global {name:"kamenridercraft:kiva_henshin",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/kiva/kivat_belt_off 1

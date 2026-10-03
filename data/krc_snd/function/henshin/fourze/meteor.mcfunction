@@ -11,5 +11,5 @@ execute if score @s krc.form1n matches 0 run function krc_snd:play_global {name:
 execute if score @s krc.form1n matches 1 run function krc_snd:play_global {name:"kamenridercraft:meteor_storm_henshin",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/fourze/meteor_driver_off 1

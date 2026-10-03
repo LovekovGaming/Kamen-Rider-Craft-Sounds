@@ -16,5 +16,5 @@ execute if score @s krc.form1n matches 3 run title @a[scores={krc.configs.sound_
 execute if score @s krc.form1n matches 3 run function krc_snd:play_global {name:"kamenridercraft:king_form",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/blade/leangle_buckle_off 1

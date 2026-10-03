@@ -20,5 +20,5 @@ execute if score @s krc.form1n matches 2..3 if entity @s[advancements={krc_core:
 execute if score @s krc.form1n matches 2..3 if entity @s[advancements={krc_core:player_transformed=false}] run function krc_snd:play_global {name:"kamenridercraft:king_form_decade",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/blade/garren_buckle_off 1

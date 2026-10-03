@@ -14,5 +14,5 @@ execute if score @s krc.form1n matches 4 if score Armed_Hibiki_Chat_Message krc.
 execute if score @s krc.form1n matches 4 if score Armed_Hibiki_Chat_Message krc.configs matches 2 run tellraw @a ["","<",{"selector":"@s"},"> ",{"translate":"sound.kamenridercraft.hibiki.soukou"}]
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/hibiki/equipment_belt_off 1

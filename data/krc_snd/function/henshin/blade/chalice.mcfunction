@@ -24,5 +24,5 @@ execute if score @s krc.form1n matches 5 run playsound kamenridercraft:decadrive
 execute if score @s krc.form1n matches 5 run advancement grant @s only krc_snd:henshin/blade/chalice_choco_seq 1
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/blade/chalice_rouzer_off 1

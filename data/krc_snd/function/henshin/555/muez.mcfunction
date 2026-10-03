@@ -13,5 +13,5 @@ execute if entity @s[advancements={krc_snd:flags/555/temporary={muez_kitazaki=tr
 advancement revoke @s only krc_snd:flags/555/temporary muez_kitazaki
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/555/muez_driver_off 1

@@ -11,5 +11,5 @@ function krc_snd:play_global {name:"kamenridercraft:sclash_driver_henshin",scope
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.build.tsubureru","color":"aqua"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-# advancement grant @s only krc_snd:henshin/common/detransform_root
+# advancement grant @s only krc_snd:henshin/common/detransform
 # advancement grant @s only krc_snd:henshin/build/build_driver_off 1

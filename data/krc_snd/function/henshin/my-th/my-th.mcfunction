@@ -21,5 +21,5 @@ execute if score @s krc.form1n matches 18 run function krc_snd:play_global {name
 execute if score @s krc.form1n matches 19 run function krc_snd:play_global {name:"kamenridercraft:zou_seed_x-eggs",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/my-th/my-th_driver_off 1

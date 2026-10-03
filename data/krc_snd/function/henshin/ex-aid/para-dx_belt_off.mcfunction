@@ -1,6 +1,4 @@
-advancement revoke @s only krc_snd:henshin/ex-aid/para-dx_belt_off
 advancement revoke @s from krc_snd:henshin/ex-aid/root
-function krc_core:reset
 function krc_snd:henshin/reset_sound
 function krc_snd:play_global {name:"kamenridercraft:gashuun_gear_dual",scope:"detransform_snd"}
 function krc_snd:play_global {name:"kamenridercraft:para-dx_detransform",scope:"detransform_snd"}

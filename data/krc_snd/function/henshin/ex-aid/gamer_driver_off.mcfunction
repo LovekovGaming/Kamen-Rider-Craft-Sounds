@@ -1,6 +1,4 @@
-advancement revoke @s only krc_snd:henshin/ex-aid/gamer_driver_off
 advancement revoke @s from krc_snd:henshin/ex-aid/root
-function krc_core:reset
 function krc_snd:henshin/reset_sound
 tag @s remove skip_muteki_activate
 tag @s remove skip_fumetsu_activate

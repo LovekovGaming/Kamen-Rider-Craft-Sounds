@@ -36,5 +36,5 @@ execute if score @s krc.form1n matches 3..4 if entity @s[advancements={krc_core:
 tag @s remove hyper_zecter_active
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-# advancement grant @s only krc_snd:henshin/common/detransform_root
+# advancement grant @s only krc_snd:henshin/common/detransform
 # advancement grant @s only krc_snd:henshin/kabuto/gatack_zecter_off 1

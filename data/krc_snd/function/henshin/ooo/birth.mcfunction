@@ -24,5 +24,5 @@ execute unless entity @s[advancements={krc_core:player_transformed=false}] if sc
 execute unless entity @s[advancements={krc_core:player_transformed=false}] if score Form_Difference krc.form7n matches -1 run tag @s add cutter_wing
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/ooo/birth_driver_off 1

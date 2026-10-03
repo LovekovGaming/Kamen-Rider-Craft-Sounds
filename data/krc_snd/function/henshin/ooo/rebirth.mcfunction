@@ -7,5 +7,5 @@ advancement revoke @s only krc_snd:henshin/ooo/birth_standby
 scoreboard players reset @s krc.henshin-stage
 function krc_snd:play_global {name:"kamenridercraft:birth_knob_turn",scope:"henshin_snd"}
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/ooo/birth_driver_off 1

@@ -13,5 +13,5 @@ execute unless entity @s[advancements={krc_core:player_transformed=false}] unles
 execute unless entity @s[advancements={krc_core:player_transformed=false}] unless score Form_Difference krc.form1n matches 0 if score @s krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.fourze.rocket_on","color":"gold"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/fourze/fourze_driver_off 1

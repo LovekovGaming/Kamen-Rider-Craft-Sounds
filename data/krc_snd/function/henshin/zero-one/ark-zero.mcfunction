@@ -27,5 +27,5 @@ execute if score @s krc.form1n matches 3 unless score Form_Difference krc.form1n
 execute if score @s krc.form1n matches 4 run function krc_snd:play_global {name:"kamenridercraft:ark-one_malgam",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/zero-one/ark_driver_off 1

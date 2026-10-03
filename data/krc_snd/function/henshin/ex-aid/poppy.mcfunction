@@ -10,6 +10,7 @@ execute if entity @s[tag=!no_gashat] run function krc_snd:play_global {name:"kam
 execute if entity @s[tag=!no_gashat] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar [{"translate":"sound.kamenridercraft.ex-aid.gashat","color":"light_purple"}," ",{"translate":"sound.kamenridercraft.ex-aid.buggle_up","color":"aqua"}]
 execute if entity @s[tag=no_gashat] run scoreboard players set @s krc.seq1 24
 advancement grant @s only krc_snd:henshin/ex-aid/poppy_seq 1
+
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/ex-aid/gashacon_bugvisor_ii_off 1_poppy
+advancement grant @s only krc_snd:henshin/common/detransform
+advancement grant @s only krc_snd:henshin/ex-aid/gashacon_bugvisor_ii_off_poppy 1

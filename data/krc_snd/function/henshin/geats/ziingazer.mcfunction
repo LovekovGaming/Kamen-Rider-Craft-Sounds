@@ -10,5 +10,5 @@ function krc_snd:play_global {name:"kamenridercraft:ziingazer",scope:"henshin_sn
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.geats.accept","color":"blue"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/geats/laser_raise_driver_off 1

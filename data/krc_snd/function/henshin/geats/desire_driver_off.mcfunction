@@ -1,6 +1,4 @@
-advancement revoke @s only krc_snd:henshin/geats/desire_driver_off
 advancement revoke @s from krc_snd:henshin/geats/root
-function krc_core:reset
 tag @s remove set_creation
 tag @s remove gigant_sword
 tag @s remove gigant_hammer

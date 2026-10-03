@@ -13,5 +13,5 @@ scoreboard players set @s krc.seq2 0
 function krc_snd:play_global {name:"kamenridercraft:are_you_ready",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/build/build_driver_off 1

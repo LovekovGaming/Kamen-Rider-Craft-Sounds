@@ -25,5 +25,5 @@ execute if score @s krc.form1n matches 6 unless score Form_Difference krc.form1n
 execute if score @s krc.configs.xtreme matches 1 unless score @s krc.form1n matches 6 if score @s krc.form1n matches 5..7 run tag @s add xtreme_armor
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/w/doubledriver_off 1

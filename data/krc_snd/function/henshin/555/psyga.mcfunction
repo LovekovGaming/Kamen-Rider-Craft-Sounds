@@ -13,5 +13,5 @@ execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n 
 execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.faiz.flying_attacker","color":"#9522ff"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/555/psyga_driver_off 1

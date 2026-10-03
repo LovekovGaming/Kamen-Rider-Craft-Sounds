@@ -22,5 +22,5 @@ execute if score @s krc.form1n matches 3 run function krc_snd:play_global {name:
 execute if score @s krc.form1n matches 4 run function krc_snd:play_global {name:"kamenridercraft:chinomanako_diend_fire",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-# advancement grant @s only krc_snd:henshin/common/detransform_root
+# advancement grant @s only krc_snd:henshin/common/detransform
 # advancement grant @s only krc_snd:henshin/decade/decadriver_off 1

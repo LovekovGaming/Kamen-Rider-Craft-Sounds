@@ -19,5 +19,5 @@ execute if score @s krc.form1n matches 3 if items entity @s weapon.offhand kamen
 execute if score @s krc.form1n matches 3 if items entity @s weapon.offhand kamenridercraft:drive_capsem run advancement grant @s only krc_snd:flags/zeztz/temporary midnight_shadow_drive
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/zeztz/nox_driver_off 1

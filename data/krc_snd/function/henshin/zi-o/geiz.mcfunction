@@ -28,5 +28,5 @@ execute if score @s krc.form1n matches 9 unless predicate krc_core:sneaking if s
 execute if score @s krc.form1n matches 10 unless predicate krc_core:sneaking if score Form_Difference krc.form1n matches -1 run scoreboard players set @s krc.seq1 15
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/zi-o/ziku-driver_off 1

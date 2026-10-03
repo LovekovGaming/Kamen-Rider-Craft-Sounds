@@ -7,5 +7,5 @@ scoreboard players reset @s krc.henshin-stage
 function krc_snd:play_global {name:"kamenridercraft:hyper_muteki",scope:"henshin_snd"}
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ex-aid.bakkan","color":"gray"}
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/ex-aid/gamer_driver_off 1

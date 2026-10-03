@@ -25,5 +25,5 @@ execute unless entity @s[advancements={krc_core:player_transformed=false}] if sc
 execute unless entity @s[advancements={krc_core:player_transformed=false}] if score @s krc.form1n matches 1.. run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.dominate_up","color":"aqua"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/revice/revice_driver_off 1

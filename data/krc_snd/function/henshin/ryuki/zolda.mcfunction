@@ -20,5 +20,5 @@ execute if score @s krc.form1n matches 1 run scoreboard players set @s krc.seq1 
 execute if score @s krc.form1n matches 2 run scoreboard players set @s krc.seq1 9
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/ryuki/v_buckle_off 1

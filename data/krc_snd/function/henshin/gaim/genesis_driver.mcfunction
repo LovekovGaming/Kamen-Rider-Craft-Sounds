@@ -17,5 +17,5 @@ execute if score @s krc.form1n matches 0..6 unless score @s krc.form1n matches 4
 execute if score @s krc.form1n matches 4.. unless score @s krc.form1n matches 5..6 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.liquid","color":"red"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/gaim/genesis_driver_off 1

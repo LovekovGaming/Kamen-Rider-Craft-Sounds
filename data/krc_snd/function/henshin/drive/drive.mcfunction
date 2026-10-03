@@ -27,5 +27,5 @@ execute if score @s krc.form2n matches 22 if score @s krc.form1n matches 5 run f
 execute if score @s krc.form2n matches 22 if score @s krc.form1n matches 5 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.drive.tire_all_kakimazerl","color":"red"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/drive/drive_driver_off 1

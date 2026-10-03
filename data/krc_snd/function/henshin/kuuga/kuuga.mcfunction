@@ -75,5 +75,5 @@ execute if score @s krc.form1n matches 19 run playsound kamenridercraft:decadriv
 execute if score @s krc.form1n matches 19 run advancement grant @s only krc_snd:henshin/kuuga/kuuga_ball_seq 1
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/kuuga/arcle_off 1

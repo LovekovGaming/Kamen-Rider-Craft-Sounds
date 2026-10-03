@@ -23,5 +23,5 @@ execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n 
 execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.kabuto.cast_off","color":"gold"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-# advancement grant @s only krc_snd:henshin/common/detransform_root
+# advancement grant @s only krc_snd:henshin/common/detransform
 # advancement grant @s only krc_snd:henshin/kabuto/thebee_zecter_off 1

@@ -19,5 +19,5 @@ execute if score @s krc.form1n matches 21 unless predicate krc_core:sneaking run
 execute if score @s krc.form1n matches 21 unless predicate krc_core:sneaking run advancement revoke @s only krc_snd:henshin/gaim/sengoku_driver_seq
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/gaim/sengoku_driver_off 1

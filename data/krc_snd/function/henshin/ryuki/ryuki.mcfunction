@@ -47,5 +47,5 @@ execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n 
 execute if score @s[advancements={krc_core:player_transformed=true}] krc.form1n matches 6 unless score Form_Difference krc.form1n matches -2..1 run scoreboard players set @s krc.seq1 9
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/ryuki/v_buckle_off 1

@@ -11,5 +11,5 @@ function krc_snd:play_global {name:"kamenridercraft:zero-two_rise",scope:"henshi
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zero-one.zero-two_rise","color":"red"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/zero-one/zero-one_driver_off 1

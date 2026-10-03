@@ -9,5 +9,5 @@ function krc_snd:play_global {name:"kamenridercraft:kamen_rider_brain",scope:"he
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.drive.start_your_engine","color":"green"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/drive/banno_driver_off 1

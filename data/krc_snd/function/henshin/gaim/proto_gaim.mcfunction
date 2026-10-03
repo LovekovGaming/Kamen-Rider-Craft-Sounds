@@ -14,5 +14,5 @@ function krc_snd:play_global {name:"kamenridercraft:gaim_henshin",scope:"henshin
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.soiya","color":"gold"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/gaim/sengoku_driver_off 1

@@ -21,5 +21,5 @@ execute unless score Form_Difference krc.form1n matches -1 unless score @s krc.f
 execute if score Form_Difference krc.form2n matches 0 unless score Form_Difference krc.form3n matches 0 run tag @s add prioritize_r_buckle
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/geats/desire_driver_off 1

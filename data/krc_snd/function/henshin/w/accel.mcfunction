@@ -20,5 +20,5 @@ execute if score @s krc.form1n matches 3 run function krc_snd:play_global {name:
 execute if score @s krc.form1n matches 2..3 run advancement grant @s only krc_snd:henshin/w/accel_seq 1
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/w/acceldriver_off 1

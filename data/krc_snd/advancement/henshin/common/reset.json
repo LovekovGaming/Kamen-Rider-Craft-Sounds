@@ -4,13 +4,22 @@
 	"requirement": {
 	  "trigger": "minecraft:inventory_changed",
 	  "conditions": {
-		"player": {
-		  "equipment": {
-			"feet": {
-			  "items": "minecraft:air"
-			}
-		  }
-		}
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "#kamenridercraft:rider_foot_armor"
+                  }
+                }
+              }
+            }
+          }
+		]
 	  }
 	}
   },

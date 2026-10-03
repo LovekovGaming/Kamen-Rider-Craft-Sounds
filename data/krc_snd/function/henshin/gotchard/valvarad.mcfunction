@@ -26,5 +26,5 @@ execute if score @s[tag=!gekiocopter,tag=!gutsshovel] krc.form1n matches 1 if sc
 execute if score @s[tag=!gekiocopter,tag=!gutsshovel] krc.form1n matches 1 if score @s krc.form2n matches 1 if score Form_Difference krc.form2n matches -1 unless score Form_Difference krc.form1n matches -1 run tag @s add gutsshovel
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/gotchard/valvaradraw_buckle_off 1

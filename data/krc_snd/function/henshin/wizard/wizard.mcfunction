@@ -69,5 +69,5 @@ execute if score @s krc.form1n matches 21 run title @a[scores={krc.configs.sound
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
 advancement revoke @s only krc_snd:flags/wizard/temporary infinity_standby
-# advancement grant @s only krc_snd:henshin/common/detransform_root
+# advancement grant @s only krc_snd:henshin/common/detransform
 # advancement grant @s only krc_snd:henshin/wizard/wizardriver_off 1

@@ -7,5 +7,5 @@ scoreboard players set @s krc.seq1 0
 function krc_snd:play_global {name:"kamenridercraft:wrb_insert",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/saber/seiken_swordriver_off 1

@@ -14,5 +14,5 @@ execute unless score @s krc.form1n matches 16 if score @s krc.form2n matches 18 
 execute unless score @s krc.form1n matches 16 unless score @s krc.form2n matches 18 if score @s krc.form3n matches 16 run function krc_snd:play_global {name:"kamenridercraft:medal_scan_love",scope:"henshin_snd"}
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform_root
+advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/ooo/ooo_driver_off 1
