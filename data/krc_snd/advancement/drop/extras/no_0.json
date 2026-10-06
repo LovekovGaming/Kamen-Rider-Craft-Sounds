@@ -25,7 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": "kamenridercraft:ulimate_half_typhoon_core"
+					  "items": "kamenridercraft:ultimate_half_typhoon_core"
 					}
 				  }
 				}
@@ -38,7 +38,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": "kamenridercraft:ulimate_half_typhoon"
+				  "items": "kamenridercraft:ultimate_half_typhoon"
 				}
 			  }
 			}
@@ -47,7 +47,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:reiwa/shin_kamen_rider_armor"
+			  "name": "tokudata:rider/reiwa/shin_kamen_rider_armor"
 			}
 		  },
 		  {
