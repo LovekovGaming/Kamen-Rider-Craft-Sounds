@@ -1,85 +1,93 @@
 {
-  "parent": "krc_snd:henshin/showa/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:zxhead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:zxtroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:zxlegs"
-			},
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:zx_belt"
+			  "items": "kamenridercraft:zx_belt",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 			}
 		  }
 		}
 	  }
 	},
 	"2": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:zxhead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:zxtroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:zxlegs"
-			},
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:susanoo_belt"
+			  "items": "kamenridercraft:susanoo_belt",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 			}
 		  }
 		}
 	  }
 	},
 	"3": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:zxhead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:zxtroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:zxlegs"
-			},
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:tsukuyomi_belt"
+			  "items": "kamenridercraft:tsukuyomi_belt",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 			}
 		  }
 		}
 	  }
 	},
 	"4": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:zxhead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:zxtroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:zxlegs"
-			},
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:amaterasu_belt"
+			  "items": "kamenridercraft:amaterasu_belt",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 			}
 		  }
 		}

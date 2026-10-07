@@ -133,7 +133,7 @@ scoreboard objectives add krc.configs.majade_link dummy
 scoreboard objectives add krc.configs.dread_standby dummy
 scoreboard objectives add krc.configs.legend_type dummy
 function krc_snd:attempt/boss_blocks
-execute unless score Delta_Chat_Message krc.configs matches 0.. run scoreboard players set Delta_Chat_Message krc.configs 1
-execute unless score Armed_Hibiki_Chat_Message krc.configs matches 0.. run scoreboard players set Armed_Hibiki_Chat_Message krc.configs 1
-execute unless score Drago_Knight_Hunter_Voice krc.configs matches 0.. run scoreboard players set Drago_Knight_Hunter_Voice krc.configs 1
+execute unless score Delta_Chat_Message toku.configs matches 0.. run scoreboard players set Delta_Chat_Message toku.configs 1
+execute unless score Armed_Hibiki_Chat_Message toku.configs matches 0.. run scoreboard players set Armed_Hibiki_Chat_Message toku.configs 1
+execute unless score Drago_Knight_Hunter_Voice toku.configs matches 0.. run scoreboard players set Drago_Knight_Hunter_Voice toku.configs 1
 tellraw @a [{"text":"[KRC Sounds]: ","color":"blue","bold":true},{"translate":"ERROR.Please_Load_KRC_Resource_Pack","color":"white","bold":false}]

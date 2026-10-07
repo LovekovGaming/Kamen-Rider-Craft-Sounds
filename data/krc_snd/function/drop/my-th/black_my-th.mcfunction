@@ -1,15 +1,15 @@
 execute if entity @n[type=item,distance=..5,tag=pick_up] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:entity.item.pickup
 execute if items entity @n[type=item,distance=..5] contents kamenridercraft:ride_x_eggs_1_origin run scoreboard players add @s krc.henshin-stage 1
 
-execute if score @s krc.henshin-stage matches 1 if predicate krc_core:sneaking if items entity @n[type=item,distance=..5] contents kamenridercraft:ride_x_eggs_1_origin run scoreboard players add @s krc.henshin-stage 1
+execute if score @s krc.henshin-stage matches 1 if predicate tokudata:sneaking if items entity @n[type=item,distance=..5] contents kamenridercraft:ride_x_eggs_1_origin run scoreboard players add @s krc.henshin-stage 1
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5] contents kamenridercraft:ride_x_eggs_1_origin run function krc_snd:play_global {name:"kamenridercraft:born_buckle_on",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5] contents kamenridercraft:ride_x_eggs_1_origin run advancement grant @s only krc_snd:henshin/my-th/hammer_born_standby 1
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5] contents kamenridercraft:ride_x_eggs_1_origin run function krc_snd:play_global {name:"kamenridercraft:x-eggs_in_zodiac",scope:"henshin_snd"}
 
 execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5] contents kamenridercraft:ride_x_eggs_1_origin run advancement revoke @s from krc_snd:henshin/my-th/root
-execute if score @s krc.henshin-stage matches 3 unless predicate krc_core:reiwa/my-th_armor if items entity @n[type=item,distance=..5] contents kamenridercraft:ride_x_eggs_1_origin run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:my_th_head"}
-execute if score @s krc.henshin-stage matches 3 unless predicate krc_core:reiwa/my-th_armor if items entity @n[type=item,distance=..5] contents kamenridercraft:ride_x_eggs_1_origin run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:my_th_troso"}
-execute if score @s krc.henshin-stage matches 3 unless predicate krc_core:reiwa/my-th_armor if items entity @n[type=item,distance=..5] contents kamenridercraft:ride_x_eggs_1_origin run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:my_th_legs"}
+execute if score @s krc.henshin-stage matches 3 unless predicate tokudata:rider/reiwa/my-th_armor if items entity @n[type=item,distance=..5] contents kamenridercraft:ride_x_eggs_1_origin run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:my_th_head"}
+execute if score @s krc.henshin-stage matches 3 unless predicate tokudata:rider/reiwa/my-th_armor if items entity @n[type=item,distance=..5] contents kamenridercraft:ride_x_eggs_1_origin run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:my_th_troso"}
+execute if score @s krc.henshin-stage matches 3 unless predicate tokudata:rider/reiwa/my-th_armor if items entity @n[type=item,distance=..5] contents kamenridercraft:ride_x_eggs_1_origin run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:my_th_legs"}
 execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5] contents kamenridercraft:ride_x_eggs_1_origin run scoreboard players set @s krc.seq1 0
 execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5] contents kamenridercraft:ride_x_eggs_1_origin run scoreboard players set @s krc.seq2 0
 execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5] contents kamenridercraft:ride_x_eggs_1_origin run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:my-th_driver_hammer_on_standby

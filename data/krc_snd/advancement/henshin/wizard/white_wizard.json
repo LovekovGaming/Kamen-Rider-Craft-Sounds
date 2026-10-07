@@ -1,145 +1,156 @@
 {
-	"parent": "krc_snd:henshin/wizard/root",
-	"criteria": {
-	  "1": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-		  "player": {
-			"equipment": {
-			  "head": {
-				"items": "kamenridercraft:wizard_head"
-			  },
-			  "chest": {
-				"items": "kamenridercraft:wizard_troso"
-			  },
-			  "legs": {
-				"items": "kamenridercraft:wizard_legs"
-			  },
-			  "feet": {
-				"items": "kamenridercraft:whitewizardriver"
-			  }
-			}
-		  }
-		}
-	  },
-	  "2": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-		  "player": {
-			"equipment": {
-			  "head": {
-				"items": "kamenridercraft:wizard_head"
-			  },
-			  "chest": {
-				"items": "kamenridercraft:wizard_troso"
-			  },
-			  "legs": {
-				"items": "kamenridercraft:wizard_legs"
-			  },
-			  "feet": {
-				"items": "kamenridercraft:magewizardriver"
-			  }
-			}
-		  }
-		}
-	  },
-	  "3": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-		  "player": {
-			"equipment": {
-			  "head": {
-				"items": "kamenridercraft:wizard_head"
-			  },
-			  "chest": {
-				"items": "kamenridercraft:wizard_troso"
-			  },
-			  "legs": {
-				"items": "kamenridercraft:wizard_legs"
-			  },
-			  "feet": {
-				"items": "kamenridercraft:magewizardriver_foot_soldiers"
-			  }
-			}
-		  }
-		}
-	  },
-	  "4": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-		  "player": {
-			"equipment": {
-			  "head": {
-				"items": "kamenridercraft:wizard_head"
-			  },
-			  "chest": {
-				"items": "kamenridercraft:wizard_troso"
-			  },
-			  "legs": {
-				"items": "kamenridercraft:wizard_legs"
-			  },
-			  "feet": {
-				"items": "kamenridercraft:magewizardriver_captain"
-			  }
-			}
-		  }
-		}
-	  },
-	  "5": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-		  "player": {
-			"equipment": {
-			  "head": {
-				"items": "kamenridercraft:wizard_head"
-			  },
-			  "chest": {
-				"items": "kamenridercraft:wizard_troso"
-			  },
-			  "legs": {
-				"items": "kamenridercraft:wizard_legs"
-			  },
-			  "feet": {
-				"items": "kamenridercraft:sorcererdriver"
-			  }
-			}
-		  }
-		}
-	  },
-	  "6": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-		  "player": {
-			"equipment": {
-			  "head": {
-				"items": "kamenridercraft:wizard_head"
-			  },
-			  "chest": {
-				"items": "kamenridercraft:wizard_troso"
-			  },
-			  "legs": {
-				"items": "kamenridercraft:wizard_legs"
-			  },
-			  "feet": {
-				"items": "kamenridercraft:whitewizardriver_f"
-			  }
-			}
-		  }
-		}
-	  }
-	},
-	"requirements": [
-	  [
-		"1",
-		"2",
-		"3",
-		"4",
-		"5",
-		"6"
-	  ]
-	],
-	"rewards": {
-	  "function": "krc_snd:henshin/wizard/white_wizard"
-	}
+  "parent": "tokudata:hooks/transform",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": "kamenridercraft:whitewizardriver",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": "kamenridercraft:magewizardriver",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": "kamenridercraft:magewizardriver_foot_soldiers",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "4": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": "kamenridercraft:magewizardriver_captain",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "5": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": "kamenridercraft:sorcererdriver",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "6": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": "kamenridercraft:whitewizardriver_f",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2",
+	  "3",
+	  "4",
+	  "5",
+	  "6"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/wizard/white_wizard"
   }
-  
+}

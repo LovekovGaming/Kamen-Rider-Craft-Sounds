@@ -1,8 +1,6 @@
 execute if entity @s[tag=sound_off] run return 0
-stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
+function krc_snd:henshin/reset_henshin {series:gaim}
 advancement grant @s only krc_snd:henshin/gaim/sengoku_driver_seq 1
-advancement revoke @s from krc_snd:henshin/gaim/standby_root
-scoreboard players reset @s krc.henshin-stage
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:saver_start
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:saver_standby
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:oren_start

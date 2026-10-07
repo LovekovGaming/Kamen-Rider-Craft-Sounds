@@ -47,7 +47,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:showa/stronger_armor"
+			  "name": "tokudata:rider/showa/stronger_armor"
 			}
 		  },
 		  {

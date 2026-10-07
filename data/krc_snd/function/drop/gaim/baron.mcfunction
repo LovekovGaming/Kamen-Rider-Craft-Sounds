@@ -1,6 +1,6 @@
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents #kamenridercraft:gear/form_items/sengoku_driver run tag @s add valid
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:fake_donguri_lockseed run tag @s add valid
-execute if predicate krc_core:heisei/gaim_armor if entity @s[predicate=krc_snd:has_armor/gorider] if items entity @s container.* kamenridercraft:typhoon_akarider as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:akarider_card run tag @s add gorider_card
+execute if predicate tokudata:rider/heisei/gaim_armor if entity @s[predicate=krc_snd:has_armor/gorider] if items entity @s container.* kamenridercraft:typhoon_akarider as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:akarider_card run tag @s add gorider_card
 execute if entity @n[type=item,distance=..5,tag=gorider_card] run advancement revoke @s only krc_snd:henshin/common/detransform_root
 execute if entity @n[type=item,distance=..5,tag=gorider_card] run advancement revoke @s only krc_snd:henshin/gaim/sengoku_driver_off
 execute if entity @n[type=item,distance=..5,tag=gorider_card] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:akariderhead"}
@@ -14,8 +14,8 @@ execute unless score @s krc.henshin-stage matches 1.. if data entity @n[type=ite
 execute unless score @s krc.henshin-stage matches 1.. as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:genesis_driver_baron_shin run function krc_snd:drop/common/return_item
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
-execute if score @s krc.henshin-stage matches 1 unless predicate krc_core:heisei/gaim_armor if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 2
-execute if score @s krc.henshin-stage matches 1 unless predicate krc_core:sneaking if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 2
+execute if score @s krc.henshin-stage matches 1 unless predicate tokudata:rider/heisei/gaim_armor if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 2
+execute if score @s krc.henshin-stage matches 1 unless predicate tokudata:sneaking if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 2
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:lockseed_off",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.lock_off","color":"yellow"}
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:lockseed_remove",scope:"henshin_snd"}
@@ -118,8 +118,8 @@ execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,dis
 execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:showa_rider_lockseed run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.ichigo","color":"green"}
 execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:heisei_rider_lockseed run function krc_snd:play_global {name:"kamenridercraft:gaim_lockseed",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:heisei_rider_lockseed run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.gaim","color":"gold"}
-execute if score @s krc.henshin-stage matches 3 unless predicate krc_core:sneaking if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:fake_donguri_lockseed run function krc_snd:play_global {name:"kamenridercraft:donguri_lockseed",scope:"henshin_snd"}
-execute if score @s krc.henshin-stage matches 3 if predicate krc_core:sneaking if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:fake_donguri_lockseed run function krc_snd:play_global {name:"kamenridercraft:fake_donguri_lockseed",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 3 unless predicate tokudata:sneaking if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:fake_donguri_lockseed run function krc_snd:play_global {name:"kamenridercraft:donguri_lockseed",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 3 if predicate tokudata:sneaking if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:fake_donguri_lockseed run function krc_snd:play_global {name:"kamenridercraft:fake_donguri_lockseed",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 3 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:fake_donguri_lockseed run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.donguri","color":"gold"}
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:lockseed_insert",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:lockseed_on",scope:"henshin_snd"}
@@ -128,9 +128,9 @@ execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=
 
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/gaim/root
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s only krc_snd:flags/gaim/temporary
-execute if score @s krc.henshin-stage matches 6 unless predicate krc_core:heisei/gaim_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:gaimhead"}
-execute if score @s krc.henshin-stage matches 6 unless predicate krc_core:heisei/gaim_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:gaimtroso"}
-execute if score @s krc.henshin-stage matches 6 unless predicate krc_core:heisei/gaim_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:gaimlegs"}
+execute if score @s krc.henshin-stage matches 6 unless predicate tokudata:rider/heisei/gaim_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:gaimhead"}
+execute if score @s krc.henshin-stage matches 6 unless predicate tokudata:rider/heisei/gaim_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:gaimtroso"}
+execute if score @s krc.henshin-stage matches 6 unless predicate tokudata:rider/heisei/gaim_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:gaimlegs"}
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:baron_start
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:baron_standby

@@ -1,9 +1,6 @@
 execute if entity @s[tag=sound_off] run return 0
-stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
+function krc_snd:henshin/reset_henshin {series:ghost}
 advancement grant @s only krc_snd:henshin/ghost/ghost_seq 1
-scoreboard players reset @s krc.henshin-stage
-advancement revoke @s from krc_snd:henshin/ghost/standby_root
-scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_standby_empty
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_standby_ghost
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_standby_mugen
@@ -13,12 +10,12 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_push
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:thank_you_tousan
 
-execute if score @s krc.form1n matches 1 if items entity @s weapon.mainhand kamenridercraft:tousan_ghost_eyecon run tag @s add tousan_eyecon
-execute if score @s krc.form1n matches 0 unless entity @s[tag=tousan_eyecon] run function krc_snd:play_global {name:"kamenridercraft:ghost_driver_push",scope:"henshin_snd"}
-execute if score @s[tag=tousan_eyecon] krc.form1n matches 0 run function krc_snd:play_global {name:"kamenridercraft:thank_you_tousan",scope:"henshin_snd"}
-execute if score @s[tag=tousan_eyecon] krc.form1n matches 0 run scoreboard players set @s krc.seq1 76
-execute if score @s krc.form1n matches 1.. run function krc_snd:play_global {name:"kamenridercraft:ghost_driver_push",scope:"henshin_snd"}
-execute unless score @s krc.form1n matches 1 run tag @s remove tousan_eyecon
+execute if score @s toku.form1 matches 1 if items entity @s weapon.mainhand kamenridercraft:tousan_ghost_eyecon run tag @s add tousan_eyecon
+execute if score @s toku.form1 matches 0 unless entity @s[tag=tousan_eyecon] run function krc_snd:play_global {name:"kamenridercraft:ghost_driver_push",scope:"henshin_snd"}
+execute if score @s[tag=tousan_eyecon] toku.form1 matches 0 run function krc_snd:play_global {name:"kamenridercraft:thank_you_tousan",scope:"henshin_snd"}
+execute if score @s[tag=tousan_eyecon] toku.form1 matches 0 run scoreboard players set @s krc.seq1 76
+execute if score @s toku.form1 matches 1.. run function krc_snd:play_global {name:"kamenridercraft:ghost_driver_push",scope:"henshin_snd"}
+execute unless score @s toku.form1 matches 1 run tag @s remove tousan_eyecon
 
 advancement revoke @s from krc_snd:henshin/common/detransform_root
 advancement grant @s only krc_snd:henshin/common/detransform

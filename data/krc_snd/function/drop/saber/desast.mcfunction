@@ -5,7 +5,7 @@ execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players ad
 
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:gaikotsu_ninjaden_open",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.gaikotsu_ninjaden_name","color":"dark_purple"}
-execute if score @s krc.henshin-stage matches 2 if predicate krc_core:sneaking if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
+execute if score @s krc.henshin-stage matches 2 if predicate tokudata:sneaking if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/saber/wonder_ride_books 1
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/saber/wonder_ride_books gaikotsu_ninjaden
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:gaikotsu_ninjaden_story",scope:"henshin_snd"}
@@ -16,9 +16,9 @@ execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:gaikotsu_ninjaden_insert",scope:"henshin_snd"}
 
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/saber/root
-execute if score @s krc.henshin-stage matches 4 unless predicate krc_core:reiwa/saber_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:saberhead"}
-execute if score @s krc.henshin-stage matches 4 unless predicate krc_core:reiwa/saber_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:sabertroso"}
-execute if score @s krc.henshin-stage matches 4 unless predicate krc_core:reiwa/saber_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:saberlegs"}
+execute if score @s krc.henshin-stage matches 4 unless predicate tokudata:rider/reiwa/saber_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:saberhead"}
+execute if score @s krc.henshin-stage matches 4 unless predicate tokudata:rider/reiwa/saber_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:sabertroso"}
+execute if score @s krc.henshin-stage matches 4 unless predicate tokudata:rider/reiwa/saber_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:saberlegs"}
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq2 0
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:swordriver_standby_shikkoku

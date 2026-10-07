@@ -1,27 +1,29 @@
 {
-  "parent": "krc_snd:henshin/fourze/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:fourze_head"
-			},
-			"chest": {
-			  "items": "kamenridercraft:fourze_troso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:fourze_legs"
-			},
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:ikaros_driver"
-			}
-		  }
-		}
-	  }
-	}
+			  "items": "kamenridercraft:ikaros_driver",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   },
   "rewards": {
 	"function": "krc_snd:henshin/fourze/ikaros"

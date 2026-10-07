@@ -1,5 +1,5 @@
 execute if entity @s[tag=sound_off] run return 0
-stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
+function krc_snd:henshin/reset_henshin {series:hibiki}
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:henshin_onsa_nishiki
 function krc_snd:play_global {name:"kamenridercraft:henshin_onsa_nishiki",scope:"henshin_snd"}
 

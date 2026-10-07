@@ -85,7 +85,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:heisei/faiz_armor"
+			  "name": "tokudata:rider/heisei/faiz_armor"
 			}
 		  },
 		  {

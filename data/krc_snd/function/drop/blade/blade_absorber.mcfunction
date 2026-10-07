@@ -3,7 +3,7 @@ execute if items entity @s container.* kamenridercraft:rouze_absorber as @n[type
 execute if items entity @s container.* kamenridercraft:rouze_absorber if score @s krc.henshin-stage matches 1.. as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:evolution_caucasus run tag @s add evolution
 execute if items entity @s container.* kamenridercraft:rouze_absorber if score @s krc.henshin-stage matches 1.. as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:silver_evolution_caucasus run tag @s add evolution
 execute as @n[type=item,distance=..5,tag=evolution] run tag @s add valid
-execute if predicate krc_core:heisei/blade_armor if entity @s[predicate=krc_snd:has_armor/gorider] if items entity @s container.* kamenridercraft:typhoon_aorider as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:aorider_card run tag @s add gorider_card
+execute if predicate tokudata:rider/heisei/blade_armor if entity @s[predicate=krc_snd:has_armor/gorider] if items entity @s container.* kamenridercraft:typhoon_aorider as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:aorider_card run tag @s add gorider_card
 execute if entity @n[type=item,distance=..5,tag=gorider_card] run advancement revoke @s only krc_snd:henshin/common/detransform_root
 execute if entity @n[type=item,distance=..5,tag=gorider_card] run advancement revoke @s only krc_snd:henshin/blade/blay_buckle_off
 execute if entity @n[type=item,distance=..5,tag=gorider_card] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:akariderhead"}

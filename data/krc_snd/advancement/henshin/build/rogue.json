@@ -1,27 +1,29 @@
 {
-  "parent": "krc_snd:henshin/build/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:buildhead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:buildtroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:buildlegs"
-			},
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:sclash_driver_rogue"
-			}
-		  }
-		}
-	  }
-	}
+			  "items": "kamenridercraft:sclash_driver_rogue",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   },
   "rewards": {
 	"function": "krc_snd:henshin/build/rogue"

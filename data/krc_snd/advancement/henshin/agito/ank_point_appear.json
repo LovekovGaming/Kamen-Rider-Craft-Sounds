@@ -48,7 +48,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:heisei/agito_armor"
+			  "name": "tokudata:rider/heisei/agito_armor"
 			}
 		  }
 		]

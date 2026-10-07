@@ -1,27 +1,29 @@
 {
-  "parent": "krc_snd:henshin/showa/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:ichigohead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:ichigotroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:ichigolegs"
-			},
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:taki_belt"
-			}
-		  }
-		}
-	  }
-	}
+			  "items": "kamenridercraft:taki_belt",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   },
   "rewards": {
 	"function": "krc_snd:henshin/showa/taki_rider"

@@ -10,6 +10,6 @@ execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:kabutotroso"}
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:kabutolegs"}
 execute if score @s krc.henshin-stage matches 2.. run scoreboard players reset @s krc.henshin-stage
-execute unless score @s krc.form1n matches 1 as @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/return_item
+execute unless score @s toku.form1 matches 1 as @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/return_item
 advancement revoke @s from krc_snd:drop/kabuto/root
 advancement revoke @s only krc_snd:henshin/common/reset

@@ -1,27 +1,29 @@
 {
-  "parent": "krc_snd:henshin/kabuto/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:kabutohead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:kabutotroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:kabutolegs"
-			},
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:kickhopper_rider_belt"
-			}
-		  }
-		}
-	  }
-	}
+			  "items": "kamenridercraft:kickhopper_rider_belt",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   },
   "rewards": {
 	"function": "krc_snd:henshin/kabuto/kickhopper"

@@ -85,7 +85,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:showa/zx_armor"
+			  "name": "tokudata:rider/showa/zx_armor"
 			}
 		  },
 		  {

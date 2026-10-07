@@ -6,8 +6,8 @@ execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items enti
 execute as @n[type=item,distance=..5,tag=barivol] run tag @s add special_stamp
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
-execute if score @s krc.henshin-stage matches 1 if predicate krc_core:sneaking if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:giffard_rex_vistamp run function krc_snd:play_global {name:"kamenridercraft:giffard_rex_separate",scope:"henshin_snd"}
-execute if score @s krc.henshin-stage matches 1 if predicate krc_core:sneaking if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:giffard_rex_vistamp run scoreboard players remove @s krc.henshin-stage 1
+execute if score @s krc.henshin-stage matches 1 if predicate tokudata:sneaking if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:giffard_rex_vistamp run function krc_snd:play_global {name:"kamenridercraft:giffard_rex_separate",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 1 if predicate tokudata:sneaking if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:giffard_rex_vistamp run scoreboard players remove @s krc.henshin-stage 1
 execute if score @s krc.henshin-stage matches 1 if score @s krc.configs.vice_skip matches 1 if items entity @p[distance=1..20] armor.feet kamenridercraft:revice_driver if entity @n[type=item,distance=..5,tag=valid] unless items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:giffard_rex_vistamp run scoreboard players set @s krc.henshin-stage 7
 execute if score @s krc.henshin-stage matches 1 if score @s krc.configs.vice_skip matches 2 if entity @n[type=item,distance=..5,tag=valid] unless items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:giffard_rex_vistamp run scoreboard players set @s krc.henshin-stage 7
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:rex_vistamp run function krc_snd:play_global {name:"kamenridercraft:rex_vistamp",scope:"henshin_snd"}
@@ -101,9 +101,9 @@ execute if score @s krc.henshin-stage matches 5 unless entity @p[distance=1..20,
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:vistamp_set",scope:"henshin_snd"}
 
 execute if score @s krc.henshin-stage matches 7 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/revice/root
-execute if score @s krc.henshin-stage matches 7 unless predicate krc_core:reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:revice_head"}
-execute if score @s krc.henshin-stage matches 7 unless predicate krc_core:reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:revice_troso"}
-execute if score @s krc.henshin-stage matches 7 unless predicate krc_core:reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:revice_legs"}
+execute if score @s krc.henshin-stage matches 7 unless predicate tokudata:rider/reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:revice_head"}
+execute if score @s krc.henshin-stage matches 7 unless predicate tokudata:rider/reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:revice_troso"}
+execute if score @s krc.henshin-stage matches 7 unless predicate tokudata:rider/reiwa/revice_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:revice_legs"}
 execute if score @s krc.henshin-stage matches 7 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
 execute if score @s krc.henshin-stage matches 7 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:revice_standby_rex
 execute if score @s krc.henshin-stage matches 7 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:revice_standby_barid_rex

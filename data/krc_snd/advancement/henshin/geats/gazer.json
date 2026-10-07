@@ -1,57 +1,60 @@
 {
-	"parent": "krc_snd:henshin/geats/root",
-	"criteria": {
-	  "1": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-		  "player": {
-			"equipment": {
-			  "head": {
-				"items": "kamenridercraft:geatshead"
-			  },
-			  "chest": {
-				"items": "kamenridercraft:geatstroso"
-			  },
-			  "legs": {
-				"items": "kamenridercraft:geatslegs"
-			  },
-			  "feet": {
-				"items": "kamenridercraft:vision_driver_gazer"
-			  }
-			}
-		  }
-		}
-	  },
-	  "2": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-		  "player": {
-			"equipment": {
-			  "head": {
-				"items": "kamenridercraft:geatshead"
-			  },
-			  "chest": {
-				"items": "kamenridercraft:geatstroso"
-			  },
-			  "legs": {
-				"items": "kamenridercraft:geatslegs"
-			  },
-			  "feet": {
-				"items": "kamenridercraft:vision_driver_gazer_suel"
-			  }
-			}
-		  }
-		}
-	  }
-	},
-	"requirements": [
-	  [
-		"1",
-		"2"
-	  ]
-	],
-	"rewards": {
-	  "function": "krc_snd:henshin/geats/gazer"
-	}
+  "parent": "tokudata:hooks/transform",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": "kamenridercraft:vision_driver_gazer",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": "kamenridercraft:vision_driver_gazer_suel",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2"
+	]
+  ],
+  "rewards": {
+	"function": "krc_snd:henshin/geats/gazer"
   }
-  
+}

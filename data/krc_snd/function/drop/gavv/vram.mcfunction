@@ -15,9 +15,9 @@ execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,dis
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:puddinte_gochizo run advancement grant @s only krc_snd:henshin/gavv/vram_a_la_mode_standby 1
 
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/gavv/root
-execute if score @s krc.henshin-stage matches 3 unless predicate krc_core:reiwa/gavv_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:gavv_head"}
-execute if score @s krc.henshin-stage matches 3 unless predicate krc_core:reiwa/gavv_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:gavv_troso"}
-execute if score @s krc.henshin-stage matches 3 unless predicate krc_core:reiwa/gavv_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:gavv_legs"}
+execute if score @s krc.henshin-stage matches 3 unless predicate tokudata:rider/reiwa/gavv_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:gavv_head"}
+execute if score @s krc.henshin-stage matches 3 unless predicate tokudata:rider/reiwa/gavv_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:gavv_troso"}
+execute if score @s krc.henshin-stage matches 3 unless predicate tokudata:rider/reiwa/gavv_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:gavv_legs"}
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq2 0
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:vrastumgear_standby

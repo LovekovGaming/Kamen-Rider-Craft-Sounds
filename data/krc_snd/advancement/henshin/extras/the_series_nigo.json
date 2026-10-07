@@ -1,27 +1,29 @@
 {
-  "parent": "krc_snd:henshin/extras/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:the_ichigo_head"
-			},
-			"chest": {
-			  "items": "kamenridercraft:the_ichigo_troso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:the_ichigo_legs"
-			},
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:the_typhoon_nigo"
-			}
-		  }
-		}
-	  }
-	}
+			  "items": "kamenridercraft:the_typhoon_nigo",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   },
   "rewards": {
 	"function": "krc_snd:henshin/extras/the_series_nigo"

@@ -1,7 +1,7 @@
 execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:tassel_dark_wonder_ride_book run scoreboard players add @s krc.henshin-stage 1
 execute if score @s krc.henshin-stage matches 4.. run scoreboard players reset @s krc.henshin-stage
 
-execute if score @s krc.henshin-stage matches 2 if predicate krc_core:sneaking if entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] run scoreboard players set @s krc.henshin-stage 3
+execute if score @s krc.henshin-stage matches 2 if predicate tokudata:sneaking if entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] run scoreboard players set @s krc.henshin-stage 3
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:tassel_dark_wonder_ride_book run function krc_snd:play_global {name:"kamenridercraft:tassel_dark_open",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:tassel_dark_wonder_ride_book run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.tassel_dark_name","color":"light_purple"}
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:tassel_dark_wonder_ride_book run function krc_snd:play_global {name:"kamenridercraft:tassel_dark_story",scope:"henshin_snd"}

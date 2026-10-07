@@ -18,13 +18,13 @@ execute as @n[type=item,distance=..5,tag=tire_koukan] run tag @s add shift_car
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:mach_driver_open",scope:"henshin_snd"}
-execute if score @s krc.henshin-stage matches 1 unless predicate krc_core:heisei/drive_armor if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/drive/mach_standby_empty 1
-execute if score @s krc.henshin-stage matches 1 if predicate krc_core:heisei/drive_armor if score @s krc.form1n matches 0 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/drive/mach_standby 1
-execute if score @s krc.henshin-stage matches 1 if predicate krc_core:heisei/drive_armor if score @s krc.form1n matches 0 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 16
-execute if score @s krc.henshin-stage matches 1 if predicate krc_core:heisei/drive_armor if score @s krc.form1n matches 1 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/drive/mach_standby_dead_heat 1
-execute if score @s krc.henshin-stage matches 1 if predicate krc_core:heisei/drive_armor if score @s krc.form1n matches 1 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 45
-execute if score @s krc.henshin-stage matches 1 if predicate krc_core:heisei/drive_armor if score @s krc.form1n matches 2..4 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/drive/chaser_standby 1
-execute if score @s krc.henshin-stage matches 1 if predicate krc_core:heisei/drive_armor if score @s krc.form1n matches 2..4 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 45
+execute if score @s krc.henshin-stage matches 1 unless predicate tokudata:rider/heisei/drive_armor if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/drive/mach_standby_empty 1
+execute if score @s krc.henshin-stage matches 1 if predicate tokudata:rider/heisei/drive_armor if score @s toku.form1 matches 0 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/drive/mach_standby 1
+execute if score @s krc.henshin-stage matches 1 if predicate tokudata:rider/heisei/drive_armor if score @s toku.form1 matches 0 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 16
+execute if score @s krc.henshin-stage matches 1 if predicate tokudata:rider/heisei/drive_armor if score @s toku.form1 matches 1 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/drive/mach_standby_dead_heat 1
+execute if score @s krc.henshin-stage matches 1 if predicate tokudata:rider/heisei/drive_armor if score @s toku.form1 matches 1 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 45
+execute if score @s krc.henshin-stage matches 1 if predicate tokudata:rider/heisei/drive_armor if score @s toku.form1 matches 2..4 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/drive/chaser_standby 1
+execute if score @s krc.henshin-stage matches 1 if predicate tokudata:rider/heisei/drive_armor if score @s toku.form1 matches 2..4 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 45
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid,tag=!signal_koukan,tag=!tire_koukan] run advancement revoke @s from krc_snd:henshin/drive/standby_root
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid,tag=!signal_koukan,tag=!tire_koukan] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:mach_standby_empty
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid,tag=!signal_koukan,tag=!tire_koukan] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:mach_standby_rider
@@ -49,9 +49,9 @@ execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:mach_standby_chaser
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:mach_standby_dead_heat
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/drive/root
-execute if score @s krc.henshin-stage matches 3 unless predicate krc_core:heisei/drive_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:drive_head"}
-execute if score @s krc.henshin-stage matches 3 unless predicate krc_core:heisei/drive_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:drive_troso"}
-execute if score @s krc.henshin-stage matches 3 unless predicate krc_core:heisei/drive_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:drive_legs"}
+execute if score @s krc.henshin-stage matches 3 unless predicate tokudata:rider/heisei/drive_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:drive_head"}
+execute if score @s krc.henshin-stage matches 3 unless predicate tokudata:rider/heisei/drive_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:drive_troso"}
+execute if score @s krc.henshin-stage matches 3 unless predicate tokudata:rider/heisei/drive_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:drive_legs"}
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
 execute if score @s krc.henshin-stage matches 3.. run scoreboard players reset @s krc.henshin-stage
 execute as @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/return_item

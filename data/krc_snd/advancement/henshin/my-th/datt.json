@@ -1,29 +1,31 @@
 {
-  "parent": "krc_snd:henshin/my-th/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:my_th_head"
-			},
-			"chest": {
-			  "items": "kamenridercraft:my_th_troso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:my_th_legs"
-			},
-			"feet": {
-			  "items": "#krc_snd:item_alias/my_th_driver_slash_on"
-			}
-		  }
-		}
-	  }
-	}
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": "#krc_snd:item_alias/my_th_driver_slash_on",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   },
   "rewards": {
-	"function": "krc_snd:henshin/my-th/datt"
+    "function": "krc_snd:henshin/my-th/datt"
   }
 }

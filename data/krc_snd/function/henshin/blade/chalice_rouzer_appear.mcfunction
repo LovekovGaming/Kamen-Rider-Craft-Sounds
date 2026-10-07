@@ -1,2 +1,2 @@
-execute if entity @s[advancements={krc_core:player_transformed=false}] run function krc_snd:play_global {name:"kamenridercraft:chalice_rouzer_appear",scope:"henshin_snd"}
+execute if entity @s[advancements={tokudata:hooks/transform=false}] run function krc_snd:play_global {name:"kamenridercraft:chalice_rouzer_appear",scope:"henshin_snd"}
 advancement revoke @s only krc_snd:henshin/common/reset

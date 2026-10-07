@@ -1,7 +1,5 @@
 execute if entity @s[tag=sound_off] run return 0
-stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
-advancement revoke @s only krc_snd:henshin/555/orga_standby
-scoreboard players set @s krc.seq1 0
+function krc_snd:henshin/reset_henshin {series:555}
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:orga_standby
 execute if score @s krc.configs.orga_type matches 0 run function krc_snd:play_global {name:"kamenridercraft:orga_henshin",scope:"henshin_snd"}
 execute if score @s krc.configs.orga_type matches 1 run function krc_snd:play_global {name:"kamenridercraft:orga_henshin_alt",scope:"henshin_snd"}

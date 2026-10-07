@@ -25,8 +25,8 @@ execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items enti
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:da_vinci_ghost_eyecon run tag @s add valid
 
 execute if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/ghost/root
-execute if entity @n[type=item,distance=..5,tag=valid] unless predicate krc_core:heisei/ghost_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:ghost_head"}
-execute if entity @n[type=item,distance=..5,tag=valid] unless predicate krc_core:heisei/ghost_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:ghost_troso"}
-execute if entity @n[type=item,distance=..5,tag=valid] unless predicate krc_core:heisei/ghost_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:ghost_legs"}
+execute if entity @n[type=item,distance=..5,tag=valid] unless predicate tokudata:rider/heisei/ghost_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:ghost_head"}
+execute if entity @n[type=item,distance=..5,tag=valid] unless predicate tokudata:rider/heisei/ghost_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:ghost_troso"}
+execute if entity @n[type=item,distance=..5,tag=valid] unless predicate tokudata:rider/heisei/ghost_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:ghost_legs"}
 execute as @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/return_item
 advancement revoke @s from krc_snd:drop/ghost/root

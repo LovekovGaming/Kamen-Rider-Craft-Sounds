@@ -1,32 +1,28 @@
 {
-  "parent": "krc_snd:henshin/hibiki/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
 	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": [
-		  {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-			  "equipment": {
-				"head": {
-				  "items": "kamenridercraft:hibikihead"
-				},
-				"chest": {
-				  "items": "kamenridercraft:hibikitroso"
-				},
-				"legs": {
-				  "items": "kamenridercraft:hibikilegs"
-				},
-				"feet": {
-				  "items": "kamenridercraft:shukidriver"
-				}
-			  }
-			}
-		  }
-		]
-	  }
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+			  "items": "kamenridercraft:shukidriver",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
 	}
   },
   "rewards": {

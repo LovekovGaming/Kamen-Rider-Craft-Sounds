@@ -1,27 +1,29 @@
 {
-  "parent": "krc_snd:henshin/saber/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:saberhead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:sabertroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:saberlegs"
-			},
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:dooms_driver_buckle_storious"
-			}
-		  }
-		}
-	  }
-	}
+			  "items": "kamenridercraft:dooms_driver_buckle_storious",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   },
   "rewards": {
 	"function": "krc_snd:henshin/saber/storious"

@@ -18,7 +18,7 @@
 					"krc_snd:henshin/ryuki/v_buckle_off_ryuga": {
 					  "1": true
 					},
-					"krc_core:hooks/detransform": true
+					"tokudata:hooks/detransform": true
 				  }
 				}
 			  }

@@ -23,7 +23,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:heisei/kiva_armor"
+			  "name": "tokudata:rider/heisei/kiva_armor"
 			}
 		  },
 		  {

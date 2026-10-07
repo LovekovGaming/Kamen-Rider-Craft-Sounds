@@ -2,7 +2,7 @@ execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] 
 
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:crimson_vail_vistamp run function krc_snd:play_global {name:"kamenridercraft:crimson_vail_vistamp",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:crimson_vail_vistamp run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.crimson_vail","color":"dark_red"}
-execute if score @s krc.henshin-stage matches 1 unless predicate krc_core:sneaking if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:crimson_vail_vistamp run advancement grant @s only krc_snd:henshin/revice/crimson_vail_standby 1
+execute if score @s krc.henshin-stage matches 1 unless predicate tokudata:sneaking if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:crimson_vail_vistamp run advancement grant @s only krc_snd:henshin/revice/crimson_vail_standby 1
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:crimson_vail_vistamp run advancement grant @s only krc_snd:henshin/revice/crimson_vail_standby 1
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:crimson_vail_vistamp run function krc_snd:play_global {name:"kamenridercraft:crimson_vail_roller",scope:"henshin_snd"}
 

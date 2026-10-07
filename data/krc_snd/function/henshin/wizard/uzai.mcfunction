@@ -1,8 +1,4 @@
 execute if entity @s[tag=sound_off] run return 0
-stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
-scoreboard players reset @s krc.henshin-stage
-scoreboard players set @s krc.seq1 0
-
+function krc_snd:henshin/reset_henshin {series:wizard}
 function krc_snd:play_global {name:"kamenridercraft:ghoul_hurt",scope:"henshin_snd"}
-
 advancement revoke @s from krc_snd:henshin/common/detransform_root

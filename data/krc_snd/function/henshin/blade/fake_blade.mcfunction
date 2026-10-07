@@ -1,9 +1,6 @@
 execute if entity @s[tag=sound_off] run return 0
-stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
-scoreboard players reset @s krc.henshin-stage
-advancement revoke @s from krc_snd:henshin/blade/standby_root
+function krc_snd:henshin/reset_henshin {series:blade}
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:blade_standby
-scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:blade_henshin
 
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.blade.turn_up","color":"dark_blue"}

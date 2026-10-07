@@ -47,7 +47,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:showa/skyrider_armor"
+			  "name": "tokudata:rider/showa/skyrider_armor"
 			}
 		  },
 		  {

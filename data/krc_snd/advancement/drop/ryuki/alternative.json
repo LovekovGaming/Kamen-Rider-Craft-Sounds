@@ -63,7 +63,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:heisei/ryuki_armor"
+			  "name": "tokudata:rider/heisei/ryuki_armor"
 			}
 		  },
 		  {

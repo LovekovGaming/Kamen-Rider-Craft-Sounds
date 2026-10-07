@@ -1,7 +1,7 @@
 execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:toki_meki_crisis_gashat run scoreboard players add @s krc.henshin-stage 1
 
-execute unless predicate krc_core:sneaking if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:toki_meki_crisis_gashat run function krc_snd:play_global {name:"kamenridercraft:toki_meki_crisis_activate",scope:"henshin_snd"}
-execute if predicate krc_core:sneaking if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:toki_meki_crisis_gashat run function krc_snd:play_global {name:"kamenridercraft:toki_meki_crisis_activate_controlled",scope:"henshin_snd"}
+execute unless predicate tokudata:sneaking if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:toki_meki_crisis_gashat run function krc_snd:play_global {name:"kamenridercraft:toki_meki_crisis_activate",scope:"henshin_snd"}
+execute if predicate tokudata:sneaking if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:toki_meki_crisis_gashat run function krc_snd:play_global {name:"kamenridercraft:toki_meki_crisis_activate_controlled",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:toki_meki_crisis_gashat run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ex-aid.toki_meki_crisis_title","color":"light_purple"}
 
 execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:toki_meki_crisis_gashat run scoreboard players set @s krc.seq1 0

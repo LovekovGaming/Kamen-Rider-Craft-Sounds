@@ -1,27 +1,29 @@
 {
-  "parent": "krc_snd:henshin/ex-aid/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:ex_aidhead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:ex_aidtroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:ex_aidlegs"
-			},
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:gashacon_bugvisor_ii_lazer"
-			}
-		  }
-		}
-	  }
-	}
+			  "items": "kamenridercraft:gashacon_bugvisor_ii_lazer",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   },
   "rewards": {
 	"function": "krc_snd:henshin/ex-aid/lazer_x"

@@ -1,7 +1,7 @@
 execute if entity @n[type=item,distance=..5,tag=pick_up] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:entity.item.pickup
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents #kamenridercraft:gear/form_items/gotcharbrothers run tag @s add valid
-execute unless predicate krc_core:reiwa/gotchard_armor if score @s krc.henshin-stage matches 3 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:exgotchalibur run tag @s add number_10_item
-execute if predicate krc_core:reiwa/gotchard_armor unless score @s krc.henshin-stage matches 2.. as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:exgotchalibur run tag @s add number_10_item
+execute unless predicate tokudata:rider/reiwa/gotchard_armor if score @s krc.henshin-stage matches 3 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:exgotchalibur run tag @s add number_10_item
+execute if predicate tokudata:rider/reiwa/gotchard_armor unless score @s krc.henshin-stage matches 2.. as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:exgotchalibur run tag @s add number_10_item
 execute if score @s krc.henshin-stage matches 1..3 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:ufo_x_ride_chemy_card run tag @s remove valid
 execute if score @s krc.henshin-stage matches 1..3 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:x_rex_ride_chemy_card run tag @s remove valid
 execute if score @s krc.henshin-stage matches 4 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:ufo_x_ride_chemy_card run tag @s add number_10_item
@@ -136,9 +136,9 @@ execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:nijigon_standby_gotcharbrothers
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/gotchard/root
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s only krc_snd:flags/gotchard/temporary
-execute if score @s krc.henshin-stage matches 6 unless predicate krc_core:reiwa/gotchard_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:gotchard_head"}
-execute if score @s krc.henshin-stage matches 6 unless predicate krc_core:reiwa/gotchard_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:gotchard_torso"}
-execute if score @s krc.henshin-stage matches 6 unless predicate krc_core:reiwa/gotchard_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:gotchard_legs"}
+execute if score @s krc.henshin-stage matches 6 unless predicate tokudata:rider/reiwa/gotchard_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:gotchard_head"}
+execute if score @s krc.henshin-stage matches 6 unless predicate tokudata:rider/reiwa/gotchard_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:gotchard_torso"}
+execute if score @s krc.henshin-stage matches 6 unless predicate tokudata:rider/reiwa/gotchard_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:gotchard_legs"}
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq2 0
 execute if score @s krc.henshin-stage matches 6.. run scoreboard players reset @s krc.henshin-stage

@@ -1,106 +1,116 @@
 {
-  "parent": "krc_snd:henshin/extras/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:akariderhead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:akaridertroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:akariderlegs"
-			},
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:typhoon_akarider"
+			  "items": "kamenridercraft:typhoon_akarider",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 			}
 		  }
 		}
 	  }
 	},
 	"2": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:akariderhead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:akaridertroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:akariderlegs"
-			},
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:typhoon_aorider"
+			  "items": "kamenridercraft:typhoon_aorider",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 			}
 		  }
 		}
 	  }
 	},
 	"3": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:akariderhead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:akaridertroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:akariderlegs"
-			},
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:typhoon_kirider"
+			  "items": "kamenridercraft:typhoon_kirider",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 			}
 		  }
 		}
 	  }
 	},
 	"4": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:akariderhead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:akaridertroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:akariderlegs"
-			},
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:typhoon_momorider"
+			  "items": "kamenridercraft:typhoon_momorider",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 			}
 		  }
 		}
 	  }
 	},
 	"5": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:akariderhead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:akaridertroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:akariderlegs"
-			},
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:typhoon_midorider"
+			  "items": "kamenridercraft:typhoon_midorider",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 			}
 		  }
 		}

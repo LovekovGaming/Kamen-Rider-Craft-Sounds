@@ -26,7 +26,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:heisei/build_armor"
+			  "name": "tokudata:rider/heisei/build_armor"
 			}
 		  }
 		]

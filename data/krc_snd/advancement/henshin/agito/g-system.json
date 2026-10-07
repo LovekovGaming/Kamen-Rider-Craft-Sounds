@@ -1,153 +1,167 @@
 {
-  "parent": "krc_snd:henshin/agito/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:agitohead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:agitotroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:agitolegs"
-			},
-			"feet": {
-			  "items": "kamenridercraft:g3_belt"
-			}
-		  }
-		}
-	  }
-	},
-	"2": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:agitohead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:agitotroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:agitolegs"
-			},
-			"feet": {
-			  "items": "kamenridercraft:g3_x_belt"
-			}
-		  }
-		}
-	  }
-	},
-	"3": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:agitohead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:agitotroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:agitolegs"
-			},
-			"feet": {
-			  "items": "kamenridercraft:g3_mild_belt"
-			}
-		  }
-		}
-	  }
-	},
-	"4": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:agitohead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:agitotroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:agitolegs"
-			},
-			"feet": {
-			  "items": "kamenridercraft:g4_belt"
-			}
-		  }
-		}
-	  }
-	},
-	"5": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:agitohead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:agitotroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:agitolegs"
-			},
-			"feet": {
-			  "items": "kamenridercraft:g4_x_belt"
-			}
-		  }
-		}
-	  }
-	},
-	"6": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:agitohead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:agitotroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:agitolegs"
-			},
-			"feet": {
-			  "items": "kamenridercraft:g1_belt"
-			}
-		  }
-		}
-	  }
-	},
-	"7": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:agitohead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:agitotroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:agitolegs"
-			},
-			"feet": {
-			  "items": "kamenridercraft:g6_belt"
-			}
-		  }
-		}
-	  }
-	}
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": "kamenridercraft:g3_belt",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": "kamenridercraft:g3_x_belt",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": "kamenridercraft:g3_mild_belt",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "4": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": "kamenridercraft:g4_belt",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "5": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": "kamenridercraft:g4_x_belt",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "6": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": "kamenridercraft:g1_belt",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "7": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": "kamenridercraft:g6_belt",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   },
   "requirements": [
 	[
