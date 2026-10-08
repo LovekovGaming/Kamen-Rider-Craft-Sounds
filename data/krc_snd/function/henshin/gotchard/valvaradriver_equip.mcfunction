@@ -3,4 +3,4 @@ execute unless items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"ka
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:metal_machwheel_ride_chemy_card"}] if entity @s[advancements={tokudata:hooks/transform=false}] run function krc_snd:play_global {name:"kamenridercraft:valvaradriver_kurogane_equip",scope:"equip_snd"}
 execute if predicate tokudata:sneaking if entity @s[advancements={tokudata:hooks/transform=false}] run advancement grant @s only krc_snd:henshin/gotchard/valvaradriver_equip_seq 1
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:metal_machwheel_ride_chemy_card"}] if predicate tokudata:sneaking if entity @s[advancements={tokudata:hooks/transform=false}] run scoreboard players set @s krc.seq1 5
-advancement revoke @s only krc_snd:henshin/common/reset
+advancement revoke @s from krc_snd:henshin/common/equip_root

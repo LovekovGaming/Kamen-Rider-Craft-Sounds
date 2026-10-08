@@ -2,4 +2,4 @@ stopsound @a[scores={krc.configs.equip_snd=1},distance=..20] player minecraft:it
 execute unless items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:twilight_the_sun_ride_chemy_card"}] if entity @s[advancements={tokudata:hooks/transform=false}] run function krc_snd:play_global {name:"kamenridercraft:alchemisdriver_equip",scope:"equip_snd"}
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:twilight_the_sun_ride_chemy_card"}] if entity @s[advancements={tokudata:hooks/transform=false}] run function krc_snd:play_global {name:"kamenridercraft:majestydriver_equip",scope:"equip_snd"}
 execute if predicate tokudata:sneaking if entity @s[advancements={tokudata:hooks/transform=false}] run advancement grant @s only krc_snd:henshin/gotchard/alchemisdriver_equip_seq 1
-advancement revoke @s only krc_snd:henshin/common/reset
+advancement revoke @s from krc_snd:henshin/common/equip_root
