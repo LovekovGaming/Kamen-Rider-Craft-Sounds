@@ -1,5 +1,4 @@
 {
-  "parent": "krc_snd:flags/root",
   "criteria": {
 	"1": {
 	  "trigger": "minecraft:impossible"
