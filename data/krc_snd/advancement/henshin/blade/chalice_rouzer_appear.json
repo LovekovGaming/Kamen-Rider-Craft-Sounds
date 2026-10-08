@@ -12,7 +12,7 @@
 			  "type_specific": {
 				"type": "minecraft:player",
 				"advancements": {
-				  "krc_snd:henshin/common/reset": true
+				  "krc_snd:henshin/common/equip_root": true
 				}
 			  },
 			  "equipment": {
