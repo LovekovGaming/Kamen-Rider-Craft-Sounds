@@ -23,6 +23,4 @@ execute if score @s toku.form1 matches 5 run title @a[scores={krc.configs.sound_
 execute if score @s toku.form1 matches 6 run function krc_snd:play_global {name:"kamenridercraft:land_dragon_ring",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 6 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.wizard.land_beast","color":"yellow"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-# advancement grant @s only krc_snd:henshin/common/detransform
 # advancement grant @s only krc_snd:henshin/wizard/wizardriver_off 1

@@ -5,6 +5,4 @@ advancement grant @s only krc_snd:henshin/geats/gazer_seq 1
 function krc_snd:play_global {name:"kamenridercraft:gazer",scope:"henshin_snd"}
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.geats.install","color":"yellow"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/geats/vision_driver_off 1

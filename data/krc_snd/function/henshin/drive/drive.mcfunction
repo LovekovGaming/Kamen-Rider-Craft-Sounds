@@ -23,6 +23,4 @@ execute if score @s toku.form2 matches 19..21 if score @s toku.form1 matches 5 r
 execute if score @s toku.form2 matches 22 if score @s toku.form1 matches 5 run function krc_snd:play_global {name:"kamenridercraft:tire_all_kakimazerl",scope:"henshin_snd"}
 execute if score @s toku.form2 matches 22 if score @s toku.form1 matches 5 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.drive.tire_all_kakimazerl","color":"red"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/drive/drive_driver_off 1

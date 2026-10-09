@@ -33,6 +33,4 @@ execute if score @s toku.form1 matches 8 unless entity @s[advancements={tokudata
 execute if score @s toku.form1 matches 8 if entity @s[advancements={tokudata:hooks/transform=false}] run advancement grant @s only krc_snd:henshin/kiva/kiva_seq 1
 execute if score @s toku.form1 matches 5..8 if entity @s[advancements={tokudata:hooks/transform=false}] run function krc_snd:play_global {name:"kamenridercraft:kiva_henshin",scope:"henshin_snd"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/kiva/kivat_belt_off 1

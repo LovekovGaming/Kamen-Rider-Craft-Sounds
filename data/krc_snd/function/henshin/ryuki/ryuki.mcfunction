@@ -44,6 +44,4 @@ execute if score @s[advancements={tokudata:hooks/transform=true}] toku.form1 mat
 execute if score @s[advancements={tokudata:hooks/transform=true}] toku.form1 matches 6 unless score Form_Difference toku.form1 matches -2..1 run tag @s remove guard_vent
 execute if score @s[advancements={tokudata:hooks/transform=true}] toku.form1 matches 6 unless score Form_Difference toku.form1 matches -2..1 run scoreboard players set @s krc.seq1 9
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/ryuki/v_buckle_off 1

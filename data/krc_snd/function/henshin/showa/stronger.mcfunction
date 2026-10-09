@@ -7,4 +7,3 @@ execute unless score @s toku.form1 matches 2 run function krc_snd:play_global {n
 execute if score @s toku.form1 matches 2 run function krc_snd:play_global {name:"kamenridercraft:stronger_charge_up",scope:"henshin_snd"}
 
 advancement revoke @s only krc_snd:henshin/showa/stronger
-advancement revoke @s from krc_snd:henshin/common/detransform_root

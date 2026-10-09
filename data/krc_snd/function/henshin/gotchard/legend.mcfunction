@@ -23,6 +23,4 @@ execute if score @s toku.form1 matches 29.. if entity @s[advancements={tokudata:
 execute if score @s toku.form1 matches 29.. if entity @s[advancements={tokudata:hooks/transform=true}] unless predicate tokudata:sneaking run scoreboard players set @s krc.seq1 30
 execute if score @s toku.form1 matches 29.. if entity @s[advancements={tokudata:hooks/transform=true}] if predicate tokudata:sneaking run function krc_snd:play_global {name:"kamenridercraft:final_chemy_ride",scope:"henshin_snd"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/gotchard/legendriver_off 1

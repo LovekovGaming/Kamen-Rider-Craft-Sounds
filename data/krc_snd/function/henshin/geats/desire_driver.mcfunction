@@ -237,6 +237,4 @@ execute unless score @s toku.form2 matches 1.. if score @s toku.form3 matches 38
 execute unless score @s toku.form2 matches 1.. if score @s toku.form3 matches 38 run scoreboard players add @s krc.seq1 54
 execute unless score @s toku.form2 matches 1..15 unless score @s toku.form2 matches 31..37 unless score @s toku.form2 matches 39.. if score @s toku.form3 matches 39.. run scoreboard players add @s krc.seq1 89
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/geats/desire_driver_off 1

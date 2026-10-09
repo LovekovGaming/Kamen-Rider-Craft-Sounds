@@ -11,6 +11,4 @@ execute if score @s toku.form1 matches 0 run title @a[scores={krc.configs.sound_
 execute if score @s toku.form1 matches 1 run function krc_snd:play_global {name:"kamenridercraft:yuuki_hijack",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.den-o.hijack_form","color":"dark_red"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/den-o/new_den-o_belt_off 1

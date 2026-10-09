@@ -2,6 +2,7 @@ execute if entity @s[tag=sound_off] run return 0
 function krc_snd:henshin/reset_henshin {series:wizard}
 advancement grant @s only krc_snd:henshin/wizard/wizard_seq 1
 execute if score @s[advancements={krc_snd:flags/wizard/temporary={infinity_standby=true}}] toku.form1 matches 8 run scoreboard players set @s krc.seq1 40
+advancement revoke @s only krc_snd:flags/wizard/temporary infinity_standby
 execute if score @s toku.form1 matches 8 if score @s krc.henshin-stage matches 2 run scoreboard players set @s krc.seq1 40
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:wizard_standby_change
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:wizard_standby_magic
@@ -63,7 +64,4 @@ execute if score @s toku.form1 matches 20 run title @a[scores={krc.configs.sound
 execute if score @s toku.form1 matches 21 run function krc_snd:play_global {name:"kamenridercraft:kraken_ring",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 21 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.wizard.kraken","color":"yellow"}," ",{"translate":"sound.kamenridercraft.wizard.please","color":"black","obfuscated":true}]
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement revoke @s only krc_snd:flags/wizard/temporary infinity_standby
-# advancement grant @s only krc_snd:henshin/common/detransform
 # advancement grant @s only krc_snd:henshin/wizard/wizardriver_off 1

@@ -12,6 +12,4 @@ execute unless score @s toku.form1 matches 4 run title @a[scores={krc.configs.so
 execute if score @s toku.form1 matches 4 run function krc_snd:play_global {name:"kamenridercraft:full_shotrise",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 4 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.zero-one.full","color":"yellow"}," ",{"translate":"sound.kamenridercraft.zero-one.shotrise","color":"blue"}]
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/zero-one/shotriser_off 1

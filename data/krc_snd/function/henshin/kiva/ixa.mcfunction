@@ -10,6 +10,4 @@ execute unless score Form_Difference toku.form1 matches -1 if score @s toku.form
 execute if score @s toku.form1 matches 1 run function krc_snd:play_global {name:"kamenridercraft:ixa_burst_mode",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 2 run function krc_snd:play_global {name:"kamenridercraft:rising_ixa",scope:"henshin_snd"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/kiva/ixa_belt_off 1

@@ -67,6 +67,4 @@ execute if score @s toku.form1 matches 7 if score Form_Difference toku.form1 mat
 execute if score @s toku.form1 matches 7 if score Form_Difference toku.form1 matches -1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.faiz.faiz_blaster_discharge","color":"yellow"}
 
 advancement revoke @s only krc_snd:flags/555/temporary
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/555/faiz_driver_off 1

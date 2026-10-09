@@ -8,6 +8,4 @@ execute if entity @s[tag=!no_gashat] run title @a[scores={krc.configs.sound_subs
 execute if entity @s[tag=no_gashat] run scoreboard players set @s krc.seq1 24
 advancement grant @s only krc_snd:henshin/ex-aid/poppy_seq 1
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/ex-aid/gashacon_bugvisor_ii_off_poppy 1

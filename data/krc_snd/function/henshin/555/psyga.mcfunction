@@ -9,6 +9,4 @@ execute if entity @s[advancements={tokudata:hooks/transform=false}] run advancem
 execute if score @s[advancements={tokudata:hooks/transform=true}] toku.form1 matches 1 run function krc_snd:play_global {name:"kamenridercraft:flying_attacker",scope:"henshin_snd"}
 execute if score @s[advancements={tokudata:hooks/transform=true}] toku.form1 matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.faiz.flying_attacker","color":"#9522ff"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/555/psyga_driver_off 1

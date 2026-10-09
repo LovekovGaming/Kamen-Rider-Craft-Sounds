@@ -21,6 +21,4 @@ execute if score @s[advancements={tokudata:hooks/transform=true}] toku.form1 mat
 execute if score @s toku.form1 matches 5 run playsound kamenridercraft:decadriver player @a[scores={krc.configs.henshin_snd=1}] ~2 ~1 ~
 execute if score @s toku.form1 matches 5 run advancement grant @s only krc_snd:henshin/blade/chalice_choco_seq 1
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/blade/chalice_rouzer_off 1

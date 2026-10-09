@@ -18,6 +18,4 @@ execute if score @s toku.form1 matches 2 run function krc_snd:play_global {name:
 execute if score @s toku.form1 matches 3 run function krc_snd:play_global {name:"kamenridercraft:x-swordman_powerful",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 4 run function krc_snd:play_global {name:"kamenridercraft:x-swordman_wonderful",scope:"henshin_snd"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/saber/seiken_swordriver_off 1

@@ -37,6 +37,4 @@ execute if score @s toku.form1 matches 18 run title @a[scores={krc.configs.sound
 execute if score @s toku.form1 matches 19 run function krc_snd:play_global {name:"kamenridercraft:gold_spino_genome",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 19 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.gold_up","color":"yellow"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/revice/revice_driver_off 1

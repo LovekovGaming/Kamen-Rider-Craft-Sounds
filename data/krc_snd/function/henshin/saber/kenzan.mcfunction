@@ -15,6 +15,4 @@ execute if score @s toku.form1 matches 1 run title @a[scores={krc.configs.sound_
 execute if score @s toku.form1 matches 2 run function krc_snd:play_global {name:"kamenridercraft:jackun-to-domamenoki_open",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 2 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.jackun_to_domamenoki_name","color":"aqua"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/saber/seiken_swordriver_off 1

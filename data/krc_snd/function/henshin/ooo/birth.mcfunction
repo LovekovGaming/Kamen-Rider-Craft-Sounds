@@ -20,6 +20,4 @@ execute unless entity @s[advancements={tokudata:hooks/transform=false}] if score
 execute unless entity @s[advancements={tokudata:hooks/transform=false}] if score Form_Difference toku.form6 matches -1 run tag @s add drill_arm
 execute unless entity @s[advancements={tokudata:hooks/transform=false}] if score Form_Difference toku.form7 matches -1 run tag @s add cutter_wing
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/ooo/birth_driver_off 1

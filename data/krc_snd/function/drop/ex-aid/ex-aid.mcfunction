@@ -84,7 +84,6 @@ execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entit
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:lets_go_ichigou_gashat run tag @s add valid
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:lets_go_ichigou_gashat run tag @s add lets_go_ichigou
 execute if predicate tokudata:rider/heisei/ex-aid_armor if entity @s[predicate=krc_snd:has_armor/gorider] if items entity @s container.* kamenridercraft:typhoon_akarider as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:akarider_card run tag @s add gorider_card
-execute if entity @n[type=item,distance=..5,tag=gorider_card] run advancement revoke @s only krc_snd:henshin/common/detransform_root
 execute if entity @n[type=item,distance=..5,tag=gorider_card] run advancement revoke @s only krc_snd:henshin/ex-aid/gamer_driver_off
 execute if entity @n[type=item,distance=..5,tag=gorider_card] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:akariderhead"}
 execute if entity @n[type=item,distance=..5,tag=gorider_card] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:akaridertroso"}

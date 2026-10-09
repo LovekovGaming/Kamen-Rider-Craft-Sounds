@@ -21,6 +21,4 @@ execute if score @s toku.form1 matches 32 unless score @s krc-atkride.den-o_r ma
 execute if score @s toku.form1 matches 33 unless score @s krc-atkride.den-o_a matches 1 run function krc_snd:play_global {name:"kamenridercraft:decadriver",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 34 unless score @s krc-atkride.den-o_g matches 1 run function krc_snd:play_global {name:"kamenridercraft:decadriver",scope:"henshin_snd"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/decade/decadriver_off 1

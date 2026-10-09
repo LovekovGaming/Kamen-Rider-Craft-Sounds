@@ -3,6 +3,4 @@ function krc_snd:henshin/reset_henshin {series:den-o}
 function krc_snd:play_global {name:"kamenridercraft:shin-o",scope:"henshin_snd"}
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.den-o.sword_form","color":"dark_purple"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/den-o/den-o_belt_off 1

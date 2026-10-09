@@ -16,6 +16,4 @@ execute unless entity @s[advancements={tokudata:hooks/transform=false}] if score
 
 execute if entity @s[advancements={tokudata:hooks/transform=false}] run function krc_snd:play_global {name:"kamenridercraft:birth_knob_turn",scope:"henshin_snd"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/ooo/birth_driver_off 1

@@ -14,6 +14,4 @@ execute if score @s toku.form1 matches 1 run title @a[scores={krc.configs.sound_
 execute if score @s toku.form1 matches 2 run function krc_snd:play_global {name:"kamenridercraft:zero_form",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 2 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.den-o.charge_and_up","color":"red"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/den-o/zeronos_belt_off 1

@@ -168,6 +168,4 @@ execute unless entity @s[advancements={tokudata:hooks/transform=false}] unless s
 execute unless entity @s[advancements={tokudata:hooks/transform=false}] unless predicate tokudata:sneaking unless score Form_Difference toku.form1 matches 0 if score @s toku.form1 matches 8 run scoreboard players set @s krc.seq1 11
 execute unless entity @s[advancements={tokudata:hooks/transform=false}] unless predicate tokudata:sneaking unless score Form_Difference toku.form4 matches 0 if score @s toku.form4 matches 9 run scoreboard players set @s krc.seq1 21
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/fourze/fourze_driver_off 1

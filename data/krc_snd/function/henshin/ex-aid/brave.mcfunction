@@ -82,8 +82,6 @@ execute unless entity @s[advancements={tokudata:hooks/transform=false}] if score
 execute unless entity @s[advancements={tokudata:hooks/transform=false}] if score Form_Difference toku.form1 matches 0 if score @s toku.form2 matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ex-aid.gashun"}
 tag @s remove no_gashat
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/ex-aid/gamer_driver_off 1
 tag @s remove no_gachon
 execute if score @s toku.form1 matches 0 run tag @s add no_gachon

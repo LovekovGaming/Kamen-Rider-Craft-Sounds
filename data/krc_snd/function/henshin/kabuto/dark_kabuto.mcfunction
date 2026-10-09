@@ -31,6 +31,4 @@ execute if score @s toku.form1 matches 3 unless entity @s[advancements={tokudata
 execute if score @s toku.form1 matches 3 if entity @s[advancements={tokudata:hooks/transform=false}] run advancement grant @s only krc_snd:henshin/kabuto/dark_kabuto_seq 1
 tag @s remove hyper_zecter_active
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/kabuto/kabuto_zecter_off 1

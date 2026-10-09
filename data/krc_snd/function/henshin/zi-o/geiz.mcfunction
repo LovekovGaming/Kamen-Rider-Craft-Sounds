@@ -24,6 +24,4 @@ execute if score @s toku.form1 matches 0..8 if entity @s[advancements={tokudata:
 execute if score @s toku.form1 matches 9 unless predicate tokudata:sneaking if score Form_Difference toku.form1 matches 1 run scoreboard players set @s krc.seq1 15
 execute if score @s toku.form1 matches 10 unless predicate tokudata:sneaking if score Form_Difference toku.form1 matches -1 run scoreboard players set @s krc.seq1 15
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/zi-o/ziku-driver_off 1

@@ -13,6 +13,4 @@ execute unless score @s toku.form1 matches 59 run function krc_snd:play_global {
 execute unless score @s toku.form1 matches 59 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.come_on","color":"yellow"}
 execute if score @s toku.form1 matches 59 run function krc_snd:play_global {name:"kamenridercraft:lord_baron",scope:"henshin_snd"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-execute unless score @s toku.form1 matches 59 run advancement grant @s only krc_snd:henshin/common/detransform
 execute unless score @s toku.form1 matches 59 run advancement grant @s only krc_snd:henshin/gaim/sengoku_driver_off 1

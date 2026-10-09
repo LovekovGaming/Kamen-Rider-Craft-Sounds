@@ -15,6 +15,4 @@ execute if score @s toku.form1 matches 21 if predicate tokudata:sneaking run tit
 execute if score @s toku.form1 matches 21 unless predicate tokudata:sneaking run function krc_snd:play_global {name:"kamenridercraft:maja_arms",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 21 unless predicate tokudata:sneaking run advancement revoke @s only krc_snd:henshin/gaim/sengoku_driver_seq
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/gaim/sengoku_driver_off 1

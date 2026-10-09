@@ -3,6 +3,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:
 execute unless score @s toku.form1 matches 20..21 run advancement grant @s only krc_snd:henshin/zi-o/zi-o_seq 1
 execute unless score @s toku.form1 matches 20..21 run scoreboard players set @s krc.seq1 0
 execute unless score @s toku.form1 matches 20..21 run scoreboard players set @s krc.seq2 0
+advancement revoke @s from krc_snd:henshin/common/detransform_root
 advancement revoke @s from krc_snd:henshin/zi-o/standby_root
 execute unless score @s toku.form1 matches 27 run tag @s remove solo_time
 execute unless score @s toku.form1 matches 27 run tag @s remove duo_time
@@ -42,6 +43,4 @@ execute if score @s toku.form1 matches 24 run title @a[scores={krc.configs.sound
 execute if score @s toku.form1 matches 25 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar [{"translate":"sound.kamenridercraft.zi-o.final_form_time","color":"#ec008c"}," ",{"translate":"sound.kamenridercraft.zi-o.decade_ryuki","color":"red"}]
 execute if score @s toku.form1 matches 0..17 if entity @s[advancements={tokudata:hooks/transform=false}] run scoreboard players set @s krc.seq1 15
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/zi-o/ziku-driver_off 1

@@ -6,6 +6,4 @@ execute if score @s krc.configs.glare_type matches 0 run function krc_snd:play_g
 execute if score @s krc.configs.glare_type matches 1 run function krc_snd:play_global {name:"kamenridercraft:glare_alt",scope:"henshin_snd"}
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.geats.install","color":"light_purple"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/geats/vision_driver_off 1

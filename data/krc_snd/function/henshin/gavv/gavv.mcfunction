@@ -35,6 +35,4 @@ execute if score @s[tag=!punchingummy,tag=!kickingummy] toku.form1 matches 3 unl
 execute if score @s toku.form1 matches 12 if predicate tokudata:sneaking run tag @s add caking_alt
 execute if score @s toku.form1 matches 17 run function krc_snd:play_global {name:"kamenridercraft:hexenheim_pop_out",scope:"henshin_snd"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/gavv/gavv_off 1

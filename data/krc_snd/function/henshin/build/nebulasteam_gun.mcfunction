@@ -14,6 +14,4 @@ execute if score @s toku.form1 matches 2 run function krc_snd:play_global {name:
 execute if score @s toku.form1 matches 0..1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.build.funky_2","color":"light_purple"}
 execute if score @s toku.form1 matches 2 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.build.fever","color":"light_purple"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/build/nebulasteam_gun_off 1

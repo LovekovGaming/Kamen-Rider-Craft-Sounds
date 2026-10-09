@@ -27,6 +27,4 @@ execute if score @s toku.form1 matches 57 run function krc_snd:play_global {name
 execute if score @s toku.form1 matches 58 run function krc_snd:play_global {name:"kamenridercraft:gotchanko_platina",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 59..60 run function krc_snd:play_global {name:"kamenridercraft:gotchanko_rainbow",scope:"henshin_snd"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/gotchard/gotchardriver_off 1

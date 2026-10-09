@@ -5,5 +5,3 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 
 function krc_snd:play_global {name:"kamenridercraft:quiz_henshin",scope:"henshin_snd"}
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.quiz_1","color":"gold"}
-
-advancement revoke @s from krc_snd:henshin/common/detransform_root

@@ -17,6 +17,4 @@ execute if score @s toku.form1 matches 3 unless score Form_Difference toku.form1
 execute if score @s toku.form1 matches 4 run function krc_snd:play_global {name:"kamenridercraft:agito_burning",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 5 run function krc_snd:play_global {name:"kamenridercraft:agito_shining",scope:"henshin_snd"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/agito/altering_off 1

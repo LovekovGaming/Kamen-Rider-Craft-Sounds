@@ -9,5 +9,3 @@ execute if score @s toku.form1 matches 0 if score Form_Difference toku.form1 mat
 execute if score @s toku.form1 matches 0 if score Form_Difference toku.form1 matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.faiz.deformation","color":"red"}
 execute if score @s toku.form1 matches 1 run function krc_snd:play_global {name:"kamenridercraft:next_faiz_axel",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.faiz.complete","color":"white"}
-
-advancement revoke @s from krc_snd:henshin/common/detransform_root

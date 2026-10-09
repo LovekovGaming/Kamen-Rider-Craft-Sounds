@@ -5,6 +5,4 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 advancement grant @s only krc_snd:henshin/geats/dooms_geats_seq 1
 function krc_snd:play_global {name:"kamenridercraft:dooms_geats",scope:"henshin_snd"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/geats/desire_driver_off 1

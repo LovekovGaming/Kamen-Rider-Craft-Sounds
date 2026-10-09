@@ -17,6 +17,4 @@ execute if score @s[tag=tousan_eyecon] toku.form1 matches 0 run scoreboard playe
 execute if score @s toku.form1 matches 1.. run function krc_snd:play_global {name:"kamenridercraft:ghost_driver_push",scope:"henshin_snd"}
 execute unless score @s toku.form1 matches 1 run tag @s remove tousan_eyecon
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/ghost/ghost_driver_off 1

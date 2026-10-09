@@ -27,6 +27,4 @@ execute if score @s toku.form1 matches 4 if entity @s[advancements={tokudata:hoo
 execute if score @s toku.form1 matches 5 if entity @s[advancements={tokudata:hooks/transform=false}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar "Turn Up"
 execute if score @s toku.form1 matches 4..5 if entity @s[advancements={tokudata:hooks/transform=false}] run function krc_snd:play_global {name:"kamenridercraft:king_form_decade",scope:"henshin_snd"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/blade/blay_buckle_off 1

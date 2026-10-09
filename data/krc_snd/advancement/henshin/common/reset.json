@@ -2,7 +2,7 @@
   "parent": "krc_snd:henshin/common/detransform_root",
   "criteria": {
 	"requirement": {
-	  "trigger": "minecraft:inventory_changed",
+	  "trigger": "minecraft:tick",
 	  "conditions": {
         "player": [
 			{
@@ -12,7 +12,7 @@
 				"type_specific": {
 				  "type": "minecraft:player",
 				  "advancements": {
-					"krc_snd:henshin/common/detransform": false,
+					"krc_snd:henshin/common/detransform_root": false,
 					"tokudata:hooks/detransform": true
 				  }
 				}

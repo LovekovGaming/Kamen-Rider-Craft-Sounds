@@ -11,6 +11,4 @@ execute if score @s toku.form1 matches 0 if entity @s[tag=no_gashat] run scorebo
 execute if score @s toku.form1 matches 0 run advancement grant @s only krc_snd:henshin/ex-aid/genm_zombie_seq 1
 execute if score @s toku.form1 matches 1 run function krc_snd:play_global {name:"kamenridercraft:totema_exterior",scope:"henshin_snd"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/ex-aid/gashacon_bugvisor_off 1

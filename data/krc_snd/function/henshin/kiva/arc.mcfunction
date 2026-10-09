@@ -9,5 +9,3 @@ execute if score @s toku.form1 matches 0 unless score Form_Difference toku.form1
 execute if score @s toku.form1 matches 0 unless score Form_Difference toku.form1 matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.kiva.henshin_arc","color":"dark_gray"}]
 execute if score @s toku.form1 matches 1 run function krc_snd:play_global {name:"kamenridercraft:legend_arc",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.kiva.wake_up","color":"dark_gray"}
-
-advancement revoke @s from krc_snd:henshin/common/detransform_root

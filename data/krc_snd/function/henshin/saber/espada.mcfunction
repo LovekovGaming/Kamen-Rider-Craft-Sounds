@@ -14,6 +14,4 @@ execute unless score @s toku.form1 matches 7 run title @a[scores={krc.configs.so
 execute if score @s toku.form1 matches 7 run function krc_snd:play_global {name:"kamenridercraft:gekkou_ikazuchi_battou",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 7 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.saber.gekkou_ikazuchi_battou","color":"dark_blue"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/saber/seiken_swordriver_off 1

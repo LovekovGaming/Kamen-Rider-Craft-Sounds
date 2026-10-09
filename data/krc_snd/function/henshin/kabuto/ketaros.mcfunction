@@ -19,6 +19,4 @@ execute if score @s[advancements={tokudata:hooks/transform=false}] toku.form1 ma
 execute if score @s[advancements={tokudata:hooks/transform=true}] toku.form1 matches 1 run function krc_snd:play_global {name:"kamenridercraft:zecter_flip",scope:"henshin_snd"}
 execute if score @s[advancements={tokudata:hooks/transform=true}] toku.form1 matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.kabuto.cast_off","color":"gold"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-# advancement grant @s only krc_snd:henshin/common/detransform
 # advancement grant @s only krc_snd:henshin/kabuto/thebee_zecter_off 1

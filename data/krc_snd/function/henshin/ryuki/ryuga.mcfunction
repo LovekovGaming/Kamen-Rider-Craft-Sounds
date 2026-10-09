@@ -25,6 +25,4 @@ execute if score @s[advancements={tokudata:hooks/transform=true}] toku.form1 mat
 execute if score @s[advancements={tokudata:hooks/transform=true}] toku.form1 matches 3 run advancement grant @s only krc_snd:henshin/ryuki/advent_card_sound_ryuga survive
 execute if score @s[advancements={tokudata:hooks/transform=true}] toku.form1 matches 3 run scoreboard players set @s krc.seq1 9
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/ryuki/v_buckle_off_ryuga 1

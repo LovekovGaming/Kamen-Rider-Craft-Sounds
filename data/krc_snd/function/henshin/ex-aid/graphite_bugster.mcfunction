@@ -5,5 +5,3 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 function krc_snd:play_global {name:"kamenridercraft:bugvisor_infection",scope:"henshin_snd"}
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ex-aid.infection","color":"dark_green"}
 advancement grant @s only krc_snd:henshin/ex-aid/graphite_bugster_seq 1
-
-advancement revoke @s from krc_snd:henshin/common/detransform_root

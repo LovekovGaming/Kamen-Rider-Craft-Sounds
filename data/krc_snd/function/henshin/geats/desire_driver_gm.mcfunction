@@ -16,6 +16,4 @@ execute unless score Form_Difference toku.form1 matches -1 unless score @s toku.
 execute unless score Form_Difference toku.form1 matches -1 unless score @s toku.form2 matches 1.. if score @s toku.form3 matches 1.. run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.geats.remote_control","color":"light_purple"}
 execute if score Form_Difference toku.form2 matches 0 unless score Form_Difference toku.form3 matches 0 run tag @s add prioritize_r_buckle
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/geats/desire_driver_off 1

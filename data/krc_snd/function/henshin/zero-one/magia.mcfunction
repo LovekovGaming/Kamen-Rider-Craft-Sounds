@@ -7,6 +7,4 @@ function krc_snd:play_global {name:"kamenridercraft:zetsumerise",scope:"henshin_
 
 title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zero-one.zetsumerise","color":"dark_red"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/zero-one/zetsumeriser_off 1

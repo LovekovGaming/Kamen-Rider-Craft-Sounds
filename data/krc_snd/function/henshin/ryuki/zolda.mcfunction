@@ -17,6 +17,4 @@ execute if score @s toku.form1 matches 1 run advancement grant @s only krc_snd:h
 execute if score @s toku.form1 matches 2 run advancement grant @s only krc_snd:henshin/ryuki/advent_card_sound guard_vent
 execute if score @s toku.form1 matches 2 run scoreboard players set @s krc.seq1 9
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/ryuki/v_buckle_off 1

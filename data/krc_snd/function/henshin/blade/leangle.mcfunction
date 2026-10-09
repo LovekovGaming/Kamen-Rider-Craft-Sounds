@@ -12,6 +12,4 @@ execute if score @s toku.form1 matches 2 run function krc_snd:play_global {name:
 execute if score @s toku.form1 matches 3 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.blade.evolution_king","color":"yellow"}
 execute if score @s toku.form1 matches 3 run function krc_snd:play_global {name:"kamenridercraft:king_form",scope:"henshin_snd"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/blade/leangle_buckle_off 1

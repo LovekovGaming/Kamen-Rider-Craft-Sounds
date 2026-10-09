@@ -12,6 +12,4 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 execute unless score @s toku.form1 matches 4 run function krc_snd:play_global {name:"kamenridercraft:are_you_ready_evol",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 4 run function krc_snd:play_global {name:"kamenridercraft:feverflow",scope:"henshin_snd"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-# advancement grant @s only krc_snd:henshin/common/detransform
 # advancement grant @s only krc_snd:henshin/build/evol-driver_off 1

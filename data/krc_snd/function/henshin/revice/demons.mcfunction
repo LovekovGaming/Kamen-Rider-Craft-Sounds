@@ -49,6 +49,4 @@ execute unless entity @s[advancements={tokudata:hooks/transform=false}] if score
 execute unless entity @s[advancements={tokudata:hooks/transform=false}] if score @s toku.form5 matches 1.. unless score Form_Difference toku.form5 matches 0 run function krc_snd:play_global {name:"kamenridercraft:dominate_up",scope:"henshin_snd"}
 execute unless entity @s[advancements={tokudata:hooks/transform=false}] if score @s toku.form5 matches 1.. unless score Form_Difference toku.form5 matches 0 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.dominate_up","color":"red"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/revice/revice_driver_off 1

@@ -9,6 +9,4 @@ execute if score @s toku.form1 matches 0 unless score Form_Difference toku.form1
 execute if score @s toku.form1 matches 1 run function krc_snd:play_global {name:"kamenridercraft:gigantic_claw",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.kiva.wake_up","color":"gray"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/kiva/rey_belt_off 1

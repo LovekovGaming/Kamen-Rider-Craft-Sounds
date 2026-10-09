@@ -13,6 +13,4 @@ execute if score @s toku.form1 matches 4 run function krc_snd:play_global {name:
 execute if score @s toku.form1 matches 4 if score Armed_Hibiki_Chat_Message toku.configs matches 1 if predicate tokudata:sneaking run tellraw @a ["","<",{"selector":"@s"},"> ",{"translate":"sound.kamenridercraft.hibiki.soukou"}]
 execute if score @s toku.form1 matches 4 if score Armed_Hibiki_Chat_Message toku.configs matches 2 run tellraw @a ["","<",{"selector":"@s"},"> ",{"translate":"sound.kamenridercraft.hibiki.soukou"}]
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/hibiki/equipment_belt_off 1

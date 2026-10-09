@@ -6,4 +6,3 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 execute unless score @s toku.form1 matches 1 run function krc_snd:play_global {name:"kamenridercraft:amazons_driver",scope:"henshin_snd"}
 execute unless score @s toku.form1 matches 1 run advancement grant @s only krc_snd:henshin/extras/amazon_sigma_seq 1
 execute if score @s toku.form1 matches 1 run function krc_snd:play_global {name:"kamenridercraft:amazon_alpha_origin",scope:"henshin_snd"}
-advancement revoke @s from krc_snd:henshin/common/detransform_root

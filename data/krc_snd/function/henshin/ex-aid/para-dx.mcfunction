@@ -7,6 +7,4 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 function krc_snd:play_global {name:"kamenridercraft:dual_up_paradx",scope:"henshin_snd"}
 advancement grant @s only krc_snd:henshin/ex-aid/para-dx_seq 1
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/ex-aid/para-dx_belt_off 1
