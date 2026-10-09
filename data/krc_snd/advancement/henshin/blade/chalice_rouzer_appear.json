@@ -1,5 +1,5 @@
 {
-  "parent": "krc_snd:henshin/blade/root",
+  "parent": "krc_snd:henshin/common/equip_root",
   "criteria": {
 	"1": {
 	  "trigger": "minecraft:inventory_changed",
