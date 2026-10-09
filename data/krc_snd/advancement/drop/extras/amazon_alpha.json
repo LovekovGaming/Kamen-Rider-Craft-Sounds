@@ -58,7 +58,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:heisei/amazons_armor"
+			  "name": "tokudata:rider/heisei/amazons_armor"
 			}
 		  },
 		  {

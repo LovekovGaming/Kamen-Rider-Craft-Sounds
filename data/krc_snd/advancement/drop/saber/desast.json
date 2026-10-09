@@ -47,7 +47,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:reiwa/saber_armor"
+			  "name": "tokudata:rider/reiwa/saber_armor"
 			}
 		  },
 		  {

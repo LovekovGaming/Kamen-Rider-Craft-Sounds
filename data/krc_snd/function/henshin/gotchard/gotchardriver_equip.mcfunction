@@ -2,4 +2,4 @@ stopsound @a[scores={krc.configs.equip_snd=1},distance=..20] player minecraft:it
 execute unless items entity @s armor.feet kamenridercraft:gotchardriver[minecraft:custom_data~{slot_tex1:"kamenridercraft:hopper1_ride_chemy_card_ultima"}] run function krc_snd:play_global {name:"kamenridercraft:gotchardriver_equip",scope:"equip_snd"}
 execute if items entity @s armor.feet kamenridercraft:gotchardriver[minecraft:custom_data~{slot_tex1:"kamenridercraft:hopper1_ride_chemy_card_ultima"}] run function krc_snd:play_global {name:"kamenridercraft:belt_equip_new",scope:"equip_snd"}
 execute if items entity @s armor.feet kamenridercraft:gotchardriver[minecraft:custom_data~{slot_tex1:"kamenridercraft:hopper1_ride_chemy_card_ultima"}] run advancement grant @s only krc_snd:henshin/gotchard/gotchardriver_daybreak_equip_seq 1
-advancement revoke @s only krc_snd:henshin/common/reset
+advancement revoke @s from krc_snd:henshin/common/equip_root

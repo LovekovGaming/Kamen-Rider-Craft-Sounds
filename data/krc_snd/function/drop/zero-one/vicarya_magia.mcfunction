@@ -5,10 +5,10 @@ execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players ad
 
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:vicarya_zetsumerisekey",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zero-one.vicarya_zetsumerisekey","color":"gold"}
-execute if score @s krc.henshin-stage matches 2 unless predicate krc_core:sneaking if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.henshin-stage 3
-execute if score @s krc.henshin-stage matches 2 if predicate krc_core:sneaking if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:zetsumetsu_ability",scope:"henshin_snd"}
-execute if score @s krc.henshin-stage matches 2 if predicate krc_core:sneaking if entity @n[type=item,distance=..5,tag=valid] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zero-one.zetsumetsu_ability","color":"gold"}
-execute if score @s krc.henshin-stage matches 2 if predicate krc_core:sneaking if entity @n[type=item,distance=..5,tag=valid,tag=!serval_tiger] run scoreboard players set @s krc.henshin-stage 1
+execute if score @s krc.henshin-stage matches 2 unless predicate tokudata:sneaking if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.henshin-stage 3
+execute if score @s krc.henshin-stage matches 2 if predicate tokudata:sneaking if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:zetsumetsu_ability",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 2 if predicate tokudata:sneaking if entity @n[type=item,distance=..5,tag=valid] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zero-one.zetsumetsu_ability","color":"gold"}
+execute if score @s krc.henshin-stage matches 2 if predicate tokudata:sneaking if entity @n[type=item,distance=..5,tag=valid,tag=!serval_tiger] run scoreboard players set @s krc.henshin-stage 1
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:zetsumerisekey_in_zetsumeriser",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/zero-one/magia_standby 1
 

@@ -1,43 +1,47 @@
 {
-  "parent": "krc_snd:henshin/zeztz/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:zeztz_head"
-			},
-			"chest": {
-			  "items": "kamenridercraft:zeztz_troso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:zeztz_legs"
-			},
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:lord_invoker_zero"
+			  "items": "kamenridercraft:lord_invoker_zero",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 			}
 		  }
 		}
 	  }
 	},
 	"2": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:zeztz_head"
-			},
-			"chest": {
-			  "items": "kamenridercraft:zeztz_troso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:zeztz_legs"
-			},
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:lord_invoker_two"
+			  "items": "kamenridercraft:lord_invoker_two",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 			}
 		  }
 		}

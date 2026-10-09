@@ -13,12 +13,12 @@ execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,dis
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:memory_in_accel",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/w/accel_standby 1
 
-execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] if predicate krc_core:sneaking run function krc_snd:play_global {name:"kamenridercraft:acceldriver_rev",scope:"henshin_snd"}
-execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] if predicate krc_core:sneaking run scoreboard players remove @s krc.henshin-stage 1
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] if predicate tokudata:sneaking run function krc_snd:play_global {name:"kamenridercraft:acceldriver_rev",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] if predicate tokudata:sneaking run scoreboard players remove @s krc.henshin-stage 1
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/w/root
-execute if score @s krc.henshin-stage matches 4 unless predicate krc_core:heisei/w_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:whead"}
-execute if score @s krc.henshin-stage matches 4 unless predicate krc_core:heisei/w_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:wtroso"}
-execute if score @s krc.henshin-stage matches 4 unless predicate krc_core:heisei/w_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:wlegs"}
+execute if score @s krc.henshin-stage matches 4 unless predicate tokudata:rider/heisei/w_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:whead"}
+execute if score @s krc.henshin-stage matches 4 unless predicate tokudata:rider/heisei/w_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:wtroso"}
+execute if score @s krc.henshin-stage matches 4 unless predicate tokudata:rider/heisei/w_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:wlegs"}
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:accel_standby
 execute if score @s krc.henshin-stage matches 4.. run scoreboard players reset @s krc.henshin-stage

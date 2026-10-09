@@ -5,13 +5,13 @@ execute if score @s krc.henshin-stage matches 2.. as @n[type=item,distance=..5,p
 execute unless score @s krc.henshin-stage matches 1..2 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:ebi_new_medal run tag @s add valid
 execute if score @s krc.henshin-stage matches 1.. unless score @s krc.henshin-stage matches 2 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:kani_new_medal run tag @s add valid
 execute if score @s krc.henshin-stage matches 2.. as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:sasori_new_medal run tag @s add valid
-execute if entity @s[advancements={krc_core:player_transformed=true}] as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:ebi_new_medal run tag @s add valid
-execute if entity @s[advancements={krc_core:player_transformed=true}] as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:kani_new_medal run tag @s add valid
-execute if entity @s[advancements={krc_core:player_transformed=true}] as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:sasori_new_medal run tag @s add valid
+execute if entity @s[advancements={tokudata:hooks/transform=true}] as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:ebi_new_medal run tag @s add valid
+execute if entity @s[advancements={tokudata:hooks/transform=true}] as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:kani_new_medal run tag @s add valid
+execute if entity @s[advancements={tokudata:hooks/transform=true}] as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:sasori_new_medal run tag @s add valid
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
-execute if score @s[advancements={krc_core:player_transformed=true}] krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:birth_medal_in",scope:"henshin_snd"}
-execute if score @s[advancements={krc_core:player_transformed=true}] krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.henshin-stage 4
+execute if score @s[advancements={tokudata:hooks/transform=true}] krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:birth_medal_in",scope:"henshin_snd"}
+execute if score @s[advancements={tokudata:hooks/transform=true}] krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.henshin-stage 4
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=ebi] run function krc_snd:play_global {name:"kamenridercraft:birth_medal_in",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=ebi] run function krc_snd:play_global {name:"kamenridercraft:ebi_medal",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=ebi] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ooo.ebi","color":"#e75b20"}

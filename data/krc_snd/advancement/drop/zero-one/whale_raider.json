@@ -47,7 +47,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:reiwa/zero-one_armor"
+			  "name": "tokudata:rider/reiwa/zero-one_armor"
 			}
 		  },
 		  {

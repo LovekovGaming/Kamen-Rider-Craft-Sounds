@@ -34,7 +34,7 @@
 		  },
 		  {
 			"condition": "minecraft:reference",
-			"name": "krc_core:showa/v3_armor"
+			"name": "tokudata:rider/showa/v3_armor"
 		  },
 		  {
 			"condition": "minecraft:inverted",

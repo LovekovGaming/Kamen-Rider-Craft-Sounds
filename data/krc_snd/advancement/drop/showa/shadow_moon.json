@@ -47,7 +47,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:showa/black_armor"
+			  "name": "tokudata:rider/showa/black_armor"
 			}
 		  },
 		  {

@@ -31,7 +31,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:heisei/drive_armor"
+			  "name": "tokudata:rider/heisei/drive_armor"
 			}
 		  },
 		  {

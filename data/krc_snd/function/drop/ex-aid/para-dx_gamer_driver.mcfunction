@@ -10,12 +10,12 @@ execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid,tag=knock_out_fighter_2] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ex-aid.knock_out_fighter_2_title","color":"gold"}
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid,tag=!knock_out_fighter_2] run scoreboard players add @s krc.henshin-stage 1
 
-execute unless predicate krc_core:heisei/ex-aid_armor if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
-execute if predicate krc_core:heisei/ex-aid_armor if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] if score @s krc.configs.gd_voice matches 0 run function krc_snd:play_global {name:"kamenridercraft:gachon",scope:"henshin_snd"}
-execute if predicate krc_core:heisei/ex-aid_armor if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] if score @s krc.configs.gd_voice matches 1 run function krc_snd:play_global {name:"kamenridercraft:gachon_poppy",scope:"henshin_snd"}
-execute if predicate krc_core:heisei/ex-aid_armor if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] if score @s krc.configs.gd_voice matches 2 run function krc_snd:play_global {name:"kamenridercraft:gachon_vrx",scope:"henshin_snd"}
-execute if predicate krc_core:heisei/ex-aid_armor if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] if score @s krc.configs.gd_voice matches 3 run function krc_snd:play_global {name:"kamenridercraft:gachon_build",scope:"henshin_snd"}
-execute if predicate krc_core:heisei/ex-aid_armor if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ex-aid.gachon"}
+execute unless predicate tokudata:rider/heisei/ex-aid_armor if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
+execute if predicate tokudata:rider/heisei/ex-aid_armor if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] if score @s krc.configs.gd_voice matches 0 run function krc_snd:play_global {name:"kamenridercraft:gachon",scope:"henshin_snd"}
+execute if predicate tokudata:rider/heisei/ex-aid_armor if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] if score @s krc.configs.gd_voice matches 1 run function krc_snd:play_global {name:"kamenridercraft:gachon_poppy",scope:"henshin_snd"}
+execute if predicate tokudata:rider/heisei/ex-aid_armor if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] if score @s krc.configs.gd_voice matches 2 run function krc_snd:play_global {name:"kamenridercraft:gachon_vrx",scope:"henshin_snd"}
+execute if predicate tokudata:rider/heisei/ex-aid_armor if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] if score @s krc.configs.gd_voice matches 3 run function krc_snd:play_global {name:"kamenridercraft:gachon_build",scope:"henshin_snd"}
+execute if predicate tokudata:rider/heisei/ex-aid_armor if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.ex-aid.gachon"}
 
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=knock_out_fighter_2] run function krc_snd:play_global {name:"kamenridercraft:double_gashat",scope:"henshin_snd"}
@@ -27,10 +27,10 @@ execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 3 if entity @n[type=item,distance=..5,tag=valid] run tag @s add no_gashat
 
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/ex-aid/root
-execute if score @s krc.henshin-stage matches 4 if predicate krc_core:heisei/ex-aid_armor if entity @n[type=item,distance=..5,tag=valid] run tag @s remove no_gashat
-execute if score @s krc.henshin-stage matches 4 unless predicate krc_core:heisei/ex-aid_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:ex_aidhead"}
-execute if score @s krc.henshin-stage matches 4 unless predicate krc_core:heisei/ex-aid_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:ex_aidtroso"}
-execute if score @s krc.henshin-stage matches 4 unless predicate krc_core:heisei/ex-aid_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:ex_aidlegs"}
+execute if score @s krc.henshin-stage matches 4 if predicate tokudata:rider/heisei/ex-aid_armor if entity @n[type=item,distance=..5,tag=valid] run tag @s remove no_gashat
+execute if score @s krc.henshin-stage matches 4 unless predicate tokudata:rider/heisei/ex-aid_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:ex_aidhead"}
+execute if score @s krc.henshin-stage matches 4 unless predicate tokudata:rider/heisei/ex-aid_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:ex_aidtroso"}
+execute if score @s krc.henshin-stage matches 4 unless predicate tokudata:rider/heisei/ex-aid_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:ex_aidlegs"}
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:perfect_knock_out_standby
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:knock_out_fighter_2_standby

@@ -1,29 +1,31 @@
 {
-  "parent": "krc_snd:henshin/blade/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:bladehead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:bladetroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:bladelegs"
-			},
-			"feet": {
-			  "items": "kamenridercraft:glaive_buckle"
-			}
-		  }
-		}
-	  }
-	}
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": "kamenridercraft:glaive_buckle",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   },
   "rewards": {
-	"function": "krc_snd:henshin/blade/glaive"
+    "function": "krc_snd:henshin/blade/glaive"
   }
 }

@@ -1,27 +1,29 @@
 {
-  "parent": "krc_snd:henshin/kiva/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:kivahead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:kivatroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:kivalegs"
-			},
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:darkkivadriver"
-			}
-		  }
-		}
-	  }
-	}
+			  "items": "kamenridercraft:darkkivadriver",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   },
   "rewards": {
 	"function": "krc_snd:henshin/kiva/dark_kiva"

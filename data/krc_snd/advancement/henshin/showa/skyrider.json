@@ -1,43 +1,47 @@
 {
-  "parent": "krc_snd:henshin/showa/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:skyriderhead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:skyridertroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:skyriderlegs"
-			},
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:tornado"
+			  "items": "kamenridercraft:tornado",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 			}
 		  }
 		}
 	  }
 	},
 	"2": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:skyriderhead"
-			},
-			"chest": {
-			  "items": "kamenridercraft:skyridertroso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:skyriderlegs"
-			},
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:fake_tornado"
+			  "items": "kamenridercraft:fake_tornado",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 			}
 		  }
 		}

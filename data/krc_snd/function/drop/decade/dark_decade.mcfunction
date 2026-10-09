@@ -2,7 +2,7 @@ execute if entity @n[type=item,distance=..5,tag=pick_up] run stopsound @a[scores
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents #kamenridercraft:gear/rider_cards/kamenride if items entity @s contents #kamenridercraft:gear/form_items/dark_decade run tag @s add kamen_ride
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] unless data entity @s Thrower if items entity @s contents kamenridercraft:dark_decade_card run tag @s remove kamen_ride
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents #kamenridercraft:gear/rider_cards/formride run tag @s add form_ride
-execute if entity @s[advancements={krc_core:player_transformed=true}] as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents #kamenridercraft:gear/rider_cards/attackride if items entity @s contents #kamenridercraft:gear/ability_items/decade run tag @s add attack_ride
+execute if entity @s[advancements={tokudata:hooks/transform=true}] as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents #kamenridercraft:gear/rider_cards/attackride if items entity @s contents #kamenridercraft:gear/ability_items/decade run tag @s add attack_ride
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:rekka_daizantou_card run tag @s remove attack_ride
 execute as @n[type=item,distance=..5,tag=kamen_ride] run tag @s add valid
 execute as @n[type=item,distance=..5,tag=form_ride] run tag @s add valid
@@ -19,9 +19,9 @@ execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 4 if entity @n[type=item,distance=..5,tag=valid,tag=attack_ride] run tag @s add attack_ride
 
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/decade/root
-execute if score @s krc.henshin-stage matches 5 unless predicate krc_core:heisei/decade_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:decadehead"}
-execute if score @s krc.henshin-stage matches 5 unless predicate krc_core:heisei/decade_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:decadetroso"}
-execute if score @s krc.henshin-stage matches 5 unless predicate krc_core:heisei/decade_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:decadelegs"}
+execute if score @s krc.henshin-stage matches 5 unless predicate tokudata:rider/heisei/decade_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:decadehead"}
+execute if score @s krc.henshin-stage matches 5 unless predicate tokudata:rider/heisei/decade_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:decadetroso"}
+execute if score @s krc.henshin-stage matches 5 unless predicate tokudata:rider/heisei/decade_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:decadelegs"}
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid] run tag @s remove kamen_ride
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid] run tag @s remove form_ride
 execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=..5,tag=valid] run tag @s remove attack_ride

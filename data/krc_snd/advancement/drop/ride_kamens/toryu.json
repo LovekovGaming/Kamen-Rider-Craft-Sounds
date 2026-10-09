@@ -47,7 +47,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:reiwa/ride_kamens_armor"
+			  "name": "tokudata:rider/reiwa/ride_kamens_armor"
 			}
 		  },
 		  {

@@ -20,7 +20,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:heisei/ghost_armor"
+			  "name": "tokudata:rider/heisei/ghost_armor"
 			}
 		  },
 		  {

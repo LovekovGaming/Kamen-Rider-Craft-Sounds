@@ -1,6 +1,6 @@
 execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:darkkivadriver run scoreboard players add @s krc.henshin-stage 1
 
-execute if predicate krc_core:sneaking if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:darkkivadriver run scoreboard players add @s krc.henshin-stage 1
+execute if predicate tokudata:sneaking if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:darkkivadriver run scoreboard players add @s krc.henshin-stage 1
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:darkkivadriver store result score Zetsumetsu_Time krc.seq1 run random value 1..3
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:darkkivadriver run function krc_snd:play_global {name:"kamenridercraft:dark_kivat_summon",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:darkkivadriver if score Zetsumetsu_Time krc.seq1 matches 1..2 run function krc_snd:play_global {name:"kamenridercraft:zetsumetsu_time",scope:"henshin_snd"}

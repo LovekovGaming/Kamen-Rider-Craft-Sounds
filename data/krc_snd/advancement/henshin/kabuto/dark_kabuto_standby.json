@@ -10,7 +10,7 @@
 		  "player": [
 			{
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:heisei/kabuto_armor"
+			  "name": "tokudata:rider/heisei/kabuto_armor"
 			},
 			{
 			  "condition": "minecraft:entity_properties",

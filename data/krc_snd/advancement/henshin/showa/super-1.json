@@ -1,43 +1,47 @@
 {
-  "parent": "krc_snd:henshin/showa/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:super_1head"
-			},
-			"chest": {
-			  "items": "kamenridercraft:super_1troso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:super_1legs"
-			},
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:cyclode"
+			  "items": "kamenridercraft:cyclode",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 			}
 		  }
 		}
 	  }
 	},
 	"2": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:super_1head"
-			},
-			"chest": {
-			  "items": "kamenridercraft:super_1troso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:super_1legs"
-			},
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:robot_cyclode"
+			  "items": "kamenridercraft:robot_cyclode",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 			}
 		  }
 		}

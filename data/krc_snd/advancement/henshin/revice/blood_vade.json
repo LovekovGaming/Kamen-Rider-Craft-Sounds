@@ -1,27 +1,29 @@
 {
-  "parent": "krc_snd:henshin/revice/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:revice_head"
-			},
-			"chest": {
-			  "items": "kamenridercraft:revice_troso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:revice_legs"
-			},
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:vade_belt"
-			}
-		  }
-		}
-	  }
-	}
+			  "items": "kamenridercraft:vade_belt",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   },
   "rewards": {
 	"function": "krc_snd:henshin/revice/blood_vade"

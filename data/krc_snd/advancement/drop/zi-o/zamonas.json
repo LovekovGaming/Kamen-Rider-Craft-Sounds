@@ -47,7 +47,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:heisei/zi-o_armor"
+			  "name": "tokudata:rider/heisei/zi-o_armor"
 			}
 		  },
 		  {

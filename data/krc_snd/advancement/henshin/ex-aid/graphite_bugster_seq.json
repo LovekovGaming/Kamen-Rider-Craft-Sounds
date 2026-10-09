@@ -22,7 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": "#krc_core:item_alias/gashacon_bugvisor_graphite"
+					"items": "#tokudata:item_alias/gashacon_bugvisor_graphite"
 				  }
 				}
             }

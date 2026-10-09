@@ -1,27 +1,29 @@
 {
-  "parent": "krc_snd:henshin/zi-o/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:zi_o_head"
-			},
-			"chest": {
-			  "items": "kamenridercraft:zi_o_troso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:zi_o_legs"
-			},
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:shinobi_driver"
-			}
-		  }
-		}
-	  }
-	}
+			  "items": "kamenridercraft:shinobi_driver",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   },
   "rewards": {
 	"function": "krc_snd:henshin/zi-o/shinobi"

@@ -1,8 +1,8 @@
 {
-  "parent": "krc_snd:henshin/showa/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
 	"1": {
-	  "trigger": "minecraft:inventory_changed",
+	  "trigger": "minecraft:tick",
 	  "conditions": {
 		"player": [
 		  {
@@ -14,7 +14,12 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": "kamenridercraft:typhoon_shocker_rider_1"
+					  "items": "kamenridercraft:typhoon_shocker_rider_1",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 					}
 				  }
 				}
@@ -25,7 +30,12 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": "kamenridercraft:typhoon_shocker_rider_2"
+					  "items": "kamenridercraft:typhoon_shocker_rider_2",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 					}
 				  }
 				}
@@ -36,7 +46,12 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": "kamenridercraft:typhoon_shocker_rider_3"
+					  "items": "kamenridercraft:typhoon_shocker_rider_3",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 					}
 				  }
 				}
@@ -47,7 +62,12 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": "kamenridercraft:typhoon_shocker_rider_4"
+					  "items": "kamenridercraft:typhoon_shocker_rider_4",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 					}
 				  }
 				}
@@ -58,7 +78,12 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": "kamenridercraft:typhoon_shocker_rider_5"
+					  "items": "kamenridercraft:typhoon_shocker_rider_5",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 					}
 				  }
 				}
@@ -69,7 +94,12 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": "kamenridercraft:typhoon_shocker_rider_6"
+					  "items": "kamenridercraft:typhoon_shocker_rider_6",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 					}
 				  }
 				}
@@ -80,7 +110,12 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": "kamenridercraft:typhoon_shocker_rider_7"
+					  "items": "kamenridercraft:typhoon_shocker_rider_7",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 					}
 				  }
 				}
@@ -91,7 +126,12 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": "kamenridercraft:typhoon_shocker_rider_8"
+					  "items": "kamenridercraft:typhoon_shocker_rider_8",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 					}
 				  }
 				}
@@ -102,7 +142,12 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": "kamenridercraft:typhoon_shocker_rider_9"
+					  "items": "kamenridercraft:typhoon_shocker_rider_9",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 					}
 				  }
 				}
@@ -113,7 +158,12 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": "kamenridercraft:typhoon_shocker_rider_10"
+					  "items": "kamenridercraft:typhoon_shocker_rider_10",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 					}
 				  }
 				}
@@ -124,7 +174,12 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": "kamenridercraft:typhoon_shocker_rider_11"
+					  "items": "kamenridercraft:typhoon_shocker_rider_11",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 					}
 				  }
 				}
@@ -135,7 +190,12 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": "kamenridercraft:typhoon_shocker_rider_12"
+					  "items": "kamenridercraft:typhoon_shocker_rider_12",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 					}
 				  }
 				}
@@ -146,7 +206,12 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": "kamenridercraft:typhoon_dark_ichigo"
+					  "items": "kamenridercraft:typhoon_dark_ichigo",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 					}
 				  }
 				}
@@ -157,7 +222,12 @@
 				"predicate": {
 				  "equipment": {
 					"feet": {
-					  "items": "kamenridercraft:typhoon_fake_ichigo"
+					  "items": "kamenridercraft:typhoon_fake_ichigo",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 					}
 				  }
 				}
@@ -168,17 +238,12 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-			  "equipment": {
-				"head": {
-				  "items": "kamenridercraft:ichigohead"
-				},
-				"chest": {
-				  "items": "kamenridercraft:ichigotroso"
-				},
-				"legs": {
-				  "items": "kamenridercraft:ichigolegs"
-				}
-			  }
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          }
 			}
 		  },
 		  {

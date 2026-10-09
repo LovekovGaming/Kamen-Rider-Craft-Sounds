@@ -1,8 +1,0 @@
-{
-  "parent": "krc_snd:henshin/common/root",
-  "criteria": {
-	"1": {
-	  "trigger": "minecraft:impossible"
-	}
-  }
-}

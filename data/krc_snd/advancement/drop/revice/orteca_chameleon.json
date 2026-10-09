@@ -45,7 +45,7 @@
           },
           {
             "condition": "minecraft:reference",
-            "name": "krc_core:reiwa/revice_armor"
+            "name": "tokudata:rider/reiwa/revice_armor"
           }
         ]
       }

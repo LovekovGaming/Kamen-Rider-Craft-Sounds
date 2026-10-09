@@ -1,29 +1,25 @@
 {
-  "parent": "krc_snd:henshin/ghost/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:ghost_head"
-			},
-			"chest": {
-			  "items": "kamenridercraft:ghost_troso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:ghost_legs"
-			},
-			"feet": {
-			  "items": "kamenridercraft:extremer_driver"
-			}
-		  }
-		}
-	  }
-	}
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "feet": {
+              "items": "kamenridercraft:extremer_driver",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   },
   "rewards": {
-	"function": "krc_snd:henshin/ghost/extremer"
+    "function": "krc_snd:henshin/ghost/extremer"
   }
 }

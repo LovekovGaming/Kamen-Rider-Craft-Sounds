@@ -1,27 +1,29 @@
 {
-  "parent": "krc_snd:henshin/ride_kamens/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:ride_kamens_head"
-			},
-			"chest": {
-			  "items": "kamenridercraft:ride_kamens_troso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:ride_kamens_legs"
-			},
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:chaos_driver_haruma"
-			}
-		  }
-		}
-	  }
-	}
+			  "items": "kamenridercraft:chaos_driver_haruma",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   },
   "rewards": {
 	"function": "krc_snd:henshin/ride_kamens/haruma"

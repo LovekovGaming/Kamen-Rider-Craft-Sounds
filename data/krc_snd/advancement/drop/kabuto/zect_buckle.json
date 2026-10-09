@@ -45,7 +45,7 @@
 				        "condition": "minecraft:entity_scores",
 				        "entity": "this",
                         "scores": {
-                          "krc.form1n": 1
+                          "toku.form1": 1
                         }
 				      }
 				    },
@@ -66,7 +66,7 @@
 			},
 			{
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:heisei/kabuto_armor"
+			  "name": "tokudata:rider/heisei/kabuto_armor"
 			}
 		  ]
 		}

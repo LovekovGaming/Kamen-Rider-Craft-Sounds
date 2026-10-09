@@ -1,33 +1,29 @@
 {
-  "parent": "krc_snd:henshin/gotchard/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"requirement": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": [
-		  {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-			  "equipment": {
-				"head": {
-				  "items": "kamenridercraft:gotchard_head"
-				},
-				"chest": {
-				  "items": "kamenridercraft:gotchard_torso"
-				},
-				"legs": {
-				  "items": "kamenridercraft:gotchard_legs"
-				},
-				"feet": {
-				  "items": "kamenridercraft:eldoradriver_eld"
-				}
-			  }
-			}
-		  }
-		]
-	  }
-	}
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": "kamenridercraft:eldoradriver_eld",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   },
   "rewards": {
 	"function": "krc_snd:henshin/gotchard/eld"

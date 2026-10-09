@@ -1,8 +1,6 @@
 execute if entity @s[tag=sound_off] run return 0
-stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
+function krc_snd:henshin/reset_henshin {series:revice}
 advancement grant @s only krc_snd:henshin/revice/revi_seq 1
-advancement revoke @s from krc_snd:henshin/revice/standby_root
-scoreboard players reset @s krc.henshin-stage
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:revice_standby_rex
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:revice_standby_barid_rex
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:revice_standby_volcano
@@ -36,26 +34,23 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:tornado_up
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:gold_spino_genome
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:synchro_up
-scoreboard players set @s krc.seq1 0
 
-execute if score @s krc.form1n matches 0..17 run function krc_snd:play_global {name:"kamenridercraft:buddy_up",scope:"henshin_snd"}
-execute if score @s krc.form1n matches 0..17 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.buddy_up","color":"#9522ff"}
-execute if score @s krc.form1n matches 18 run function krc_snd:play_global {name:"kamenridercraft:baribari_up",scope:"henshin_snd"}
-execute if score @s krc.form1n matches 18 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.baribari_up","color":"aqua"}
-execute if score @s krc.form1n matches 19 run function krc_snd:play_global {name:"kamenridercraft:burst_up",scope:"henshin_snd"}
-execute if score @s krc.form1n matches 19 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.burst_up","color":"yellow"}
-execute if score @s krc.form1n matches 20 run function krc_snd:play_global {name:"kamenridercraft:jack_revice",scope:"henshin_snd"}
-execute if score @s krc.form1n matches 20 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.vice_up","color":"aqua"}
-execute if score @s krc.form1n matches 21 run function krc_snd:play_global {name:"kamenridercraft:thunder_gale",scope:"henshin_snd"}
-execute if score @s krc.form1n matches 22 run function krc_snd:play_global {name:"kamenridercraft:ultimate_up",scope:"henshin_snd"}
-execute if score @s krc.form1n matches 22 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.ultimate_up","color":"light_purple"}
-execute if score @s krc.form1n matches 23 run function krc_snd:play_global {name:"kamenridercraft:tornado_up",scope:"henshin_snd"}
-execute if score @s krc.form1n matches 23 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.tornado_up"}
-execute if score @s krc.form1n matches 24 run function krc_snd:play_global {name:"kamenridercraft:gold_spino_genome",scope:"henshin_snd"}
-execute if score @s krc.form1n matches 24 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.gold_up","color":"yellow"}
-execute if score @s krc.form1n matches 25 run function krc_snd:play_global {name:"kamenridercraft:synchro_up",scope:"henshin_snd"}
-execute if score @s krc.form1n matches 25 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.synchro_up"}
+execute if score @s toku.form1 matches 0..17 run function krc_snd:play_global {name:"kamenridercraft:buddy_up",scope:"henshin_snd"}
+execute if score @s toku.form1 matches 0..17 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.buddy_up","color":"#9522ff"}
+execute if score @s toku.form1 matches 18 run function krc_snd:play_global {name:"kamenridercraft:baribari_up",scope:"henshin_snd"}
+execute if score @s toku.form1 matches 18 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.baribari_up","color":"aqua"}
+execute if score @s toku.form1 matches 19 run function krc_snd:play_global {name:"kamenridercraft:burst_up",scope:"henshin_snd"}
+execute if score @s toku.form1 matches 19 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.burst_up","color":"yellow"}
+execute if score @s toku.form1 matches 20 run function krc_snd:play_global {name:"kamenridercraft:jack_revice",scope:"henshin_snd"}
+execute if score @s toku.form1 matches 20 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.vice_up","color":"aqua"}
+execute if score @s toku.form1 matches 21 run function krc_snd:play_global {name:"kamenridercraft:thunder_gale",scope:"henshin_snd"}
+execute if score @s toku.form1 matches 22 run function krc_snd:play_global {name:"kamenridercraft:ultimate_up",scope:"henshin_snd"}
+execute if score @s toku.form1 matches 22 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.ultimate_up","color":"light_purple"}
+execute if score @s toku.form1 matches 23 run function krc_snd:play_global {name:"kamenridercraft:tornado_up",scope:"henshin_snd"}
+execute if score @s toku.form1 matches 23 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.tornado_up"}
+execute if score @s toku.form1 matches 24 run function krc_snd:play_global {name:"kamenridercraft:gold_spino_genome",scope:"henshin_snd"}
+execute if score @s toku.form1 matches 24 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.gold_up","color":"yellow"}
+execute if score @s toku.form1 matches 25 run function krc_snd:play_global {name:"kamenridercraft:synchro_up",scope:"henshin_snd"}
+execute if score @s toku.form1 matches 25 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.revice.synchro_up"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/revice/revice_driver_off 1

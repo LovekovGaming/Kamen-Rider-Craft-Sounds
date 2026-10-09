@@ -1,4 +1,4 @@
-execute if score @s krc.form1n matches 3.. run tag @s add hyper_clock_up
+execute if score @s toku.form1 matches 3.. run tag @s add hyper_clock_up
 function krc_snd:play_global {name:"kamenridercraft:clock_up_pad",scope:"henshin_snd"}
 execute if items entity @s armor.feet kamenridercraft:caucasus_rider_belt run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.kabuto.hyper_clock_up","color":"gold"}
 execute if items entity @s armor.feet kamenridercraft:caucasus_rider_belt run tag @s add hyper_clock_up

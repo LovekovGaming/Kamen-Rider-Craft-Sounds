@@ -1,5 +1,5 @@
 stopsound @a[scores={krc.configs.equip_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
-execute if entity @s[advancements={krc_core:player_transformed=false}] run function krc_snd:play_global {name:"kamenridercraft:belt_equip",scope:"equip_snd"}
-execute if entity @s[advancements={krc_core:player_transformed=false}] run advancement grant @s only krc_snd:henshin/build/evol-driver_equip_seq 1
-execute if entity @s[advancements={krc_core:player_transformed=false}] if predicate krc_core:sneaking run advancement grant @s only krc_snd:henshin/build/evol-driver_equip_seq name
-advancement revoke @s only krc_snd:henshin/common/reset
+execute if entity @s[advancements={tokudata:hooks/transform=false}] run function krc_snd:play_global {name:"kamenridercraft:belt_equip",scope:"equip_snd"}
+execute if entity @s[advancements={tokudata:hooks/transform=false}] run advancement grant @s only krc_snd:henshin/build/evol-driver_equip_seq 1
+execute if entity @s[advancements={tokudata:hooks/transform=false}] if predicate tokudata:sneaking run advancement grant @s only krc_snd:henshin/build/evol-driver_equip_seq name
+advancement revoke @s from krc_snd:henshin/common/equip_root

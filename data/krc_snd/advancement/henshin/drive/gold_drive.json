@@ -1,43 +1,47 @@
 {
-  "parent": "krc_snd:henshin/drive/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
-		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:drive_head"
-			},
-			"chest": {
-			  "items": "kamenridercraft:drive_troso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:drive_legs"
-			},
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:banno_driver_gord_drive"
+			  "items": "kamenridercraft:banno_driver_gord_drive",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 			}
 		  }
 		}
 	  }
 	},
 	"2": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
 		  "equipment": {
-			"head": {
-			  "items": "kamenridercraft:drive_head"
-			},
-			"chest": {
-			  "items": "kamenridercraft:drive_troso"
-			},
-			"legs": {
-			  "items": "kamenridercraft:drive_legs"
-			},
 			"feet": {
-			  "items": "kamenridercraft:banno_driver_bronze_drive"
+			  "items": "kamenridercraft:banno_driver_bronze_drive",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
 			}
 		  }
 		}

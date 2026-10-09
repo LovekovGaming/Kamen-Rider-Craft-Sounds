@@ -1,5 +1,5 @@
 {
-  "parent": "krc_snd:henshin/agito/root",
+  "parent": "krc_snd:henshin/common/equip_root",
   "criteria": {
 	"1": {
 	  "trigger": "minecraft:inventory_changed",
@@ -12,43 +12,27 @@
 			  "type_specific": {
 				"type": "minecraft:player",
 				"advancements": {
-				  "krc_snd:henshin/common/reset": true
+				  "krc_snd:henshin/common/equip_root": true
 				}
 			  }
 			}
 		  },
 		  {
-			"condition": "minecraft:any_of",
-			"terms": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "equipment": {
-					"feet": {
-					  "items": "kamenridercraft:ank_point"
-					}
-				  }
-				}
-			  },
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "equipment": {
-					"feet": {
-					  "items": "kamenridercraft:ank_point_burning"
-					}
-				  }
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "equipment": {
+				"feet": {
+				  "items": "#krc_snd:ank_point"
 				}
 			  }
-			]
+			}
 		  },
 		  {
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:heisei/agito_armor"
+			  "name": "tokudata:rider/heisei/agito_armor"
 			}
 		  }
 		]

@@ -58,7 +58,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:reiwa/gotchard_armor"
+			  "name": "tokudata:rider/reiwa/gotchard_armor"
 			}
 		  },
 		  {

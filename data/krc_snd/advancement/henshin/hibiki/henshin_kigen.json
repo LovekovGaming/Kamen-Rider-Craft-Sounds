@@ -1,113 +1,97 @@
 {
-  "parent": "krc_snd:henshin/hibiki/root",
+  "parent": "tokudata:hooks/transform",
   "criteria": {
-	"1": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": [
-		  {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-			  "equipment": {
-				"head": {
-				  "items": "kamenridercraft:hibikihead"
-				},
-				"chest": {
-				  "items": "kamenridercraft:hibikitroso"
-				},
-				"legs": {
-				  "items": "kamenridercraft:hibikilegs"
-				},
-				"feet": {
-				  "items": "kamenridercraft:todorokidriver"
-				}
-			  }
-			}
-		  }
-		]
-	  }
-	},
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+			  "items": "kamenridercraft:todorokidriver",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
 	"2": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": [
-		  {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-			  "equipment": {
-				"head": {
-				  "items": "kamenridercraft:hibikihead"
-				},
-				"chest": {
-				  "items": "kamenridercraft:hibikitroso"
-				},
-				"legs": {
-				  "items": "kamenridercraft:hibikilegs"
-				},
-				"feet": {
-				  "items": "kamenridercraft:zankidriver"
-				}
-			  }
-			}
-		  }
-		]
-	  }
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+			  "items": "kamenridercraft:zankidriver",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
 	},
 	"3": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": [
-		  {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-			  "equipment": {
-				"head": {
-				  "items": "kamenridercraft:hibikihead"
-				},
-				"chest": {
-				  "items": "kamenridercraft:hibikitroso"
-				},
-				"legs": {
-				  "items": "kamenridercraft:hibikilegs"
-				},
-				"feet": {
-				  "items": "kamenridercraft:sabakidriver"
-				}
-			  }
-			}
-		  }
-		]
-	  }
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+			  "items": "kamenridercraft:sabakidriver",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
 	},
 	"4": {
-	  "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-		"player": [
-		  {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-			  "equipment": {
-				"head": {
-				  "items": "kamenridercraft:hibikihead"
-				},
-				"chest": {
-				  "items": "kamenridercraft:hibikitroso"
-				},
-				"legs": {
-				  "items": "kamenridercraft:hibikilegs"
-				},
-				"feet": {
-				  "items": "kamenridercraft:bankidriver"
-				}
-			  }
-			}
-		  }
-		]
-	  }
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+			  "items": "kamenridercraft:bankidriver",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
 	}
   },
   "requirements": [

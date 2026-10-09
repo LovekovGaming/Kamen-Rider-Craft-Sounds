@@ -13,7 +13,7 @@ execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=doughnut] run advancement grant @s only krc_snd:henshin/gavv/valen_doughnut_standby 1
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=cake] run advancement grant @s only krc_snd:henshin/gavv/valen_cake_standby 1
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:valenbuster_close",scope:"henshin_snd"}
-execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] if predicate krc_core:sneaking run function krc_snd:play_global {name:"kamenridercraft:gochizo_shock",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] if predicate tokudata:sneaking run function krc_snd:play_global {name:"kamenridercraft:gochizo_shock",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/gavv/standby_root
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/gavv/valen_standby 1

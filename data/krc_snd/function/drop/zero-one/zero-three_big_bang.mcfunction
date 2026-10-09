@@ -1,14 +1,14 @@
-execute if predicate krc_core:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:attache_calibur run tag @s add valid
-execute if predicate krc_core:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:attache_shotgun run tag @s add valid
-execute if predicate krc_core:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:attache_arrow run tag @s add valid
-execute if predicate krc_core:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:authorise_buster run tag @s add valid
-execute if predicate krc_core:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:progrise_hopper_blade run tag @s add valid
-execute if predicate krc_core:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:progrise_hopper_blade_naginata run tag @s add valid
-execute if predicate krc_core:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:thousand_jacker run tag @s add valid
-execute if predicate krc_core:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:shot_riser_gun run tag @s add valid
-execute if predicate krc_core:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:zaia_slashriser_sword run tag @s add valid
-execute if predicate krc_core:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:shot_abaddo_gun run tag @s add valid
-execute if predicate krc_core:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:slash_abaddo_sword run tag @s add valid
+execute if predicate tokudata:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:attache_calibur run tag @s add valid
+execute if predicate tokudata:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:attache_shotgun run tag @s add valid
+execute if predicate tokudata:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:attache_arrow run tag @s add valid
+execute if predicate tokudata:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:authorise_buster run tag @s add valid
+execute if predicate tokudata:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:progrise_hopper_blade run tag @s add valid
+execute if predicate tokudata:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:progrise_hopper_blade_naginata run tag @s add valid
+execute if predicate tokudata:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:thousand_jacker run tag @s add valid
+execute if predicate tokudata:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:shot_riser_gun run tag @s add valid
+execute if predicate tokudata:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:zaia_slashriser_sword run tag @s add valid
+execute if predicate tokudata:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:shot_abaddo_gun run tag @s add valid
+execute if predicate tokudata:sneaking as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:slash_abaddo_sword run tag @s add valid
 
 execute if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:attache_calibur run function krc_snd:play_global {name:"kamenridercraft:blade_on_big_bang",scope:"henshin_snd"}
 execute if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:attache_calibur run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zero-one.blade_on_big_bang","color":"green"}

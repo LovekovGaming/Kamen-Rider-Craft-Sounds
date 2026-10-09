@@ -1,8 +1,8 @@
 execute if entity @n[type=item,distance=..5,tag=pick_up] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:entity.item.pickup
-execute unless score @s krc.form1n matches 0 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:perfect_puzzle_gashat run tag @s add valid
-execute unless score @s krc.form1n matches 0 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:perfect_puzzle_gashat run tag @s add perfect_puzzle
-execute unless score @s krc.form1n matches 1 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:knock_out_fighter_gashat run tag @s add valid
-execute unless score @s krc.form1n matches 1 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:knock_out_fighter_gashat run tag @s add knock_out_fighter
+execute unless score @s toku.form1 matches 0 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:perfect_puzzle_gashat run tag @s add valid
+execute unless score @s toku.form1 matches 0 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:perfect_puzzle_gashat run tag @s add perfect_puzzle
+execute unless score @s toku.form1 matches 1 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:knock_out_fighter_gashat run tag @s add valid
+execute unless score @s toku.form1 matches 1 as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:knock_out_fighter_gashat run tag @s add knock_out_fighter
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
 execute unless items entity @s armor.feet kamenridercraft:paradoxbelt if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 2

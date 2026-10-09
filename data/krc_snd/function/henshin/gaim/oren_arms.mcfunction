@@ -1,6 +1,6 @@
 advancement revoke @s only krc_snd:henshin/gaim/oren_arms
+function krc_snd:henshin/reset_henshin {series:gaim}
 function krc_snd:play_global {name:"kamenridercraft:fake_donguri",scope:"henshin_snd"}
-scoreboard players reset @s krc.henshin-stage
 scoreboard players reset @s krc-item.donguri
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:gaim_standby
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:baron_standby
@@ -9,6 +9,3 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:saver_standby
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:genesis_standby
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:oren_standby
-scoreboard players set @s krc.seq1 0
-scoreboard players set @s krc.seq2 0
-advancement revoke @s from krc_snd:henshin/gaim/seq_root

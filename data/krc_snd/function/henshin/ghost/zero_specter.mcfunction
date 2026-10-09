@@ -1,9 +1,6 @@
 execute if entity @s[tag=sound_off] run return 0
-stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
+function krc_snd:henshin/reset_henshin {series:ghost}
 advancement grant @s only krc_snd:henshin/ghost/zero_specter_seq 1
-scoreboard players reset @s krc.henshin-stage
-advancement revoke @s from krc_snd:henshin/ghost/standby_root
-scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_standby_empty
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_standby_ghost
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ghost_driver_standby_specter
@@ -15,6 +12,4 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 
 function krc_snd:play_global {name:"kamenridercraft:ghost_driver_push",scope:"henshin_snd"}
 
-advancement revoke @s from krc_snd:henshin/common/detransform_root
-advancement grant @s only krc_snd:henshin/common/detransform
 advancement grant @s only krc_snd:henshin/ghost/ghost_driver_off 1

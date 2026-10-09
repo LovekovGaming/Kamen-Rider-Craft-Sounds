@@ -16,9 +16,9 @@ execute if score @s krc.henshin-stage matches 5 if entity @n[type=item,distance=
 
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:next_faiz_standby
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/555/root
-execute if score @s krc.henshin-stage matches 6 unless predicate krc_core:heisei/faiz_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:faizhead"}
-execute if score @s krc.henshin-stage matches 6 unless predicate krc_core:heisei/faiz_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:faiztroso"}
-execute if score @s krc.henshin-stage matches 6 unless predicate krc_core:heisei/faiz_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:faizlegs"}
+execute if score @s krc.henshin-stage matches 6 unless predicate tokudata:rider/heisei/faiz_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:faizhead"}
+execute if score @s krc.henshin-stage matches 6 unless predicate tokudata:rider/heisei/faiz_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:faiztroso"}
+execute if score @s krc.henshin-stage matches 6 unless predicate tokudata:rider/heisei/faiz_armor if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:faizlegs"}
 execute if score @s krc.henshin-stage matches 6 if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
 execute if score @s krc.henshin-stage matches 6.. run scoreboard players reset @s krc.henshin-stage
 execute as @n[type=item,distance=..5,tag=valid] run function krc_snd:drop/common/return_item

@@ -18,7 +18,7 @@
 					"krc_snd:henshin/den-o/gaoh_belt_off": {
 					  "1": true
 					},
-					"krc_core:hooks/detransform": true
+					"tokudata:hooks/detransform": true
 				  }
 				}
 			  }

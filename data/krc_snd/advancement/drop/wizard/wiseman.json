@@ -36,7 +36,7 @@
 			  "condition": "minecraft:inverted",
 			  "term": {
 				"condition": "minecraft:reference",
-				"name": "krc_core:heisei/wizard_armor"
+				"name": "tokudata:rider/heisei/wizard_armor"
 			  }
 			},
 			{

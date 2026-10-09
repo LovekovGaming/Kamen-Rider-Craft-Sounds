@@ -1,5 +1,5 @@
 {
-  "parent": "krc_snd:henshin/kiva/root",
+  "parent": "krc_snd:henshin/common/equip_root",
   "criteria": {
 	"1": {
 	  "trigger": "minecraft:inventory_changed",
@@ -12,7 +12,7 @@
 			  "type_specific": {
 				"type": "minecraft:player",
 				"advancements": {
-				  "krc_snd:henshin/common/reset": true
+				  "krc_snd:henshin/common/equip_root": true
 				}
 			  },
 			  "equipment": {
@@ -26,7 +26,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:heisei/kiva_armor"
+			  "name": "tokudata:rider/heisei/kiva_armor"
 			}
 		  }
 		]

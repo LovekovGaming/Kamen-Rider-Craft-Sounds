@@ -47,7 +47,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:heisei/g_armor"
+			  "name": "tokudata:rider/heisei/g_armor"
 			}
 		  },
 		  {

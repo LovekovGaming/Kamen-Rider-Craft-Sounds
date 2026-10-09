@@ -69,7 +69,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:reiwa/geats_armor"
+			  "name": "tokudata:rider/reiwa/geats_armor"
 			}
 		  },
 		  {

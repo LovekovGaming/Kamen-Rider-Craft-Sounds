@@ -7,7 +7,7 @@
 		"player": [
 		  {
 			"condition": "minecraft:reference",
-			"name": "krc_core:heisei/ryuki_armor"
+			"name": "tokudata:rider/heisei/ryuki_armor"
 		  },
 		  {
 			"condition": "minecraft:entity_properties",
@@ -83,7 +83,7 @@
 		"player": [
 		  {
 			"condition": "minecraft:reference",
-			"name": "krc_core:heisei/ryuki_armor"
+			"name": "tokudata:rider/heisei/ryuki_armor"
 		  },
 		  {
 			"condition": "minecraft:entity_properties",
@@ -137,7 +137,7 @@
 		"player": [
 		  {
 			"condition": "minecraft:reference",
-			"name": "krc_core:heisei/ryuki_armor"
+			"name": "tokudata:rider/heisei/ryuki_armor"
 		  },
 		  {
 			"condition": "minecraft:entity_properties",
@@ -191,7 +191,7 @@
 		"player": [
 		  {
 			"condition": "minecraft:reference",
-			"name": "krc_core:heisei/ryuki_armor"
+			"name": "tokudata:rider/heisei/ryuki_armor"
 		  },
 		  {
 			"condition": "minecraft:entity_properties",
@@ -245,7 +245,7 @@
 		"player": [
 		  {
 			"condition": "minecraft:reference",
-			"name": "krc_core:heisei/ryuki_armor"
+			"name": "tokudata:rider/heisei/ryuki_armor"
 		  },
 		  {
 			"condition": "minecraft:entity_properties",
@@ -299,7 +299,7 @@
 		"player": [
 		  {
 			"condition": "minecraft:reference",
-			"name": "krc_core:heisei/ryuki_armor"
+			"name": "tokudata:rider/heisei/ryuki_armor"
 		  },
 		  {
 			"condition": "minecraft:entity_properties",
@@ -353,7 +353,7 @@
 		"player": [
 		  {
 			"condition": "minecraft:reference",
-			"name": "krc_core:heisei/ryuki_armor"
+			"name": "tokudata:rider/heisei/ryuki_armor"
 		  },
 		  {
 			"condition": "minecraft:entity_properties",
@@ -407,7 +407,7 @@
 		"player": [
 		  {
 			"condition": "minecraft:reference",
-			"name": "krc_core:heisei/ryuki_armor"
+			"name": "tokudata:rider/heisei/ryuki_armor"
 		  },
 		  {
 			"condition": "minecraft:entity_properties",
@@ -461,7 +461,7 @@
 		"player": [
 		  {
 			"condition": "minecraft:reference",
-			"name": "krc_core:heisei/ryuki_armor"
+			"name": "tokudata:rider/heisei/ryuki_armor"
 		  },
 		  {
 			"condition": "minecraft:entity_properties",
@@ -515,7 +515,7 @@
 		"player": [
 		  {
 			"condition": "minecraft:reference",
-			"name": "krc_core:heisei/ryuki_armor"
+			"name": "tokudata:rider/heisei/ryuki_armor"
 		  },
 		  {
 			"condition": "minecraft:entity_properties",
@@ -569,7 +569,7 @@
 		"player": [
 		  {
 			"condition": "minecraft:reference",
-			"name": "krc_core:heisei/ryuki_armor"
+			"name": "tokudata:rider/heisei/ryuki_armor"
 		  },
 		  {
 			"condition": "minecraft:entity_properties",
@@ -623,7 +623,7 @@
 		"player": [
 		  {
 			"condition": "minecraft:reference",
-			"name": "krc_core:heisei/ryuki_armor"
+			"name": "tokudata:rider/heisei/ryuki_armor"
 		  },
 		  {
 			"condition": "minecraft:entity_properties",
@@ -677,7 +677,7 @@
 		"player": [
 		  {
 			"condition": "minecraft:reference",
-			"name": "krc_core:heisei/ryuki_armor"
+			"name": "tokudata:rider/heisei/ryuki_armor"
 		  },
 		  {
 			"condition": "minecraft:entity_properties",
@@ -731,7 +731,7 @@
 		"player": [
 		  {
 			"condition": "minecraft:reference",
-			"name": "krc_core:heisei/ryuki_armor"
+			"name": "tokudata:rider/heisei/ryuki_armor"
 		  },
 		  {
 			"condition": "minecraft:entity_properties",
@@ -785,7 +785,7 @@
 		"player": [
 		  {
 			"condition": "minecraft:reference",
-			"name": "krc_core:heisei/ryuki_armor"
+			"name": "tokudata:rider/heisei/ryuki_armor"
 		  },
 		  {
 			"condition": "minecraft:entity_properties",

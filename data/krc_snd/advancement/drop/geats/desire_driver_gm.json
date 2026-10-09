@@ -26,7 +26,7 @@
 					"condition": "minecraft:entity_scores",
 					"entity": "this",
 					"scores": {
-					  "krc.form1n": 1
+					  "toku.form1": 1
 					}
 				  }
 				]

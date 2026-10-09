@@ -47,7 +47,7 @@
 			"condition": "minecraft:inverted",
 			"term": {
 			  "condition": "minecraft:reference",
-			  "name": "krc_core:reiwa/black_sun_armor"
+			  "name": "tokudata:rider/reiwa/black_sun_armor"
 			}
 		  },
 		  {
