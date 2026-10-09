@@ -43,13 +43,6 @@
 				}
 			  ]
 			},
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:reference",
-              "name": "tokudata:rider/reiwa/gavv_armor"
-            }
-          },
 		  {
 			"condition": "minecraft:reference",
 			"name": "krc_snd:has_armor/gavv"
