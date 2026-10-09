@@ -13,7 +13,7 @@
           },
           "equipment": {
 			"feet": {
-			  "items": "kamenridercraft:eden_driver",
+			  "items": "kamenridercraft:eden_driver_lucifer",
               "predicates": {
                 "minecraft:custom_data": {
                   "Update_form": false
@@ -26,6 +26,6 @@
     }
   },
   "rewards": {
-	"function": "krc_snd:henshin/zero-one/eden"
+	"function": "krc_snd:henshin/zero-one/lucifer"
   }
 }
