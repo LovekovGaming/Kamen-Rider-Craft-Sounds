@@ -20,7 +20,7 @@ Kamen Rider Craft notably does not include henshin sounds due to concerns regard
 
 - Minecraft 1.21.1, running NeoForge
 - The [Kamen Rider Craft](https://modrinth.com/mod/kamen-rider-craft) mod
-- The [Kamen Rider Craft Data Core](https://github.com/LovekovGaming/Kamen-Rider-Craft-Data-Core/) pack
+- The [TokuDataCore](https://github.com/LovekovGaming/TokuDataCore/) data pack
 
 ## Installation
 
@@ -32,16 +32,15 @@ Available column. Click the icon for the pack to move it to the Selected column,
 
 ### Step 2a: For New Worlds
 Install on a new world by clicking the More tab on the Create New World screen, then clicking
-the Data Packs button. Then drag and drop the **Kamen-Rider-Craft-Data-Core** and 
-**Kamen-Rider-Craft-Sounds** zip files onto the Minecraft Window. This should make it show
-up in the Available column. Click the icon for the pack to move it to the Selected column,
-then hit Done. The pack will activate as soon as you create the world.
+the Data Packs button. Then drag and drop the **TokuDataCore** and **Kamen-Rider-Craft-Sounds**
+zip files onto the Minecraft Window. This should make it show up in the Available column.
+Click the icon for the pack to move it to the Selected column, then hit Done.
+The pack will activate as soon as you create the world.
 
 ### Step 2b: For Pre-existing Worlds
-Install on a pre-existing world by copying the **Kamen-Rider-Craft-Data-Core** and 
-**Kamen-Rider-Craft-Sounds** zip files to the datapacks folder of the world.
-If you don't know where this is, click the Edit button in the Singleplayer Worlds list,
-then click the Open World Folder button.
+Install on a pre-existing world by copying the **TokuDataCore** and **Kamen-Rider-Craft-Sounds**
+zip files to the datapacks folder of the world. If you don't know where this is, click the
+Edit button in the Singleplayer Worlds list, then click the Open World Folder button.
 
 Once the pack has been copied, run the `reload` command if you have the world open. The pack
 will activate once the reload is complete.
