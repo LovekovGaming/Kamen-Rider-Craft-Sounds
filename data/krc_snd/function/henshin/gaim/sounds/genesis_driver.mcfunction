@@ -14,7 +14,7 @@ execute if score @s krc.seq1 matches 105 if score @s toku.form1 matches 3 run ti
 execute if score @s krc.seq1 matches 105 if score @s toku.form1 matches 4 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.matsubokkuri_energy_arms","color":"#935c27"}
 execute if score @s krc.seq1 matches 95 if score @s toku.form1 matches 5..6 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.dragon_energy_arms","color":"red"}
 execute if score @s krc.seq1 matches 95 if score @s toku.form1 matches 5..6 run scoreboard players set @s krc.seq1 169
-execute if score @s krc.seq1 matches 95 if score @s toku.form1 matches 34 run function krc_snd:play_global {name:"kamenridercraft:drive_arms",scope:"henshin_snd"}
+execute if score @s krc.seq1 matches 95 if score @s toku.form1 matches 7 run function krc_snd:play_global {name:"kamenridercraft:drive_arms",scope:"henshin_snd"}
 execute if score @s krc.seq1 matches 109 if score @s toku.form1 matches 7 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.drive_arms_1","color":"red"}
 execute if score @s krc.seq1 matches 146 if score @s toku.form1 matches 7 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.gaim.drive_arms_2","color":"red"}
 execute if score @s krc.seq1 matches 146 if score @s toku.form1 matches 7 run scoreboard players set @s krc.seq1 169
