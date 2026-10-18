@@ -131,7 +131,7 @@ execute if score @s toku.form1 matches 30 if score @s krc.seq1 matches 178 run s
 execute if score @s toku.form1 matches 31 if score @s krc.seq1 matches 65 run function krc_snd:play_global {name:"kamenridercraft:thouser_henshin",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 31 if score @s krc.seq1 matches 102 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zero-one.amazing_caucasus_1","color":"#9522ff"}
 execute if score @s toku.form1 matches 31 if score @s krc.seq1 matches 142 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zero-one.amazing_caucasus_1","color":"#9522ff"}
-execute if score @s toku.form1 matches 31 if score @s krc.seq1 matches 142 run scoreboard players add @s krc.seq1 116
+execute if score @s toku.form1 matches 31 if score @s krc.seq1 matches 142 run scoreboard players add @s krc.seq1 121
 
 execute if score @s krc.seq1 matches ..333 run return 0
 execute if score @s toku.form1 matches 0..1 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zero-one.rising_hopper_end","color":"gray"}
