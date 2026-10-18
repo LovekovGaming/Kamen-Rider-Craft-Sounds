@@ -36,7 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": "kamenridercraft:ride_x_eggs_6"
+					  "items": "#krc_snd:item_alias/ride_x_eggs_6"
 					}
 				  }
 				}
