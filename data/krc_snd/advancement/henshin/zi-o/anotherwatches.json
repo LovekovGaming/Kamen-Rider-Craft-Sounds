@@ -55,6 +55,9 @@
 	"shinobi": {
 	  "trigger": "minecraft:impossible"
 	},
+	"quiz": {
+	  "trigger": "minecraft:impossible"
+	},
 	"decade": {
 	  "trigger": "minecraft:impossible"
 	},
@@ -103,6 +106,7 @@
 	  "ryuga",
 	  "agito",
 	  "shinobi",
+	  "quiz",
 	  "decade",
 	  "diend"
 	],

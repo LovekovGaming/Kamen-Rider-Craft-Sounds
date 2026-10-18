@@ -38,6 +38,8 @@ execute if entity @s[advancements={krc_snd:henshin/zi-o/anotherwatches={agito=tr
 execute if entity @s[advancements={krc_snd:henshin/zi-o/anotherwatches={agito=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.agito","color":"#9c9900"}
 execute if entity @s[advancements={krc_snd:henshin/zi-o/anotherwatches={shinobi=true}}] run function krc_snd:play_global {name:"kamenridercraft:another_shinobi",scope:"henshin_snd"}
 execute if entity @s[advancements={krc_snd:henshin/zi-o/anotherwatches={shinobi=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.shinobi","color":"dark_purple"}
+execute if entity @s[advancements={krc_snd:henshin/zi-o/anotherwatches={quiz=true}}] run function krc_snd:play_global {name:"kamenridercraft:another_quiz",scope:"henshin_snd"}
+execute if entity @s[advancements={krc_snd:henshin/zi-o/anotherwatches={quiz=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.quiz","color":"#935c27"}
 execute if entity @s[advancements={krc_snd:henshin/zi-o/anotherwatches={diend=true}}] run function krc_snd:play_global {name:"kamenridercraft:another_diend",scope:"henshin_snd"}
 execute if entity @s[advancements={krc_snd:henshin/zi-o/anotherwatches={diend=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.diend","color":"#00779e"}
 
