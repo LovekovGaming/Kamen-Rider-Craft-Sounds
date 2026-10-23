@@ -44,6 +44,13 @@
 			]
 		  },
 		  {
+			"condition": "minecraft:inverted",
+			"term": {
+			  "condition": "minecraft:reference",
+			  "name": "tokudata:rider/reiwa/my-th_armor"
+			}
+		  },
+		  {
 			"condition": "minecraft:reference",
 			"name": "krc_snd:has_armor/my-th"
 		  }
