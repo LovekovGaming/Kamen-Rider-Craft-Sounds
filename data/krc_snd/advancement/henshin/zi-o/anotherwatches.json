@@ -52,6 +52,12 @@
 	"agito": {
 	  "trigger": "minecraft:impossible"
 	},
+	"kuuga": {
+	  "trigger": "minecraft:impossible"
+	},
+	"ultimate_kuuga": {
+	  "trigger": "minecraft:impossible"
+	},
 	"shinobi": {
 	  "trigger": "minecraft:impossible"
 	},
@@ -105,6 +111,8 @@
 	  "ryuki",
 	  "ryuga",
 	  "agito",
+	  "kuuga",
+	  "ultimate_kuuga",
 	  "shinobi",
 	  "quiz",
 	  "decade",
