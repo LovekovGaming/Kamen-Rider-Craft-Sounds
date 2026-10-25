@@ -7,6 +7,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ride_x-eggs_4
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ride_x-eggs_8
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ride_x-eggs_11
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ride_x-eggs_1_en
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:harinezumi_seed_x-eggs
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:zou_seed_x-eggs
 
@@ -14,6 +15,7 @@ execute if score @s toku.form1 matches 0 run function krc_snd:play_global {name:
 execute if score @s toku.form1 matches 3 run function krc_snd:play_global {name:"kamenridercraft:ride_x-eggs_4",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 7 run function krc_snd:play_global {name:"kamenridercraft:ride_x-eggs_8",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 10 run function krc_snd:play_global {name:"kamenridercraft:ride_x-eggs_11",scope:"henshin_snd"}
+execute if score @s toku.form1 matches 13 run function krc_snd:play_global {name:"kamenridercraft:ride_x-eggs_1_en",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 18 run function krc_snd:play_global {name:"kamenridercraft:harinezumi_seed_x-eggs",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 19 run function krc_snd:play_global {name:"kamenridercraft:zou_seed_x-eggs",scope:"henshin_snd"}
 
