@@ -34,8 +34,8 @@ execute if items entity @s armor.feet kamenridercraft:another_altering run funct
 execute if items entity @s armor.feet kamenridercraft:another_altering run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.agito","color":"#9c9900"}
 execute if items entity @s armor.feet kamenridercraft:another_shinobi_driver run function krc_snd:play_global {name:"kamenridercraft:another_shinobi",scope:"henshin_snd"}
 execute if items entity @s armor.feet kamenridercraft:another_shinobi_driver run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.shinobi","color":"dark_purple"}
-execute if items entity @s armor.feet #krc_snd:item_alias/another_quiz_driver run function krc_snd:play_global {name:"kamenridercraft:another_quiz",scope:"henshin_snd"}
-execute if items entity @s armor.feet #krc_snd:item_alias/another_quiz_driver run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.quiz","color":"#935c27"}
+execute if items entity @s armor.feet kamenridercraft:another_quiz_driver run function krc_snd:play_global {name:"kamenridercraft:another_quiz",scope:"henshin_snd"}
+execute if items entity @s armor.feet kamenridercraft:another_quiz_driver run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.quiz","color":"#935c27"}
 execute if items entity @s armor.feet kamenridercraft:another_diendriver run function krc_snd:play_global {name:"kamenridercraft:another_diend",scope:"henshin_snd"}
 execute if items entity @s armor.feet kamenridercraft:another_diendriver run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.diend","color":"#00779e"}
 

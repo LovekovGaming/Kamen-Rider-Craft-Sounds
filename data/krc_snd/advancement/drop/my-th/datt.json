@@ -11,7 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": "#krc_snd:item_alias/my_th_driver_slash_on"
+				  "items": "kamenridercraft:my_th_driver_slash_on"
 				}
 			  }
 			}

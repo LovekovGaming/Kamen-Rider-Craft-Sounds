@@ -11,7 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": "#krc_snd:item_alias/my_th_driver_bite_on"
+				  "items": "kamenridercraft:my_th_driver_bite_on"
 				}
 			  }
 			}
@@ -36,7 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": "#krc_snd:item_alias/ride_x_eggs_6"
+					  "items": "kamenridercraft:ride_x_eggs_6"
 					}
 				  }
 				}

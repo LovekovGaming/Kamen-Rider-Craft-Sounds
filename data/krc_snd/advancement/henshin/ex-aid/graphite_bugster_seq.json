@@ -22,7 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": "#tokudata:item_alias/gashacon_bugvisor_graphite"
+					"items": "kamenridercraft:gashacon_bugvisor_graphite"
 				  }
 				}
             }

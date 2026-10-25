@@ -13,7 +13,7 @@
           },
           "equipment": {
             "feet": {
-              "items": "#krc_snd:item_alias/my_th_driver_slash_on_tigre",
+              "items": "kamenridercraft:my_th_driver_slash_on_tigre",
               "predicates": {
                 "minecraft:custom_data": {
                   "Update_form": false
