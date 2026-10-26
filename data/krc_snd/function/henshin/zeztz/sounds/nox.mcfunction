@@ -8,7 +8,7 @@ execute if score @s toku.form1 matches 0 if score @s krc.seq1 matches 108 run ti
 execute if score @s toku.form1 matches 0 if score @s krc.seq1 matches 123 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.nox","color":"gold"}
 execute if score @s toku.form1 matches 0 if score @s krc.seq1 matches 140 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.nox","color":"white"}
 execute if score @s toku.form1 matches 0 if score @s krc.seq1 matches 163 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.shadow","color":"dark_purple"}
-execute if score @s toku.form1 matches 0 if score @s krc.seq1 matches 163 run scoreboard players set @s krc.seq1 217
+execute if score @s toku.form1 matches 0 if score @s krc.seq1 matches 163 run scoreboard players set @s krc.seq1 234
 execute if score @s toku.form1 matches 1 if score @s krc.seq1 matches 37 run function krc_snd:play_global {name:"kamenridercraft:gun_shadow",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 1 if score @s krc.seq1 matches 55 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.zeztz.wahahahaha","color":"white"}," ",{"translate":"sound.kamenridercraft.zeztz.rider","color":"blue"}]
 execute if score @s toku.form1 matches 1 if score @s krc.seq1 matches 95 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.zeztz.wahahahaha","color":"white"}," ",{"translate":"sound.kamenridercraft.zeztz.rider","color":"blue"}]
@@ -20,14 +20,14 @@ execute if score @s toku.form1 matches 1 if score @s krc.seq1 matches 138 run ti
 execute if score @s toku.form1 matches 1 if score @s krc.seq1 matches 147 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.nox","color":"gold"}
 execute if score @s toku.form1 matches 1 if score @s krc.seq1 matches 156 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.nox","color":"white"}
 execute if score @s toku.form1 matches 1 if score @s krc.seq1 matches 190 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.gun","color":"red"}
-execute if score @s toku.form1 matches 1 if score @s krc.seq1 matches 190 run scoreboard players set @s krc.seq1 217
+execute if score @s toku.form1 matches 1 if score @s krc.seq1 matches 190 run scoreboard players set @s krc.seq1 234
 execute if score @s toku.form1 matches 2 if score @s krc.seq1 matches 37 run function krc_snd:play_global {name:"kamenridercraft:wolf_shadow",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 2 if score @s krc.seq1 matches 64 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.zeztz.uwahahahaha","color":"white"}," ",{"translate":"sound.kamenridercraft.zeztz.rider","color":"blue"}]
 execute if score @s toku.form1 matches 2 if score @s krc.seq1 matches 130 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.nox","color":"blue"}
 execute if score @s toku.form1 matches 2 if score @s krc.seq1 matches 148 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.nox","color":"gold"}
 execute if score @s toku.form1 matches 2 if score @s krc.seq1 matches 170 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.nox","color":"white"}
 execute if score @s toku.form1 matches 2 if score @s krc.seq1 matches 209 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.wolf","color":"yellow"}
-execute if score @s toku.form1 matches 2 if score @s krc.seq1 matches 209 run scoreboard players set @s krc.seq1 217
+execute if score @s toku.form1 matches 2 if score @s krc.seq1 matches 209 run scoreboard players set @s krc.seq1 234
 execute if score @s[advancements={krc_snd:flags/zeztz/temporary={midnight_shadow_drive=false}}] toku.form1 matches 3 if score @s krc.seq1 matches 80 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar ["",{"translate":"sound.kamenridercraft.zeztz.wahahahahahaha","color":"white"}," ",{"translate":"sound.kamenridercraft.zeztz.rider","color":"aqua"}]
 execute if score @s[advancements={krc_snd:flags/zeztz/temporary={midnight_shadow_drive=false}}] toku.form1 matches 3 if score @s krc.seq1 matches 133 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.nox","color":"aqua"}
 execute if score @s[advancements={krc_snd:flags/zeztz/temporary={midnight_shadow_drive=false}}] toku.form1 matches 3 if score @s krc.seq1 matches 142 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.nox","color":"black"}
@@ -35,12 +35,24 @@ execute if score @s[advancements={krc_snd:flags/zeztz/temporary={midnight_shadow
 execute if score @s[advancements={krc_snd:flags/zeztz/temporary={midnight_shadow_drive=false}}] toku.form1 matches 3 if score @s krc.seq1 matches 160 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.nox","color":"black"}
 execute if score @s[advancements={krc_snd:flags/zeztz/temporary={midnight_shadow_drive=false}}] toku.form1 matches 3 if score @s krc.seq1 matches 169 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.nox","color":"white"}
 execute if score @s[advancements={krc_snd:flags/zeztz/temporary={midnight_shadow_drive=false}}] toku.form1 matches 3 if score @s krc.seq1 matches 217 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.midnight_shadow","color":"blue"}
+execute if score @s[advancements={krc_snd:flags/zeztz/temporary={midnight_shadow_drive=false}}] toku.form1 matches 3 if score @s krc.seq1 matches 217 run scoreboard players set @s krc.seq1 234
 execute if score @s[advancements={krc_snd:flags/zeztz/temporary={midnight_shadow_drive=true}}] toku.form1 matches 3 if score @s krc.seq1 matches 20 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.drive.tire_koukan","color":"white"}
 execute if score @s[advancements={krc_snd:flags/zeztz/temporary={midnight_shadow_drive=true}}] toku.form1 matches 3 if score @s krc.seq1 matches 110 run function krc_snd:play_global {name:"kamenridercraft:midnight_shadow",scope:"henshin_snd"}
 execute if score @s[advancements={krc_snd:flags/zeztz/temporary={midnight_shadow_drive=true}}] toku.form1 matches 3 if score @s krc.seq1 matches 110 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.drive.midnight_shadow","color":"dark_purple"}
-execute if score @s[advancements={krc_snd:flags/zeztz/temporary={midnight_shadow_drive=true}}] toku.form1 matches 3 if score @s krc.seq1 matches 110 run scoreboard players set @s krc.seq1 217
+execute if score @s[advancements={krc_snd:flags/zeztz/temporary={midnight_shadow_drive=true}}] toku.form1 matches 3 if score @s krc.seq1 matches 110 run scoreboard players set @s krc.seq1 234
+execute if score @s toku.form1 matches 4 if score @s krc.seq1 matches 82 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.hahahahahaha","color":"white"}
+execute if score @s toku.form1 matches 4 if score @s krc.seq1 matches 132 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.nox","color":"blue"}
+execute if score @s toku.form1 matches 4 if score @s krc.seq1 matches 151 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.nox","color":"gold"}
+execute if score @s toku.form1 matches 4 if score @s krc.seq1 matches 167 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.nox","color":"blue"}
+execute if score @s toku.form1 matches 4 if score @s krc.seq1 matches 171 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.nox","color":"gold"}
+execute if score @s toku.form1 matches 4 if score @s krc.seq1 matches 175 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.nox","color":"blue"}
+execute if score @s toku.form1 matches 4 if score @s krc.seq1 matches 179 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.nox","color":"gold"}
+execute if score @s toku.form1 matches 4 if score @s krc.seq1 matches 183 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.nox","color":"blue"}
+execute if score @s toku.form1 matches 4 if score @s krc.seq1 matches 187 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.nox","color":"gold"}
+execute if score @s toku.form1 matches 4 if score @s krc.seq1 matches 192 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.nox","color":"white"}
+execute if score @s toku.form1 matches 4 if score @s krc.seq1 matches 234 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.extra_shadow","color":"white"}
 
-execute if score @s krc.seq1 matches ..216 run return 0
+execute if score @s krc.seq1 matches ..233 run return 0
 scoreboard players set @s krc.seq1 0
 advancement revoke @s only krc_snd:henshin/zeztz/nox_seq
 advancement revoke @s only krc_snd:flags/zeztz/temporary midnight_shadow_drive
