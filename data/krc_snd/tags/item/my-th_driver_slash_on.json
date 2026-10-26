@@ -1,6 +1,6 @@
 {
   "values": [
-	"#krc_snd:item_alias/my_th_driver_slash_on",
-	"#krc_snd:item_alias/my_th_driver_slash_on_tigre"
+	"kamenridercraft:my_th_driver_slash_on",
+	"kamenridercraft:my_th_driver_slash_on_tigre"
   ]
 }
