@@ -47,15 +47,6 @@
 	  }
 	}
   },
-  "requirements": [
-    [
-      "1",
-      "kurogane"
-    ],
-    [
-      "2"
-    ]
-  ],
   "rewards": {
 	"function": "krc_snd:henshin/gotchard/standby/valvarad"
   }
