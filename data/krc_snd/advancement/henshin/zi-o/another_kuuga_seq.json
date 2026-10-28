@@ -22,7 +22,7 @@
               },
 				"equipment": {
 				  "feet": {
-					"items": "#tokudata:item_alias/another_arcle"
+					"items": "kamenridercraft:another_arcle"
 				  }
 				}
             }
