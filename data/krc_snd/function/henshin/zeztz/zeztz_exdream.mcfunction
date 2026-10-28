@@ -7,7 +7,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:exdream
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:agendream
 
-execute unless score @s toku.form1 matches 1 run function krc_snd:play_global {name:"kamenridercraft:capsem_spin",scope:"henshin_snd"}
+execute if score @s toku.form1 matches 0..2 unless score @s toku.form1 matches 1 run function krc_snd:play_global {name:"kamenridercraft:capsem_spin",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 0 run function krc_snd:play_global {name:"kamenridercraft:exdream",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 1 run function krc_snd:play_global {name:"kamenridercraft:agendream",scope:"henshin_snd"}
 
