@@ -4,6 +4,9 @@
 	"1": {
 	  "trigger": "minecraft:impossible"
 	},
+	"chaos": {
+	  "trigger": "minecraft:impossible"
+	},
 	"2": {
 	  "trigger": "minecraft:tick",
 	  "conditions": {
@@ -50,6 +53,15 @@
 	  }
 	}
   },
+  "requirements": [
+	[
+	  "1",
+	  "chaos"
+	],
+	[
+	  "2"
+	]
+  ],
   "rewards": {
 	"function": "krc_snd:henshin/zeztz/standby/dawn"
   }
