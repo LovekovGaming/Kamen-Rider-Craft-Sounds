@@ -70,6 +70,12 @@
 	"diend": {
 	  "trigger": "minecraft:impossible"
 	},
+	"krego": {
+	  "trigger": "minecraft:impossible"
+	},
+	"krevil": {
+	  "trigger": "minecraft:impossible"
+	},
 	"2": {
 	  "trigger": "minecraft:tick",
 	  "conditions": {
@@ -116,7 +122,9 @@
 	  "shinobi",
 	  "quiz",
 	  "decade",
-	  "diend"
+	  "diend",
+	  "krego",
+	  "krevil"
 	],
 	[
 	  "2"

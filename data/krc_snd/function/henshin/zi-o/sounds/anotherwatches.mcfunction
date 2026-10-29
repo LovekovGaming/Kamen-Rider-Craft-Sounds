@@ -46,6 +46,8 @@ execute if entity @s[advancements={krc_snd:henshin/zi-o/anotherwatches={quiz=tru
 execute if entity @s[advancements={krc_snd:henshin/zi-o/anotherwatches={quiz=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.quiz","color":"#935c27"}
 execute if entity @s[advancements={krc_snd:henshin/zi-o/anotherwatches={diend=true}}] run function krc_snd:play_global {name:"kamenridercraft:another_diend",scope:"henshin_snd"}
 execute if entity @s[advancements={krc_snd:henshin/zi-o/anotherwatches={diend=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.diend","color":"#00779e"}
+execute if entity @s[advancements={krc_snd:henshin/zi-o/anotherwatches={krego=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.krego","color":"dark_blue"}
+execute if entity @s[advancements={krc_snd:henshin/zi-o/anotherwatches={krevil=true}}] run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zi-o.krevil","color":"dark_red"}
 
 scoreboard players set @s krc.seq1 0
 advancement revoke @s only krc_snd:henshin/zi-o/anotherwatches

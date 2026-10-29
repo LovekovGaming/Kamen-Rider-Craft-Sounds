@@ -161,6 +161,8 @@ execute if score @s[advancements={krc_snd:henshin/decade/diend_cards={eagle_unde
 execute if score @s[advancements={krc_snd:henshin/decade/diend_cards={eagle_undead=true}}] krc.seq2 matches 26 run function krc_snd:play_global {name:"kamenridercraft:callout_eagle_undead",scope:"henshin_snd"}
 execute if score @s[advancements={krc_snd:henshin/decade/diend_cards={moose_fangire=true}}] krc.seq2 matches 7 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar [{"translate":"sound.kamenridercraft.decade.kaijin_ride","color":"dark_purple"}," ",{"translate":"sound.kamenridercraft.decade.moose_fangire","color":"dark_red"}]
 execute if score @s[advancements={krc_snd:henshin/decade/diend_cards={moose_fangire=true}}] krc.seq2 matches 26 run function krc_snd:play_global {name:"kamenridercraft:callout_moose_fangire",scope:"henshin_snd"}
+execute if score @s[advancements={krc_snd:henshin/decade/diend_cards={krego=true}}] krc.seq2 matches 7 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar [{"translate":"sound.kamenridercraft.decade.kamen_ride","color":"#00bfff"}," ",{"translate":"sound.kamenridercraft.decade.krego","color":"blue"}]
+execute if score @s[advancements={krc_snd:henshin/decade/diend_cards={krego=true}}] krc.seq2 matches 7 run scoreboard players set @s krc.seq2 26
 execute if score @s krc.seq2 matches ..25 run return 0
 scoreboard players set @s krc.seq2 0
 advancement revoke @s only krc_snd:henshin/decade/diend_cards

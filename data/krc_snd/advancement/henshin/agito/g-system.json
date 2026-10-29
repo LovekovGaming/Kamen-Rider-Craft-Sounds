@@ -161,6 +161,29 @@
           }
         }
       }
+    },
+    "8": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "tokudata:hooks/transform": true
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": "#krc_snd:item_alias/artificial_krego_belt",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "Update_form": false
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "requirements": [
@@ -171,7 +194,8 @@
 	  "4",
 	  "5",
 	  "6",
-	  "7"
+	  "7",
+	  "8"
 	]
   ],
   "rewards": {

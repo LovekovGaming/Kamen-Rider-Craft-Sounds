@@ -238,6 +238,9 @@
 	  "moose_fangire": {
 		"trigger": "minecraft:impossible"
 	  },
+	  "krego": {
+		"trigger": "minecraft:impossible"
+	  },
 	  "1": {
 		"trigger": "minecraft:impossible"
 	  },
@@ -365,6 +368,7 @@
 		"geiz",
 		"eagle_undead",
 		"moose_fangire",
+		"krego",
 	    "1"
 	  ],
 	  [

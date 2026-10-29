@@ -18,6 +18,8 @@ execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items enti
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:another_kuuga_watch run tag @s add valid
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:another_decade_watch run tag @s add valid
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:another_diend_watch run tag @s add valid
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents #krc_snd:item_alias/another_krego_watch run tag @s add valid
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents #krc_snd:item_alias/another_krevil_watch run tag @s add valid
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
 execute if score @s krc.henshin-stage matches 1 if entity @n[type=item,distance=..5,tag=valid] run function krc_snd:play_global {name:"kamenridercraft:anotherwatch_activate",scope:"henshin_snd"}
@@ -42,6 +44,8 @@ execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,dis
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:another_kuuga_watch run advancement grant @s only krc_snd:henshin/zi-o/anotherwatches kuuga
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:another_decade_watch run advancement grant @s only krc_snd:henshin/zi-o/anotherwatches decade
 execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:another_diend_watch run advancement grant @s only krc_snd:henshin/zi-o/anotherwatches diend
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents #krc_snd:item_alias/another_krego_watch run advancement grant @s only krc_snd:henshin/zi-o/anotherwatches krego
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,tag=valid] contents #krc_snd:item_alias/another_krevil_watch run advancement grant @s only krc_snd:henshin/zi-o/anotherwatches krevil
 
 execute if score @s krc.henshin-stage matches 2 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s from krc_snd:henshin/zi-o/root
 execute if score @s krc.henshin-stage matches 2 unless items entity @s armor.feet #krc_snd:another_rider_belts if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:another_build_watch run function krc_snd:drop/common/equip_armor {slot: "armor.feet", item: "kamenridercraft:another_build_driver"}
@@ -63,6 +67,8 @@ execute if score @s krc.henshin-stage matches 2 unless items entity @s armor.fee
 execute if score @s krc.henshin-stage matches 2 unless items entity @s armor.feet #krc_snd:another_rider_belts if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:another_diend_watch run function krc_snd:drop/common/equip_armor {slot: "armor.feet", item: "kamenridercraft:another_diendriver"}
 execute if score @s krc.henshin-stage matches 2 unless items entity @s armor.feet #krc_snd:another_rider_belts if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:another_shinobi_watch run function krc_snd:drop/common/equip_armor {slot: "armor.feet", item: "kamenridercraft:another_shinobi_driver"}
 execute if score @s krc.henshin-stage matches 2 unless items entity @s armor.feet #krc_snd:another_rider_belts if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:another_quiz_watch run function krc_snd:drop/common/equip_armor {slot: "armor.feet", item: "kamenridercraft:another_quiz_driver"}
+execute if score @s krc.henshin-stage matches 2 unless items entity @s armor.feet #krc_snd:another_rider_belts if items entity @n[type=item,distance=..5,tag=valid] contents #krc_snd:item_alias/another_krego_watch run function krc_snd:drop/common/equip_armor {slot: "armor.feet", item: "kamenridercraft:another_krego_belt"}
+execute if score @s krc.henshin-stage matches 2 unless items entity @s armor.feet #krc_snd:another_rider_belts if items entity @n[type=item,distance=..5,tag=valid] contents #krc_snd:item_alias/another_krevil_watch run function krc_snd:drop/common/equip_armor {slot: "armor.feet", item: "kamenridercraft:another_krevil_belt"}
 execute if score @s krc.henshin-stage matches 2 if items entity @s armor.feet #krc_snd:another_rider_belts if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq1 0
 execute if score @s krc.henshin-stage matches 2 if items entity @s armor.feet #krc_snd:another_rider_belts if entity @n[type=item,distance=..5,tag=valid] run scoreboard players set @s krc.seq2 0
 execute if score @s krc.henshin-stage matches 2.. run scoreboard players reset @s krc.henshin-stage

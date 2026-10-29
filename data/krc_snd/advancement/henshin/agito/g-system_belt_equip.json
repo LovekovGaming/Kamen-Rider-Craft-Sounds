@@ -96,6 +96,17 @@
 					}
 				  }
 				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"feet": {
+					  "items": "#krc_snd:item_alias/artificial_krego_belt"
+					}
+				  }
+				}
 			  }
 			]
 		  },
