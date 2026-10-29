@@ -11,7 +11,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": "kamenridercraft:artificial_krego_belt"
+				  "items": "#krc_snd:item_alias/artificial_krego_belt"
 				}
 			  }
 			}
@@ -36,7 +36,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": "kamenridercraft:artificial_krego"
+					  "items": "#krc_snd:item_alias/artificial_krego"
 					}
 				  }
 				}
