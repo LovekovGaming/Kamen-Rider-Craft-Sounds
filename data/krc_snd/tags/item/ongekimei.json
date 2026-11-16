@@ -1,0 +1,11 @@
+{
+  "values": [
+    "kamenridercraft:ibukidriver",
+    "kamenridercraft:tokidriver",
+    "kamenridercraft:shoukidriver",
+    "kamenridercraft:amakidriver",
+    "kamenridercraft:fubukidriver",
+	"#krc_snd:item_alias/akiradriver",
+	"#krc_snd:item_alias/kagayakidriver"
+  ]
+}

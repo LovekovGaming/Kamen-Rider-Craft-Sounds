@@ -13,99 +13,7 @@
           },
           "equipment": {
             "feet": {
-			  "items": "kamenridercraft:ibukidriver",
-              "predicates": {
-                "minecraft:custom_data": {
-                  "Update_form": false
-                }
-              }
-            }
-          }
-        }
-      }
-	},
-	"2": {
-      "trigger": "minecraft:tick",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "minecraft:player",
-            "advancements": {
-              "tokudata:hooks/transform": true
-            }
-          },
-          "equipment": {
-            "feet": {
-			  "items": "kamenridercraft:tokidriver",
-              "predicates": {
-                "minecraft:custom_data": {
-                  "Update_form": false
-                }
-              }
-            }
-          }
-        }
-      }
-	},
-	"3": {
-      "trigger": "minecraft:tick",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "minecraft:player",
-            "advancements": {
-              "tokudata:hooks/transform": true
-            }
-          },
-          "equipment": {
-            "feet": {
-			  "items": "kamenridercraft:shoukidriver",
-              "predicates": {
-                "minecraft:custom_data": {
-                  "Update_form": false
-                }
-              }
-            }
-          }
-        }
-      }
-	},
-	"4": {
-      "trigger": "minecraft:tick",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "minecraft:player",
-            "advancements": {
-              "tokudata:hooks/transform": true
-            }
-          },
-          "equipment": {
-            "feet": {
-			  "items": "kamenridercraft:amakidriver",
-              "predicates": {
-                "minecraft:custom_data": {
-                  "Update_form": false
-                }
-              }
-            }
-          }
-        }
-      }
-	},
-	"5": {
-      "trigger": "minecraft:tick",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "minecraft:player",
-            "advancements": {
-              "tokudata:hooks/transform": true
-            }
-          },
-          "equipment": {
-            "feet": {
-			  "items": "kamenridercraft:fubukidriver",
+			  "items": "#krc_snd:ongekimei",
               "predicates": {
                 "minecraft:custom_data": {
                   "Update_form": false
@@ -117,15 +25,6 @@
       }
 	}
   },
-  "requirements": [
-	[
-	  "1",
-	  "2",
-	  "3",
-	  "4",
-	  "5"
-	]
-  ],
   "rewards": {
 	"function": "krc_snd:henshin/hibiki/henshin_onibue"
   }

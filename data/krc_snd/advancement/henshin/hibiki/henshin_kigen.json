@@ -1,7 +1,7 @@
 {
   "parent": "tokudata:hooks/transform",
   "criteria": {
-    "1": {
+	"1": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
@@ -13,76 +13,7 @@
           },
           "equipment": {
             "feet": {
-			  "items": "kamenridercraft:todorokidriver",
-              "predicates": {
-                "minecraft:custom_data": {
-                  "Update_form": false
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-	"2": {
-      "trigger": "minecraft:tick",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "minecraft:player",
-            "advancements": {
-              "tokudata:hooks/transform": true
-            }
-          },
-          "equipment": {
-            "feet": {
-			  "items": "kamenridercraft:zankidriver",
-              "predicates": {
-                "minecraft:custom_data": {
-                  "Update_form": false
-                }
-              }
-            }
-          }
-        }
-      }
-	},
-	"3": {
-      "trigger": "minecraft:tick",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "minecraft:player",
-            "advancements": {
-              "tokudata:hooks/transform": true
-            }
-          },
-          "equipment": {
-            "feet": {
-			  "items": "kamenridercraft:sabakidriver",
-              "predicates": {
-                "minecraft:custom_data": {
-                  "Update_form": false
-                }
-              }
-            }
-          }
-        }
-      }
-	},
-	"4": {
-      "trigger": "minecraft:tick",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "minecraft:player",
-            "advancements": {
-              "tokudata:hooks/transform": true
-            }
-          },
-          "equipment": {
-            "feet": {
-			  "items": "kamenridercraft:bankidriver",
+			  "items": "#krc_snd:ongekishin",
               "predicates": {
                 "minecraft:custom_data": {
                   "Update_form": false
@@ -94,14 +25,6 @@
       }
 	}
   },
-  "requirements": [
-	[
-	  "1",
-	  "2",
-	  "3",
-	  "4"
-	]
-  ],
   "rewards": {
 	"function": "krc_snd:henshin/hibiki/henshin_kigen"
   }

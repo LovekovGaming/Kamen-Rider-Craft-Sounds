@@ -13,76 +13,7 @@
           },
           "equipment": {
             "feet": {
-			  "items": "kamenridercraft:dankidriver",
-              "predicates": {
-                "minecraft:custom_data": {
-                  "Update_form": false
-                }
-              }
-            }
-          }
-        }
-      }
-	},
-	"2": {
-      "trigger": "minecraft:tick",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "minecraft:player",
-            "advancements": {
-              "tokudata:hooks/transform": true
-            }
-          },
-          "equipment": {
-            "feet": {
-			  "items": "kamenridercraft:eikidriver",
-              "predicates": {
-                "minecraft:custom_data": {
-                  "Update_form": false
-                }
-              }
-            }
-          }
-        }
-      }
-	},
-	"3": {
-      "trigger": "minecraft:tick",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "minecraft:player",
-            "advancements": {
-              "tokudata:hooks/transform": true
-            }
-          },
-          "equipment": {
-            "feet": {
-			  "items": "kamenridercraft:goukidriver",
-              "predicates": {
-                "minecraft:custom_data": {
-                  "Update_form": false
-                }
-              }
-            }
-          }
-        }
-      }
-	},
-	"4": {
-      "trigger": "minecraft:tick",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "minecraft:player",
-            "advancements": {
-              "tokudata:hooks/transform": true
-            }
-          },
-          "equipment": {
-            "feet": {
-			  "items": "kamenridercraft:kyosukedriver",
+			  "items": "#krc_snd:ongekiko",
               "predicates": {
                 "minecraft:custom_data": {
                   "Update_form": false
@@ -94,14 +25,6 @@
       }
 	}
   },
-  "requirements": [
-	[
-	  "1",
-	  "2",
-	  "3",
-	  "4"
-	]
-  ],
   "rewards": {
 	"function": "krc_snd:henshin/hibiki/henshin_onsa"
   }

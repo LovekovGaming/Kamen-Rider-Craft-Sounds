@@ -1,0 +1,10 @@
+{
+  "values": [
+    "kamenridercraft:dankidriver",
+    "kamenridercraft:eikidriver",
+    "kamenridercraft:goukidriver",
+    "kamenridercraft:kyosukedriver",
+	"#krc_snd:item_alias/jakidriver",
+	"#krc_snd:item_alias/akatsukidriver"
+  ]
+}
