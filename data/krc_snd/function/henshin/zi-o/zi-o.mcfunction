@@ -1,5 +1,7 @@
 execute if entity @s[tag=sound_off] run return 0
+scoreboard players reset @s krc.henshin-stage
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
+advancement revoke @s from krc_snd:henshin/zi-o/seq_root
 execute unless score @s toku.form1 matches 20..21 run advancement grant @s only krc_snd:henshin/zi-o/zi-o_seq 1
 execute unless score @s toku.form1 matches 20..21 run scoreboard players set @s krc.seq1 0
 execute unless score @s toku.form1 matches 20..21 run scoreboard players set @s krc.seq2 0
