@@ -15,7 +15,7 @@
               "type_specific": {
 			"type": "minecraft:player",
 			"advancements": {
-			  "krc_snd:henshin/ex-aid/graphite_bugster_seq": {
+			  "krc_snd:henshin/ex-aid/bugster_seq": {
 				"1": true
                   }
                 }
@@ -32,6 +32,6 @@
     }
   },
   "rewards": {
-	"function": "krc_snd:henshin/ex-aid/sounds/graphite_bugster"
+	"function": "krc_snd:henshin/ex-aid/sounds/bugster"
   }
 }

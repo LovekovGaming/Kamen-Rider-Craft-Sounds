@@ -69,7 +69,7 @@
 	  }
 	},
 	"rewards": {
-	  "function": "krc_snd:drop/ex-aid/graphite_bugster"
+	  "function": "krc_snd:drop/ex-aid/bugster"
 	}
   }
   
