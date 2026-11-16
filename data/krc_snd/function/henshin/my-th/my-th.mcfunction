@@ -4,7 +4,9 @@ advancement grant @s only krc_snd:henshin/my-th/my-th_seq 1
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:my-th_driver_standby
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:my-th_driver_standby_egglution
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ride_x-eggs_1
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ride_x-eggs_3
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ride_x-eggs_4
+stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ride_x-eggs_5
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ride_x-eggs_8
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ride_x-eggs_11
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:ride_x-eggs_1_en
@@ -12,7 +14,9 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:zou_seed_x-eggs
 
 execute if score @s toku.form1 matches 0 run function krc_snd:play_global {name:"kamenridercraft:ride_x-eggs_1",scope:"henshin_snd"}
+execute if score @s toku.form1 matches 2 run function krc_snd:play_global {name:"kamenridercraft:ride_x-eggs_3",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 3 run function krc_snd:play_global {name:"kamenridercraft:ride_x-eggs_4",scope:"henshin_snd"}
+execute if score @s toku.form1 matches 4 run function krc_snd:play_global {name:"kamenridercraft:ride_x-eggs_5",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 7 run function krc_snd:play_global {name:"kamenridercraft:ride_x-eggs_8",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 10 run function krc_snd:play_global {name:"kamenridercraft:ride_x-eggs_11",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 13 run function krc_snd:play_global {name:"kamenridercraft:ride_x-eggs_1_en",scope:"henshin_snd"}

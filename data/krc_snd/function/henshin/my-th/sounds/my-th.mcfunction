@@ -6,6 +6,10 @@ execute if score @s toku.form1 matches 0 if score @s krc.seq1 matches 41 run tit
 execute if score @s toku.form1 matches 0 if score @s krc.seq1 matches 81 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.my-th.mouse_2","color":"yellow"}
 execute if score @s toku.form1 matches 0 if score @s krc.seq1 matches 147 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.general.my-th","color":"blue"}
 execute if score @s toku.form1 matches 0 if score @s krc.seq1 matches 147 run scoreboard players set @s krc.seq1 197
+execute if score @s toku.form1 matches 2 if score @s krc.seq1 matches 16 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.my-th.orca_1","color":"dark_gray"}
+execute if score @s toku.form1 matches 2 if score @s krc.seq1 matches 50 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.my-th.orca_2","color":"yellow"}
+execute if score @s toku.form1 matches 2 if score @s krc.seq1 matches 116 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.my-th.orca_frame","color":"dark_gray"}
+execute if score @s toku.form1 matches 2 if score @s krc.seq1 matches 116 run scoreboard players set @s krc.seq1 197
 execute if score @s toku.form1 matches 3 if score @s krc.seq1 matches 16 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.my-th.turtle_1","color":"gold"}
 execute if score @s toku.form1 matches 3 if score @s krc.seq1 matches 60 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.my-th.turtle_2","color":"green"}
 execute if score @s toku.form1 matches 3 if score @s krc.seq1 matches 127 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.my-th.turtle_frame","color":"gold"}
