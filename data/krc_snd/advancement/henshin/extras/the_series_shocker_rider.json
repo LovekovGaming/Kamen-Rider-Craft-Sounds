@@ -13,7 +13,7 @@
           },
           "equipment": {
 			"feet": {
-			  "items": "#krc_snd:item_alias/the_typhoon_shocker_rider",
+			  "items": "kamenridercraft:the_typhoon_shocker_rider",
               "predicates": {
                 "minecraft:custom_data": {
                   "Update_form": false

@@ -25,7 +25,7 @@
 				"predicate": {
 				  "equipment": {
 					"mainhand": {
-					  "items": "#krc_snd:item_alias/the_typhoon_core_shocker_rider"
+					  "items": "kamenridercraft:the_typhoon_core_shocker_rider"
 					}
 				  }
 				}
@@ -38,7 +38,7 @@
 			"predicate": {
 			  "equipment": {
 				"feet": {
-				  "items": "#krc_snd:item_alias/the_typhoon_shocker_rider"
+				  "items": "kamenridercraft:the_typhoon_shocker_rider"
 				}
 			  }
 			}

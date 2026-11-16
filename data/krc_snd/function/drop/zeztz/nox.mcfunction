@@ -1,7 +1,7 @@
 execute if entity @n[type=item,distance=..5,tag=pick_up] run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:entity.item.pickup
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents #kamenridercraft:gear/form_items/nox run tag @s add valid
 execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:midnight_shadow_capsem run tag @s add midnight
-execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents #krc_snd:item_alias/extra_shadow_capsem run tag @s add midnight
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if data entity @s Thrower if items entity @s contents kamenridercraft:extra_shadow_capsem run tag @s add midnight
 execute if entity @n[type=item,distance=..5,tag=valid] run scoreboard players add @s krc.henshin-stage 1
 
 execute if score @s krc.henshin-stage matches 1..6 if entity @n[type=item,distance=..5,tag=valid] unless items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:midnight_shadow_capsem run scoreboard players set @s krc.henshin-stage 7
@@ -17,8 +17,8 @@ execute if score @s krc.henshin-stage matches 7 if items entity @n[type=item,dis
 execute if score @s krc.henshin-stage matches 7 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:gun_capsem run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.gun","color":"red"}
 execute if score @s krc.henshin-stage matches 7 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:wolf_capsem run function krc_snd:play_global {name:"kamenridercraft:wolf_capsem",scope:"henshin_snd"}
 execute if score @s krc.henshin-stage matches 7 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:wolf_capsem run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.wolf","color":"yellow"}
-execute if score @s krc.henshin-stage matches 7 if items entity @n[type=item,distance=..5,tag=valid] contents #krc_snd:item_alias/extra_shadow_capsem run function krc_snd:play_global {name:"kamenridercraft:extra_shadow_capsem",scope:"henshin_snd"}
-execute if score @s krc.henshin-stage matches 7 if items entity @n[type=item,distance=..5,tag=valid] contents #krc_snd:item_alias/extra_shadow_capsem run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.extra_shadow","color":"white"}
+execute if score @s krc.henshin-stage matches 7 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:extra_shadow_capsem run function krc_snd:play_global {name:"kamenridercraft:extra_shadow_capsem",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 7 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:extra_shadow_capsem run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.zeztz.extra_shadow","color":"white"}
 execute if score @s krc.henshin-stage matches 7 if entity @n[type=item,distance=..5,tag=valid] run advancement grant @s only krc_snd:henshin/zeztz/nox_standby 1
 execute if score @s krc.henshin-stage matches 7 if items entity @n[type=item,distance=..5,tag=valid] contents kamenridercraft:midnight_shadow_capsem run scoreboard players set @s krc.seq1 10
 execute if score @s krc.henshin-stage matches 8 if entity @n[type=item,distance=..5,tag=valid] run advancement revoke @s only krc_snd:henshin/zeztz/nox_standby
