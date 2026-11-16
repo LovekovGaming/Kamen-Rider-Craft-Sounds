@@ -1,0 +1,14 @@
+execute if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:zuccocade_card run scoreboard players add @s krc.henshin-stage 1
+
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:zuccocade_card run function krc_snd:play_global {name:"kamenridercraft:zuccocade_card_loaded",scope:"henshin_snd"}
+execute if score @s krc.henshin-stage matches 1 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:zuccocade_card run advancement grant @s only krc_snd:henshin/decade/zuccocade_belt_standby 1
+
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:zuccocade_card run advancement revoke @s from krc_snd:henshin/decade/root
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:zuccocade_card run function krc_snd:drop/common/equip_armor {slot: "armor.head", item: "kamenridercraft:decadehead"}
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:zuccocade_card run function krc_snd:drop/common/equip_armor {slot: "armor.chest", item: "kamenridercraft:decadetroso"}
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:zuccocade_card run function krc_snd:drop/common/equip_armor {slot: "armor.legs", item: "kamenridercraft:decadelegs"}
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:zuccocade_card run scoreboard players set @s krc.seq1 0
+execute if score @s krc.henshin-stage matches 2 if items entity @n[type=item,distance=..5,predicate=krc_snd:valid_item] contents kamenridercraft:zuccocade_card run stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:zuccocade_belt_standby
+execute if score @s krc.henshin-stage matches 2.. run scoreboard players reset @s krc.henshin-stage
+execute as @n[type=item,distance=..5,predicate=krc_snd:valid_item] if items entity @s contents kamenridercraft:zuccocade_card run function krc_snd:drop/common/return_item
+advancement revoke @s from krc_snd:drop/decade/root
