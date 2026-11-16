@@ -11,7 +11,7 @@ stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenrider
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:knock_out_fighter_2_standby
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:maximum_mighty_x_standby
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:hyper_muteki_standby
-execute unless score @s toku.form1 matches 6..7 run advancement revoke @s only krc_snd:henshin/ex-aid/ex-aid_seq
+execute unless score @s toku.form1 matches 6..7 run advancement revoke @s from krc_snd:henshin/ex-aid/seq_root
 advancement revoke @s from krc_snd:henshin/ex-aid/standby_root
 execute unless score @s toku.form1 matches 6..7 run scoreboard players set @s krc.seq1 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:gachon

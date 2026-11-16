@@ -1,5 +1,6 @@
 execute if entity @s[tag=sound_off] run return 0
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player minecraft:item.armor.equip_diamond
+advancement revoke @s from krc_snd:henshin/zi-o/seq_root
 execute unless score @s toku.form1 matches 20..21 run advancement grant @s only krc_snd:henshin/zi-o/zi-o_seq 1
 execute unless score @s toku.form1 matches 20..21 run scoreboard players set @s krc.seq1 0
 execute unless score @s toku.form1 matches 20..21 run scoreboard players set @s krc.seq2 0
@@ -9,6 +10,7 @@ execute unless score @s toku.form1 matches 27 run tag @s remove solo_time
 execute unless score @s toku.form1 matches 27 run tag @s remove duo_time
 execute if score @s toku.form1 matches 27 if score @s krc.henshin-stage matches 7 run tag @s add solo_time
 execute if score @s toku.form1 matches 27 if score @s krc.henshin-stage matches 8 run tag @s add duo_time
+scoreboard players reset @s krc.henshin-stage
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:zi-o_standby
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:future_standby
 stopsound @a[scores={krc.configs.henshin_snd=1},distance=..20] player kamenridercraft:zi-o_standby_trinity_geiz
