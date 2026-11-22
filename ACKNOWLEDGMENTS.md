@@ -3,7 +3,9 @@
 - [ろんどろーね](https://www.youtube.com/@Henshin_sound)
 - [FG-Sounds ゆっくりFGサブ垢](https://www.youtube.com/@fg_subaka)
 - [九十でびる](https://www.youtube.com/@Free_Flirting)
+- [しらズ](https://www.youtube.com/@sira-zu)
 - [フォーミュラ](https://www.youtube.com/@SoundRipperFormula)
+- [imi](https://www.youtube.com/@riderk_imitater)
 - [冬樹因幡](https://www.youtube.com/@20huyuki)
 - [m y](https://www.youtube.com/@my-pg4jb)
   
