@@ -20,7 +20,7 @@ execute if score @s toku.form1 matches 4 run function krc_snd:play_global {name:
 execute if score @s toku.form1 matches 7 run function krc_snd:play_global {name:"kamenridercraft:ride_x-eggs_8",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 10 run function krc_snd:play_global {name:"kamenridercraft:ride_x-eggs_11",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 13 run function krc_snd:play_global {name:"kamenridercraft:ride_x-eggs_1_en",scope:"henshin_snd"}
-execute if score @s toku.form1 matches 18 run function krc_snd:play_global {name:"kamenridercraft:harinezumi_seed_x-eggs",scope:"henshin_snd"}
-execute if score @s toku.form1 matches 19 run function krc_snd:play_global {name:"kamenridercraft:zou_seed_x-eggs",scope:"henshin_snd"}
+execute if score @s toku.form1 matches 20 run function krc_snd:play_global {name:"kamenridercraft:harinezumi_seed_x-eggs",scope:"henshin_snd"}
+execute if score @s toku.form1 matches 21 run function krc_snd:play_global {name:"kamenridercraft:zou_seed_x-eggs",scope:"henshin_snd"}
 
 advancement grant @s only krc_snd:henshin/my-th/my-th_driver_off 1

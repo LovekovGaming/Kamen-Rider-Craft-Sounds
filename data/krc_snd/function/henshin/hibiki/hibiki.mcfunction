@@ -11,9 +11,9 @@ execute if score @s toku.form1 matches 1 if score Form_Difference toku.form1 mat
 execute if score @s toku.form1 matches 2 run function krc_snd:play_global {name:"kamenridercraft:kurenai_incomplete",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 3 unless score Form_Difference toku.form1 matches 1 run function krc_snd:play_global {name:"kamenridercraft:kurenai",scope:"henshin_snd"}
 execute if score @s toku.form1 matches 4 unless score Form_Difference toku.form1 matches -1 run function krc_snd:play_global {name:"kamenridercraft:kurenai",scope:"henshin_snd"}
-execute if score @s toku.form1 matches 5 run function krc_snd:play_global {name:"kamenridercraft:armed_hibiki",scope:"henshin_snd"}
-execute if score @s toku.form1 matches 5 if score Armed_Hibiki_Chat_Message toku.configs matches 1 if predicate tokudata:sneaking run tellraw @a ["","<",{"selector":"@s"},"> ",{"translate":"sound.kamenridercraft.hibiki.soukou"}]
-execute if score @s toku.form1 matches 5 if score Armed_Hibiki_Chat_Message toku.configs matches 2 run tellraw @a ["","<",{"selector":"@s"},"> ",{"translate":"sound.kamenridercraft.hibiki.soukou"}]
-execute if score @s toku.form1 matches 6 run function krc_snd:play_global {name:"kamenridercraft:henshin_onsa",scope:"henshin_snd"}
+execute if score @s toku.form1 matches 5..6 run function krc_snd:play_global {name:"kamenridercraft:armed_hibiki",scope:"henshin_snd"}
+execute if score @s toku.form1 matches 5..6 if score Armed_Hibiki_Chat_Message toku.configs matches 1 if predicate tokudata:sneaking run tellraw @a ["","<",{"selector":"@s"},"> ",{"translate":"sound.kamenridercraft.hibiki.soukou"}]
+execute if score @s toku.form1 matches 5..6 if score Armed_Hibiki_Chat_Message toku.configs matches 2 run tellraw @a ["","<",{"selector":"@s"},"> ",{"translate":"sound.kamenridercraft.hibiki.soukou"}]
+execute if score @s toku.form1 matches 7 run function krc_snd:play_global {name:"kamenridercraft:henshin_onsa",scope:"henshin_snd"}
 
 advancement grant @s only krc_snd:henshin/hibiki/equipment_belt_off 1
