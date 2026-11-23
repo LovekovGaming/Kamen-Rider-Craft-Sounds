@@ -1,0 +1,15 @@
+{
+	"parent": "krc_snd:weapons/my-th/root",
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:recipe_crafted",
+		"conditions": {
+		  "recipe_id": "kamenridercraft:my_th/rabbit_sword"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "krc_snd:weapons/my-th/rabbit_sword_craft"
+	}
+  }
+  
