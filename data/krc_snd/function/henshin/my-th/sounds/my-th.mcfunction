@@ -28,6 +28,8 @@ execute if score @s toku.form1 matches 13 if score @s krc.seq1 matches 127 run t
 execute if score @s toku.form1 matches 13 if score @s krc.seq1 matches 197 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.my-th.fire_frame","color":"red"}
 execute if score @s toku.form1 matches 20 if score @s krc.seq1 matches 13 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.my-th.hedgehog","color":"gold"}
 execute if score @s toku.form1 matches 20 if score @s krc.seq1 matches 13 run scoreboard players set @s krc.seq1 197
+execute if score @s toku.form1 matches 21 if score @s krc.seq1 matches 13 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.my-th.elephant","color":"blue"}
+execute if score @s toku.form1 matches 21 if score @s krc.seq1 matches 13 run scoreboard players set @s krc.seq1 197
 
 execute if score @s krc.seq1 matches ..196 run return 0
 scoreboard players set @s krc.seq1 0
