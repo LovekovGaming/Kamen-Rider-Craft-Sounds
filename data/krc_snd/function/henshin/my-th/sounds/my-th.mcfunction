@@ -14,6 +14,10 @@ execute if score @s toku.form1 matches 3 if score @s krc.seq1 matches 16 run tit
 execute if score @s toku.form1 matches 3 if score @s krc.seq1 matches 60 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.my-th.turtle_2","color":"green"}
 execute if score @s toku.form1 matches 3 if score @s krc.seq1 matches 127 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.my-th.turtle_frame","color":"gold"}
 execute if score @s toku.form1 matches 3 if score @s krc.seq1 matches 127 run scoreboard players set @s krc.seq1 197
+execute if score @s toku.form1 matches 4 if score @s krc.seq1 matches 16 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.my-th.qilin_1","color":"dark_red"}
+execute if score @s toku.form1 matches 4 if score @s krc.seq1 matches 54 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.my-th.qilin_2","color":"gold"}
+execute if score @s toku.form1 matches 4 if score @s krc.seq1 matches 128 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.my-th.qilin_frame","color":"yellow"}
+execute if score @s toku.form1 matches 4 if score @s krc.seq1 matches 128 run scoreboard players set @s krc.seq1 197
 execute if score @s toku.form1 matches 7 if score @s krc.seq1 matches 15 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.my-th.wolf_1","color":"dark_purple"}
 execute if score @s toku.form1 matches 7 if score @s krc.seq1 matches 74 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.my-th.wolf_2","color":"aqua"}
 execute if score @s toku.form1 matches 7 if score @s krc.seq1 matches 151 run title @a[scores={krc.configs.sound_subs=1},distance=..20] actionbar {"translate":"sound.kamenridercraft.my-th.wolf_frame","color":"dark_purple"}
