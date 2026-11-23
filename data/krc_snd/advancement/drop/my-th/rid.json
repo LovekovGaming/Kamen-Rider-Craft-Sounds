@@ -40,15 +40,19 @@
 					}
 				  }
 				}
+			  },
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "equipment": {
+					"mainhand": {
+					  "items": "kamenridercraft:ride_x_eggs_3"
+					}
+				  }
+				}
 			  }
 			]
-		  },
-		  {
-			"condition": "minecraft:inverted",
-			"term": {
-			  "condition": "minecraft:reference",
-			  "name": "tokudata:rider/reiwa/my-th_armor"
-			}
 		  },
 		  {
 			"condition": "minecraft:reference",
